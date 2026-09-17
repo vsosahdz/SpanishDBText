@@ -1,0 +1,5363 @@
+{
+  "seed": 42,
+  "evaluator": "azure:dataset-frontierscience-gpt41mini",
+  "sample": 200,
+  "tokens": {
+    "in": 20657000,
+    "out": 416920
+  },
+  "cost_usd": 8.9299,
+  "results": {
+    "wikitext": [
+      {
+        "id": 655,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 115,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 93
+      },
+      {
+        "id": 26,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 97
+        },
+        "consenso": 98
+      },
+      {
+        "id": 760,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 98
+      },
+      {
+        "id": 282,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 93
+      },
+      {
+        "id": 251,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 85,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 95
+      },
+      {
+        "id": 229,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 143,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 85,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 755,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 98
+      },
+      {
+        "id": 105,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 93
+      },
+      {
+        "id": 693,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 95
+      },
+      {
+        "id": 759,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 97
+      },
+      {
+        "id": 914,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 94,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 97
+      },
+      {
+        "id": 559,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 97
+      },
+      {
+        "id": 90,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 85,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 605,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 98
+      },
+      {
+        "id": 433,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 33,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 31,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 93
+      },
+      {
+        "id": 96,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 224,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 239,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 518,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 617,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 97
+      },
+      {
+        "id": 28,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 575,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 97
+      },
+      {
+        "id": 204,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 96,
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 96
+      },
+      {
+        "id": 734,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 666,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 94,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 719,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 97
+      },
+      {
+        "id": 987,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 97
+      },
+      {
+        "id": 430,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 95
+      },
+      {
+        "id": 226,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 75,
+          "foundry:dataset-frontierscience-mistral-large": 75,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 72
+      },
+      {
+        "id": 460,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 604,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 85
+        },
+        "consenso": 95
+      },
+      {
+        "id": 285,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 97
+      },
+      {
+        "id": 829,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 891,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 97
+      },
+      {
+        "id": 7,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 96,
+          "foundry:dataset-frontierscience-mistral-large": 80,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 96
+      },
+      {
+        "id": 778,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 826,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 164,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 97
+      },
+      {
+        "id": 715,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 984,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 92
+      },
+      {
+        "id": 349,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 85,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 965,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "azure:dataset-frontierscience-gpt41mini": 96,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 160,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 96
+      },
+      {
+        "id": 221,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 70,
+          "foundry:dataset-frontierscience-mistral-large": 78,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 85
+      },
+      {
+        "id": 782,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 95
+      },
+      {
+        "id": 345,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 85,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 991,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 95,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 390,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 93
+      },
+      {
+        "id": 100,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 95
+      },
+      {
+        "id": 368,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 75,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 868,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 353,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 85,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 97
+      },
+      {
+        "id": 619,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 85
+      },
+      {
+        "id": 271,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 95
+      },
+      {
+        "id": 827,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 45,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 97
+      },
+      {
+        "id": 748,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 471,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 94
+      },
+      {
+        "id": 550,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 96
+        },
+        "consenso": 95
+      },
+      {
+        "id": 128,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 75,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 75
+        },
+        "consenso": 97
+      },
+      {
+        "id": 388,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 81,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 90
+      },
+      {
+        "id": 566,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 90
+      },
+      {
+        "id": 301,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 850,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 644,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 98
+      },
+      {
+        "id": 634,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 907,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 883,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 95
+      },
+      {
+        "id": 371,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 592,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 98
+      },
+      {
+        "id": 197,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 75,
+          "ollama:qwen3.5:9b": 96
+        },
+        "consenso": 98
+      },
+      {
+        "id": 722,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 96,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 72,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 47,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 97
+        },
+        "consenso": 97
+      },
+      {
+        "id": 678,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 234,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 100,
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 93
+      },
+      {
+        "id": 792,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 297,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 94,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 90
+      },
+      {
+        "id": 82,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 70
+        },
+        "consenso": 95
+      },
+      {
+        "id": 876,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 979,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 888,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 104,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 83,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 97
+      },
+      {
+        "id": 948,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 955,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 97
+      },
+      {
+        "id": 465,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 98
+      },
+      {
+        "id": 651,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 855,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 374,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 96
+      },
+      {
+        "id": 167,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 98
+      },
+      {
+        "id": 380,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 364,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 85,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 95
+      },
+      {
+        "id": 215,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 92
+      },
+      {
+        "id": 687,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 94
+      },
+      {
+        "id": 274,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 95
+      },
+      {
+        "id": 971,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 700,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 664,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 96,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 97
+      },
+      {
+        "id": 74,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 93
+      },
+      {
+        "id": 624,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 908,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 93
+      },
+      {
+        "id": 176,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 96,
+          "foundry:dataset-frontierscience-mistral-large": 85
+        },
+        "consenso": 96
+      },
+      {
+        "id": 547,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 747,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 995,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 168,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 97
+      },
+      {
+        "id": 474,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 389,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 94
+      },
+      {
+        "id": 277,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 70,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 656,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "azure:dataset-frontierscience-gpt41mini": 96,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 98
+      },
+      {
+        "id": 705,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 571,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 94,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 225,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 93
+      },
+      {
+        "id": 702,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 98
+      },
+      {
+        "id": 333,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 85,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 94
+      },
+      {
+        "id": 864,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 787,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 85
+        },
+        "consenso": 95
+      },
+      {
+        "id": 795,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 58,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 98
+      },
+      {
+        "id": 235,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 75,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 842,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 97
+      },
+      {
+        "id": 983,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 95
+      },
+      {
+        "id": 825,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "azure:dataset-frontierscience-gpt41mini": 94,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 324,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 94
+      },
+      {
+        "id": 411,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 275,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 90
+      },
+      {
+        "id": 68,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 75,
+          "foundry:dataset-frontierscience-mistral-large": 70,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 217,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 85,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 97
+      },
+      {
+        "id": 581,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 97
+      },
+      {
+        "id": 736,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 323,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 97
+      },
+      {
+        "id": 218,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 70,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 672,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 95
+      },
+      {
+        "id": 512,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 94,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 85
+        },
+        "consenso": 93
+      },
+      {
+        "id": 406,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 98
+      },
+      {
+        "id": 659,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 470,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 272,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 993,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 253,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 763,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 975,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 85,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 98
+      },
+      {
+        "id": 552,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 96
+      },
+      {
+        "id": 270,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 94,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 765,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 599,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 94
+      },
+      {
+        "id": 439,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 94,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 96
+      },
+      {
+        "id": 598,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 409,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 926,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 93
+      },
+      {
+        "id": 882,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 142,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 80,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 98
+      },
+      {
+        "id": 522,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 506,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 85
+        },
+        "consenso": 98
+      },
+      {
+        "id": 94,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 78,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 774,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 49,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 113,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 65,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 93
+      },
+      {
+        "id": 157,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 98
+      },
+      {
+        "id": 643,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 959,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 97
+        },
+        "consenso": 96
+      },
+      {
+        "id": 812,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 93
+      },
+      {
+        "id": 697,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 957,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 611,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 98
+      },
+      {
+        "id": 66,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 92
+      },
+      {
+        "id": 395,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 93
+      },
+      {
+        "id": 391,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "azure:dataset-frontierscience-gpt41mini": 96,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 964,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 480,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 97
+      },
+      {
+        "id": 542,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 258,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 90
+      },
+      {
+        "id": 567,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 95
+      },
+      {
+        "id": 12,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 75,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 831,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 739,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 98
+      },
+      {
+        "id": 118,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 96,
+          "foundry:dataset-frontierscience-mistral-large": 94
+        },
+        "consenso": 97
+      },
+      {
+        "id": 699,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 94,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 937,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 97
+      },
+      {
+        "id": 769,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 900,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 96
+      },
+      {
+        "id": 788,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 93
+      },
+      {
+        "id": 657,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 956,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 97
+      },
+      {
+        "id": 999,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 93
+      },
+      {
+        "id": 932,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 446,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 97
+      },
+      {
+        "id": 162,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 97
+      },
+      {
+        "id": 909,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 97
+      },
+      {
+        "id": 4,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 85,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 740,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 93
+      },
+      {
+        "id": 737,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 931,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 95
+      }
+    ],
+    "fever": [
+      {
+        "id": 8205,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 2930,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 93
+      },
+      {
+        "id": 8321,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 93
+      },
+      {
+        "id": 1749,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 4892,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 93
+      },
+      {
+        "id": 9982,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 96
+      },
+      {
+        "id": 3261,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 92
+      },
+      {
+        "id": 2512,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 97
+        },
+        "consenso": 95
+      },
+      {
+        "id": 6130,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 95
+      },
+      {
+        "id": 2654,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 94,
+          "azure:dataset-frontierscience-gpt41mini": 94,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 93
+      },
+      {
+        "id": 8842,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 8694,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 10,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "azure:dataset-frontierscience-gpt41mini": 94,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 96
+      },
+      {
+        "id": 9818,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 93
+      },
+      {
+        "id": 5313,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 94,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 95
+      },
+      {
+        "id": 8009,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 90
+      },
+      {
+        "id": 320,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 96
+        },
+        "consenso": 98
+      },
+      {
+        "id": 1840,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 80,
+          "foundry:dataset-frontierscience-mistral-large": 87,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 5950,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 98
+      },
+      {
+        "id": 5041,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 3926,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 85
+        },
+        "consenso": 95
+      },
+      {
+        "id": 955,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 96,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 85
+        },
+        "consenso": 98
+      },
+      {
+        "id": 3949,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 9300,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 1296,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 97
+      },
+      {
+        "id": 1409,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 7966,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 94
+        },
+        "consenso": 97
+      },
+      {
+        "id": 1139,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 95
+      },
+      {
+        "id": 8732,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 97
+        },
+        "consenso": 95
+      },
+      {
+        "id": 2068,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 98
+      },
+      {
+        "id": 2111,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 95
+      },
+      {
+        "id": 7791,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 9012,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 2713,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 96
+      },
+      {
+        "id": 4345,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 8650,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 94
+        },
+        "consenso": 95
+      },
+      {
+        "id": 9943,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 97
+        },
+        "consenso": 95
+      },
+      {
+        "id": 6936,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 97
+      },
+      {
+        "id": 3473,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 8840,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 3298,
+        "candidatos": {
+          "ollama:qwen3.5:9b": 95,
+          "azure:dataset-frontierscience-gpt41mini": 96,
+          "foundry:dataset-frontierscience-mistral-large": 96
+        },
+        "consenso": 96
+      },
+      {
+        "id": 5110,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 97
+      },
+      {
+        "id": 6541,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 6122,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 90
+      },
+      {
+        "id": 7181,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 8484,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 94
+      },
+      {
+        "id": 7401,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 1990,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "ollama:qwen3.5:9b": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 4064,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 96,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 3684,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 1055,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 94,
+          "ollama:qwen3.5:9b": 97
+        },
+        "consenso": 96
+      },
+      {
+        "id": 5542,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 98
+      },
+      {
+        "id": 345,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 93
+      },
+      {
+        "id": 9643,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 80
+        },
+        "consenso": 92
+      },
+      {
+        "id": 9080,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 94
+      },
+      {
+        "id": 3773,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 94,
+          "ollama:qwen3.5:9b": 92,
+          "foundry:dataset-frontierscience-mistral-large": 95
+        },
+        "consenso": 92
+      },
+      {
+        "id": 9646,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 3611,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 96
+      },
+      {
+        "id": 118,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 94,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 94
+      },
+      {
+        "id": 1169,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 94
+        },
+        "consenso": 98
+      },
+      {
+        "id": 970,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 3753,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 92
+      },
+      {
+        "id": 1110,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 94
+        },
+        "consenso": 96
+      },
+      {
+        "id": 515,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "ollama:qwen3.5:9b": 96
+        },
+        "consenso": 96
+      },
+      {
+        "id": 5416,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 98
+      },
+      {
+        "id": 1166,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 93
+      },
+      {
+        "id": 8428,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 95
+      },
+      {
+        "id": 3902,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 92
+      },
+      {
+        "id": 4565,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 95
+      },
+      {
+        "id": 7957,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 94
+      },
+      {
+        "id": 3513,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 8839,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 2175,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 9360,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 94
+        },
+        "consenso": 75
+      },
+      {
+        "id": 9445,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 7748,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 96
+      },
+      {
+        "id": 3984,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 95
+      },
+      {
+        "id": 7753,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 6673,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 85
+        },
+        "consenso": 97
+      },
+      {
+        "id": 3122,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 98
+      },
+      {
+        "id": 1551,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 1594,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 7066,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 96,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 91
+        },
+        "consenso": 96
+      },
+      {
+        "id": 5807,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 93
+      },
+      {
+        "id": 6943,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 90
+      },
+      {
+        "id": 6739,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 94,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 92
+      },
+      {
+        "id": 7655,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 97
+      },
+      {
+        "id": 893,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 98
+      },
+      {
+        "id": 1618,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 94,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 999,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 92
+      },
+      {
+        "id": 6600,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 90
+      },
+      {
+        "id": 5562,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 94,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 97
+        },
+        "consenso": 97
+      },
+      {
+        "id": 1796,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 4076,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 85
+        },
+        "consenso": 98
+      },
+      {
+        "id": 3142,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 95
+      },
+      {
+        "id": 3119,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 96
+        },
+        "consenso": 93
+      },
+      {
+        "id": 8791,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 94,
+          "ollama:qwen3.5:9b": 94
+        },
+        "consenso": 96
+      },
+      {
+        "id": 7354,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 93
+      },
+      {
+        "id": 2304,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 98
+      },
+      {
+        "id": 6916,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 96
+      },
+      {
+        "id": 3009,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 94,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 94
+      },
+      {
+        "id": 4566,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 96
+      },
+      {
+        "id": 7583,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 4095,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 96
+        },
+        "consenso": 98
+      },
+      {
+        "id": 1241,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 95
+      },
+      {
+        "id": 7264,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 85,
+          "foundry:dataset-frontierscience-mistral-large": 85,
+          "ollama:qwen3.5:9b": 85
+        },
+        "consenso": 90
+      },
+      {
+        "id": 9021,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 97
+      },
+      {
+        "id": 1610,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 834,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 8861,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 242,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 97
+      },
+      {
+        "id": 1534,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 92
+      },
+      {
+        "id": 3875,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 96,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 97
+      },
+      {
+        "id": 2732,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "ollama:qwen3.5:9b": 88,
+          "foundry:dataset-frontierscience-mistral-large": 88
+        },
+        "consenso": 88
+      },
+      {
+        "id": 6662,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 94
+      },
+      {
+        "id": 7960,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 90
+      },
+      {
+        "id": 7890,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 90
+      },
+      {
+        "id": 3505,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "ollama:qwen3.5:9b": 95,
+          "foundry:dataset-frontierscience-mistral-large": 97
+        },
+        "consenso": 95
+      },
+      {
+        "id": 6574,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 96,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 966,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 94,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 92
+      },
+      {
+        "id": 2705,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 6213,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 94,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 93
+      },
+      {
+        "id": 36,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 6400,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 95
+      },
+      {
+        "id": 4348,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 96
+      },
+      {
+        "id": 7458,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 97
+      },
+      {
+        "id": 4676,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 85
+        },
+        "consenso": 95
+      },
+      {
+        "id": 6934,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 9110,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 98
+      },
+      {
+        "id": 7977,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 2544,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 3114,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 4864,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 98
+      },
+      {
+        "id": 3569,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 964,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 95
+      },
+      {
+        "id": 9494,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 96
+      },
+      {
+        "id": 8888,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 93
+      },
+      {
+        "id": 1004,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "ollama:qwen3.5:9b": 92,
+          "foundry:dataset-frontierscience-mistral-large": 94
+        },
+        "consenso": 93
+      },
+      {
+        "id": 5141,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 83
+        },
+        "consenso": 90
+      },
+      {
+        "id": 942,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 95
+      },
+      {
+        "id": 827,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 95
+      },
+      {
+        "id": 9576,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 97
+      },
+      {
+        "id": 7815,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 94,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 95
+      },
+      {
+        "id": 8242,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 8706,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 93
+      },
+      {
+        "id": 2587,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 937,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 8324,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 94,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 93
+      },
+      {
+        "id": 1318,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 93
+      },
+      {
+        "id": 3047,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 96,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 1128,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 9754,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 90
+      },
+      {
+        "id": 1119,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 3856,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 6619,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 94
+        },
+        "consenso": 95
+      },
+      {
+        "id": 1972,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 90
+      },
+      {
+        "id": 9338,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 95
+      },
+      {
+        "id": 4036,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 85
+        },
+        "consenso": 95
+      },
+      {
+        "id": 9490,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 9745,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 652,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 97
+      },
+      {
+        "id": 1349,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 96
+      },
+      {
+        "id": 6872,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 94,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 93
+      },
+      {
+        "id": 9567,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 96
+        },
+        "consenso": 95
+      },
+      {
+        "id": 9265,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 96
+        },
+        "consenso": 95
+      },
+      {
+        "id": 8570,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 5186,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 4275,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 3349,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 96,
+          "azure:dataset-frontierscience-gpt41mini": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 5150,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 85
+        },
+        "consenso": 98
+      },
+      {
+        "id": 3913,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 90
+      },
+      {
+        "id": 4354,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 6488,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 97
+        },
+        "consenso": 95
+      },
+      {
+        "id": 2152,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "azure:dataset-frontierscience-gpt41mini": 96,
+          "ollama:qwen3.5:9b": 85
+        },
+        "consenso": 92
+      },
+      {
+        "id": 4918,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 7495,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 85
+        },
+        "consenso": 93
+      },
+      {
+        "id": 5183,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 96
+      },
+      {
+        "id": 1194,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 95
+      },
+      {
+        "id": 153,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 7512,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 94,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 9229,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 1644,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 1206,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 96
+      },
+      {
+        "id": 8813,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 90
+      },
+      {
+        "id": 3495,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "ollama:qwen3.5:9b": 88,
+          "foundry:dataset-frontierscience-mistral-large": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 8292,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 98
+      },
+      {
+        "id": 2178,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 95
+      },
+      {
+        "id": 5721,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 1133,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 96
+      },
+      {
+        "id": 4005,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 93
+      },
+      {
+        "id": 6057,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 4672,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 93
+      },
+      {
+        "id": 2592,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "azure:dataset-frontierscience-gpt41mini": 96,
+          "ollama:qwen3.5:9b": 85
+        },
+        "consenso": 98
+      },
+      {
+        "id": 7183,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 8905,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 92
+      },
+      {
+        "id": 4959,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 8671,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 97
+        },
+        "consenso": 96
+      },
+      {
+        "id": 129,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 95
+      },
+      {
+        "id": 9091,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 4908,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 92
+      }
+    ],
+    "europarl": [
+      {
+        "id": 958,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 94
+        },
+        "consenso": 92
+      },
+      {
+        "id": 682,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 80,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 107,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 97
+      },
+      {
+        "id": 965,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 903,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 138,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 273,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 119,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 915,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 110,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 763,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 70,
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 94
+        },
+        "consenso": 97
+      },
+      {
+        "id": 569,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 97
+        },
+        "consenso": 98
+      },
+      {
+        "id": 160,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 281,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 94,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 98
+      },
+      {
+        "id": 291,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 40
+        },
+        "consenso": 98
+      },
+      {
+        "id": 622,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "ollama:qwen3.5:9b": 85
+        },
+        "consenso": 93
+      },
+      {
+        "id": 216,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 85,
+          "foundry:dataset-frontierscience-mistral-large": 80,
+          "ollama:qwen3.5:9b": 96
+        },
+        "consenso": 97
+      },
+      {
+        "id": 737,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 354,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 70
+      },
+      {
+        "id": 209,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 98
+      },
+      {
+        "id": 706,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 96
+      },
+      {
+        "id": 652,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 877,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 1000,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 520,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 97
+      },
+      {
+        "id": 503,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 260,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 931,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 933,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 870,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 53,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 95,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 94
+      },
+      {
+        "id": 985,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 436,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 97
+      },
+      {
+        "id": 853,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 286,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 46,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 97
+      },
+      {
+        "id": 4,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 94
+      },
+      {
+        "id": 344,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 97
+        },
+        "consenso": 98
+      },
+      {
+        "id": 793,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 134,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 655,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 97
+        },
+        "consenso": 95
+      },
+      {
+        "id": 271,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 97
+        },
+        "consenso": 98
+      },
+      {
+        "id": 166,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 762,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 455,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 80
+        },
+        "consenso": 95
+      },
+      {
+        "id": 567,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 725,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 98
+      },
+      {
+        "id": 440,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "azure:dataset-frontierscience-gpt41mini": 94,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 577,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 10,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 115,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 78,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 908,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 710,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 80,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 929,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 153,
+        "candidatos": {
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 98
+      },
+      {
+        "id": 561,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 97
+        },
+        "consenso": 98
+      },
+      {
+        "id": 37,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 96
+      },
+      {
+        "id": 858,
+        "candidatos": {
+          "ollama:qwen3.5:9b": 97,
+          "azure:dataset-frontierscience-gpt41mini": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 381,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 75,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 599,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": null
+      },
+      {
+        "id": 568,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 152,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 443,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 97
+      },
+      {
+        "id": 131,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 43,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 318,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 376,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 924,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 98
+        },
+        "consenso": null
+      },
+      {
+        "id": 819,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 885,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 41,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 937,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 369,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 990,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 701,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 258,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 98
+      },
+      {
+        "id": 685,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "ollama:qwen3.5:9b": 92,
+          "foundry:dataset-frontierscience-mistral-large": 98
+        },
+        "consenso": 97
+      },
+      {
+        "id": 106,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 365,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 802,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 85
+        },
+        "consenso": 98
+      },
+      {
+        "id": 576,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 909,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 97
+      },
+      {
+        "id": 899,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 419,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 638,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 96
+      },
+      {
+        "id": 771,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 98,
+          "azure:dataset-frontierscience-gpt41mini": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 159,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 245,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 94,
+          "foundry:dataset-frontierscience-mistral-large": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 889,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 96,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 97
+      },
+      {
+        "id": 167,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 98
+      },
+      {
+        "id": 823,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 98
+      },
+      {
+        "id": 834,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 182,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 906,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 96
+        },
+        "consenso": 95
+      },
+      {
+        "id": 425,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 26,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 184,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 757,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 80
+        },
+        "consenso": 98
+      },
+      {
+        "id": 343,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 95
+      },
+      {
+        "id": 805,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 91
+        },
+        "consenso": 92
+      },
+      {
+        "id": 424,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 825,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 688,
+        "candidatos": {
+          "ollama:qwen3.5:9b": 98,
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 888,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 755,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 75
+        },
+        "consenso": 98
+      },
+      {
+        "id": 913,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 94,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 97
+        },
+        "consenso": 95
+      },
+      {
+        "id": 257,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 85
+        },
+        "consenso": 95
+      },
+      {
+        "id": 276,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 164,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 810,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 721,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 96
+        },
+        "consenso": 98
+      },
+      {
+        "id": 111,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "ollama:qwen3.5:9b": 96
+        },
+        "consenso": 98
+      },
+      {
+        "id": 394,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 98
+      },
+      {
+        "id": 40,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 883,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 484,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 96
+      },
+      {
+        "id": 230,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 205,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": null
+      },
+      {
+        "id": 840,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 474,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 361,
+        "candidatos": {
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": null
+      },
+      {
+        "id": 315,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 97
+      },
+      {
+        "id": 844,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 818,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": null
+      },
+      {
+        "id": 236,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": null
+      },
+      {
+        "id": 231,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 75,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 25,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 96,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 678,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92,
+          "azure:dataset-frontierscience-gpt41mini": 98
+        },
+        "consenso": 95
+      },
+      {
+        "id": 198,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 339,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 288,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 72,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 85,
+          "ollama:qwen3.5:9b": 96
+        },
+        "consenso": 98
+      },
+      {
+        "id": 795,
+        "candidatos": {
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": null
+      },
+      {
+        "id": 873,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "ollama:qwen3.5:9b": 95,
+          "foundry:dataset-frontierscience-mistral-large": 97
+        },
+        "consenso": null
+      },
+      {
+        "id": 362,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 95
+      },
+      {
+        "id": 659,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": null
+      },
+      {
+        "id": 524,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 98
+      },
+      {
+        "id": 412,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 94
+      },
+      {
+        "id": 698,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 552,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": null
+      },
+      {
+        "id": 342,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 29,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": null
+      },
+      {
+        "id": 999,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 97
+      },
+      {
+        "id": 270,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98
+        },
+        "consenso": null
+      },
+      {
+        "id": 183,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 597,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 95
+      },
+      {
+        "id": 274,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 75,
+          "azure:dataset-frontierscience-gpt41mini": 98
+        },
+        "consenso": 95
+      },
+      {
+        "id": 891,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 112,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 85,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 613,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 447,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 356,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 96,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 749,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 88,
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 85
+      },
+      {
+        "id": 809,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 88
+        },
+        "consenso": 95
+      },
+      {
+        "id": 324,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 449,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 92,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 623,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 75,
+          "ollama:qwen3.5:9b": 97
+        },
+        "consenso": 98
+      },
+      {
+        "id": 526,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 861,
+        "candidatos": {
+          "ollama:qwen3.5:9b": 80,
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 95
+        },
+        "consenso": 93
+      },
+      {
+        "id": 397,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 593,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 97
+      },
+      {
+        "id": 195,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 96
+        },
+        "consenso": 98
+      },
+      {
+        "id": 263,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 970,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "ollama:qwen3.5:9b": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 728,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 96
+        },
+        "consenso": 95
+      },
+      {
+        "id": 848,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 95,
+          "azure:dataset-frontierscience-gpt41mini": 98
+        },
+        "consenso": 97
+      },
+      {
+        "id": 2,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 535,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 80
+        },
+        "consenso": 97
+      },
+      {
+        "id": 829,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 98
+      },
+      {
+        "id": 554,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 986,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 739,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 962,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 97
+      },
+      {
+        "id": 907,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 95
+      },
+      {
+        "id": 689,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 96,
+          "ollama:qwen3.5:9b": 88,
+          "azure:dataset-frontierscience-gpt41mini": 98
+        },
+        "consenso": 97
+      },
+      {
+        "id": 202,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 375,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 96
+      },
+      {
+        "id": 444,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 95
+      },
+      {
+        "id": 872,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "ollama:qwen3.5:9b": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 683,
+        "candidatos": {
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 97
+      },
+      {
+        "id": 341,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 95
+      },
+      {
+        "id": 641,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 849,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 93,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 93
+      },
+      {
+        "id": 1005,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 128,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 90,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 740,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 96
+      },
+      {
+        "id": 310,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 93
+      },
+      {
+        "id": 522,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 92,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 319,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 97
+        },
+        "consenso": 97
+      },
+      {
+        "id": 928,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 98
+      },
+      {
+        "id": 421,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 93,
+          "ollama:qwen3.5:9b": 95
+        },
+        "consenso": 95
+      },
+      {
+        "id": 337,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 98
+        },
+        "consenso": 98
+      },
+      {
+        "id": 415,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 90,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 98
+      },
+      {
+        "id": 716,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 97,
+          "foundry:dataset-frontierscience-mistral-large": 98,
+          "ollama:qwen3.5:9b": 92
+        },
+        "consenso": 97
+      },
+      {
+        "id": 305,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 95,
+          "foundry:dataset-frontierscience-mistral-large": 95,
+          "ollama:qwen3.5:9b": 93
+        },
+        "consenso": 95
+      },
+      {
+        "id": 570,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 90
+        },
+        "consenso": 96
+      },
+      {
+        "id": 941,
+        "candidatos": {
+          "azure:dataset-frontierscience-gpt41mini": 98,
+          "foundry:dataset-frontierscience-mistral-large": 97,
+          "ollama:qwen3.5:9b": 88
+        },
+        "consenso": 97
+      }
+    ]
+  }
+}

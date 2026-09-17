@@ -1,0 +1,39 @@
+# =============================================================================
+#  Dependencies
+#
+#    pip install -r requirements.txt
+#
+#  Python 3.11 or newer. Two extra steps are needed after this file, both
+#  documented in docs/reproduction.md:
+#
+#    python3 -m spacy download en_core_web_sm
+#    python3 -m spacy download es_core_news_sm
+# =============================================================================
+
+# --- Pipeline (agents/) ------------------------------------------------------
+httpx>=0.27            # every LLM call; also used by scripts/download_datasets.py
+python-dotenv>=1.0     # reads .env
+
+# --- Metrics (metrics/) and notebooks ----------------------------------------
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+jupyterlab>=4.0
+spacy>=3.7             # POS tagging and named entities, en_core_web_sm + es_core_news_sm
+
+# --- Cross-lingual semantic metrics ------------------------------------------
+# Only metrics/semantic_metrics.py needs these. The LaBSE model (~1.8 GB) is
+# downloaded on first use. Skip them if you do not run that module.
+#
+# WARNING about torch and the NVIDIA driver: the default PyPI wheel is built for
+# CUDA 13 and requires driver r580 or newer. With an older driver torch silently
+# falls back to the CPU: no error, only a warning, and the run takes hours
+# instead of minutes. Driver 566.07 means CUDA 12.7, so install the cu124 build
+# BEFORE the rest:
+#
+#     pip uninstall -y torch
+#     pip install torch --index-url https://download.pytorch.org/whl/cu124
+#
+# Check with:  python3 -c "import torch; print(torch.cuda.is_available())"
+torch>=2.2
+sentence-transformers>=3.0

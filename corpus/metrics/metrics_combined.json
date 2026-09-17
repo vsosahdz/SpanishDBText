@@ -1,0 +1,3378 @@
+{
+  "metadata": {
+    "datasets": [
+      "wikitext",
+      "fever",
+      "europarl"
+    ],
+    "total_entries": 12003,
+    "generated_at": "2026-09-07T13:56:30.916391"
+  },
+  "combined_totals": {
+    "english": {
+      "total_documents": 12003,
+      "total_tokens": 11560259,
+      "total_types": 117323,
+      "total_characters": 69700989,
+      "per_dataset": {
+        "wikitext": {
+          "tokens": 2855853,
+          "types": 84029,
+          "chars": 17634690,
+          "docs": 1000
+        },
+        "fever": {
+          "tokens": 1753860,
+          "types": 54087,
+          "chars": 10527617,
+          "docs": 9998
+        },
+        "europarl": {
+          "tokens": 6950546,
+          "types": 36790,
+          "chars": 41538682,
+          "docs": 1005
+        }
+      }
+    },
+    "spanish": {
+      "total_documents": 12003,
+      "total_tokens": 11933386,
+      "total_types": 151264,
+      "total_characters": 73566725,
+      "per_dataset": {
+        "wikitext": {
+          "tokens": 3037875,
+          "types": 105266,
+          "chars": 18427292,
+          "docs": 1000
+        },
+        "fever": {
+          "tokens": 1941463,
+          "types": 63259,
+          "chars": 11443988,
+          "docs": 9998
+        },
+        "europarl": {
+          "tokens": 6954048,
+          "types": 57701,
+          "chars": 43695445,
+          "docs": 1005
+        }
+      }
+    }
+  },
+  "vocabulary_overlap": {
+    "english": {
+      "per_dataset_vocab_size": {
+        "wikitext": 84029,
+        "fever": 54087,
+        "europarl": 36790
+      },
+      "combined_vocab_size": 117323,
+      "pairwise_overlap": {
+        "wikitext_vs_fever": {
+          "shared_types": 30925,
+          "only_wikitext": 53104,
+          "only_fever": 23162,
+          "jaccard_similarity": 0.2885,
+          "overlap_pct_of_smaller": 57.18
+        },
+        "wikitext_vs_europarl": {
+          "shared_types": 25385,
+          "only_wikitext": 58644,
+          "only_europarl": 11405,
+          "jaccard_similarity": 0.266,
+          "overlap_pct_of_smaller": 69.0
+        },
+        "fever_vs_europarl": {
+          "shared_types": 19122,
+          "only_fever": 34965,
+          "only_europarl": 17668,
+          "jaccard_similarity": 0.2665,
+          "overlap_pct_of_smaller": 51.98
+        }
+      },
+      "exclusive_contributions": {
+        "wikitext": {
+          "exclusive_types": 45568,
+          "exclusive_pct": 54.23,
+          "contribution_to_combined_pct": 38.84
+        },
+        "fever": {
+          "exclusive_types": 21889,
+          "exclusive_pct": 40.47,
+          "contribution_to_combined_pct": 18.66
+        },
+        "europarl": {
+          "exclusive_types": 10132,
+          "exclusive_pct": 27.54,
+          "contribution_to_combined_pct": 8.64
+        }
+      }
+    },
+    "spanish": {
+      "per_dataset_vocab_size": {
+        "wikitext": 105266,
+        "fever": 63259,
+        "europarl": 57701
+      },
+      "combined_vocab_size": 151264,
+      "pairwise_overlap": {
+        "wikitext_vs_fever": {
+          "shared_types": 38360,
+          "only_wikitext": 66906,
+          "only_fever": 24899,
+          "jaccard_similarity": 0.2947,
+          "overlap_pct_of_smaller": 60.64
+        },
+        "wikitext_vs_europarl": {
+          "shared_types": 34728,
+          "only_wikitext": 70538,
+          "only_europarl": 22973,
+          "jaccard_similarity": 0.2708,
+          "overlap_pct_of_smaller": 60.19
+        },
+        "fever_vs_europarl": {
+          "shared_types": 24176,
+          "only_fever": 39083,
+          "only_europarl": 33525,
+          "jaccard_similarity": 0.2498,
+          "overlap_pct_of_smaller": 41.9
+        }
+      },
+      "exclusive_contributions": {
+        "wikitext": {
+          "exclusive_types": 54480,
+          "exclusive_pct": 51.75,
+          "contribution_to_combined_pct": 36.02
+        },
+        "fever": {
+          "exclusive_types": 23025,
+          "exclusive_pct": 36.4,
+          "contribution_to_combined_pct": 15.22
+        },
+        "europarl": {
+          "exclusive_types": 21099,
+          "exclusive_pct": 36.57,
+          "contribution_to_combined_pct": 13.95
+        }
+      }
+    }
+  },
+  "cross_dataset_duplicates": {
+    "english": {
+      "cross_dataset_duplicate_pairs": 0,
+      "details": []
+    },
+    "spanish": {
+      "cross_dataset_duplicate_pairs": 0,
+      "details": []
+    }
+  },
+  "combined_growth_curve": {
+    "english": {
+      "processing_order": [
+        "wikitext",
+        "fever",
+        "europarl"
+      ],
+      "per_dataset_contribution": [
+        {
+          "dataset": "wikitext",
+          "tokens_after": 2855853,
+          "types_after": 84029,
+          "new_types_added": 84029,
+          "tokens_in_dataset": 2855853
+        },
+        {
+          "dataset": "fever",
+          "tokens_after": 4609713,
+          "types_after": 107191,
+          "new_types_added": 23162,
+          "tokens_in_dataset": 1753860
+        },
+        {
+          "dataset": "europarl",
+          "tokens_after": 11560259,
+          "types_after": 117323,
+          "new_types_added": 10132,
+          "tokens_in_dataset": 6950546
+        }
+      ],
+      "growth_curve": [
+        {
+          "tokens": 38534,
+          "types": 6695,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 77068,
+          "types": 10793,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 115602,
+          "types": 13846,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 154136,
+          "types": 16435,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 192670,
+          "types": 18545,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 231204,
+          "types": 20594,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 269738,
+          "types": 22683,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 308272,
+          "types": 24702,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 346806,
+          "types": 26386,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 385340,
+          "types": 27998,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 423874,
+          "types": 29462,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 462408,
+          "types": 30858,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 500942,
+          "types": 32239,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 539476,
+          "types": 33487,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 578010,
+          "types": 34511,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 616544,
+          "types": 35619,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 655078,
+          "types": 37163,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 693612,
+          "types": 38273,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 732146,
+          "types": 39427,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 770680,
+          "types": 40396,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 809214,
+          "types": 41594,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 847748,
+          "types": 42906,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 886282,
+          "types": 44115,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 924816,
+          "types": 45291,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 963350,
+          "types": 46366,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1001884,
+          "types": 47375,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1040418,
+          "types": 48197,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1078952,
+          "types": 49177,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1117486,
+          "types": 50078,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1156020,
+          "types": 50942,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1194554,
+          "types": 51685,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1233088,
+          "types": 52877,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1271622,
+          "types": 53931,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1310156,
+          "types": 54872,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1348690,
+          "types": 55624,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1387224,
+          "types": 56608,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1425758,
+          "types": 57594,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1464292,
+          "types": 58293,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1502826,
+          "types": 59046,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1541360,
+          "types": 59907,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1579894,
+          "types": 60823,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1618428,
+          "types": 61919,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1656962,
+          "types": 62667,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1695496,
+          "types": 63502,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1734030,
+          "types": 64154,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1772564,
+          "types": 64951,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1811098,
+          "types": 65448,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1849632,
+          "types": 66327,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1888166,
+          "types": 66948,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1926700,
+          "types": 67778,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1965234,
+          "types": 68348,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2003768,
+          "types": 68910,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2042302,
+          "types": 69805,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2080836,
+          "types": 70476,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2119370,
+          "types": 71317,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2157904,
+          "types": 71892,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2196438,
+          "types": 72659,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2234972,
+          "types": 73153,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2273506,
+          "types": 73773,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2312040,
+          "types": 74500,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2350574,
+          "types": 75165,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2389108,
+          "types": 75969,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2427642,
+          "types": 76609,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2466176,
+          "types": 77416,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2504710,
+          "types": 78019,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2543244,
+          "types": 78706,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2581778,
+          "types": 79372,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2620312,
+          "types": 79887,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2658846,
+          "types": 80468,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2697380,
+          "types": 81299,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2735914,
+          "types": 82078,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2774448,
+          "types": 82848,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2812982,
+          "types": 83331,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2851516,
+          "types": 84006,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2890050,
+          "types": 84661,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 2928584,
+          "types": 85314,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 2967118,
+          "types": 86154,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3005652,
+          "types": 86810,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3044186,
+          "types": 87468,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3082720,
+          "types": 88191,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3121254,
+          "types": 88853,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3159788,
+          "types": 89578,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3198322,
+          "types": 90156,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3236856,
+          "types": 90843,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3275390,
+          "types": 91369,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3313924,
+          "types": 91866,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3352458,
+          "types": 92465,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3390992,
+          "types": 93006,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3429526,
+          "types": 93557,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3468060,
+          "types": 94109,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3506594,
+          "types": 94688,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3545128,
+          "types": 95173,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3583662,
+          "types": 95726,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3622196,
+          "types": 96211,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3660730,
+          "types": 96683,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3699264,
+          "types": 97135,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3737798,
+          "types": 97624,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3776332,
+          "types": 98047,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3814866,
+          "types": 98477,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3853400,
+          "types": 98922,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3891934,
+          "types": 99377,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3930468,
+          "types": 99901,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3969002,
+          "types": 100286,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4007536,
+          "types": 100668,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4046070,
+          "types": 101177,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4084604,
+          "types": 101577,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4123138,
+          "types": 102019,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4161672,
+          "types": 102473,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4200206,
+          "types": 102837,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4238740,
+          "types": 103237,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4277274,
+          "types": 103674,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4315808,
+          "types": 104103,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4354342,
+          "types": 104506,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4392876,
+          "types": 104886,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4431410,
+          "types": 105288,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4469944,
+          "types": 105777,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4508478,
+          "types": 106203,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4547012,
+          "types": 106607,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4585546,
+          "types": 107001,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4624080,
+          "types": 107338,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 4662614,
+          "types": 107547,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 4701148,
+          "types": 107793,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 4739682,
+          "types": 107967,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 4778216,
+          "types": 108110,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 4816750,
+          "types": 108289,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 4855284,
+          "types": 108427,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 4893818,
+          "types": 108572,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 4932352,
+          "types": 108708,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 4970886,
+          "types": 108869,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5009420,
+          "types": 108966,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5047954,
+          "types": 109056,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5086488,
+          "types": 109171,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5125022,
+          "types": 109257,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5163556,
+          "types": 109338,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5202090,
+          "types": 109420,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5240624,
+          "types": 109517,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5279158,
+          "types": 109594,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5317692,
+          "types": 109696,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5356226,
+          "types": 109777,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5394760,
+          "types": 109837,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5433294,
+          "types": 109896,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5471828,
+          "types": 109961,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5510362,
+          "types": 110020,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5548896,
+          "types": 110104,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5587430,
+          "types": 110175,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5625964,
+          "types": 110272,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5664498,
+          "types": 110333,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5703032,
+          "types": 110387,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5741566,
+          "types": 110451,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5780100,
+          "types": 110517,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5818634,
+          "types": 110592,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5857168,
+          "types": 110649,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5895702,
+          "types": 110762,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5934236,
+          "types": 110825,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5972770,
+          "types": 110873,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6011304,
+          "types": 110935,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6049838,
+          "types": 111035,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6088372,
+          "types": 111102,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6126906,
+          "types": 111162,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6165440,
+          "types": 111216,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6203974,
+          "types": 111275,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6242508,
+          "types": 111328,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6281042,
+          "types": 111385,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6319576,
+          "types": 111432,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6358110,
+          "types": 111485,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6396644,
+          "types": 111550,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6435178,
+          "types": 111616,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6473712,
+          "types": 111654,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6512246,
+          "types": 111692,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6550780,
+          "types": 111735,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6589314,
+          "types": 111797,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6627848,
+          "types": 111856,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6666382,
+          "types": 111929,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6704916,
+          "types": 111965,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6743450,
+          "types": 112042,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6781984,
+          "types": 112092,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6820518,
+          "types": 112142,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6859052,
+          "types": 112178,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6897586,
+          "types": 112219,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6936120,
+          "types": 112270,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6974654,
+          "types": 112328,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7013188,
+          "types": 112389,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7051722,
+          "types": 112436,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7090256,
+          "types": 112486,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7128790,
+          "types": 112552,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7167324,
+          "types": 112612,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7205858,
+          "types": 112655,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7244392,
+          "types": 112678,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7282926,
+          "types": 112722,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7321460,
+          "types": 112770,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7359994,
+          "types": 112817,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7398528,
+          "types": 112860,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7437062,
+          "types": 112932,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7475596,
+          "types": 112988,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7514130,
+          "types": 113033,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7552664,
+          "types": 113068,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7591198,
+          "types": 113131,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7629732,
+          "types": 113203,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7668266,
+          "types": 113252,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7706800,
+          "types": 113290,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7745334,
+          "types": 113326,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7783868,
+          "types": 113390,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7822402,
+          "types": 113434,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7860936,
+          "types": 113496,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7899470,
+          "types": 113546,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7938004,
+          "types": 113587,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7976538,
+          "types": 113656,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8015072,
+          "types": 113712,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8053606,
+          "types": 113753,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8092140,
+          "types": 113802,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8130674,
+          "types": 113842,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8169208,
+          "types": 113884,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8207742,
+          "types": 113937,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8246276,
+          "types": 113992,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8284810,
+          "types": 114042,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8323344,
+          "types": 114083,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8361878,
+          "types": 114145,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8400412,
+          "types": 114181,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8438946,
+          "types": 114211,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8477480,
+          "types": 114246,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8516014,
+          "types": 114284,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8554548,
+          "types": 114329,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8593082,
+          "types": 114369,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8631616,
+          "types": 114415,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8670150,
+          "types": 114445,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8708684,
+          "types": 114468,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8747218,
+          "types": 114516,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8785752,
+          "types": 114583,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8824286,
+          "types": 114643,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8862820,
+          "types": 114673,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8901354,
+          "types": 114712,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8939888,
+          "types": 114743,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8978422,
+          "types": 114773,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9016956,
+          "types": 114828,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9055490,
+          "types": 114847,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9094024,
+          "types": 114884,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9132558,
+          "types": 114926,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9171092,
+          "types": 114965,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9209626,
+          "types": 115003,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9248160,
+          "types": 115053,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9286694,
+          "types": 115089,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9325228,
+          "types": 115143,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9363762,
+          "types": 115187,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9402296,
+          "types": 115244,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9440830,
+          "types": 115283,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9479364,
+          "types": 115331,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9517898,
+          "types": 115376,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9556432,
+          "types": 115427,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9594966,
+          "types": 115461,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9633500,
+          "types": 115519,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9672034,
+          "types": 115558,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9710568,
+          "types": 115622,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9749102,
+          "types": 115647,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9787636,
+          "types": 115694,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9826170,
+          "types": 115729,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9864704,
+          "types": 115759,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9903238,
+          "types": 115797,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9941772,
+          "types": 115839,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9980306,
+          "types": 115881,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10018840,
+          "types": 115935,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10057374,
+          "types": 115963,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10095908,
+          "types": 115998,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10134442,
+          "types": 116021,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10172976,
+          "types": 116070,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10211510,
+          "types": 116115,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10250044,
+          "types": 116152,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10288578,
+          "types": 116194,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10327112,
+          "types": 116225,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10365646,
+          "types": 116262,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10404180,
+          "types": 116287,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10442714,
+          "types": 116324,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10481248,
+          "types": 116353,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10519782,
+          "types": 116386,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10558316,
+          "types": 116425,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10596850,
+          "types": 116461,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10635384,
+          "types": 116503,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10673918,
+          "types": 116526,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10712452,
+          "types": 116573,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10750986,
+          "types": 116610,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10789520,
+          "types": 116640,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10828054,
+          "types": 116678,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10866588,
+          "types": 116724,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10905122,
+          "types": 116746,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10943656,
+          "types": 116780,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10982190,
+          "types": 116812,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11020724,
+          "types": 116849,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11059258,
+          "types": 116886,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11097792,
+          "types": 116929,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11136326,
+          "types": 116956,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11174860,
+          "types": 116983,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11213394,
+          "types": 117028,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11251928,
+          "types": 117048,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11290462,
+          "types": 117078,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11328996,
+          "types": 117108,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11367530,
+          "types": 117145,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11406064,
+          "types": 117189,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11444598,
+          "types": 117220,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11483132,
+          "types": 117255,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11521666,
+          "types": 117280,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11560200,
+          "types": 117323,
+          "dataset": "europarl"
+        }
+      ]
+    },
+    "spanish": {
+      "processing_order": [
+        "wikitext",
+        "fever",
+        "europarl"
+      ],
+      "per_dataset_contribution": [
+        {
+          "dataset": "wikitext",
+          "tokens_after": 3037875,
+          "types_after": 105266,
+          "new_types_added": 105266,
+          "tokens_in_dataset": 3037875
+        },
+        {
+          "dataset": "fever",
+          "tokens_after": 4979338,
+          "types_after": 130165,
+          "new_types_added": 24899,
+          "tokens_in_dataset": 1941463
+        },
+        {
+          "dataset": "europarl",
+          "tokens_after": 11933386,
+          "types_after": 151264,
+          "new_types_added": 21099,
+          "tokens_in_dataset": 6954048
+        }
+      ],
+      "growth_curve": [
+        {
+          "tokens": 39777,
+          "types": 7652,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 79554,
+          "types": 12679,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 119331,
+          "types": 16557,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 159108,
+          "types": 20176,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 198885,
+          "types": 22810,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 238662,
+          "types": 25376,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 278439,
+          "types": 27783,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 318216,
+          "types": 30257,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 357993,
+          "types": 32415,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 397770,
+          "types": 34462,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 437547,
+          "types": 36396,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 477324,
+          "types": 38134,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 517101,
+          "types": 39880,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 556878,
+          "types": 41256,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 596655,
+          "types": 42855,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 636432,
+          "types": 44114,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 676209,
+          "types": 45562,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 715986,
+          "types": 48104,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 755763,
+          "types": 49203,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 795540,
+          "types": 50681,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 835317,
+          "types": 52080,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 875094,
+          "types": 53612,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 914871,
+          "types": 55285,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 954648,
+          "types": 56724,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 994425,
+          "types": 58117,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1034202,
+          "types": 59322,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1073979,
+          "types": 60638,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1113756,
+          "types": 61702,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1153533,
+          "types": 62987,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1193310,
+          "types": 64106,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1233087,
+          "types": 65151,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1272864,
+          "types": 66120,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1312641,
+          "types": 67777,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1352418,
+          "types": 68800,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1392195,
+          "types": 69950,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1431972,
+          "types": 70899,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1471749,
+          "types": 72130,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1511526,
+          "types": 73331,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1551303,
+          "types": 74138,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1591080,
+          "types": 75081,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1630857,
+          "types": 76021,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1670634,
+          "types": 77118,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1710411,
+          "types": 78379,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1750188,
+          "types": 79304,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1789965,
+          "types": 80360,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1829742,
+          "types": 81201,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1869519,
+          "types": 82046,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1909296,
+          "types": 82742,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1949073,
+          "types": 83699,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 1988850,
+          "types": 84566,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2028627,
+          "types": 85530,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2068404,
+          "types": 86216,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2108181,
+          "types": 86991,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2147958,
+          "types": 87823,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2187735,
+          "types": 88672,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2227512,
+          "types": 89591,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2267289,
+          "types": 90419,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2307066,
+          "types": 91191,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2346843,
+          "types": 91881,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2386620,
+          "types": 92526,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2426397,
+          "types": 93350,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2466174,
+          "types": 94118,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2505951,
+          "types": 94812,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2545728,
+          "types": 95716,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2585505,
+          "types": 96583,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2625282,
+          "types": 97463,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2665059,
+          "types": 98250,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2704836,
+          "types": 99004,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2744613,
+          "types": 99798,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2784390,
+          "types": 100387,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2824167,
+          "types": 101066,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2863944,
+          "types": 102087,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2903721,
+          "types": 102896,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2943498,
+          "types": 103679,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 2983275,
+          "types": 104293,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 3023052,
+          "types": 105079,
+          "dataset": "wikitext"
+        },
+        {
+          "tokens": 3062829,
+          "types": 105736,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3102606,
+          "types": 106404,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3142383,
+          "types": 107160,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3182160,
+          "types": 107875,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3221937,
+          "types": 108616,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3261714,
+          "types": 109284,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3301491,
+          "types": 110004,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3341268,
+          "types": 110701,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3381045,
+          "types": 111367,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3420822,
+          "types": 111893,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3460599,
+          "types": 112586,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3500376,
+          "types": 113127,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3540153,
+          "types": 113665,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3579930,
+          "types": 114224,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3619707,
+          "types": 114798,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3659484,
+          "types": 115305,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3699261,
+          "types": 115927,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3739038,
+          "types": 116470,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3778815,
+          "types": 117001,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3818592,
+          "types": 117495,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3858369,
+          "types": 118001,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3898146,
+          "types": 118500,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3937923,
+          "types": 118958,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 3977700,
+          "types": 119453,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4017477,
+          "types": 119921,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4057254,
+          "types": 120322,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4097031,
+          "types": 120749,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4136808,
+          "types": 121163,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4176585,
+          "types": 121641,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4216362,
+          "types": 122126,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4256139,
+          "types": 122558,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4295916,
+          "types": 122945,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4335693,
+          "types": 123440,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4375470,
+          "types": 123862,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4415247,
+          "types": 124351,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4455024,
+          "types": 124742,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4494801,
+          "types": 125156,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4534578,
+          "types": 125538,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4574355,
+          "types": 125957,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4614132,
+          "types": 126391,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4653909,
+          "types": 126860,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4693686,
+          "types": 127281,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4733463,
+          "types": 127653,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4773240,
+          "types": 128066,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4813017,
+          "types": 128458,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4852794,
+          "types": 128954,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4892571,
+          "types": 129309,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4932348,
+          "types": 129774,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 4972125,
+          "types": 130110,
+          "dataset": "fever"
+        },
+        {
+          "tokens": 5011902,
+          "types": 130670,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5051679,
+          "types": 131153,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5091456,
+          "types": 131611,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5131233,
+          "types": 131980,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5171010,
+          "types": 132291,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5210787,
+          "types": 132645,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5250564,
+          "types": 132966,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5290341,
+          "types": 133244,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5330118,
+          "types": 133558,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5369895,
+          "types": 133818,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5409672,
+          "types": 134041,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5449449,
+          "types": 134266,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5489226,
+          "types": 134486,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5529003,
+          "types": 134678,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5568780,
+          "types": 134909,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5608557,
+          "types": 135132,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5648334,
+          "types": 135330,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5688111,
+          "types": 135532,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5727888,
+          "types": 135731,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5767665,
+          "types": 135875,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5807442,
+          "types": 136068,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5847219,
+          "types": 136227,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5886996,
+          "types": 136407,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5926773,
+          "types": 136605,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 5966550,
+          "types": 136798,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6006327,
+          "types": 136951,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6046104,
+          "types": 137088,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6085881,
+          "types": 137234,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6125658,
+          "types": 137384,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6165435,
+          "types": 137510,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6205212,
+          "types": 137646,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6244989,
+          "types": 137807,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6284766,
+          "types": 137975,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6324543,
+          "types": 138259,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6364320,
+          "types": 138394,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6404097,
+          "types": 138544,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6443874,
+          "types": 138710,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6483651,
+          "types": 138843,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6523428,
+          "types": 138990,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6563205,
+          "types": 139187,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6602982,
+          "types": 139324,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6642759,
+          "types": 139454,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6682536,
+          "types": 139610,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6722313,
+          "types": 139725,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6762090,
+          "types": 139839,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6801867,
+          "types": 139975,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6841644,
+          "types": 140097,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6881421,
+          "types": 140184,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6921198,
+          "types": 140297,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 6960975,
+          "types": 140410,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7000752,
+          "types": 140521,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7040529,
+          "types": 140629,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7080306,
+          "types": 140737,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7120083,
+          "types": 140863,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7159860,
+          "types": 140979,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7199637,
+          "types": 141092,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7239414,
+          "types": 141190,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7279191,
+          "types": 141295,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7318968,
+          "types": 141416,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7358745,
+          "types": 141513,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7398522,
+          "types": 141659,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7438299,
+          "types": 141760,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7478076,
+          "types": 141886,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7517853,
+          "types": 141987,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7557630,
+          "types": 142075,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7597407,
+          "types": 142174,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7637184,
+          "types": 142268,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7676961,
+          "types": 142362,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7716738,
+          "types": 142450,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7756515,
+          "types": 142559,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7796292,
+          "types": 142673,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7836069,
+          "types": 142793,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7875846,
+          "types": 142895,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7915623,
+          "types": 142986,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7955400,
+          "types": 143123,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 7995177,
+          "types": 143236,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8034954,
+          "types": 143330,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8074731,
+          "types": 143391,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8114508,
+          "types": 143487,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8154285,
+          "types": 143604,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8194062,
+          "types": 143711,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8233839,
+          "types": 143824,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8273616,
+          "types": 143959,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8313393,
+          "types": 144045,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8353170,
+          "types": 144158,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8392947,
+          "types": 144261,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8432724,
+          "types": 144343,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8472501,
+          "types": 144422,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8512278,
+          "types": 144514,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8552055,
+          "types": 144644,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8591832,
+          "types": 144747,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8631609,
+          "types": 144842,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8671386,
+          "types": 144955,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8711163,
+          "types": 145053,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8750940,
+          "types": 145140,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8790717,
+          "types": 145208,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8830494,
+          "types": 145286,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8870271,
+          "types": 145386,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8910048,
+          "types": 145457,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8949825,
+          "types": 145555,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 8989602,
+          "types": 145635,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9029379,
+          "types": 145697,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9069156,
+          "types": 145766,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9108933,
+          "types": 145843,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9148710,
+          "types": 145955,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9188487,
+          "types": 146070,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9228264,
+          "types": 146134,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9268041,
+          "types": 146237,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9307818,
+          "types": 146328,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9347595,
+          "types": 146404,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9387372,
+          "types": 146496,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9427149,
+          "types": 146554,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9466926,
+          "types": 146618,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9506703,
+          "types": 146696,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9546480,
+          "types": 146778,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9586257,
+          "types": 146856,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9626034,
+          "types": 146958,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9665811,
+          "types": 147033,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9705588,
+          "types": 147122,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9745365,
+          "types": 147216,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9785142,
+          "types": 147300,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9824919,
+          "types": 147371,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9864696,
+          "types": 147467,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9904473,
+          "types": 147583,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9944250,
+          "types": 147655,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 9984027,
+          "types": 147752,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10023804,
+          "types": 147831,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10063581,
+          "types": 147933,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10103358,
+          "types": 148017,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10143135,
+          "types": 148092,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10182912,
+          "types": 148159,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10222689,
+          "types": 148240,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10262466,
+          "types": 148311,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10302243,
+          "types": 148383,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10342020,
+          "types": 148472,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10381797,
+          "types": 148567,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10421574,
+          "types": 148646,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10461351,
+          "types": 148729,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10501128,
+          "types": 148783,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10540905,
+          "types": 148880,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10580682,
+          "types": 148953,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10620459,
+          "types": 149021,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10660236,
+          "types": 149078,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10700013,
+          "types": 149149,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10739790,
+          "types": 149213,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10779567,
+          "types": 149268,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10819344,
+          "types": 149331,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10859121,
+          "types": 149375,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10898898,
+          "types": 149437,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10938675,
+          "types": 149511,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 10978452,
+          "types": 149582,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11018229,
+          "types": 149662,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11058006,
+          "types": 149727,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11097783,
+          "types": 149815,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11137560,
+          "types": 149887,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11177337,
+          "types": 149950,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11217114,
+          "types": 150009,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11256891,
+          "types": 150091,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11296668,
+          "types": 150131,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11336445,
+          "types": 150202,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11376222,
+          "types": 150278,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11415999,
+          "types": 150337,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11455776,
+          "types": 150423,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11495553,
+          "types": 150473,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11535330,
+          "types": 150542,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11575107,
+          "types": 150606,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11614884,
+          "types": 150662,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11654661,
+          "types": 150748,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11694438,
+          "types": 150798,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11734215,
+          "types": 150890,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11773992,
+          "types": 150979,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11813769,
+          "types": 151047,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11853546,
+          "types": 151125,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11893323,
+          "types": 151197,
+          "dataset": "europarl"
+        },
+        {
+          "tokens": 11933100,
+          "types": 151263,
+          "dataset": "europarl"
+        }
+      ]
+    }
+  },
+  "combined_classification": {
+    "combined": {
+      "sports": 6771,
+      "history": 958,
+      "politics": 741,
+      "military": 666,
+      "science": 553,
+      "music": 360,
+      "geography": 303,
+      "entertainment": 279,
+      "technology": 200,
+      "film": 163,
+      "human rights": 127,
+      "transport": 118,
+      "biography": 111,
+      "other": 107,
+      "economy": 97,
+      "environment": 89,
+      "legislation": 81,
+      "video game": 45,
+      "health": 35,
+      "trade": 32,
+      "literature": 29,
+      "agriculture": 28,
+      "religion": 17,
+      "medicine": 12,
+      "defense": 12,
+      "novel": 9,
+      "law": 6,
+      "education": 5,
+      "art": 5,
+      "television": 5,
+      "media": 4,
+      "language": 4,
+      "energy": 4,
+      "animal breed": 2,
+      "finance": 2,
+      "architecture": 2,
+      "philosophy": 2,
+      "food": 2,
+      "video games": 2,
+      "culture": 2,
+      "religion and philosophy": 1,
+      "food and culture": 1,
+      "anthropology": 1,
+      "other (university housing)": 1,
+      "transportation": 1,
+      "business": 1,
+      "art history": 1,
+      "other (animal breeding and history)": 1,
+      "hobby": 1,
+      "social issues": 1,
+      "development": 1,
+      "international relations": 1,
+      "social policy": 1
+    },
+    "total_entries": 12003,
+    "total_categories": 53,
+    "per_dataset": {
+      "wikitext": {
+        "history": 284,
+        "entertainment": 260,
+        "science": 107,
+        "biography": 106,
+        "sports": 96,
+        "video game": 45,
+        "technology": 23,
+        "politics": 18,
+        "medicine": 12,
+        "literature": 10,
+        "novel": 9,
+        "other": 9,
+        "education": 3,
+        "animal breed": 2,
+        "finance": 2,
+        "religion": 2,
+        "law": 2,
+        "religion and philosophy": 1,
+        "food and culture": 1,
+        "anthropology": 1,
+        "architecture": 1,
+        "music": 1,
+        "other (university housing)": 1,
+        "transportation": 1,
+        "business": 1,
+        "art history": 1,
+        "other (animal breeding and history)": 1
+      },
+      "fever": {
+        "sports": 6675,
+        "history": 674,
+        "military": 666,
+        "science": 446,
+        "music": 359,
+        "geography": 303,
+        "politics": 240,
+        "technology": 172,
+        "film": 163,
+        "transport": 110,
+        "other": 98,
+        "literature": 19,
+        "entertainment": 19,
+        "religion": 15,
+        "art": 5,
+        "biography": 5,
+        "television": 5,
+        "media": 4,
+        "law": 4,
+        "language": 4,
+        "philosophy": 2,
+        "food": 2,
+        "video games": 2,
+        "environment": 2,
+        "hobby": 1,
+        "architecture": 1,
+        "social issues": 1,
+        "education": 1
+      },
+      "europarl": {
+        "politics": 483,
+        "human rights": 127,
+        "economy": 97,
+        "environment": 87,
+        "legislation": 81,
+        "health": 35,
+        "trade": 32,
+        "agriculture": 28,
+        "defense": 12,
+        "transport": 8,
+        "technology": 5,
+        "energy": 4,
+        "culture": 2,
+        "education": 1,
+        "development": 1,
+        "international relations": 1,
+        "social policy": 1
+      }
+    }
+  }
+}

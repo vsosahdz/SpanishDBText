@@ -1,0 +1,306 @@
+{
+  "source_file": "fever_selected.jsonl",
+  "generated_at": "2026-07-10",
+  "models_used": [
+    "azure:dataset-frontierscience-gpt41mini",
+    "foundry:dataset-frontierscience-mistral-large",
+    "ollama:qwen3.5:9b"
+  ],
+  "reviewer": "azure:dataset-frontierscience-gpt41",
+  "evaluator": "azure:dataset-frontierscience-gpt41mini",
+  "summary": {
+    "articles_processed": 9998,
+    "total_tokens": {
+      "prompt_tokens": 63235451,
+      "completion_tokens": 19903337,
+      "total_tokens": 83138788
+    },
+    "total_cost_usd": {
+      "stage_1_translation": {
+        "foundry:dataset-frontierscience-mistral-large": 7.692,
+        "azure:dataset-frontierscience-gpt41mini": 6.7591,
+        "ollama:qwen3.5:9b": 0.0
+      },
+      "stage_2_review": 114.7305,
+      "stage_3_evaluation": 6.3949,
+      "metadata": 6.5962,
+      "total": 142.1728
+    }
+  },
+  "pipeline": [
+    {
+      "article_id": 1,
+      "fever_id": "1999_Detroit_Lions_season",
+      "source_language": "en",
+      "mode": "consensus",
+      "candidates": [
+        {
+          "model": "foundry:dataset-frontierscience-mistral-large",
+          "translated_at": "2026-07-01T19:08:50.667038",
+          "char_count": 1069,
+          "text": "La temporada 1999 de los Detroit Lions fue su 70.ª en la liga. El equipo mejoró su rendimiento de la temporada anterior, que había sido de 5-11, y se clasificó para los playoffs, donde perdió ante los Washington Redskins en la ronda de comodines. Esta fue su última aparición en playoffs hasta la temporada 2011. En 2004, Mike Tanier de Football Outsiders nombró a los Lions de 1999 como uno de los \"peores equipos en playoffs de la historia\":\n\nLos Lions acababan de perder a Barry Sanders y tenían como quarterback titular a Charlie Batch, en su segundo año como profesional. Venían de una temporada de 5-11. Las expectativas no eran altas, pero un inicio de 6-2 convirtió a los Lions en un contendiente sorpresa a mitad de temporada. Sin embargo, pronto llegó la realidad, y los Lions perdieron sus últimos cuatro partidos seguidos. Otros dos equipos de la NFC terminaron con marca de 8-8, pero los Lions habían vencido a los Panthers durante la temporada y tenían el desempate sobre los Packers. Los Redskins los derrotaron 27-13 en la primera ronda de los playoffs."
+        },
+        {
+          "model": "azure:dataset-frontierscience-gpt41mini",
+          "translated_at": "2026-07-01T19:08:50.936902",
+          "char_count": 1059,
+          "text": "La temporada 1999 de los Detroit Lions fue su 70ª en la liga. El equipo mejoró su rendimiento respecto a la temporada anterior de 5-11 y se clasificó para los playoffs, donde perdió contra los Washington Redskins en la ronda de comodines. Esta fue su última aparición en playoffs hasta la temporada 2011. En 2004, Mike Tanier de Football Outsiders nombró a los Lions de 1999 como uno de los \"peores equipos de playoffs de la historia\": Los Lions acababan de perder a Barry Sanders y estaban comenzando con el mariscal de campo Charlie Batch, en su segundo año como profesional. Venían de una temporada de 5-11. Las expectativas no eran altas, pero un inicio de 6-2 convirtió a los Lions en un contendiente sorpresa a mitad de temporada. Sin embargo, la realidad pronto se impuso y los Lions perdieron sus últimos cuatro partidos consecutivos. Otros dos equipos de la NFC terminaron 8-8, pero los Lions vencieron a los Panthers durante la temporada y tenían el desempate sobre los Packers. Los Redskins los derrotaron 27-13 en la ronda inicial de los playoffs."
+        },
+        {
+          "model": "ollama:qwen3.5:9b",
+          "translated_at": "2026-07-01T19:10:45.832528",
+          "char_count": 1084,
+          "text": "La temporada de los Detroit Lions de 1999 fue su 70.ª en la liga. El equipo superó el rendimiento de la temporada anterior de 5-11 y clasificó para los playoffs, donde perdieron contra los Washington Redskins en la ronda de comodines. Este fue su último aparición en los playoffs hasta la temporada de 2011. En 2004, Mike Tanier de Football Outsiders nombró a los Lions de 1999 como uno de los ``equipos de playoffs peores de la historia``: Los Lions acababan de perder a Barry Sanders y estaban comenzando a Charlie Batch, un profesional de segundo año, como quarterback. Habían salido de una temporada de 5-11. Las expectativas no eran altas, pero un inicio de 6-2 convirtió a los Lions en un contendiente sorpresa a la mitad de la temporada. Pronto, la realidad se impuso, y los Lions perdieron sus últimos cuatro partidos consecutivos. Otros dos equipos de la NFC terminaron con un registro de 8-8, pero los Lions vencieron a los Panthers durante la temporada y mantuvieron el desempate sobre los Packers. Los Redskins los derrotaron por 27-13 en la ronda inicial de los playoffs."
+        }
+      ],
+      "review": {
+        "model": "azure:dataset-frontierscience-gpt41",
+        "critique": {
+          "candidates_analysis": [
+            {
+              "model": "foundry:dataset-frontierscience-mistral-large",
+              "strengths": [
+                "Traducción fluida y natural",
+                "Terminología deportiva precisa",
+                "Buena segmentación de oraciones",
+                "Respeta el tono informativo del original"
+              ],
+              "weaknesses": [
+                "Ligera omisión en la traducción de 'opening round' como 'primera ronda' en vez de 'ronda inicial'",
+                "Podría aclarar más la frase 'tenían el desempate sobre los Packers'"
+              ],
+              "score": 93
+            },
+            {
+              "model": "azure:dataset-frontierscience-gpt41mini",
+              "strengths": [
+                "Traducción precisa y clara",
+                "Buena adaptación de términos deportivos",
+                "Mantiene la estructura y sentido del original"
+              ],
+              "weaknesses": [
+                "Traducción de 'ronda inicial' en vez de 'ronda de comodines' para 'opening round'",
+                "Uso de 'mariscal de campo' puede ser menos común en España, aunque correcto en Latinoamérica",
+                "Menor naturalidad en algunas frases"
+              ],
+              "score": 91
+            },
+            {
+              "model": "ollama:qwen3.5:9b",
+              "strengths": [
+                "Traducción mayormente fiel al original",
+                "Intenta mantener la estructura y detalles"
+              ],
+              "weaknesses": [
+                "Errores gramaticales ('su último aparición')",
+                "Traducción literal en partes ('estaban comenzando a Charlie Batch')",
+                "Menos naturalidad y fluidez",
+                "Uso incorrecto de comillas para citas",
+                "Algunas frases suenan forzadas o poco idiomáticas"
+              ],
+              "score": 80
+            }
+          ],
+          "decision": "El candidato 1 es el más natural, preciso y fluido. Usaría el candidato 1 como base, corrigiendo 'primera ronda' por 'ronda de comodines' para mayor precisión y revisando la frase sobre el desempate para mayor claridad ('tenían la ventaja en el desempate sobre los Packers')."
+        },
+        "reviewed_at": "2026-07-01T19:10:52.982663"
+      },
+      "evaluation": {
+        "clarity": 98,
+        "fidelity": 98,
+        "completeness": 100,
+        "fluency": 98,
+        "errors": [
+          "Uso inconsistente de comillas: el original usa comillas inglesas dobles `` '', la traducción usa comillas dobles normales \"\".",
+          "Traducción de 'Wild Card round' como 'ronda de comodines' es correcta, aunque 'ronda de wild card' es también común en español deportivo."
+        ],
+        "overall_score": 97,
+        "char_ratio": 1.165,
+        "model": "azure:dataset-frontierscience-gpt41mini",
+        "evaluated_at": "2026-07-01T19:10:55.031950"
+      },
+      "token_usage": {
+        "stage_1_translation": {
+          "foundry:dataset-frontierscience-mistral-large": {
+            "prompt_tokens": 555,
+            "completion_tokens": 263,
+            "total_tokens": 818
+          },
+          "azure:dataset-frontierscience-gpt41mini": {
+            "prompt_tokens": 535,
+            "completion_tokens": 244,
+            "total_tokens": 779
+          },
+          "ollama:qwen3.5:9b": {
+            "prompt_tokens": 573,
+            "completion_tokens": 271,
+            "total_tokens": 844
+          }
+        },
+        "stage_2_review": {
+          "prompt_tokens": 2472,
+          "completion_tokens": 669,
+          "total_tokens": 3141
+        },
+        "stage_3_evaluation": {
+          "prompt_tokens": 1038,
+          "completion_tokens": 120,
+          "total_tokens": 1158
+        },
+        "metadata": {
+          "prompt_tokens": 830,
+          "completion_tokens": 192,
+          "total_tokens": 1022
+        },
+        "cost_usd": {
+          "stage_1_translation": {
+            "foundry:dataset-frontierscience-mistral-large": 0.000672,
+            "azure:dataset-frontierscience-gpt41mini": 0.000604,
+            "ollama:qwen3.5:9b": 0.0
+          },
+          "stage_2_review": 0.010296,
+          "stage_3_evaluation": 0.000607,
+          "metadata": 0.000639,
+          "total_usd": 0.012819
+        }
+      }
+    },
+    {
+      "article_id": 2,
+      "fever_id": "1952_United_States_Olympic_Trials_-LRB-track_and_field-RRB-",
+      "source_language": "en",
+      "mode": "consensus",
+      "candidates": [
+        {
+          "model": "foundry:dataset-frontierscience-mistral-large",
+          "translated_at": "2026-07-01T19:11:01.263040",
+          "char_count": 1400,
+          "text": "Los Trials Olímpicos masculinos de atletismo de Estados Unidos de 1952 se celebraron en el Los Angeles Memorial Coliseum de Los Ángeles, California, entre el 27 y el 28 de junio. Los trials de marcha atlética de 10 kilómetros tuvieron lugar en la ciudad de Nueva York el 1 de junio, y los de 50 kilómetros se disputaron el 4 de mayo en Baltimore, Maryland. Los trials de maratón se llevaron a cabo en dos carreras: los Campeonatos Nacionales de la AAU en Yonkers, Nueva York, tanto en 1951 como en 1952, el 27 de mayo de 1951 y el 18 de mayo de 1952, y el Maratón de Boston en Boston, Massachusetts, el 19 de abril. Victor Dyrgall y Tom Jones terminaron primero y segundo en ambas carreras de 1952 para asegurar su clasificación. John Lafferty, quien había quedado segundo en 1951, fue seleccionado tras finalizar quinto en la misma carrera en 1952. Los 10.000 metros se disputaron en Long Beach, California, el 20 de junio.\n\nEl decatlón se celebró una semana después de los trials, los días 1 y 2 de julio, en la pista local del campeón olímpico defensor, Bob Mathias, en Tulare, California.\n\nLos Trials Olímpicos femeninos se realizaron por separado en Harrisburg, Pensilvania, el 1 de julio. En las pruebas femeninas ni siquiera se registraron los tiempos de las atletas que no ganaron. Las mujeres lanzaron el implemento de 8 libras de tamaño estadounidense. El proceso fue organizado por la AAU."
+        },
+        {
+          "model": "azure:dataset-frontierscience-gpt41mini",
+          "translated_at": "2026-07-01T19:11:01.644987",
+          "char_count": 1363,
+          "text": "Las pruebas olímpicas de atletismo masculinas de Estados Unidos de 1952 se llevaron a cabo en el Los Angeles Memorial Coliseum en Los Ángeles, California, entre el 27 y 28 de junio. Las pruebas de marcha de 10 kilómetros se realizaron en la ciudad de Nueva York el 1 de junio, y las de marcha de 50 kilómetros se celebraron el 4 de mayo en Baltimore, Maryland. Se llevaron a cabo tres pruebas de maratón en dos carreras: los Campeonatos Nacionales de la AAU en Yonkers, Nueva York, tanto en 1951 como en 1952, el 27 de mayo de 1951 y el 18 de mayo de 1952, y el Maratón de Boston en Boston, Massachusetts, el 19 de abril. Victor Dyrgall y Tom Jones terminaron primero y segundo en ambas carreras de 1952 para ganar la selección. John Lafferty, segundo en 1951, fue seleccionado tras terminar quinto en la misma carrera en 1952. La prueba de 10,000 metros se realizó en Long Beach, California, el 20 de junio.\n\nEl decatlón se celebró una semana después de las pruebas, el 1 y 2 de julio, en la pista local del campeón olímpico defensor, Bob Mathias, en Tulare, California.\n\nLas pruebas olímpicas femeninas se realizaron por separado en Harrisburg, Pennsylvania, el 1 de julio. En las pruebas femeninas ni siquiera se registraron los tiempos de quienes no ganaron. Las mujeres lanzaron el implemento estadounidense de 8 libras. El proceso fue organizado por la AAU."
+        },
+        {
+          "model": "ollama:qwen3.5:9b",
+          "translated_at": "2026-07-01T19:13:37.402685",
+          "char_count": 1399,
+          "text": "Las pruebas olímpicas de Estados Unidos de 1952 para atletismo masculino se celebraron en el Los Angeles Memorial Coliseum, en Los Ángeles, California, entre el 27 y el 28 de junio. Las pruebas de marcha de 10 kilómetros se celebraron en la ciudad de Nueva York el 1 de junio, y las pruebas de marcha de 50 kilómetros se celebraron el 4 de mayo en Baltimore, Maryland. Tres pruebas de maratón se celebraron entre dos carreras: los Campeonatos Nacionales de la AAU en Yonkers, Nueva York, para ambos años 1951 y 1952, el 27 de mayo de 1951 y el 18 de mayo de 1952, y la Maratón de Boston en Boston, Massachusetts, el 19 de abril. Victor Dyrgall y Tom Jones terminaron en los puestos 1 y 2 en ambas carreras de 1952 para ganar la selección. El segundo clasificado de 1951, John Lafferty, fue seleccionado después de terminar quinto en la misma carrera en 1952. La prueba de 10.000 metros se celebró en Long Beach, California, el 20 de junio. El decatlón se celebró una semana después de las pruebas, el 1 y 2 de julio, en la pista de la ciudad natal del campeón olímpico en funciones, Bob Mathias, en Tulare, California. Las pruebas olímpicas femeninas se celebraron por separado en Harrisburg, Pennsylvania, el 1 de julio. Las pruebas femeninas no registraron incluso tiempos no ganadores. Las mujeres lanzaron el implemento de 8 libras de tamaño estadounidense. El proceso fue organizado por la AAU."
+        }
+      ],
+      "review": {
+        "model": "azure:dataset-frontierscience-gpt41",
+        "critique": {
+          "candidates_analysis": [
+            {
+              "model": "foundry:dataset-frontierscience-mistral-large",
+              "strengths": [
+                "Traducción fluida y natural",
+                "Buena segmentación de la información",
+                "Uso correcto de términos técnicos deportivos",
+                "Adecuada adaptación cultural"
+              ],
+              "weaknesses": [
+                "Traduce 'Trials' como 'Trials Olímpicos' en vez de 'Pruebas Olímpicas'",
+                "Algunas frases pueden ser más precisas ('asegurar su clasificación' puede ser 'ganar la selección')",
+                "Uso inconsistente de nombres de ciudades en español/inglés ('Los Ángeles', 'Long Beach')"
+              ],
+              "score": 87
+            },
+            {
+              "model": "azure:dataset-frontierscience-gpt41mini",
+              "strengths": [
+                "Traducción clara y precisa",
+                "Uso correcto de 'pruebas olímpicas'",
+                "Buena estructura y segmentación",
+                "Terminología deportiva adecuada"
+              ],
+              "weaknesses": [
+                "Traducción literal en algunas partes ('ganar la selección' podría mejorarse)",
+                "Uso inconsistente de nombres de ciudades ('Pennsylvania' en vez de 'Pensilvania')",
+                "Algunas frases pueden sonar forzadas ('quienes no ganaron')"
+              ],
+              "score": 90
+            },
+            {
+              "model": "ollama:qwen3.5:9b",
+              "strengths": [
+                "Traducción fiel al original",
+                "Buena segmentación de la información",
+                "Uso correcto de términos técnicos"
+              ],
+              "weaknesses": [
+                "Repetición excesiva de 'se celebraron'",
+                "Traducción literal en varias partes ('no registraron incluso tiempos no ganadores')",
+                "Menos naturalidad en el flujo del texto",
+                "Algunas frases son confusas o poco claras"
+              ],
+              "score": 80
+            }
+          ],
+          "decision": "El candidato 2 es el más equilibrado en precisión, claridad y naturalidad. Usaría el candidato 2 como base, mejorando la naturalidad de frases como 'ganar la selección' (puede ser 'asegurar su clasificación') y uniformando los nombres de ciudades ('Pensilvania' en vez de 'Pennsylvania'). También revisaría la frase sobre los tiempos no ganadores para mayor claridad."
+        },
+        "reviewed_at": "2026-07-01T19:13:44.782365"
+      },
+      "evaluation": {
+        "clarity": 98,
+        "fidelity": 98,
+        "completeness": 100,
+        "fluency": 98,
+        "errors": [],
+        "overall_score": 98,
+        "char_ratio": 1.174,
+        "model": "azure:dataset-frontierscience-gpt41mini",
+        "evaluated_at": "2026-07-01T19:13:45.842646"
+      },
+      "token_usage": {
+        "stage_1_translation": {
+          "foundry:dataset-frontierscience-mistral-large": {
+            "prompt_tokens": 639,
+            "completion_tokens": 377,
+            "total_tokens": 1016
+          },
+          "azure:dataset-frontierscience-gpt41mini": {
+            "prompt_tokens": 609,
+            "completion_tokens": 345,
+            "total_tokens": 954
+          },
+          "ollama:qwen3.5:9b": {
+            "prompt_tokens": 662,
+            "completion_tokens": 387,
+            "total_tokens": 1049
+          }
+        },
+        "stage_2_review": {
+          "prompt_tokens": 3258,
+          "completion_tokens": 811,
+          "total_tokens": 4069
+        },
+        "stage_3_evaluation": {
+          "prompt_tokens": 1215,
+          "completion_tokens": 49,
+          "total_tokens": 1264
+        },
+        "metadata": {
+          "prompt_tokens": 1015,
+          "completion_tokens": 207,
+          "total_tokens": 1222
+        },
+        "cost_usd": {
+          "stage_1_translation": {
+            "foundry:dataset-frontierscience-mistral-large": 0.000885,
+            "azure:dataset-frontierscience-gpt41mini": 0.000796,
+            "ollama:qwen3.5:9b": 0.0
+          },
+          "stage_2_review": 0.013004,
+          "stage_3_evaluation": 0.000564,
+          "metadata": 0.000737,
+          "total_usd": 0.015986
+        }
+      }
+    }
+  ],
+  "_sample_note": "2 of 9998 traced entries. Full file: corpus/pipeline/fever_selected_pipeline_260712_212751.json.gz. The 'summary' block above reports totals for the complete run, not for this sample."
+}

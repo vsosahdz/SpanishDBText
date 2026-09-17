@@ -1,0 +1,1007 @@
+file,chapter_id,titulo,palabras,chars_texto,speakers_total,speakers_unicos,tema,bin_size,tokens_est,costo_est_usd
+ep-09-05-07-009-01.txt,009-01,1. Gender mainstreaming in EU external relations (,202,1270,1,1,foreign_affairs,small (500-1K),317,0.007988400000000001
+ep-09-05-07-009-03.txt,009-03,3. Financial aspects of the Lisbon Treaty (,231,1242,1,1,institutional,small (500-1K),310,0.007812
+ep-09-05-07-010.txt,010,Explanations of vote,12282,74440,72,37,institutional,xlarge (8K-15K),18610,0.468972
+ep-09-05-07-013-01.txt,013-01,1. Iran: the case of Roxana Saberi,2869,17045,14,12,foreign_affairs,med-large (2K-4K),4261,0.1073772
+ep-09-05-07-013-02.txt,013-02,2. Madagascar,2594,15948,11,10,environment_energy,med-large (2K-4K),3987,0.1004724
+ep-09-05-07-013-03.txt,013-03,3. Venezuela: the case of Manuel Rosales,2722,16233,13,12,other,med-large (2K-4K),4058,0.10226160000000001
+ep-09-07-14-001.txt,001,Opening of the sitting (first sitting of the newly elected Parliament),219,1304,1,1,institutional,small (500-1K),326,0.0082152
+ep-09-07-14-007.txt,007,Election of the President of the European Parliament,4099,23312,15,12,economy_finance,large (4K-8K),5828,0.1468656
+ep-09-07-14-009.txt,009,"Election of Vice-Presidents (first, second and third ballots)",251,1344,6,5,other,small (500-1K),336,0.008467200000000001
+ep-09-07-15-002.txt,002,Signature of acts adopted under codecision: see Minutes,226,1302,4,2,institutional,small (500-1K),325,0.00819
+ep-09-07-15-004.txt,004,Outcome of the European Council (18-19 June 2009) - Term in office of the Czech Presidency (debate),11164,66051,29,24,institutional,xlarge (8K-15K),16512,0.41610240000000004
+ep-09-07-15-005.txt,005,Presentation of the work programme of the Swedish Presidency (debate),22438,130712,56,51,institutional,xlarge (8K-15K),32678,0.8234855999999999
+ep-09-07-15-006-01.txt,006-01,"1. Election of Quaestors of Parliament (first, second and third ballots)",246,1360,4,4,institutional,small (500-1K),340,0.008568
+ep-09-07-15-008.txt,008,Iran (debate),9054,53192,35,30,foreign_affairs,xlarge (8K-15K),13298,0.3351096
+ep-09-07-15-009.txt,009,China (debate),6455,38171,23,21,foreign_affairs,large (4K-8K),9542,0.24045840000000002
+ep-09-07-15-010.txt,010,Honduras (debate),3939,23724,14,12,other,med-large (2K-4K),5931,0.14946120000000002
+ep-09-07-16-005.txt,005,Announcement by the President,256,1538,1,1,other,small (500-1K),384,0.009676800000000001
+ep-09-09-14-002.txt,002,Statements by the President,278,1540,1,1,other,small (500-1K),385,0.009702
+ep-09-09-14-015.txt,015,Order of business,1235,6869,7,5,other,medium (1K-2K),1717,0.0432684
+ep-09-09-14-017.txt,017,Explanations of vote,732,4395,4,2,institutional,small (500-1K),1098,0.027669600000000003
+ep-09-09-14-019.txt,019,One-minute speeches on matters of political importance,7123,42471,45,40,trade_market,large (4K-8K),10617,0.2675484
+ep-09-09-14-020.txt,020,"Restructuring of the European car industry, in particular the Opel case (debate)",13604,78940,46,37,economy_finance,xlarge (8K-15K),19735,0.497322
+ep-09-09-14-021.txt,021,Forest fires in the summer of 2009 (debate),12057,73045,38,36,other,xlarge (8K-15K),18261,0.4601772
+ep-09-09-14-022.txt,022,Free trade agreement with South Korea: impact on European industry (debate),5751,33782,18,15,trade_market,large (4K-8K),8445,0.212814
+ep-09-09-14-023.txt,023,The effects of the global financial and economic crisis on developing countries and on development cooperation (debate),4448,26856,12,10,development_aid,large (4K-8K),6714,0.1691928
+ep-09-09-15-003.txt,003,Presentation by the Council of the draft general budget for the 2010 financial year (debate),3373,20549,9,6,economy_finance,med-large (2K-4K),5137,0.1294524
+ep-09-09-15-004.txt,004,"Immigration, the role of Frontex and cooperation among Member States (debate)",12506,76100,38,33,human_rights,xlarge (8K-15K),19025,0.47943
+ep-09-09-15-006.txt,006,Explanations of vote,3204,19495,28,18,institutional,med-large (2K-4K),4873,0.12279960000000001
+ep-09-09-15-008.txt,008,Inaugural address by the President of the European Parliament,13723,79986,32,29,economy_finance,xlarge (8K-15K),19996,0.5038992
+ep-09-09-15-009.txt,009,Approval of the minutes of the previous sitting,529,3245,3,3,institutional,small (500-1K),811,0.0204372
+ep-09-09-15-012.txt,012,Question Time (Commission),7849,49006,39,18,institutional,large (4K-8K),12251,0.30872520000000003
+ep-09-09-16-004.txt,004,G20 Summit in Pittsburgh (24-25 September) (debate),13273,79327,41,38,foreign_affairs,xlarge (8K-15K),19831,0.4997412
+ep-09-09-16-005.txt,005,SWIFT (debate),3851,22755,12,8,other,med-large (2K-4K),5688,0.1433376
+ep-09-09-16-006.txt,006,EU strategy for the Baltic Sea area (debate),8146,49026,30,27,other,xlarge (8K-15K),12256,0.3088512
+ep-09-09-16-007-01.txt,007-01,1. Election of President of Commission (vote),945,5382,5,3,institutional,small (500-1K),1345,0.033894
+ep-09-09-16-008.txt,008,Explanations of vote,6978,42358,38,31,institutional,large (4K-8K),10589,0.2668428
+ep-09-09-16-010.txt,010,Financial services (signature of the acts),625,3758,3,2,economy_finance,small (500-1K),939,0.023662799999999998
+ep-09-09-16-013.txt,013,Conclusion of a Partnership and Cooperation Agreement between the EC and the Republic of Tajikistan (debate),6204,37760,21,17,foreign_affairs,large (4K-8K),9440,0.237888
+ep-09-09-16-014.txt,014,"New regulations on visas for Western Balkan countries (Former Yugoslav Republic of Macedonia, Montenegro, Serbia) (debate)",12057,71955,42,39,justice_security,xlarge (8K-15K),17988,0.4532976
+ep-09-09-16-015.txt,015,Situation in Lithuania following the adoption of the law on protection of minors (debate),6560,39791,25,22,other,large (4K-8K),9947,0.2506644
+ep-09-09-16-016.txt,016,Question Time (Council),7796,46440,40,14,institutional,large (4K-8K),11610,0.292572
+ep-09-09-17-002.txt,002,Crisis in the dairy farming sector (debate),12248,71619,49,46,agriculture_food,xlarge (8K-15K),17904,0.45118080000000005
+ep-09-09-17-003.txt,003,Energy security (Nabucco and Desertec) (debate),14799,88294,60,56,environment_energy,xlarge (8K-15K),22073,0.5562396
+ep-09-09-17-005.txt,005,Explanations of vote,10068,60619,67,46,institutional,xlarge (8K-15K),15154,0.38188079999999996
+ep-09-09-17-008.txt,008,Situation in Taiwan following the recent typhoon (debate),3706,22793,16,14,other,med-large (2K-4K),5698,0.1435896
+ep-09-09-17-009-01.txt,009-01,1. Murder of human rights activists in Russia,4808,28479,21,20,foreign_affairs,large (4K-8K),7119,0.17939880000000002
+ep-09-09-17-009-02.txt,009-02,2. Kazakhstan: the case of Yevgeny Zhovtis,2020,11871,11,10,other,med-large (2K-4K),2967,0.07476840000000001
+ep-09-09-17-009-03.txt,009-03,3. Syria: the case of Muhannad Al Hassani,2242,13447,11,10,other,med-large (2K-4K),3361,0.0846972
+ep-09-10-07-002.txt,002,Statements by the President,820,4676,3,2,other,small (500-1K),1169,0.029458800000000004
+ep-09-10-07-012.txt,012,Order of business,1545,8850,13,9,other,medium (1K-2K),2212,0.055742400000000004
+ep-09-10-07-014.txt,014,Explanations of vote,641,3904,5,5,institutional,small (500-1K),976,0.0245952
+ep-09-10-07-017.txt,017,Situation in Guinea (debate),4537,27050,14,12,other,large (4K-8K),6762,0.17040239999999998
+ep-09-10-07-018.txt,018,One-minute speeches on matters of political importance,7499,44774,41,40,trade_market,large (4K-8K),11193,0.2820636
+ep-09-10-07-021.txt,021,Prevention and settlement of conflicts of jurisdiction in criminal proceedings (debate),3333,20544,15,12,justice_security,med-large (2K-4K),5136,0.12942720000000002
+ep-09-10-07-022.txt,022,Passenger compensation in the event of airline bankruptcy (debate),6455,38857,21,19,economy_finance,large (4K-8K),9714,0.2447928
+ep-09-10-07-023.txt,023,Report on the application of Council Regulation (EC) No 2157/2001 of 8 October 2001 on the Statute for a European company (SE) (debate),1391,8219,7,5,economy_finance,medium (1K-2K),2054,0.0517608
+ep-09-10-08-005.txt,005,Freedom of information in Italy (debate),17012,100151,63,52,human_rights,xlarge (8K-15K),25037,0.6309324000000001
+ep-09-10-08-008.txt,008,Explanations of vote,10853,66504,77,54,institutional,xlarge (8K-15K),16626,0.4189752
+ep-09-10-19-002.txt,002,Statement by the President,531,3254,1,1,other,small (500-1K),813,0.0204876
+ep-09-10-19-015.txt,015,Order of business,982,5675,7,5,other,small (500-1K),1418,0.0357336
+ep-09-10-19-016.txt,016,One-minute speeches on matters of political importance,7094,42821,45,42,trade_market,large (4K-8K),10705,0.269766
+ep-09-10-19-017.txt,017,Evaluation mechanism to monitor the application of the Schengen acquis - Establishment of an evaluation mechanism to verify the application of the Schengen acquis (debate),10723,64738,33,30,justice_security,xlarge (8K-15K),16184,0.4078368
+ep-09-10-19-018.txt,018,Agreement between the EC and Mauritius on the short-stay visa waiver - Agreement between the EC and Seychelles on the short-stay visa waiver - Agreement between the EC and Barbados on the short-stay visa waiver - Agreement between the EC and Saint Kitts and Nevis on the short-stay visa waiver - Agreement between the EC and Antigua and Barbuda on the short-stay visa waiver - Agreement between the EC and The Bahamas on the short-stay visa waiver (debate),2144,12881,8,5,justice_security,med-large (2K-4K),3220,0.081144
+ep-09-10-19-019.txt,019,Progress of SIS II and VIS (debate),6008,34355,14,12,other,large (4K-8K),8588,0.21641760000000002
+ep-09-10-20-004.txt,004,Decision on urgent procedure,1141,6653,3,3,other,medium (1K-2K),1663,0.041907599999999996
+ep-09-10-20-005.txt,005,Climate change and developing countries in the framework of the UN Conference on Climate Change in Copenhagen (debate),23729,142839,94,89,environment_energy,xlarge (8K-15K),35709,0.8998668000000001
+ep-09-10-20-007-22.txt,007-22,22. Evaluation mechanism to monitor the application of the Schengen acquis (,366,2277,3,3,justice_security,small (500-1K),569,0.0143388
+ep-09-10-20-008.txt,008,Explanations of vote,8123,50202,68,33,institutional,xlarge (8K-15K),12550,0.31626
+ep-09-10-20-011.txt,011,Question Hour with the President of the Commission,9995,57715,71,26,institutional,xlarge (8K-15K),14428,0.3635856
+ep-09-10-20-012.txt,012,"Draft general budget 2010 (Sections I, II, IV, V, VI, VII, VIII, IX) - Draft general budget 2010 (Section III) (debate)",17197,102346,61,53,economy_finance,xlarge (8K-15K),25586,0.6447672000000001
+ep-09-10-20-013.txt,013,Democracy building in external relations (debate),4018,24933,12,9,foreign_affairs,large (4K-8K),6233,0.1570716
+ep-09-10-20-014.txt,014,Question Time (Commission),10889,67275,48,19,institutional,xlarge (8K-15K),16818,0.4238136
+ep-09-10-20-015.txt,015,Modification of Regulation (EC) No 1234/2007 (the 'Single CMO Regulation') (debate),9304,53289,39,36,other,xlarge (8K-15K),13322,0.3357144
+ep-09-10-21-003-01.txt,003-01,1. Freedom of information in Italy and other Member States of the European Union (vote),1457,8656,14,8,economy_finance,medium (1K-2K),2164,0.054532800000000006
+ep-09-10-21-004.txt,004,Explanations of vote,9166,54641,53,52,institutional,xlarge (8K-15K),13660,0.344232
+ep-09-10-21-007.txt,007,Welcome,233,1395,1,1,other,small (500-1K),348,0.0087696
+ep-09-10-21-008.txt,008,The institutional aspects of the creation of a European external action service - Creation of a European external action service: State of the negotiations with Member States (debate),16260,97514,59,50,economy_finance,xlarge (8K-15K),24378,0.6143256
+ep-09-10-21-009.txt,009,Preparation of the TEC meeting and the EU/USA Summit (2 and 3 November 2009) - Transatlantic judicial and police cooperation (debate),11826,70791,34,31,justice_security,xlarge (8K-15K),17697,0.44596440000000004
+ep-09-10-21-010.txt,010,Question Time (Council),9145,55014,49,14,institutional,xlarge (8K-15K),13753,0.34657560000000004
+ep-09-10-22-004.txt,004,Problem of limited access of developing countries to some vaccines (debate),3149,18991,12,8,health_consumer,med-large (2K-4K),4747,0.1196244
+ep-09-10-22-005.txt,005,Financial and economic situation in Moldova (debate),6755,41206,25,23,economy_finance,large (4K-8K),10301,0.2595852
+ep-09-10-22-006.txt,006,Report of the Independent International Fact-Finding Mission on the Conflict in Georgia (debate),4969,30755,20,16,transport_infrastructure,large (4K-8K),7688,0.1937376
+ep-09-10-22-007.txt,007,Sakharov Prize 2009 (announcement of the winner),525,3134,1,1,other,small (500-1K),783,0.019731600000000002
+ep-09-10-22-008-01.txt,008-01,1. Draft general budget of the European Union - 2010 financial year (vote),1724,9877,16,8,economy_finance,medium (1K-2K),2469,0.062218800000000005
+ep-09-10-22-009.txt,009,Explanations of vote,12360,74806,74,48,institutional,xlarge (8K-15K),18701,0.4712652
+ep-09-10-22-012-01.txt,012-01,1. Guinea,4098,24568,21,20,other,large (4K-8K),6142,0.15477839999999998
+ep-09-10-22-012-02.txt,012-02,2. Iran,4409,26536,23,21,foreign_affairs,large (4K-8K),6634,0.16717680000000001
+ep-09-10-22-012-03.txt,012-03,3. Sri Lanka,2903,17460,15,14,other,med-large (2K-4K),4365,0.109998
+ep-09-11-11-001.txt,001,Formal sitting - 20th anniversary of the democratic change in Central and Eastern Europe,4074,24197,3,2,economy_finance,large (4K-8K),6049,0.1524348
+ep-09-11-11-012.txt,012,Order of business,539,3024,6,5,other,small (500-1K),756,0.0190512
+ep-09-11-11-013.txt,013,"Outcome of the European Council on 29 and 30 October 2009 including the mandate and attributions of the President of the European Council and of the High Representative of the Union for the foreign and security policy/Vice-president of the Commission, as well as the structure of the new Commission (debate)",11096,63844,20,18,institutional,xlarge (8K-15K),15961,0.4022172
+ep-09-11-11-015.txt,015,"Outcome of the European Council on 29 and 30 October 2009 including the mandate and attributions of the President of the European Council and of the High Representative of the Union for the foreign and security policy/Vice-president of the Commission, as well as the structure of the new Commission (continuation of debate)",12315,72049,51,50,institutional,xlarge (8K-15K),18012,0.45390240000000004
+ep-09-11-11-016.txt,016,EU-Russia Summit on 18 November 2009 in Stockholm (debate),10802,64177,35,32,foreign_affairs,xlarge (8K-15K),16044,0.40430879999999997
+ep-09-11-11-017.txt,017,Implementation of the Services Directive (debate),8691,52834,26,23,other,xlarge (8K-15K),13208,0.3328416
+ep-09-11-11-018.txt,018,"Joint Programming of research to combat neurodegenerative diseases, in particular Alzheimer's disease (debate)",5129,31877,24,22,economy_finance,large (4K-8K),7969,0.20081880000000002
+ep-09-11-11-019.txt,019,One-minute speeches on matters of political importance,5624,33893,33,31,trade_market,large (4K-8K),8473,0.2135196
+ep-09-11-11-020.txt,020,Third country nationals subject to or exempt from a visa requirement when crossing external borders (debate),5284,31025,21,15,foreign_affairs,large (4K-8K),7756,0.19545120000000002
+ep-09-11-11-021.txt,021,Medium-term financial assistance for Member States' balances of payments and social conditionality (debate),5311,31932,21,19,economy_finance,large (4K-8K),7983,0.2011716
+ep-09-11-11-022.txt,022,Political situation in Honduras with a view to the elections on 29 November 2009 (debate),4330,26426,18,16,other,large (4K-8K),6606,0.1664712
+ep-09-11-11-023.txt,023,'made in' (origin marking) (debate),5042,29525,17,15,other,large (4K-8K),7381,0.1860012
+ep-09-11-12-005.txt,005,The European Ombudsman's activities (2008) (debate),11121,67210,36,33,economy_finance,xlarge (8K-15K),16802,0.4234104
+ep-09-11-12-006.txt,006,Transitional procedural guidelines on budgetary matters in view of the entry into force of the Lisbon Treaty (debate),4719,27977,20,17,institutional,large (4K-8K),6994,0.1762488
+ep-09-11-12-007.txt,007,Approval of the minutes of the previous sitting: see Minutes,335,1745,2,2,institutional,small (500-1K),436,0.0109872
+ep-09-11-12-008-01.txt,008-01,1. Third country nationals subject to or exempt from a visa requirement when crossing external borders (,525,3151,4,4,foreign_affairs,small (500-1K),787,0.0198324
+ep-09-11-12-008-03.txt,008-03,3. EU - Russia Summit on 18 November 2009 in Stockholm (vote),354,2122,3,2,foreign_affairs,small (500-1K),530,0.013356
+ep-09-11-12-009.txt,009,Explanations of vote,635,3674,4,4,institutional,small (500-1K),918,0.0231336
+ep-09-11-12-011.txt,011,Explanations of vote (continuation),9653,60396,65,40,institutional,xlarge (8K-15K),15099,0.38049479999999997
+ep-09-11-23-002.txt,002,Statement by the President,274,1610,1,1,other,small (500-1K),402,0.0101304
+ep-09-11-23-014.txt,014,One-minute speeches on matters of political importance,3397,20677,21,20,trade_market,med-large (2K-4K),5169,0.1302588
+ep-09-11-23-016.txt,016,One-minute speeches on matters of political importance (continuation),3738,22794,23,22,trade_market,med-large (2K-4K),5698,0.1435896
+ep-09-11-23-017.txt,017,Electronic communication networks and services (debate),8353,49955,29,26,technology_digital,xlarge (8K-15K),12488,0.3146976
+ep-09-11-23-018.txt,018,"European Crime Prevention Network (EUCPN) - Rules on the confidentiality of Europol information - Implementing rules governing Europol's relations with partners, including the exchange of personal data and classified information - List of third States and organisations for Europol agreements - Implementing rules for Europol analysis work files - Accreditation of forensic laboratory activities (debate)",12028,72059,34,27,economy_finance,xlarge (8K-15K),18014,0.45395280000000005
+ep-09-11-23-019.txt,019,Use of information technology for customs purposes (debate),2121,12840,8,6,trade_market,med-large (2K-4K),3210,0.080892
+ep-09-11-23-020.txt,020,Macro-financial assistance to Georgia - Macro-financial assistance to Armenia - Macro-financial assistance to Serbia - Macro-financial assistance to Bosnia and Herzegovina (debate),4174,25975,15,10,economy_finance,large (4K-8K),6493,0.1636236
+ep-09-11-23-021.txt,021,Adaptation of the European Parliament's Rules of Procedure to the Lisbon Treaty (debate),5535,32328,27,16,institutional,large (4K-8K),8082,0.2036664
+ep-09-11-24-003.txt,003,Preparation of the Copenhagen Summit on climate change (debate),23871,141449,85,79,environment_energy,xlarge (8K-15K),35362,0.8911224
+ep-09-11-24-004-02.txt,004-02,2. Statistics on pesticides (,221,1309,1,1,agriculture_food,small (500-1K),327,0.0082404
+ep-09-11-24-005.txt,005,Explanations of vote,10259,64318,75,37,institutional,xlarge (8K-15K),16079,0.40519079999999996
+ep-09-11-24-008.txt,008,Question Hour with the President of the Commission,9303,54021,63,28,institutional,xlarge (8K-15K),13505,0.340326
+ep-09-11-24-009.txt,009,"Multi-annual programme 2010-2014 regarding the area of freedom, security and justice (Stockholm Programme) (debate)",16616,99516,48,41,justice_security,xlarge (8K-15K),24879,0.6269508
+ep-09-11-24-010.txt,010,Joint removals of irregular migrants to Afghanistan and other third countries (debate),6444,38630,15,12,foreign_affairs,large (4K-8K),9657,0.24335640000000003
+ep-09-11-24-011.txt,011,2007 discharge: EU general budget - Council (debate),5110,30325,19,16,economy_finance,large (4K-8K),7581,0.19104120000000002
+ep-09-11-24-012.txt,012,Question Time (Commission),10931,66543,46,23,institutional,xlarge (8K-15K),16635,0.419202
+ep-09-11-24-013.txt,013,Mobilisation of the European Globalisation Adjustment Fund: Belgium - textile industry; Ireland - Dell - Relocation of undertakings in the EU and the role of EU financial instruments (debate),7573,44684,23,19,economy_finance,large (4K-8K),11171,0.2815092
+ep-09-11-24-014.txt,014,The state of play of the Euromed Free Trade Area (debate),4799,29675,18,14,trade_market,large (4K-8K),7418,0.1869336
+ep-09-11-24-015.txt,015,Safety and interoperability of the community railroad system (debate),3975,24195,14,12,transport_infrastructure,med-large (2K-4K),6048,0.1524096
+ep-09-11-24-016.txt,016,Use of minority languages within the framework of the European cultural heritage (debate),8708,52707,35,33,economy_finance,xlarge (8K-15K),13176,0.33203520000000003
+ep-09-11-25-006.txt,006,Preparation of the European Council to be held on 10 and 11 December 2009 (debate),23719,138759,64,54,economy_finance,xlarge (8K-15K),34689,0.8741628
+ep-09-11-25-007-01.txt,007-01,1. 2007 discharge: EU general budget - Council (,255,1464,4,4,economy_finance,small (500-1K),366,0.0092232
+ep-09-11-25-007-04.txt,007-04,4. Adaptation of the European Parliament's Rules of Procedure to the Lisbon Treaty (,343,1908,3,3,institutional,small (500-1K),477,0.012020399999999999
+ep-09-11-25-007-05.txt,007-05,5. Preparation of the Copenhagen Summit on climate change (vote),452,2484,8,6,environment_energy,small (500-1K),621,0.015649200000000002
+ep-09-11-25-007-06.txt,007-06,"6. Multi-annual programme 2010-2014 regarding the area of freedom, security and justice (Stockholm Programme) (vote)",244,1435,4,4,justice_security,small (500-1K),358,0.009021600000000001
+ep-09-11-25-008.txt,008,Explanations of vote,20778,129469,128,75,institutional,xlarge (8K-15K),32367,0.8156484
+ep-09-11-25-010.txt,010,Telecom (signature of acts),748,4623,2,2,technology_digital,small (500-1K),1155,0.029106
+ep-09-11-25-012.txt,012,"Enlargement strategy 2009 concerning the countries of the western Balkans, Iceland and Turkey (debate)",17976,106659,68,58,foreign_affairs,xlarge (8K-15K),26664,0.6719328
+ep-09-11-25-013.txt,013,Elimination of violence against women (debate),9772,59109,35,32,human_rights,xlarge (8K-15K),14777,0.3723804
+ep-09-11-25-014.txt,014,A political solution with regard to the piracy off the Somalian coast (debate),6294,37867,25,20,other,large (4K-8K),9466,0.2385432
+ep-09-11-25-015.txt,015,Smoke-free environments (debate),4786,28611,19,17,environment_energy,large (4K-8K),7152,0.18023039999999999
+ep-09-11-25-017.txt,017,The ratification and implementation of the updated ILO conventions (debate),4279,25866,17,15,other,large (4K-8K),6466,0.1629432
+ep-09-11-25-018.txt,018,FAO World Summit on Food Security - Eradicating hunger from the face of the earth (debate),9710,57673,36,32,agriculture_food,xlarge (8K-15K),14418,0.36333360000000003
+ep-09-11-25-019.txt,019,Meat imports from third countries (debate),8281,48477,30,26,trade_market,xlarge (8K-15K),12119,0.30539879999999997
+ep-09-11-26-003.txt,003,Presentation of the Court of Auditors' annual report - 2008 (debate),17087,101300,55,44,economy_finance,xlarge (8K-15K),25325,0.63819
+ep-09-11-26-004.txt,004,Google's project to digitise the world's book heritage (debate),7143,43044,23,21,other,large (4K-8K),10761,0.2711772
+ep-09-11-26-009.txt,009,Explanations of vote,14502,88734,94,74,institutional,xlarge (8K-15K),22183,0.5590115999999999
+ep-09-11-26-012-01.txt,012-01,1. Nicaragua,3113,18601,16,15,other,med-large (2K-4K),4650,0.11718
+ep-09-11-26-012-02.txt,012-02,2. Laos and Vietnam,3026,18628,16,15,other,med-large (2K-4K),4657,0.11735640000000001
+ep-09-11-26-012-03.txt,012-03,3. China: Minority rights and application of the death penalty,5019,30194,25,22,human_rights,large (4K-8K),7548,0.1902096
+ep-09-11-26-013-01.txt,013-01,1. Nicaragua (vote),276,1577,6,5,institutional,small (500-1K),394,0.009928800000000002
+ep-09-12-14-002.txt,002,Announcements by the President,677,4059,5,4,other,small (500-1K),1014,0.0255528
+ep-09-12-14-012.txt,012,Order of business,479,2845,6,4,other,small (500-1K),711,0.0179172
+ep-09-12-14-014.txt,014,One-minute speeches on matters of political importance,6536,39217,41,38,trade_market,large (4K-8K),9804,0.24706080000000002
+ep-09-12-14-015.txt,015,Crisis in agricultural sectors other than the dairy sector (debate),8716,51902,34,31,agriculture_food,xlarge (8K-15K),12975,0.32697
+ep-09-12-14-016.txt,016,Prospects for the Doha Development Agenda following the Seventh WTO Ministerial Conference (debate),6650,40512,24,22,trade_market,large (4K-8K),10128,0.2552256
+ep-09-12-14-017.txt,017,Mobilisation of the European Globalisation Adjustment Fund: Sweden-Volvo; Austria-Steiermark; Netherlands-Heijmans (debate),6247,37403,24,20,economy_finance,large (4K-8K),9350,0.23562
+ep-09-12-14-018.txt,018,European Microfinance Facility for Employment and Social Inclusion (Progress) (debate),11829,71227,46,39,social_employment,xlarge (8K-15K),17806,0.44871120000000003
+ep-09-12-14-019.txt,019,Toy safety (debate),6170,35970,16,14,health_consumer,large (4K-8K),8992,0.22659840000000003
+ep-09-12-15-002.txt,002,Announcement by the President,379,2373,1,1,other,small (500-1K),593,0.0149436
+ep-09-12-15-007.txt,007,"Draft general budget of the European Union for the financial year 2010 as modified by the Council (all sections) - Draft amending budget No 10/2009 of the European Union for the financial year 2009, Section III - Commission - Mobilisation of the Flexibility Instrument - Amendment to the multiannual financial framework 2007-2013: financing energy projects under the European Economic Recovery Plan (debate)",20382,121394,60,51,economy_finance,xlarge (8K-15K),30348,0.7647695999999999
+ep-09-12-15-009.txt,009,Explanations of vote,4539,28027,28,28,institutional,large (4K-8K),7006,0.17655120000000002
+ep-09-12-15-012.txt,012,Question Hour with the President of the Commission,9152,52862,63,25,institutional,xlarge (8K-15K),13215,0.333018
+ep-09-12-15-013.txt,013,"Conclusions of the Foreign Affairs Council on the Middle East peace process, including the situation in eastern Jerusalem (debate)",10522,62428,37,34,foreign_affairs,xlarge (8K-15K),15607,0.39329640000000005
+ep-09-12-15-014.txt,014,Restrictive measures affecting the rights of individuals following the entry into force of the Lisbon Treaty (debate),7191,43249,27,20,institutional,large (4K-8K),10812,0.27246240000000005
+ep-09-12-15-015.txt,015,Improvement needed in the legal framework for access to documents following the entry into force of the Lisbon Treaty (debate),6526,38546,19,15,institutional,large (4K-8K),9636,0.24282720000000002
+ep-09-12-15-016.txt,016,Situation in Georgia (debate),8396,50517,27,24,other,xlarge (8K-15K),12629,0.3182508
+ep-09-12-15-017.txt,017,Responses to relaunch the economy in the Member States of the European Union in Central and Eastern Europe,12207,73468,38,36,economy_finance,xlarge (8K-15K),18367,0.46284840000000005
+ep-09-12-15-018.txt,018,Experience gained in applying the food hygiene regulations of the European Parliament and of the Council (debate),1712,10785,7,5,institutional,medium (1K-2K),2696,0.06793919999999999
+ep-09-12-15-019.txt,019,European Action on victims of terrorism (debate),3206,19359,14,11,economy_finance,med-large (2K-4K),4839,0.1219428
+ep-09-12-15-020.txt,020,Defence of the principle of subsidiarity - Display of religious and cultural symbols in public places (debate),6861,40392,23,21,defence_military,large (4K-8K),10098,0.2544696
+ep-09-12-16-001.txt,001,Opening of the sitting,965,5539,7,4,institutional,small (500-1K),1384,0.0348768
+ep-09-12-16-003.txt,003,Results of the Swedish Presidency - Outcome of the European Council on 10 and 11 December 2009 (debate),20664,122854,69,58,institutional,xlarge (8K-15K),30713,0.7739676
+ep-09-12-16-005.txt,005,Explanations of vote,6370,39788,39,27,institutional,large (4K-8K),9947,0.2506644
+ep-09-12-16-007.txt,007,Award of the Sakharov Prize (formal sitting),2751,16787,2,2,institutional,med-large (2K-4K),4196,0.1057392
+ep-09-12-16-009.txt,009,New EU action plan for Afghanistan and Pakistan (debate),11123,66851,40,37,foreign_affairs,xlarge (8K-15K),16712,0.42114240000000003
+ep-09-12-16-010.txt,010,Belarus (debate),7105,43407,26,24,other,large (4K-8K),10851,0.2734452
+ep-09-12-16-011.txt,011,Violence in the Democratic Republic of Congo (debate),8017,47779,27,23,other,xlarge (8K-15K),11944,0.3009888
+ep-09-12-16-012.txt,012,Question Time (Council),10555,64445,55,19,institutional,xlarge (8K-15K),16111,0.4059972
+ep-09-12-17-002.txt,002,Mutual recognition of professional qualifications (debate),6453,39367,24,22,other,large (4K-8K),9841,0.24799320000000002
+ep-09-12-17-003.txt,003,The cohesion policy after 2013 (debate),11292,70471,45,41,social_employment,xlarge (8K-15K),17617,0.4439484
+ep-09-12-17-004.txt,004,Agenda,1811,10203,19,11,institutional,medium (1K-2K),2550,0.06426
+ep-09-12-17-005-03.txt,005-03,3. Draft general budget of the European Union for the financial year 2010 as modified by the Council (vote),969,5595,5,4,economy_finance,small (500-1K),1398,0.0352296
+ep-09-12-17-007-01.txt,007-01,1. Draft general budget of the European Union for the financial year 2010 as modified by the Council (all sections) (,297,1608,4,4,economy_finance,small (500-1K),402,0.0101304
+ep-09-12-17-007-03.txt,007-03,3. Defence of the principle of subsidiarity (vote),338,1967,2,2,institutional,small (500-1K),491,0.0123732
+ep-09-12-17-008.txt,008,Explanations of vote,9825,60053,66,44,institutional,xlarge (8K-15K),15013,0.37832760000000004
+ep-09-12-17-010.txt,010,Approval of the minutes of the previous sitting,1233,6913,18,10,institutional,medium (1K-2K),1728,0.0435456
+ep-09-12-17-012-01.txt,012-01,1. Uganda: anti-homosexual draft legislation,3066,18778,16,14,other,med-large (2K-4K),4694,0.1182888
+ep-09-12-17-012-02.txt,012-02,2. Azerbaijan: freedom of expression,3930,24112,17,16,human_rights,med-large (2K-4K),6028,0.1519056
+ep-10-01-18-002.txt,002,Statements by the President,497,2877,1,1,other,small (500-1K),719,0.0181188
+ep-10-01-18-011.txt,011,Order of business,660,3685,7,5,other,small (500-1K),921,0.0232092
+ep-10-01-18-012.txt,012,One-minute speeches on matters of political importance,5979,35950,40,35,trade_market,large (4K-8K),8987,0.22647240000000002
+ep-10-01-19-004.txt,004,Recent earthquake in Haiti (debate),12321,72295,43,40,other,xlarge (8K-15K),18073,0.45543960000000006
+ep-10-01-19-005.txt,005,Situation in Iran (debate),9375,56369,39,36,foreign_affairs,xlarge (8K-15K),14092,0.3551184
+ep-10-01-19-006.txt,006,Situation in Yemen (debate),8555,51198,33,31,other,xlarge (8K-15K),12799,0.3225348
+ep-10-01-19-007.txt,007,Situation in Iraq (debate),6435,38876,23,22,foreign_affairs,large (4K-8K),9719,0.24491880000000002
+ep-10-01-19-008.txt,008,Second revision of the ACP-EU Partnership agreement (Cotonou agreement) (debate),8511,52126,33,30,development_aid,xlarge (8K-15K),13031,0.3283812
+ep-10-01-19-009.txt,009,Procedural rights in criminal proceedings (debate),6182,36918,22,17,justice_security,large (4K-8K),9229,0.23257080000000002
+ep-10-01-19-010.txt,010,Preventing trafficking in human beings (debate),10497,63870,40,37,other,xlarge (8K-15K),15967,0.4023684
+ep-10-01-20-002.txt,002,Announcement by the President,386,2356,1,1,other,small (500-1K),589,0.014842800000000001
+ep-10-01-20-003.txt,003,Presentation of the programme of the Spanish Presidency (debate),21876,129361,46,42,institutional,xlarge (8K-15K),32340,0.814968
+ep-10-01-20-005.txt,005,Presentation of the programme of the Spanish Presidency (continuation of debate),10986,66774,46,45,institutional,xlarge (8K-15K),16693,0.4206636
+ep-10-01-20-006-01.txt,006-01,1. Election of the European Ombudsman (vote),275,1689,1,1,institutional,small (500-1K),422,0.0106344
+ep-10-01-20-007.txt,007,Explanations of vote,7610,47448,51,36,institutional,large (4K-8K),11862,0.29892240000000003
+ep-10-01-20-010.txt,010,SWIFT (debate),4912,28514,20,11,other,large (4K-8K),7128,0.1796256
+ep-10-01-20-011.txt,011,Outcome of the Copenhagen Summit on climate change (debate),21777,128593,86,79,environment_energy,xlarge (8K-15K),32148,0.8101296
+ep-10-01-20-012.txt,012,Question Time (Council),9142,55441,45,18,institutional,xlarge (8K-15K),13860,0.349272
+ep-10-01-20-014.txt,014,Democratisation in Turkey (debate),12762,77225,44,41,foreign_affairs,xlarge (8K-15K),19306,0.48651120000000003
+ep-10-01-20-015.txt,015,European Strategy for the Danube Region (debate),11211,69662,44,42,economy_finance,xlarge (8K-15K),17415,0.438858
+ep-10-01-21-002.txt,002,EU-Tunisia relations (debate),7298,44310,26,22,other,large (4K-8K),11077,0.2791404
+ep-10-01-21-003-01.txt,003-01,1. Recent attacks on religious minorities in Egypt and in Malaysia,5873,36300,30,29,other,large (4K-8K),9075,0.22869
+ep-10-01-21-003-02.txt,003-02,"2. Human Rights violations in China, notably the case of Liu Xiaobo",4748,28364,21,20,foreign_affairs,large (4K-8K),7091,0.17869320000000002
+ep-10-01-21-003-03.txt,003-03,3. Philippines,2444,14914,13,12,other,med-large (2K-4K),3728,0.0939456
+ep-10-01-21-008.txt,008,Explanations of vote,2842,17841,20,19,institutional,med-large (2K-4K),4460,0.112392
+ep-10-02-08-002.txt,002,Statements by the President,694,4159,1,1,other,small (500-1K),1039,0.026182800000000003
+ep-10-02-08-012.txt,012,Order of business,1192,6952,14,9,other,medium (1K-2K),1738,0.0437976
+ep-10-02-08-013.txt,013,One-minute speeches on matters of political importance,6511,39140,41,39,trade_market,large (4K-8K),9785,0.246582
+ep-10-02-08-014.txt,014,"Administrative cooperation in the field of taxation - Mutual assistance for the recovery of claims relating to taxes, duties and other measures - Reverse charge mechanism: goods and services susceptible to fraud - Promoting Good Governance in Tax Matters (debate)",16536,99273,53,44,economy_finance,xlarge (8K-15K),24818,0.6254136
+ep-10-02-08-015.txt,015,GM/Opel: current developments (debate),7752,45649,27,22,development_aid,large (4K-8K),11412,0.2875824
+ep-10-02-08-016.txt,016,Equality between women and men in the European Union - 2009 (debate),15464,91930,61,57,human_rights,xlarge (8K-15K),22982,0.5791464000000001
+ep-10-02-09-004.txt,004,Presentation of the College of Commissioners and statement on the Framework Agreement on relations between the European Parliament and the Commission (debate),24022,140430,70,65,institutional,xlarge (8K-15K),35107,0.8846964
+ep-10-02-09-005-01.txt,005-01,1. Framework Agreement on relations between the European Parliament and the Commission (,529,3101,2,2,institutional,small (500-1K),775,0.01953
+ep-10-02-09-006-02.txt,006-02,2. Appointment of the Commission (,766,4441,6,3,institutional,small (500-1K),1110,0.027972
+ep-10-02-09-006.txt,006,Voting time (continued),3987,23046,11,10,other,med-large (2K-4K),5761,0.1451772
+ep-10-02-09-007.txt,007,Explanations of vote,14579,90186,88,72,institutional,xlarge (8K-15K),22546,0.5681592000000001
+ep-10-02-09-010.txt,010,"Difficult monetary, economic and social situation of Eurozone countries (debate)",15152,90156,50,47,economy_finance,xlarge (8K-15K),22539,0.5679828
+ep-10-02-09-011.txt,011,Progress made on resettling Guantánamo detainees and on closing Guantánamo (debate),7042,41939,28,21,other,large (4K-8K),10484,0.2641968
+ep-10-02-09-012.txt,012,Key objectives for the Conference of the Parties to the CITES (debate),12991,76292,46,43,other,xlarge (8K-15K),19073,0.48063960000000006
+ep-10-02-09-013.txt,013,Eligibility of housing interventions in favour of marginalised communities (debate),7392,45076,31,28,other,large (4K-8K),11269,0.2839788
+ep-10-02-10-009-06.txt,009-06,6. Situation in Iran (,296,1747,4,4,foreign_affairs,small (500-1K),436,0.0109872
+ep-10-02-10-009-09.txt,009-09,9. Outcome of the Copenhagen Summit on climate change (,416,2344,6,4,environment_energy,small (500-1K),586,0.014767200000000001
+ep-10-02-10-013.txt,013,Agreement between the EU and the USA on the processing and transfer of Financial Messaging Data from the European Union to the United States for purposes of the Terrorist Finance Tracking Programme (debate),13193,77360,42,29,economy_finance,xlarge (8K-15K),19340,0.487368
+ep-10-02-10-014.txt,014,Body scanners - Operation of intelligence services in the context of counter-terrorism strategies (debate),14569,87254,60,52,justice_security,xlarge (8K-15K),21813,0.5496875999999999
+ep-10-02-10-015.txt,015,Situation in Ukraine (debate),7534,45988,31,28,foreign_affairs,large (4K-8K),11497,0.28972440000000005
+ep-10-02-10-016.txt,016,Question Time (Council),4565,27710,24,10,institutional,large (4K-8K),6927,0.1745604
+ep-10-02-10-018.txt,018,Effects of the economic crisis on world trade (debate),9844,58950,33,30,economy_finance,xlarge (8K-15K),14737,0.37137240000000005
+ep-10-02-10-019.txt,019,EU - South Korea free trade agreement (debate),11338,67815,31,25,trade_market,xlarge (8K-15K),16953,0.42721560000000003
+ep-10-02-11-003.txt,003,Framework Agreement on prevention from sharp injuries in the hospital and healthcare sector (debate),6236,36936,18,15,health_consumer,large (4K-8K),9234,0.2326968
+ep-10-02-11-004.txt,004,Online gambling in relation to recent ECJ rulings (debate),14000,83512,44,41,other,xlarge (8K-15K),20878,0.5261256
+ep-10-02-11-005.txt,005,Statement by the President,377,2265,3,3,other,small (500-1K),566,0.0142632
+ep-10-02-11-006-03.txt,006-03,3. Community Programme for Employment and Social Solidarity - Progress (,405,2413,2,2,social_employment,small (500-1K),603,0.0151956
+ep-10-02-11-006-04.txt,006-04,4. Agreement between the EU and the USA on the processing and transfer of Financial Messaging Data from the European Union to the United States for purposes of the Terrorist Finance Tracking Program (,952,5558,6,6,economy_finance,small (500-1K),1389,0.0350028
+ep-10-02-11-010-01.txt,010-01,1. Venezuela,4905,29797,23,22,other,large (4K-8K),7449,0.18771480000000001
+ep-10-02-11-010-02.txt,010-02,2. Madagascar,2527,15554,13,12,environment_energy,med-large (2K-4K),3888,0.09797760000000001
+ep-10-02-11-010-03.txt,010-03,3. Burma,3726,22414,19,18,other,med-large (2K-4K),5603,0.1411956
+ep-10-02-24-012.txt,012,Order of business,729,4162,6,5,other,small (500-1K),1040,0.026208
+ep-10-02-24-013.txt,013,EU 2020 - Follow-up of the informal European Council of 11 February 2010 (debate),21610,125867,69,60,economy_finance,xlarge (8K-15K),31466,0.7929432000000001
+ep-10-02-24-014.txt,014,"Parliament's priorities for the UN Human Rights Council (Geneva, 1-26 March 2010) (debate)",3092,18171,10,10,institutional,med-large (2K-4K),4542,0.1144584
+ep-10-02-24-016.txt,016,"Parliament's priorities for the UN Human Rights Council (Geneva, 1-26 March 2010) (continuation of debate)",3911,23705,18,17,institutional,med-large (2K-4K),5926,0.1493352
+ep-10-02-24-017.txt,017,Implementation of Goldstone recommendations on Israel/Palestine (debate),9769,58927,42,39,other,xlarge (8K-15K),14731,0.37122120000000003
+ep-10-02-24-018.txt,018,Situation of civil society and national minorities in Belarus (debate),5336,32169,23,20,other,large (4K-8K),8042,0.2026584
+ep-10-02-24-019.txt,019,Beijing +15 - UN Platform for Action for Gender Equality (debate),9955,58648,34,31,human_rights,xlarge (8K-15K),14662,0.36948240000000004
+ep-10-02-24-020.txt,020,One-minute speeches on matters of political importance,5355,31702,42,31,trade_market,large (4K-8K),7925,0.19971
+ep-10-02-24-021.txt,021,Major natural disaster in the autonomous region of Madeira (debate),5056,30346,24,22,other,large (4K-8K),7586,0.1911672
+ep-10-02-24-022.txt,022,Investment projects in energy infrastructure within the European Community (debate),6851,42844,32,27,economy_finance,large (4K-8K),10711,0.2699172
+ep-10-02-24-023.txt,023,"Amending Budget 1/2010 (Section I, European Parliament) (debate)",3187,19150,15,13,economy_finance,med-large (2K-4K),4787,0.12063240000000001
+ep-10-02-25-004.txt,004,Green Paper on reform of the common fisheries policy (debate),14420,87661,55,51,environment_energy,xlarge (8K-15K),21915,0.552258
+ep-10-02-25-005.txt,005,"Railway safety, including the European signalling system (debate)",7818,46946,26,22,transport_infrastructure,large (4K-8K),11736,0.2957472
+ep-10-02-25-006.txt,006,Approval of the minutes of the previous sitting,247,1382,3,3,institutional,small (500-1K),345,0.008694
+ep-10-02-25-007-02.txt,007-02,2. Situation in Ukraine (,205,1246,3,2,foreign_affairs,small (500-1K),311,0.0078372
+ep-10-02-25-007-03.txt,007-03,"3. Parliament's priorities for the UN Human Rights Council (Geneva, 1-26 March 2010) (",392,2415,3,2,institutional,small (500-1K),603,0.0151956
+ep-10-02-25-009.txt,009,Explanations of vote,22582,139140,152,87,institutional,xlarge (8K-15K),34785,0.876582
+ep-10-03-08-002.txt,002,Statements by the President,621,3708,1,1,other,small (500-1K),927,0.0233604
+ep-10-03-08-012.txt,012,Order of business,695,4177,5,4,other,small (500-1K),1044,0.026308800000000004
+ep-10-03-08-013.txt,013,International Women's Day,3851,22334,12,10,human_rights,med-large (2K-4K),5583,0.1406916
+ep-10-03-08-014.txt,014,One-minute speeches on matters of political importance,6448,38960,41,38,trade_market,large (4K-8K),9740,0.245448
+ep-10-03-08-015.txt,015,Animal health requirements applicable to the non-commercial movement of pet animals (debate),6118,36444,24,19,trade_market,large (4K-8K),9111,0.2295972
+ep-10-03-08-016.txt,016,Revision of the Package Travel Directive (debate),7564,45274,26,24,other,large (4K-8K),11318,0.2852136
+ep-10-03-08-017.txt,017,Taxation of financial transactions (debate),9231,54365,33,28,economy_finance,xlarge (8K-15K),13591,0.3424932
+ep-10-03-08-018.txt,018,Implementation of the Single Euro Payments Area (SEPA) (debate),3860,22711,12,10,economy_finance,med-large (2K-4K),5677,0.1430604
+ep-10-03-08-019.txt,019,Annual accounts of certain types of companies as regards micro-entities (debate),8670,52281,32,26,other,xlarge (8K-15K),13070,0.329364
+ep-10-03-08-020.txt,020,Report on Competition Policy 2008 (short presentation),2315,14249,8,7,trade_market,med-large (2K-4K),3562,0.0897624
+ep-10-03-09-004.txt,004,Internal Market Scoreboard - Consumer protection - SOLVIT (debate),18191,109492,53,47,economy_finance,xlarge (8K-15K),27373,0.6897996
+ep-10-03-09-005.txt,005,Movement of persons with a long-stay visa (debate),8007,47287,29,26,justice_security,xlarge (8K-15K),11821,0.2978892
+ep-10-03-09-006-05.txt,006-05,5. Additional Protocol to the Cooperation Agreement for the Protection of the Coasts and Waters of the North-East Atlantic against Pollution (,275,1611,1,1,environment_energy,small (500-1K),402,0.0101304
+ep-10-03-09-007.txt,007,Explanations of vote,22625,140643,142,63,institutional,xlarge (8K-15K),35160,0.886032
+ep-10-03-09-010.txt,010,Question Hour with the President of the Commission,9569,56709,67,27,institutional,xlarge (8K-15K),14177,0.35726040000000003
+ep-10-03-09-011.txt,011,International Climate Policy post-Copenhagen: Reinvigorating the international negotiations through immediate action,8975,51870,32,26,environment_energy,xlarge (8K-15K),12967,0.3267684
+ep-10-03-09-012.txt,012,Second European Roma Summit (debate),11970,72320,43,39,economy_finance,xlarge (8K-15K),18080,0.455616
+ep-10-03-09-013.txt,013,Question Time (Commission),11368,68935,57,24,institutional,xlarge (8K-15K),17233,0.43427160000000004
+ep-10-03-09-014.txt,014,Implementation of the first railway package directives (debate),6702,40490,25,21,transport_infrastructure,large (4K-8K),10122,0.25507440000000003
+ep-10-03-09-015.txt,015,Anti-Counterfeiting Trade Agreement (ACTA) (debate),10929,66154,34,32,trade_market,xlarge (8K-15K),16538,0.41675760000000006
+ep-10-03-09-016.txt,016,Regulation applying a scheme of generalised tariff preferences (debate),5495,33685,18,16,trade_market,large (4K-8K),8421,0.21220920000000001
+ep-10-03-10-007-09.txt,007-09,9. 2008 annual report on the CFSP (,310,1763,2,2,transport_infrastructure,small (500-1K),440,0.011088
+ep-10-03-10-011.txt,011,EU policy on Arctic issues (debate),10535,62205,43,37,other,xlarge (8K-15K),15551,0.3918852
+ep-10-03-10-012.txt,012,Cuba (debate),10546,62178,39,36,other,xlarge (8K-15K),15544,0.39170879999999997
+ep-10-03-10-013.txt,013,Question Time (Council),9292,56093,39,19,institutional,xlarge (8K-15K),14023,0.3533796
+ep-10-03-11-002.txt,002,Investing in Low Carbon Technologies (debate),11973,72902,47,42,environment_energy,xlarge (8K-15K),18225,0.45927
+ep-10-03-11-003.txt,003,Effects of the Xynthia storm in Europe (debate),7182,43802,28,26,economy_finance,large (4K-8K),10950,0.27594
+ep-10-03-11-005.txt,005,Situation in Chile and EU humanitarian aid strategy (debate),4506,27877,17,15,development_aid,large (4K-8K),6969,0.17561880000000002
+ep-10-03-11-009.txt,009,Explanations of vote,8160,49854,53,41,institutional,xlarge (8K-15K),12463,0.31406760000000006
+ep-10-03-11-012-01.txt,012-01,1. The case of Gilad Shalit,4171,23919,21,20,other,large (4K-8K),5979,0.15067080000000002
+ep-10-03-11-012-02.txt,012-02,2. The escalation of violence in Mexico,3918,23912,18,17,other,med-large (2K-4K),5978,0.15064560000000002
+ep-10-03-11-012-03.txt,012-03,3. South Korea - death penalty declared legal,3457,20322,18,17,human_rights,med-large (2K-4K),5080,0.128016
+ep-10-03-24-010.txt,010,Order of business,491,2836,6,4,other,small (500-1K),709,0.0178668
+ep-10-03-24-012.txt,012,Preparation for the European Council meeting (25-26 March 2010) (debate),18756,109953,58,55,economy_finance,xlarge (8K-15K),27488,0.6926976
+ep-10-03-24-013.txt,013,Development of the European Citizens' Initiative based on Article 11(4) of the Treaty on European Union (debate),12442,73939,43,40,economy_finance,xlarge (8K-15K),18484,0.46579680000000007
+ep-10-03-24-014.txt,014,Situation in Tibet (debate),6448,38453,29,26,other,large (4K-8K),9613,0.2422476
+ep-10-03-24-015.txt,015,One-minute speeches on matters of political importance,4868,29630,28,27,trade_market,large (4K-8K),7407,0.1866564
+ep-10-03-24-016.txt,016,Priorities for the 2011 budget - Section III - Commission - Budget guidelines: 2011 - other sections (debate),11168,66954,40,37,economy_finance,xlarge (8K-15K),16738,0.42179760000000005
+ep-10-03-24-018.txt,018,Agricultural product quality policy: what strategy to follow? (debate),9037,55539,36,33,agriculture_food,xlarge (8K-15K),13884,0.3498768
+ep-10-03-24-019.txt,019,"G20 labour and employment ministers meeting (Washington, 20/21 April) (debate)",3980,24156,17,15,social_employment,med-large (2K-4K),6039,0.1521828
+ep-10-03-24-020.txt,020,Fight against tuberculosis (debate),2310,14435,11,9,other,med-large (2K-4K),3608,0.0909216
+ep-10-03-24-021.txt,021,The effects of the global financial and economic crisis on developing countries and on development cooperation (short presentation),2924,18632,14,12,development_aid,med-large (2K-4K),4658,0.1173816
+ep-10-03-25-003.txt,003,ECB annual report for 2008 - Report on the 2009 Annual Statement on the Euro Area and Public Finances (debate),20982,123777,63,56,economy_finance,xlarge (8K-15K),30944,0.7797888000000001
+ep-10-03-25-004.txt,004,Second European Roma Summit (motions for resolutions tabled): see Minutes,294,1733,1,1,economy_finance,small (500-1K),433,0.0109116
+ep-10-03-25-006-17.txt,006-17,17. Second European Roma Summit,322,1965,3,3,economy_finance,small (500-1K),491,0.0123732
+ep-10-03-25-006-18.txt,006-18,18. Schengen Borders Code with regard to surveillance of external maritime borders,697,4115,6,4,justice_security,small (500-1K),1028,0.0259056
+ep-10-03-25-008-03.txt,008-03,3. The effects of the global financial and economic crisis on developing countries and on development cooperation (,436,2604,6,5,development_aid,small (500-1K),651,0.0164052
+ep-10-04-07-002.txt,002,Statements by the President,239,1399,1,1,other,small (500-1K),349,0.008794800000000002
+ep-10-04-07-003.txt,003,Approval of the minutes of the previous sitting,242,1391,3,2,institutional,small (500-1K),347,0.0087444
+ep-10-04-07-004.txt,004,Conclusions of the European Council meeting (25-26 March 2010) (debate),24078,140839,63,54,economy_finance,xlarge (8K-15K),35209,0.8872668
+ep-10-04-19-008.txt,008,Fight against breast cancer in the European Union (written declaration): see Minutes,203,1219,3,2,economy_finance,small (500-1K),304,0.007660800000000001
+ep-10-04-19-013.txt,013,Statements by the President,908,5124,3,2,other,small (500-1K),1281,0.0322812
+ep-10-04-19-014.txt,014,Order of business,831,4582,10,5,other,small (500-1K),1145,0.028854
+ep-10-04-19-015.txt,015,One-minute speeches on matters of political importance,4167,24741,30,24,trade_market,large (4K-8K),6185,0.155862
+ep-10-04-19-016.txt,016,Power of legislative delegation (debate),4332,26150,16,13,other,large (4K-8K),6537,0.1647324
+ep-10-04-19-017.txt,017,Air safety: EU airline blacklist (debate),5070,30569,20,15,health_consumer,large (4K-8K),7642,0.19257839999999998
+ep-10-04-19-018.txt,018,Aviation security charges (debate),6739,39875,29,22,justice_security,large (4K-8K),9968,0.2511936
+ep-10-04-19-019.txt,019,Community guidelines for the development of the trans-European transport network (recast) (debate),4290,25387,20,16,transport_infrastructure,large (4K-8K),6346,0.1599192
+ep-10-04-19-020.txt,020,Strategic goals and recommendations for the EU's maritime transport policy until 2018 (debate),6785,41302,24,19,transport_infrastructure,large (4K-8K),10325,0.26019
+ep-10-04-19-021.txt,021,Europeana - the next steps (short presentation),3379,20103,14,13,economy_finance,med-large (2K-4K),5025,0.12663
+ep-10-04-19-022.txt,022,Evaluation and assessment of the Animal Welfare Action Plan 2006-2010 (short presentation),1945,11857,9,8,agriculture_food,medium (1K-2K),2964,0.0746928
+ep-10-04-19-023.txt,023,EU agriculture and climate change (short presentation),3216,19770,17,16,environment_energy,med-large (2K-4K),4942,0.12453840000000001
+ep-10-04-19-024.txt,024,Agriculture in areas with natural handicaps: A special health check (short presentation),2534,15778,13,12,agriculture_food,med-large (2K-4K),3944,0.0993888
+ep-10-04-19-025.txt,025,Simplification of the CAP (short presentation),2015,12349,11,10,other,med-large (2K-4K),3087,0.07779240000000001
+ep-10-04-20-002.txt,002,Agenda,625,3601,3,2,institutional,small (500-1K),900,0.02268
+ep-10-04-20-003.txt,003,Disruption of air traffic in Europe (debate),19320,114253,64,57,economy_finance,xlarge (8K-15K),28563,0.7197876
+ep-10-04-20-004.txt,004,Commission Legislative and Work Programme for 2010 (debate),10404,62252,23,18,institutional,xlarge (8K-15K),15563,0.3921876
+ep-10-04-20-005.txt,005,Coordination of humanitarian aid and reconstruction in Haiti (debate),7310,43824,26,23,development_aid,large (4K-8K),10956,0.27609120000000004
+ep-10-04-20-007.txt,007,Question Hour with the President of the Commission,9523,55203,64,25,institutional,xlarge (8K-15K),13800,0.34776
+ep-10-04-20-008.txt,008,The EU strategy for relations with Latin America (debate),8687,52788,32,29,foreign_affairs,xlarge (8K-15K),13197,0.33256440000000004
+ep-10-04-20-010.txt,010,Kyrgyzstan (debate),6701,39962,23,21,other,large (4K-8K),9990,0.251748
+ep-10-04-20-011.txt,011,EU - Canada Summit (debate),8632,51806,29,27,foreign_affairs,xlarge (8K-15K),12951,0.3263652
+ep-10-04-20-012.txt,012,Question Time (Commission),10633,64163,56,19,institutional,xlarge (8K-15K),16040,0.404208
+ep-10-04-20-013.txt,013,Establishment of a European Asylum Support Office (debate),5581,32912,15,12,economy_finance,large (4K-8K),8228,0.20734560000000002
+ep-10-04-20-014.txt,014,"General provisions on the European Regional Development Fund, the European Social Fund and the Cohesion Fund as regards simplification of certain requirements and as regards certain provisions relating to financial management (debate)",8472,51092,33,26,social_employment,xlarge (8K-15K),12773,0.32187960000000004
+ep-10-04-20-015.txt,015,Specific measures for agricultural markets (debate),6111,35918,18,16,economy_finance,large (4K-8K),8979,0.22627080000000002
+ep-10-04-21-003.txt,003,2008 Discharge (debate),23539,140173,75,45,other,xlarge (8K-15K),35043,0.8830836000000001
+ep-10-04-21-005.txt,005,SWIFT (debate),13731,81395,41,38,other,xlarge (8K-15K),20348,0.5127696
+ep-10-04-21-006.txt,006,Passenger Name Record (PNR) (debate),7193,42084,21,18,transport_infrastructure,large (4K-8K),10521,0.2651292
+ep-10-04-21-007.txt,007,Ban on use of cyanide mining technologies (debate),7864,47781,31,28,other,large (4K-8K),11945,0.301014
+ep-10-05-05-009.txt,009,Order of business,295,1804,1,1,other,small (500-1K),451,0.0113652
+ep-10-05-05-013-44.txt,013-44,44. 2008 discharge: EU general budget - Section III - Commission,359,2094,3,3,economy_finance,small (500-1K),523,0.0131796
+ep-10-05-05-013.txt,013,Voting time,668,3819,5,4,other,small (500-1K),954,0.024040799999999998
+ep-10-05-05-016.txt,016,Statements by the President,277,1653,1,1,other,small (500-1K),413,0.010407600000000001
+ep-10-05-05-017.txt,017,Revision of the Treaties - Transitional measures concerning the composition of the European Parliament - Decision not to convene a Convention for the revision of the Treaties with regard to transitional measures concerning the composition of the European Parliament (debate),7653,44754,32,28,economy_finance,large (4K-8K),11188,0.2819376
+ep-10-05-05-018.txt,018,Preparation of the Summit of Heads of State or Government of the euro area (7 May 2010) (debate),8740,50401,17,13,economy_finance,xlarge (8K-15K),12600,0.31752
+ep-10-05-05-019.txt,019,Europe 2020 - new European Strategy for Jobs and Growth (debate),21990,130733,70,68,economy_finance,xlarge (8K-15K),32683,0.8236116
+ep-10-05-05-020.txt,020,Accession agreement of the European Union to the European Convention for the Protection of Human Rights and Fundamental Freedoms (debate),8995,53351,29,26,human_rights,xlarge (8K-15K),13337,0.3360924
+ep-10-05-05-021.txt,021,Electric cars (debate),9737,59564,34,30,other,xlarge (8K-15K),14891,0.3752532
+ep-10-05-05-022.txt,022,One-minute speeches on matters of political importance,4322,26028,25,24,trade_market,large (4K-8K),6507,0.1639764
+ep-10-05-05-023.txt,023,Motor Vehicle Block Exemption Regulation (debate),6592,40595,21,18,other,large (4K-8K),10148,0.2557296
+ep-10-05-05-024.txt,024,Commission communication on Action against Cancer: European Partnership (debate),5422,32881,24,21,economy_finance,large (4K-8K),8220,0.207144
+ep-10-05-05-025.txt,025,"Mobilising Information and Communication Technologies to facilitate the transition to an energy-efficient, low-carbon economy (debate)",1502,9096,5,4,environment_energy,medium (1K-2K),2274,0.0573048
+ep-10-05-05-026.txt,026,Protection of the Communities' financial interests - Fight against fraud - Annual Report 2008 (debate),2418,15290,10,9,economy_finance,med-large (2K-4K),3822,0.09631440000000001
+ep-10-05-06-003.txt,003,European Investment Bank (EIB) - Annual Report 2008 (debate),11032,66068,43,34,economy_finance,xlarge (8K-15K),16517,0.4162284
+ep-10-05-06-004.txt,004,"Mass atrocities in Jos, Nigeria, in January and March (debate)",5528,33362,23,21,other,large (4K-8K),8340,0.210168
+ep-10-05-06-007-08.txt,007-08,"8. Commission White Paper: ""Adapting to climate change: Towards a European framework for action"" (",252,1531,1,1,economy_finance,small (500-1K),382,0.0096264
+ep-10-05-06-008.txt,008,Explanations of vote,2320,13807,19,11,institutional,med-large (2K-4K),3451,0.08696519999999999
+ep-10-05-06-009.txt,009,Welcome,226,1435,1,1,other,small (500-1K),358,0.009021600000000001
+ep-10-05-06-010.txt,010,Explanations of vote (continuation),1908,11487,12,11,institutional,medium (1K-2K),2871,0.0723492
+ep-10-05-06-011.txt,011,Formal sitting,4074,23898,3,2,institutional,large (4K-8K),5974,0.1505448
+ep-10-05-06-012.txt,012,Explanations of vote (continuation),20045,124628,131,56,institutional,xlarge (8K-15K),31157,0.7851564
+ep-10-05-17-002.txt,002,Statements by the President,486,3010,1,1,other,small (500-1K),752,0.018950400000000003
+ep-10-05-17-003.txt,003,Approval of the minutes of the previous sitting,452,2612,6,5,institutional,small (500-1K),653,0.0164556
+ep-10-05-17-013.txt,013,Order of business,1277,7575,14,9,other,medium (1K-2K),1893,0.0477036
+ep-10-05-17-014.txt,014,One-minute speeches on matters of political importance,4628,28078,31,27,trade_market,large (4K-8K),7019,0.17687880000000003
+ep-10-05-17-015.txt,015,Equal treatment between men and women engaged in an activity in a self-employed capacity (debate),7872,47600,31,27,human_rights,large (4K-8K),11900,0.29988
+ep-10-05-17-016.txt,016,Energy performance of buildings (recast) (debate),7454,46019,28,25,environment_energy,large (4K-8K),11504,0.2899008
+ep-10-05-17-017.txt,017,Textile names and related labelling of textile products (debate),9409,56171,32,29,health_consumer,xlarge (8K-15K),14042,0.3538584
+ep-10-05-17-018.txt,018,New developments in public procurement (short presentation),2965,18263,16,14,development_aid,med-large (2K-4K),4565,0.115038
+ep-10-05-17-019.txt,019,The EU Policy Coherence for Development and the 'Official Development Assistance plus concept' (short presentation),2208,13672,9,8,development_aid,med-large (2K-4K),3418,0.0861336
+ep-10-05-17-020.txt,020,Penalties for serious infringements against the social rules in road transport (short presentation),1343,8138,6,5,transport_infrastructure,medium (1K-2K),2034,0.051256800000000005
+ep-10-05-18-005.txt,005,Amending budget no 1/2010: Section I - Parliament - Estimates of revenue and expenditure for the year 2011 - Section I - Parliament (debate),6054,35105,21,17,economy_finance,large (4K-8K),8776,0.22115520000000002
+ep-10-05-18-006.txt,006,European Refugee Fund for the period 2008 to 2013 (amendment of Decision No 573/2007/EC). Migration from the Schengen Information System (SIS 1+) to the second generation Schengen Information System (SIS II) (amendment of Regulation (EC) No 1104/2008) - Migration from the Schengen Information System (SIS 1+) to the second generation Schengen Information System (SIS II) (amendment of Decision 2008/839/JHA) - The establishment of a joint EU resettlement programme (debate),10863,64404,38,31,human_rights,xlarge (8K-15K),16101,0.40574520000000003
+ep-10-05-18-007.txt,007,Specific measures for agriculture in the outermost regions of the Union (amendment of Regulation (EC) No 247/2006) (debate),5547,33690,24,20,agriculture_food,large (4K-8K),8422,0.21223440000000002
+ep-10-05-18-008-13.txt,008-13,13. Macro-financial assistance for Ukraine (,302,1971,1,1,economy_finance,small (500-1K),492,0.0123984
+ep-10-05-18-012.txt,012,Standards of quality and safety of human organs intended for transplantation - Action plan on organ donation and transplantation (2009-2015) (debate),12268,74305,46,39,health_consumer,xlarge (8K-15K),18576,0.4681152
+ep-10-05-18-013.txt,013,"Institutional aspects of accession by the European Union to the European Convention for the Protection of Human Rights and Fundamental Freedoms - Review Conference of the Rome Statute of the International Criminal Court in Kampala, Uganda (debate)",16330,97039,48,43,human_rights,xlarge (8K-15K),24259,0.6113268000000001
+ep-10-05-18-014.txt,014,Stockholm Action Plan (debate),7708,45717,23,20,economy_finance,large (4K-8K),11429,0.2880108
+ep-10-05-18-015.txt,015,Question Time (Commission),10740,64857,46,21,institutional,xlarge (8K-15K),16214,0.4085928
+ep-10-05-18-016.txt,016,Principle of subsidiarity and universality of social public services in the EU (debate),6779,40782,26,24,social_employment,large (4K-8K),10195,0.256914
+ep-10-05-18-017.txt,017,Security and prevention measures on offshore oil platforms in the EU (debate),5953,34851,20,18,environment_energy,large (4K-8K),8712,0.21954240000000003
+ep-10-05-18-018.txt,018,Volcanic ash crisis (debate),10563,63639,32,29,other,xlarge (8K-15K),15909,0.4009068
+ep-10-05-19-004.txt,004,Calendar of part-sessions,234,1280,5,3,institutional,small (500-1K),320,0.008064
+ep-10-05-19-006-08.txt,006-08,8. Parliament's calendar of part-sessions - 2011 (vote),707,4158,8,5,institutional,small (500-1K),1039,0.026182800000000003
+ep-10-05-19-006-09.txt,006-09,9. Food additives other than colours and sweeteners (bovine and/or porcine thrombin) (,710,4370,3,3,agriculture_food,small (500-1K),1092,0.027518400000000002
+ep-10-05-19-007.txt,007,Explanations of vote,21259,130473,147,80,institutional,xlarge (8K-15K),32618,0.8219736
+ep-10-05-19-011.txt,011,University Business Dialogue (debate),10087,62757,39,35,other,xlarge (8K-15K),15689,0.3953628
+ep-10-05-19-012.txt,012,Community financial assistance with respect to the decommissioning of Units 1 to 4 of the Kozloduy Nuclear Power Plant in Bulgaria - 'Kozloduy Programme' (debate),6906,42054,29,19,economy_finance,large (4K-8K),10513,0.26492760000000004
+ep-10-05-20-003.txt,003,Union for the Mediterranean (debate),10283,63150,44,38,foreign_affairs,xlarge (8K-15K),15787,0.39783240000000003
+ep-10-05-20-004.txt,004,The need for an EU strategy for the South Caucasus (debate),8546,52155,35,31,other,xlarge (8K-15K),13038,0.32855760000000006
+ep-10-05-20-006.txt,006,Amendment of the agenda,1212,6964,7,4,institutional,medium (1K-2K),1741,0.0438732
+ep-10-05-20-008.txt,008,Explanations of vote,17172,107765,113,59,institutional,xlarge (8K-15K),26941,0.6789132000000001
+ep-10-05-20-012-01.txt,012-01,1. Religious freedom in Pakistan,5063,31957,28,25,human_rights,large (4K-8K),7989,0.20132280000000002
+ep-10-05-20-012-02.txt,012-02,2. Situation in Thailand,3151,19576,17,16,other,med-large (2K-4K),4894,0.1233288
+ep-10-05-20-012-03.txt,012-03,3. Burma,3489,20740,16,15,other,med-large (2K-4K),5185,0.130662
+ep-10-06-14-002.txt,002,Statements by the President,609,3738,1,1,other,small (500-1K),934,0.0235368
+ep-10-06-14-018.txt,018,Mandate for the trilogue on the 2011 Draft Budget (debate),8969,52821,35,30,economy_finance,xlarge (8K-15K),13205,0.332766
+ep-10-06-14-019.txt,019,Progress towards the achievement of the Millennium Development Goals: mid-term review in preparation of the UN high-level meeting in September 2010 (debate),7083,42020,28,25,development_aid,large (4K-8K),10505,0.264726
+ep-10-06-14-020.txt,020,European rail network for competitive freight (debate),6585,40581,25,22,economy_finance,large (4K-8K),10145,0.255654
+ep-10-06-14-022.txt,022,Rights to interpretation and translation in criminal proceedings (debate),7106,42166,28,22,justice_security,large (4K-8K),10541,0.2656332
+ep-10-06-14-023.txt,023,Adoption by Estonia of the euro on 1 January 2011 (debate),5189,30522,20,17,economy_finance,large (4K-8K),7630,0.192276
+ep-10-06-14-024.txt,024,One-minute speeches on matters of political importance,5294,32588,32,31,trade_market,large (4K-8K),8147,0.2053044
+ep-10-06-14-025.txt,025,Derivatives Markets: Future policy actions (short presentation),2157,13194,6,5,economy_finance,med-large (2K-4K),3298,0.0831096
+ep-10-06-14-026.txt,026,Internet of Things (short presentation),2582,15303,11,10,technology_digital,med-large (2K-4K),3825,0.09639
+ep-10-06-14-027.txt,027,Internet governance: the next steps (short presentation),2354,14413,11,10,institutional,med-large (2K-4K),3603,0.0907956
+ep-10-06-15-004.txt,004,The organisation of the working time of persons performing mobile road transport activities (debate),9892,60234,43,38,transport_infrastructure,xlarge (8K-15K),15058,0.3794616
+ep-10-06-15-005.txt,005,Food information to consumers (debate),14089,84432,55,53,agriculture_food,xlarge (8K-15K),21108,0.5319216
+ep-10-06-15-006.txt,006,Quality of statistical data in the Union and enhanced auditing powers by the Commission (Eurostat) (debate),4075,24786,15,13,economy_finance,large (4K-8K),6196,0.1561392
+ep-10-06-15-007-01.txt,007-01,1. Election of a Vice-President of the European Parliament (vote),1839,10156,23,12,institutional,medium (1K-2K),2539,0.0639828
+ep-10-06-15-007-06.txt,007-06,6. Transparency in regional policy and its funding (,275,1806,1,1,social_employment,small (500-1K),451,0.0113652
+ep-10-06-15-007-07.txt,007-07,7. EU financial contributions to the International Fund for Ireland (2007-2010) (,431,2393,3,3,economy_finance,small (500-1K),598,0.0150696
+ep-10-06-15-007-09.txt,007-09,9. Adaptation of the Rules of Procedure to the Treaty of Lisbon (,437,2449,4,3,institutional,small (500-1K),612,0.015422400000000001
+ep-10-06-15-007-16.txt,007-16,16. Proposal for a decision on the setting up and numerical strength of the Delegation to the CARIFORUM-EC Parliamentary Committee (vote),2012,11249,21,13,institutional,med-large (2K-4K),2812,0.0708624
+ep-10-06-15-011.txt,011,Question Hour with the President of the Commission,8567,50416,56,21,institutional,xlarge (8K-15K),12604,0.3176208
+ep-10-06-15-012.txt,012,Credit rating agencies (debate),10503,62741,28,26,economy_finance,xlarge (8K-15K),15685,0.395262
+ep-10-06-15-013.txt,013,Securities to be offered to the public and harmonisation of transparency requirements (debate),4924,30235,17,14,institutional,large (4K-8K),7558,0.1904616
+ep-10-06-15-014.txt,014,Revision of the Multiannual Financial Framework (debate),8585,50933,28,24,economy_finance,xlarge (8K-15K),12733,0.32087160000000003
+ep-10-06-15-015.txt,015,Question Time (Commission),10511,63958,52,26,institutional,xlarge (8K-15K),15989,0.40292279999999997
+ep-10-06-15-016.txt,016,Gender aspects of the economic downturn and financial crisis - Assessment of the results of the 2006-2010 Roadmap for Equality between women and men and forward looking recommendations - Charter for Women's Rights - follow up (debate),13295,78074,42,37,human_rights,xlarge (8K-15K),19518,0.49185360000000006
+ep-10-06-15-017.txt,017,Joint Baltic Sea Research and Development Programme (BONUS-169) (debate),3986,24143,16,13,technology_digital,med-large (2K-4K),6035,0.152082
+ep-10-06-15-018.txt,018,Application of the provisions of the Schengen acquis relating to the Schengen Information System in Bulgaria and Romania (debate),4594,28302,20,17,justice_security,large (4K-8K),7075,0.17829
+ep-10-06-15-019.txt,019,"Sport, specifically concerning players' agents (debate)",3103,18572,14,12,transport_infrastructure,med-large (2K-4K),4643,0.1170036
+ep-10-06-16-004.txt,004,Preparations for the European Council meeting (17 June 2010) - Preparations for the G20 summit (26-27 June) (debate),23165,137020,67,64,economy_finance,xlarge (8K-15K),34255,0.863226
+ep-10-06-16-005.txt,005,Conclusions of the EU/Russia Summit (31 May - 1 June) (debate),2413,14883,7,7,foreign_affairs,med-large (2K-4K),3720,0.093744
+ep-10-06-16-007.txt,007,Conclusions of the EU/Russia Summit (31 May - 1 June) (continuation of debate),6867,41565,28,27,foreign_affairs,large (4K-8K),10391,0.2618532
+ep-10-06-16-008-05.txt,008-05,5. Authorising enhanced cooperation procedure regarding the law applicable to divorce and legal separation (,207,1211,1,1,development_aid,small (500-1K),302,0.007610400000000001
+ep-10-06-16-008-10.txt,008-10,10. The organisation of the working time of persons performing mobile road transport activities (,582,3512,11,7,transport_infrastructure,small (500-1K),878,0.022125600000000002
+ep-10-06-16-008-11.txt,008-11,11. Food information to consumers (,1101,6365,12,4,agriculture_food,medium (1K-2K),1591,0.0400932
+ep-10-06-16-012.txt,012,Israeli military operation against the humanitarian flotilla and the Gaza blockade (debate),12932,76220,53,51,development_aid,xlarge (8K-15K),19055,0.480186
+ep-10-06-16-013.txt,013,Annual report on human rights (2008) - EU policies in favour of human rights defenders - Trade in goods used for torture - (debate),12514,74632,42,39,trade_market,xlarge (8K-15K),18658,0.47018160000000003
+ep-10-06-16-014.txt,014,Situation in the Korean Peninsula (debate),3943,23330,17,14,other,med-large (2K-4K),5832,0.1469664
+ep-10-06-16-015.txt,015,Bosnia and Herzegovina (debate),4659,28238,18,16,other,large (4K-8K),7059,0.1778868
+ep-10-06-16-017.txt,017,EU-US air agreement (debate),2812,17085,9,7,other,med-large (2K-4K),4271,0.10762920000000001
+ep-10-06-16-018.txt,018,Implementation of the first railway package directives (debate),5187,31499,16,14,transport_infrastructure,large (4K-8K),7874,0.1984248
+ep-10-06-16-019.txt,019,"Floods in Central European countries, in particular Poland, the Czech Republic, Slovakia and Hungary (debate)",12352,73810,49,46,economy_finance,xlarge (8K-15K),18452,0.4649904
+ep-10-06-16-020.txt,020,Judicial training (debate),2822,17137,10,8,justice_security,med-large (2K-4K),4284,0.1079568
+ep-10-06-17-003.txt,003,Ban on commercial whaling (debate),4247,25316,16,14,trade_market,large (4K-8K),6329,0.15949080000000002
+ep-10-06-17-004.txt,004,A new impetus for the Strategy for the Sustainable Development of European Aquaculture (debate),9350,57896,36,33,economy_finance,xlarge (8K-15K),14474,0.3647448
+ep-10-06-17-005.txt,005,A catch documentation programme for bluefin tuna (thunnus thynnus) (debate),7172,42163,26,23,other,large (4K-8K),10540,0.265608
+ep-10-06-17-007-07.txt,007-07,7. Assessment of the results of the 2006-2010 Road map for Equality between women and men and forward looking recommendations (,392,2289,2,2,human_rights,small (500-1K),572,0.0144144
+ep-10-06-17-011-01.txt,011-01,1. Democratic Republic of Congo: the case of Floribert Chebeya Bahizire,2727,16337,15,14,other,med-large (2K-4K),4084,0.1029168
+ep-10-06-17-011-02.txt,011-02,2. Nepal,3541,21436,17,16,other,med-large (2K-4K),5359,0.13504680000000002
+ep-10-06-17-011-03.txt,011-03,3. Executions in Libya,3167,19094,15,14,other,med-large (2K-4K),4773,0.1202796
+ep-10-06-23-003.txt,003,Statements by the President,260,1629,1,1,other,small (500-1K),407,0.010256399999999999
+ep-10-06-23-009.txt,009,Conclusions of the European Council meeting (17 June 2010) (debate),20705,121843,55,49,economy_finance,xlarge (8K-15K),30460,0.767592
+ep-10-07-05-003.txt,003,Statements by the President,331,1984,1,1,other,small (500-1K),496,0.0124992
+ep-10-07-05-014.txt,014,Order of business,660,3789,10,6,other,small (500-1K),947,0.0238644
+ep-10-07-05-015.txt,015,Rights of passengers in bus and coach transport - Rights of passengers when travelling by sea and inland waterway (debate),8555,51621,31,27,transport_infrastructure,xlarge (8K-15K),12905,0.325206
+ep-10-07-05-016.txt,016,Intelligent Transport Systems in the field of road transport and interfaces with other transport modes (debate),4795,29465,21,18,transport_infrastructure,large (4K-8K),7366,0.18562320000000002
+ep-10-07-05-017.txt,017,Reporting formalities for ships arriving in or departing from ports (debate),3348,20418,13,10,transport_infrastructure,med-large (2K-4K),5104,0.1286208
+ep-10-07-05-018.txt,018,A sustainable future for transport (debate),9935,60119,39,35,transport_infrastructure,xlarge (8K-15K),15029,0.3787308
+ep-10-07-05-019.txt,019,Annual report of the Petitions Committee 2009 (debate),7343,43873,25,22,transport_infrastructure,large (4K-8K),10968,0.2763936
+ep-10-07-05-020.txt,020,One-minute speeches (Rule 150),6227,37264,35,34,other,large (4K-8K),9316,0.2347632
+ep-10-07-05-021.txt,021,"Promoting youth access to the labour market, strengthening trainee, internship and apprenticeship status (short presentation)",3972,23952,21,20,social_employment,med-large (2K-4K),5988,0.1508976
+ep-10-07-05-022.txt,022,"Atypical contracts, secured professional paths and new forms of social dialogue (short presentation)",2482,15395,11,10,social_employment,med-large (2K-4K),3848,0.0969696
+ep-10-07-05-023.txt,023,Commission Green Paper on the management of bio-waste in the European Union (short presentation),2545,15596,13,12,environment_energy,med-large (2K-4K),3899,0.0982548
+ep-10-07-05-024.txt,024,The European Union strategy for the Baltic Sea region and the role of macro-regions in the future cohesion policy (short presentation),3525,21950,16,15,economy_finance,med-large (2K-4K),5487,0.1382724
+ep-10-07-05-025.txt,025,"Contribution of EU regional policy towards fighting the financial and economic crisis, with a special reference to Objective 2 (short presentation)",2045,12672,9,8,economy_finance,med-large (2K-4K),3168,0.0798336
+ep-10-07-06-004.txt,004,Review of the Spanish Presidency (debate),18189,109500,46,41,institutional,xlarge (8K-15K),27375,0.68985
+ep-10-07-06-005.txt,005,Agreement between the EU and the USA on the processing and transfer of financial messaging data from the EU to the USA for purposes of the Terrorist Finance Tracking Program (debate),9284,54705,36,32,economy_finance,xlarge (8K-15K),13676,0.34463520000000003
+ep-10-07-06-006-06.txt,006-06,6. Quality of statistical data in the context of the excessive deficit procedure (,320,1940,1,1,economy_finance,small (500-1K),485,0.012222
+ep-10-07-06-010.txt,010,"Economic governance in the EU and the eurozone, and surveillance of national budgets (debate)",6879,40773,14,12,economy_finance,large (4K-8K),10193,0.2568636
+ep-10-07-06-011.txt,011,"Specific tasks for the European Central Bank concerning the functioning of the European Systemic Risk Board - Powers of the European Banking Authority, the European Insurance and Occupational Pensions Authority and the European Securities and Markets Authority - European Securities and Markets Authority - Macro-prudential oversight of the financial system and establishment of a European Systemic Risk Board - European Banking Authority - European Insurance and Occupational Pensions Authority - Cross-Border Crisis Management in the Banking Sector (debate)",19032,114344,60,50,economy_finance,xlarge (8K-15K),28586,0.7203672000000001
+ep-10-07-06-012.txt,012,European Financial Stability Facility and European financial stabilisation mechanism and future actions (debate),4181,24862,13,9,economy_finance,large (4K-8K),6215,0.156618
+ep-10-07-06-013.txt,013,"Capital requirements for the trading book and for re-securitisations, and the supervisory review of remuneration policies - Remuneration of directors of listed companies and remuneration policies in the financial services sector (debate)",6724,41134,21,17,economy_finance,large (4K-8K),10283,0.2591316
+ep-10-07-06-014.txt,014,Question Time (Commission),9418,57040,59,23,institutional,xlarge (8K-15K),14260,0.359352
+ep-10-07-06-015.txt,015,Novel foods (debate),8695,51652,32,29,agriculture_food,xlarge (8K-15K),12913,0.3254076
+ep-10-07-06-016.txt,016,Industrial emissions (integrated pollution prevention and control) (recast) (debate),8762,53638,31,28,environment_energy,xlarge (8K-15K),13409,0.3379068
+ep-10-07-06-017.txt,017,Obligations of operators who place timber and timber products on the market (debate),6189,36684,24,21,economy_finance,large (4K-8K),9171,0.23110920000000001
+ep-10-07-07-006.txt,006,The Belgian Presidency's programme of activities (debate),20899,125239,60,56,institutional,xlarge (8K-15K),31309,0.7889868000000001
+ep-10-07-07-007.txt,007,Iceland's application for membership of the European Union (debate),7587,45981,33,29,economy_finance,large (4K-8K),11495,0.289674
+ep-10-07-07-008-05.txt,008-05,"5. Powers of the European Banking Authority, the European Insurance and Occupational Pensions Authority and the European Securities and Markets Authority (",724,4090,4,3,economy_finance,small (500-1K),1022,0.0257544
+ep-10-07-07-012.txt,012,European External Action Service (debate),17770,106373,62,55,economy_finance,xlarge (8K-15K),26593,0.6701436
+ep-10-07-07-013.txt,013,Kosovo - Albania (debate),11362,69228,47,39,other,xlarge (8K-15K),17307,0.43613640000000004
+ep-10-07-07-016.txt,016,"Oil exploration and extraction - risks, liability and regulation (debate)",9216,54941,30,26,environment_energy,xlarge (8K-15K),13735,0.346122
+ep-10-07-07-017.txt,017,Situation in Kyrgyzstan (debate),9070,54713,26,23,other,xlarge (8K-15K),13678,0.34468560000000004
+ep-10-07-07-018.txt,018,"AIDS/HIV in view of the XVIII International AIDS Conference (Vienna, July 18-23 2010) (debate)",4774,27886,17,15,development_aid,large (4K-8K),6971,0.17566920000000003
+ep-10-07-07-019.txt,019,Entry into force on 1 August 2010 of the Convention on Cluster Munitions (CCM) and the role of the EU (debate),4008,23874,14,11,other,large (4K-8K),5968,0.15039360000000002
+ep-10-07-08-003.txt,003,Future of the CAP after 2013 (debate),14332,85882,62,55,other,xlarge (8K-15K),21470,0.541044
+ep-10-07-08-004.txt,004,Implications for EU agriculture of the reopening of negotiations with Mercosur with a view to concluding an Association Agreement - Preparations for the forthcoming EU-Brazil summit on 14 July 2010 in Brasilia (debate),11192,67655,45,35,trade_market,xlarge (8K-15K),16913,0.4262076
+ep-10-07-08-005.txt,005,Arrangements for importing fishery and aquaculture products into the EU with a view to the future reform of the CFP (debate),5854,35438,25,19,trade_market,large (4K-8K),8859,0.22324680000000002
+ep-10-07-08-006-01.txt,006-01,1. Agreement between the EU and the USA on the processing and transfer of financial messaging data from the EU to the USA for purposes of the Terrorist Finance Tracking Program (,317,1851,4,3,economy_finance,small (500-1K),462,0.011642399999999999
+ep-10-07-08-006-03.txt,006-03,3. Kosovo (,407,2401,5,4,other,small (500-1K),600,0.01512
+ep-10-07-08-006-06.txt,006-06,"6. AIDS/HIV in view of the XVIII International AIDS Conference (Vienna July 18-23, 2010) (",406,2243,8,5,development_aid,small (500-1K),560,0.014112
+ep-10-07-08-006-08.txt,006-08,8. Future of the CAP after 2013 (,576,3189,14,6,other,small (500-1K),797,0.020084400000000002
+ep-10-07-08-011-01.txt,011-01,"1. Zimbabwe, in particular the case of Farai Maguwu",4413,26762,22,21,other,large (4K-8K),6690,0.168588
+ep-10-07-08-011-02.txt,011-02,"2. Venezuela, in particular the case of Maria Lourdes Afiuni",3556,21303,19,17,other,med-large (2K-4K),5325,0.13419
+ep-10-07-08-011-03.txt,011-03,3. North Korea,4999,29845,22,21,other,large (4K-8K),7461,0.18801720000000002
+ep-10-09-20-003.txt,003,Announcement by the President,699,4146,5,3,other,small (500-1K),1036,0.0261072
+ep-10-09-20-004.txt,004,Approval of the minutes of the previous sitting,336,1974,3,2,institutional,small (500-1K),493,0.0124236
+ep-10-09-20-016.txt,016,Order of business,1116,6338,11,8,other,medium (1K-2K),1584,0.0399168
+ep-10-09-20-017.txt,017,Investigation and prevention of accidents and incidents in civil aviation (debate),6114,37332,28,22,transport_infrastructure,large (4K-8K),9333,0.2351916
+ep-10-09-20-018.txt,018,Agreement between the EC and Pakistan on readmission - Community readmission agreements with third countries (debate),10070,61219,34,31,foreign_affairs,xlarge (8K-15K),15304,0.38566079999999997
+ep-10-09-20-019.txt,019,Trade and economic relations with Turkey (debate),7625,46347,33,29,economy_finance,large (4K-8K),11586,0.29196720000000004
+ep-10-09-20-020.txt,020,EU legislation aiming at the conservation of biodiversity (debate),9693,58173,40,37,environment_energy,xlarge (8K-15K),14543,0.3664836
+ep-10-09-20-021.txt,021,One-minute speeches on matters of political importance,5556,33464,35,32,trade_market,large (4K-8K),8366,0.21082320000000002
+ep-10-09-20-022.txt,022,Completing the internal market for e-commerce (short presentation),2333,14522,11,10,economy_finance,med-large (2K-4K),3630,0.091476
+ep-10-09-20-023.txt,023,Enforcement of intellectual property rights in the internal market (short presentation),3936,24275,19,17,economy_finance,med-large (2K-4K),6068,0.1529136
+ep-10-09-20-024.txt,024,Prevention of natural and man-made disasters (short presentation),3442,21393,17,14,other,med-large (2K-4K),5348,0.13476960000000002
+ep-10-09-20-025.txt,025,Poverty reduction and job creation in developing countries (short presentation),1969,12227,9,8,development_aid,medium (1K-2K),3056,0.0770112
+ep-10-09-21-003.txt,003,Security of gas supply (debate),15136,91438,60,57,environment_energy,xlarge (8K-15K),22859,0.5760468000000001
+ep-10-09-21-004.txt,004,EU-China summit on 6 October 2010 (debate),10284,61947,45,40,foreign_affairs,xlarge (8K-15K),15486,0.3902472
+ep-10-09-21-005-06.txt,005-06,6. Trade and economic relations with Turkey (,217,1181,3,2,economy_finance,small (500-1K),295,0.007434
+ep-10-09-21-005-07.txt,005-07,7. EU legislation aiming at the conservation of biodiversity (,333,1783,7,3,environment_energy,small (500-1K),445,0.011214
+ep-10-09-21-009.txt,009,Pharmacovigilance of medicinal products (amendment of Regulation (EC) No 726/2004) - Pharmacovigilance (amendment of Directive 2001/83/EC) (debate),11348,70852,45,41,other,xlarge (8K-15K),17713,0.44636760000000003
+ep-10-09-21-010.txt,010,Placing on the market and use of biocidal products (debate),7891,47709,31,28,economy_finance,large (4K-8K),11927,0.3005604
+ep-10-09-21-011.txt,011,Multiannual financial framework for 2007-2013 (debate),9529,56313,35,31,economy_finance,xlarge (8K-15K),14078,0.3547656
+ep-10-09-21-012.txt,012,Draft amending budget No 7/2010: guarantee provided by the European Union in accordance with the provisions of Article 122 of the TFEU - financial assistance to Member States (debate),3298,19242,13,10,economy_finance,med-large (2K-4K),4810,0.121212
+ep-10-09-21-013.txt,013,Question Time (Commission),11568,71497,56,22,institutional,xlarge (8K-15K),17874,0.45042480000000007
+ep-10-09-21-014.txt,014,"European strategy for the economic and social development of mountain regions, islands and sparsely populated areas (debate)",13920,86692,53,51,economy_finance,xlarge (8K-15K),21673,0.5461596
+ep-10-09-21-015.txt,015,Inclusion of aviation activities in the scheme for greenhouse gas emission allowance trading within the Community (debate),4835,29118,17,15,environment_energy,large (4K-8K),7279,0.1834308
+ep-10-09-21-016.txt,016,Use of Community trade marks in the internal market (debate),3076,18783,10,8,trade_market,med-large (2K-4K),4695,0.118314
+ep-10-09-22-003.txt,003,Conclusions of the European Council meeting (16 September 2010) (debate),19946,116991,60,49,economy_finance,xlarge (8K-15K),29247,0.7370244
+ep-10-09-22-004.txt,004,Financial supervision package (debate),9803,59121,41,34,economy_finance,xlarge (8K-15K),14780,0.372456
+ep-10-09-22-005-13.txt,005-13,13. Enforcement of intellectual property rights in the internal market (,362,2058,3,3,economy_finance,small (500-1K),514,0.0129528
+ep-10-09-22-009.txt,009,Failures in protection of human rights and justice in the Democratic Republic of Congo (debate),13198,78914,45,43,human_rights,xlarge (8K-15K),19728,0.4971456
+ep-10-09-22-010.txt,010,Transatlantic relations: USA travel fee (debate),8259,48251,27,25,other,xlarge (8K-15K),12062,0.3039624
+ep-10-09-22-011.txt,011,Question Time (Council),7644,46826,43,12,institutional,large (4K-8K),11706,0.2949912
+ep-10-09-23-001.txt,001,Opening of the sitting,327,1753,4,3,institutional,small (500-1K),438,0.0110376
+ep-10-09-23-002.txt,002,Future allocation of the European Neighbourhood and Partnership Instrument (ENPI) for the cross-border cooperation programmes (CBC) budget (debate),9332,57227,31,29,economy_finance,xlarge (8K-15K),14306,0.36051120000000003
+ep-10-09-23-003.txt,003,Import of Laogai-made goods into the EU (debate),5132,30435,23,21,trade_market,large (4K-8K),7608,0.1917216
+ep-10-10-06-003.txt,003,Statements by the President,353,2143,1,1,other,small (500-1K),535,0.013482
+ep-10-10-06-008.txt,008,Order of business,399,2316,3,2,other,small (500-1K),579,0.014590800000000001
+ep-10-10-06-009.txt,009,Formal sitting - Timor-Oriental,2267,13400,3,2,institutional,med-large (2K-4K),3350,0.08442
+ep-10-10-06-010.txt,010,World day against the death penalty (debate),5983,35495,25,22,human_rights,large (4K-8K),8873,0.2235996
+ep-10-10-06-011.txt,011,EU action on oil exploration and extraction in Europe (debate),12706,74949,46,43,economy_finance,xlarge (8K-15K),18737,0.47217240000000005
+ep-10-10-06-012.txt,012,Contribution of biodiversity and ecosystems to the achievement of the Millennium Development Goals - Conference on Biological Diversity - Nagoya 2010 (debate),13007,78352,45,40,development_aid,xlarge (8K-15K),19588,0.49361760000000005
+ep-10-10-06-013.txt,013,Social provisions of the Lisbon Treaty (debate),6991,42688,20,17,institutional,large (4K-8K),10672,0.2689344
+ep-10-10-06-014.txt,014,Third countries whose nationals must be in possession of visas when crossing the external borders of Member States (debate),10403,62157,36,31,foreign_affairs,xlarge (8K-15K),15539,0.3915828
+ep-10-10-06-015.txt,015,Basel II and revision of the Capital Requirements Directive (CRD 4) (debate),8917,52866,26,23,other,xlarge (8K-15K),13216,0.33304320000000004
+ep-10-10-06-016.txt,016,Commission fines in antitrust cases (debate),3518,21143,12,10,trade_market,med-large (2K-4K),5285,0.133182
+ep-10-10-06-017.txt,017,One-minute speeches on matters of political importance,4809,29453,28,27,trade_market,large (4K-8K),7363,0.1855476
+ep-10-10-06-018.txt,018,Health care systems in Sub-Saharan Africa and Global Health (short presentation),3170,18821,10,9,foreign_affairs,med-large (2K-4K),4705,0.118566
+ep-10-10-07-005.txt,005,EU cohesion and regional policy after 2013 - Future of the European Social Fund (debate),22215,135714,96,93,social_employment,xlarge (8K-15K),33928,0.8549856000000001
+ep-10-10-07-009-01.txt,009-01,1. 2008 discharge: European Police College (,212,1304,1,1,economy_finance,small (500-1K),326,0.0082152
+ep-10-10-07-010.txt,010,Formal sitting - 20th anniversary of German reunification,6082,35480,5,3,institutional,large (4K-8K),8870,0.223524
+ep-10-10-07-011-01.txt,011-01,1. Conference on Biological Diversity - Nagoya 2010 (vote),463,2570,7,5,institutional,small (500-1K),642,0.016178400000000003
+ep-10-10-18-003.txt,003,Announcements by the President,322,1946,1,1,other,small (500-1K),486,0.012247200000000001
+ep-10-10-18-011.txt,011,Order of business,347,1943,3,3,other,small (500-1K),485,0.012222
+ep-10-10-18-013.txt,013,Improvements in the safety and health at work of pregnant workers and workers who have recently given birth or are breastfeeding - Precarious women workers (debate),23267,137591,87,74,health_consumer,xlarge (8K-15K),34397,0.8668044
+ep-10-10-18-014.txt,014,Revision of the framework agreement on relations between the European Parliament and the Commission - Adaptation of Parliament's Rules of Procedure to the revised framework agreement on relations between the European Parliament and the Commission (debate),7014,43341,25,22,institutional,large (4K-8K),10835,0.273042
+ep-10-10-18-015.txt,015,Data transfer to the US by Member States on the basis of Memoranda of Understanding (debate),6129,35171,20,14,other,large (4K-8K),8792,0.22155840000000002
+ep-10-10-18-016.txt,016,Convention on Future Multilateral Cooperation in the Northwest Atlantic Fisheries - Scheme of control and enforcement applicable in the area covered by the Convention on future multilateral cooperation in the North-East Atlantic fisheries (debate),6756,42429,24,20,agriculture_food,large (4K-8K),10607,0.26729640000000005
+ep-10-10-18-017.txt,017,One-minute speeches (Rule 150),5358,32899,31,31,other,large (4K-8K),8224,0.2072448
+ep-10-10-18-018.txt,018,Future of European standardisation (short presentation),2307,14931,11,10,economy_finance,med-large (2K-4K),3732,0.0940464
+ep-10-10-19-005.txt,005,Financial Regulation applicable to the general budget of the European Communities as regards the European External Action Service - Draft amending budget No 6/2010: Section II - European Council and Council; Section III - Commission; Section X - European External Action Service - Amendment of the Staff Regulations of Officials of the European Communities and the Conditions of Employment of Other Servants of those Communities (debate),16448,98519,65,58,economy_finance,xlarge (8K-15K),24629,0.6206508000000001
+ep-10-10-19-006.txt,006,Development aspects of the International Day for the Eradication of Poverty - Role of minimum income in combating poverty and promoting an inclusive society in Europe (debate),12285,74303,51,47,development_aid,xlarge (8K-15K),18575,0.46809
+ep-10-10-19-007.txt,007,"Formal sitting - Address by Ban Ki-Moon, Secretary-General of the United Nations",2671,16124,5,3,institutional,med-large (2K-4K),4031,0.1015812
+ep-10-10-19-009.txt,009,Explanations of vote,23071,144875,159,60,institutional,xlarge (8K-15K),36218,0.9126936000000001
+ep-10-10-19-012.txt,012,Parliament's position on the 2011 draft budget as modified by the Council - all sections - Draft amending budget No 3/2010: Section III - Commission - BAM (Banana Accompanying Measures) (debate),23818,140962,78,65,institutional,xlarge (8K-15K),35240,0.888048
+ep-10-10-19-013.txt,013,Budget review (debate),9014,52528,29,27,economy_finance,xlarge (8K-15K),13132,0.3309264
+ep-10-10-19-014.txt,014,Question Time (Commission),11919,73604,50,27,institutional,xlarge (8K-15K),18401,0.4637052
+ep-10-10-19-015.txt,015,Combating late payment in commercial transactions (debate),10119,61591,40,37,trade_market,xlarge (8K-15K),15397,0.3880044
+ep-10-10-19-016.txt,016,Sludge catastrophe in Hungary (debate),9660,58086,35,32,other,xlarge (8K-15K),14521,0.3659292
+ep-10-10-19-017.txt,017,Databases relating to racial and ethnic origin in the EU (debate),7995,47591,24,22,other,large (4K-8K),11897,0.2998044
+ep-10-10-20-004-05.txt,004-05,5. Draft amending budget No 6/2010: Section II - European Council and Council; Section III - Commission; Section X - European External Action Service (,243,1485,1,1,economy_finance,small (500-1K),371,0.0093492
+ep-10-10-20-006-02.txt,006-02,2. Draft general budget of the European Union - 2011 financial year (vote),650,3804,9,6,economy_finance,small (500-1K),951,0.0239652
+ep-10-10-20-006-04.txt,006-04,4. Parliament's calendar of part-sessions - 2012 (vote),316,1763,5,4,institutional,small (500-1K),440,0.011088
+ep-10-10-20-006-09.txt,006-09,"9. Improving economic governance and stability framework in the EU, in particular, in the euro zone (",436,2463,8,6,economy_finance,small (500-1K),615,0.015498
+ep-10-10-20-010.txt,010,Instrument for Stability - Financing instrument for development cooperation - Financing instrument for the promotion of democracy and human rights worldwide - Financing instrument for cooperation with industrialised countries - Financing instrument for development cooperation (debate),14464,87762,54,43,development_aid,xlarge (8K-15K),21940,0.552888
+ep-10-10-20-011.txt,011,Ukraine (debate),8128,48468,42,30,foreign_affairs,xlarge (8K-15K),12117,0.3053484
+ep-10-10-20-012.txt,012,Question Time (Council),8660,52680,50,15,institutional,xlarge (8K-15K),13170,0.331884
+ep-10-10-20-014.txt,014,Aid for Pakistan and possible implication for the European industrial sector (debate),7349,43324,28,25,economy_finance,large (4K-8K),10831,0.2729412
+ep-10-10-20-015.txt,015,Indication of the country of origin of certain products imported from third countries (debate),7883,47512,33,28,trade_market,large (4K-8K),11878,0.2993256
+ep-10-10-20-016.txt,016,Anti-Counterfeiting Trade Agreement (ACTA) (debate),8815,53100,24,22,trade_market,xlarge (8K-15K),13275,0.33453
+ep-10-10-21-001.txt,001,Opening of the sitting,205,1218,2,2,institutional,small (500-1K),304,0.007660800000000001
+ep-10-10-21-003.txt,003,Implemented reforms and developments in the Republic of Moldova (debate),5944,36525,26,24,development_aid,large (4K-8K),9131,0.2301012
+ep-10-10-21-004.txt,004,Containers lost at sea and compensation (debate),4269,25456,15,12,other,large (4K-8K),6364,0.1603728
+ep-10-10-21-005.txt,005,Integrated Maritime Policy (debate),12332,74903,48,43,transport_infrastructure,xlarge (8K-15K),18725,0.47187
+ep-10-10-21-006.txt,006,Sakharov Prize 2010 (announcement of the winner),473,2652,3,2,other,small (500-1K),663,0.016707600000000003
+ep-10-10-21-007-06.txt,007-06,6. Indication of the country of origin of certain products imported from third countries (,204,1127,5,3,trade_market,small (500-1K),281,0.007081200000000001
+ep-10-10-21-007-08.txt,007-08,8. Ukraine (,454,2533,8,5,foreign_affairs,small (500-1K),633,0.0159516
+ep-10-10-21-008.txt,008,Explanations of vote,22736,143705,164,68,institutional,xlarge (8K-15K),35926,0.9053352000000001
+ep-10-10-21-009.txt,009,Corrections to votes and voting intentions: see Minutes,206,1211,2,2,institutional,small (500-1K),302,0.007610400000000001
+ep-10-10-21-011-01.txt,011-01,1. Forced evictions in Zimbabwe,3675,22090,18,18,other,med-large (2K-4K),5522,0.13915439999999998
+ep-10-10-21-011-02.txt,011-02,"2. Cambodia, in particular the case of Sam Rainsy",3287,20107,17,16,other,med-large (2K-4K),5026,0.12665520000000002
+ep-10-10-21-011-03.txt,011-03,"3. North Caucasus, in particular the case of Oleg Orlov",4469,26681,21,20,other,large (4K-8K),6670,0.168084
+ep-10-11-10-003.txt,003,Statements by the President,511,3078,3,2,other,small (500-1K),769,0.019378799999999998
+ep-10-11-10-013.txt,013,Order of business,1145,6664,7,7,other,medium (1K-2K),1666,0.041983200000000005
+ep-10-11-10-014.txt,014,Upcoming EU-US summit and Transatlantic Economic Council - EU-US Data Protection Agreement (debate),16328,98368,60,56,economy_finance,xlarge (8K-15K),24592,0.6197184
+ep-10-11-10-015.txt,015,EU external strategy on Passenger Name Record (PNR) (debate),9022,54221,30,27,foreign_affairs,xlarge (8K-15K),13555,0.341586
+ep-10-11-10-016.txt,016,Alternative investment fund managers (debate),12734,76749,40,35,economy_finance,xlarge (8K-15K),19187,0.4835124
+ep-10-11-10-017.txt,017,Single Market Act (debate),10589,62754,34,32,economy_finance,xlarge (8K-15K),15688,0.3953376
+ep-10-11-10-018.txt,018,Innovation partnerships (debate),6544,40707,25,23,foreign_affairs,large (4K-8K),10176,0.25643520000000003
+ep-10-11-10-019.txt,019,Strengthening the OSCE: a role for the EU (debate),4941,30509,18,16,other,large (4K-8K),7627,0.1922004
+ep-10-11-10-020.txt,020,Amendment of Regulation (EC) No 539/2001 listing the third countries whose nationals must be in possession of visas when crossing the external borders of Member States and those whose nationals are exempt from that requirement (debate),4651,28028,18,15,foreign_affairs,large (4K-8K),7007,0.1765764
+ep-10-11-10-021.txt,021,One-minute speeches on matters of political importance,3657,21952,20,19,trade_market,med-large (2K-4K),5488,0.1382976
+ep-10-11-10-022.txt,022,Demographic challenge and solidarity between generations (short presentation),5929,36359,28,27,other,large (4K-8K),9089,0.22904280000000002
+ep-10-11-10-023.txt,023,Implementation of the Research Framework Programmes (short presentation),2682,17350,13,12,technology_digital,med-large (2K-4K),4337,0.10929240000000001
+ep-10-11-11-003.txt,003,Presentation of the Court of Auditors' annual report - 2009 (debate),9410,55636,34,29,economy_finance,xlarge (8K-15K),13909,0.3505068
+ep-10-11-11-004.txt,004,Amendment of Regulation (EC) No 663/2009 establishing a programme to aid economic recovery by granting Community financial assistance to projects in the field of energy (debate),8552,51932,36,32,economy_finance,xlarge (8K-15K),12983,0.32717160000000006
+ep-10-11-11-005.txt,005,Crisis in the EU livestock sector (debate),8169,49682,35,33,economy_finance,xlarge (8K-15K),12420,0.312984
+ep-10-11-22-003.txt,003,Statements by the President,218,1236,1,1,other,small (500-1K),309,0.0077868
+ep-10-11-22-012.txt,012,Order of business,1289,7574,9,5,other,medium (1K-2K),1893,0.0477036
+ep-10-11-22-013.txt,013,ECB annual report for 2009 - Latest developments on international currency exchange rates (debate),12873,75946,36,29,transport_infrastructure,xlarge (8K-15K),18986,0.4784472
+ep-10-11-22-014.txt,014,Common system of value added tax and duration of obligation to respect a minimum standard rate (debate),2983,17554,13,10,economy_finance,med-large (2K-4K),4388,0.11057760000000001
+ep-10-11-22-015.txt,015,Urgent aid to Haiti (debate),4743,28102,19,18,development_aid,large (4K-8K),7025,0.17703
+ep-10-11-22-016.txt,016,"Long-term plan for the anchovy stock in the Bay of Biscay and the fisheries exploiting that stock - Multiannual plan for the western stock of Atlantic horse mackerel and the fisheries exploiting that stock - Prohibition of highgrading and restrictions on fishing for flounder and turbot in the Baltic Sea, the Belts and the Sound - Use of alien and locally absent species in aquaculture (debate)",11236,66660,35,29,agriculture_food,xlarge (8K-15K),16665,0.419958
+ep-10-11-22-017.txt,017,Information on medicinal products (Community code relating to medicinal products) - Information on medicinal products (Community procedures for the authorisation and supervision of medicinal products) (debate),8409,52367,31,28,other,xlarge (8K-15K),13091,0.3298932
+ep-10-11-22-018.txt,018,Restriction of the use of certain hazardous substances in electrical and electronic equipment (debate),6152,37886,23,20,technology_digital,large (4K-8K),9471,0.2386692
+ep-10-11-22-021.txt,021,One-minute speeches (Rule 150),4332,26549,26,25,other,large (4K-8K),6637,0.1672524
+ep-10-11-22-022.txt,022,Public service broadcasting in the digital era: the future of the dual system (short presentation),2342,14252,10,9,transport_infrastructure,med-large (2K-4K),3563,0.08978760000000001
+ep-10-11-22-023.txt,023,Civilian-military cooperation and the development of civilian-military capabilities (short presentation),2000,12576,10,7,development_aid,med-large (2K-4K),3144,0.0792288
+ep-10-11-23-003.txt,003,Natural disasters in the European Union,2528,15013,10,9,economy_finance,med-large (2K-4K),3753,0.09457560000000001
+ep-10-11-23-004.txt,004,10th anniversary of UN Security Council resolution 1325 on women and peace and security (debate),5802,35773,23,21,human_rights,large (4K-8K),8943,0.2253636
+ep-10-11-23-005.txt,005,State aid to facilitate the closure of uncompetitive coal mines (debate),9882,58570,38,35,development_aid,xlarge (8K-15K),14642,0.36897840000000004
+ep-10-11-23-006-02.txt,006-02,"2. Mobilisation of the European Globalisation Adjustment Fund: Noord Brabant and Zuid Holland, Division 18/Netherlands (",411,2418,4,4,economy_finance,small (500-1K),604,0.015220800000000001
+ep-10-11-23-006-19.txt,006-19,19. Multiannual plan for the western stock of Atlantic horse mackerel and the fisheries exploiting that stock (,201,1113,2,2,economy_finance,small (500-1K),278,0.007005600000000001
+ep-10-11-23-007.txt,007,Formal sitting - Georgia,4346,25447,3,2,institutional,large (4K-8K),6361,0.1602972
+ep-10-11-23-008-02.txt,008-02,"2. Civil, commercial, family and private international law aspects of the action plan implementing the Stockholm Programme (",314,1985,1,1,economy_finance,small (500-1K),496,0.0124992
+ep-10-11-23-013.txt,013,2011 budget (debate),18085,104587,59,48,economy_finance,xlarge (8K-15K),26146,0.6588792000000001
+ep-10-11-23-014.txt,014,Presentation of the Commission work programme for 2011 (debate),12158,73164,40,39,institutional,xlarge (8K-15K),18291,0.4609332
+ep-10-11-23-015.txt,015,An agenda for new skills and jobs (debate),6337,38008,21,19,social_employment,large (4K-8K),9502,0.23945040000000004
+ep-10-11-23-016.txt,016,Question Time (Commission),9139,56603,40,24,institutional,xlarge (8K-15K),14150,0.35658
+ep-10-11-23-017.txt,017,Measures to be taken to free Nobel Peace Prize laureate Liu Xiaobo (debate),4374,25455,17,15,other,large (4K-8K),6363,0.1603476
+ep-10-11-23-018.txt,018,CAP simplification (debate),9496,57429,36,34,other,xlarge (8K-15K),14357,0.3617964
+ep-10-11-23-019.txt,019,The situation in the beekeeping sector (debate),8832,53057,36,34,other,xlarge (8K-15K),13264,0.33425279999999996
+ep-10-11-24-004.txt,004,Conclusions of the European Council meeting (28-29 October) and economic governance (debate),11393,65971,36,27,economy_finance,xlarge (8K-15K),16492,0.41559840000000003
+ep-10-11-24-006.txt,006,Conclusions of the European Council meeting (28-29 October) and economic governance (continuation of debate),7086,42142,30,28,economy_finance,large (4K-8K),10535,0.265482
+ep-10-11-24-007.txt,007,Results of the G20 summit (debate),5394,32374,15,13,foreign_affairs,large (4K-8K),8093,0.2039436
+ep-10-11-24-008.txt,008,Voting time,1570,8799,18,9,other,medium (1K-2K),2199,0.0554148
+ep-10-11-24-011.txt,011,Financial supervision (signing of acts),386,2394,1,1,economy_finance,small (500-1K),598,0.0150696
+ep-10-11-24-013.txt,013,A new Energy Strategy for Europe 2011 - 2020 (debate),12455,75190,50,47,economy_finance,xlarge (8K-15K),18797,0.4736844
+ep-10-11-24-014.txt,014,Preparations for Cancún Climate Change Conference (29 November-10 December) (debate),14940,87825,58,53,environment_energy,xlarge (8K-15K),21956,0.5532912000000001
+ep-10-11-24-015.txt,015,Future of the Africa/EU strategic partnership on the eve of 3rd Africa/EU summit (debate),8138,49886,33,27,foreign_affairs,xlarge (8K-15K),12471,0.3142692
+ep-10-11-24-016.txt,016,Situation in Western Sahara (debate),7628,45810,38,35,other,large (4K-8K),11452,0.2885904
+ep-10-11-24-019.txt,019,Ukraine (debate),7304,43615,30,28,foreign_affairs,large (4K-8K),10903,0.27475560000000004
+ep-10-11-24-020.txt,020,"Human rights, social and environmental standards in International Trade agreements - International Trade Policy in the context of Climate Change imperatives - Corporate social responsibility in international trade agreements (debate)",10976,67746,38,29,environment_energy,xlarge (8K-15K),16936,0.42678720000000003
+ep-10-11-24-021.txt,021,Anti-dumping cases - state of play and prospects (debate),4627,28767,15,13,trade_market,large (4K-8K),7191,0.18121320000000002
+ep-10-11-25-004.txt,004,"European Ombudsman's activity report for 2009 - Special Report from the European Ombudsman to the European Parliament following the draft recommendation to the European Commission in Complaint 676/2008/RT (According to Rule 205(2), 1st part) - 26th Annual Report on Monitoring the Application of European Union Law (2008) (debate)",17638,106453,46,39,institutional,xlarge (8K-15K),26613,0.6706476
+ep-10-11-25-005.txt,005,Competition horizontal cooperation rules (debate),3764,23730,11,9,trade_market,med-large (2K-4K),5932,0.1494864
+ep-10-11-25-008-09.txt,008-09,9. A new Energy Strategy for Europe 2011 - 2020 (,213,1198,2,2,economy_finance,small (500-1K),299,0.0075348
+ep-10-11-25-012-01.txt,012-01,"1. Iraq - in particular, the death penalty (including the case of Tariq Aziz) and attacks against Christian communities",5507,32927,26,25,foreign_affairs,large (4K-8K),8231,0.2074212
+ep-10-11-25-012-02.txt,012-02,2. Tibet - plans to make Chinese the main language of instruction,4152,25223,23,21,other,large (4K-8K),6305,0.158886
+ep-10-11-25-012-03.txt,012-03,3. Burma - conduct of elections and the release of opposition leader Aung San Suu Kyi,3531,20696,18,17,other,med-large (2K-4K),5174,0.1303848
+ep-10-12-13-003.txt,003,Statements by the President,654,3826,1,1,other,small (500-1K),956,0.0240912
+ep-10-12-13-014.txt,014,Order of business,776,4490,9,5,other,small (500-1K),1122,0.0282744
+ep-10-12-13-015.txt,015,One-minute speeches on matters of political importance,5816,35302,36,35,trade_market,large (4K-8K),8825,0.22239
+ep-10-12-13-016.txt,016,EU-Georgia agreement on facilitation of issuance of visas - EU-Georgia agreement on readmission of persons residing without authorisation - Visa liberalisation scheme in Serbia and Former Yugoslav Republic of Macedonia - Implementation of the EU-Russia visa facilitation agreement (debate),11112,68057,38,35,foreign_affairs,xlarge (8K-15K),17014,0.42875280000000004
+ep-10-12-13-017.txt,017,Creation of an immigration liaison officers' network (debate),4859,29593,23,18,human_rights,large (4K-8K),7398,0.1864296
+ep-10-12-13-018.txt,018,Single application procedure for residence and work (debate),9553,57084,33,28,other,xlarge (8K-15K),14271,0.35962920000000004
+ep-10-12-13-019.txt,019,Extension of the scope of Directive 2003/109/EC to beneficiaries of international protection (debate),3213,19108,12,9,other,med-large (2K-4K),4777,0.12038040000000001
+ep-10-12-13-020.txt,020,"Territorial, social and economic cohesion - Good governance and EU regional policy (debate)",11963,73808,44,39,social_employment,xlarge (8K-15K),18452,0.4649904
+ep-10-12-13-021.txt,021,Impact of advertising on consumer behaviour (short presentation),3245,20220,13,12,health_consumer,med-large (2K-4K),5055,0.127386
+ep-10-12-13-022.txt,022,"Regulation of trading in financial instruments - 'dark pools', etc. (short presentation)",2039,12659,7,6,economy_finance,med-large (2K-4K),3164,0.0797328
+ep-10-12-14-005.txt,005,Fundamental rights in the European Union (2009) - Effective implementation after the entry into force of the Treaty of Lisbon (debate),8641,51614,32,28,institutional,xlarge (8K-15K),12903,0.32515560000000004
+ep-10-12-14-006.txt,006,European Protection Order (debate),7939,47409,31,27,economy_finance,large (4K-8K),11852,0.2986704
+ep-10-12-14-007.txt,007,Trafficking in human beings (debate),9466,58069,42,38,other,xlarge (8K-15K),14517,0.3658284
+ep-10-12-14-009-15.txt,009-15,"15. Strengthening Chemical, Biological, Radiological and Nuclear Security in the European Union - an EU CBRN Action Plan (",310,1986,1,1,economy_finance,small (500-1K),496,0.0124992
+ep-10-12-14-009-18.txt,009-18,18. Single application procedure for residence and work (,655,3785,10,5,other,small (500-1K),946,0.0238392
+ep-10-12-14-013.txt,013,Question Hour with the President of the Commission,8988,52746,62,24,institutional,xlarge (8K-15K),13186,0.3322872
+ep-10-12-14-014.txt,014,Parliament's position on the new 2011 Draft Budget as modified by the Council (debate),12540,73480,40,33,institutional,xlarge (8K-15K),18370,0.462924
+ep-10-12-14-015.txt,015,Credit rating agencies (debate),7201,43427,24,20,economy_finance,large (4K-8K),10856,0.2735712
+ep-10-12-14-016.txt,016,Outcome of the Climate Change Conference in Cancún (debate),10380,59208,38,33,environment_energy,xlarge (8K-15K),14802,0.3730104
+ep-10-12-14-017.txt,017,Question Time (Commission),9152,55037,44,21,institutional,xlarge (8K-15K),13759,0.3467268
+ep-10-12-14-018.txt,018,Energy Efficiency Action Plan (debate),15190,90805,55,50,environment_energy,xlarge (8K-15K),22701,0.5720652
+ep-10-12-14-019.txt,019,Repeal of directives regarding metrology (debate),3991,24345,15,12,other,med-large (2K-4K),6086,0.1533672
+ep-10-12-14-020.txt,020,Safety of toys (debate),5816,34772,17,15,health_consumer,large (4K-8K),8693,0.2190636
+ep-10-12-15-005.txt,005,Preparations for the European Council meeting (16-17 December 2010) - Establishing a permanent crisis mechanism to safeguard the financial stability of the euro area (debate),22891,134554,86,67,economy_finance,xlarge (8K-15K),33638,0.8476776000000001
+ep-10-12-15-006.txt,006,Citizens' initiative (debate),15445,93045,64,56,other,xlarge (8K-15K),23261,0.5861772000000001
+ep-10-12-15-007-03.txt,007-03,3. Parliament's position on the new 2011 Draft Budget as modified by the Council (,318,1896,3,3,institutional,small (500-1K),474,0.011944800000000002
+ep-10-12-15-008.txt,008,Award of the Sakharov Prize (formal sitting),1045,6290,2,2,institutional,medium (1K-2K),1572,0.0396144
+ep-10-12-15-009-02.txt,009-02,2. Law applicable to divorce and legal separation (,321,1866,1,1,other,small (500-1K),466,0.0117432
+ep-10-12-15-013.txt,013,Economic governance and Article 9 of the Treaty of Lisbon (debate),5525,33202,17,14,institutional,large (4K-8K),8300,0.20916
+ep-10-12-15-014.txt,014,Human rights in the world 2009 and EU policy on the matter (debate),13641,81373,54,49,human_rights,xlarge (8K-15K),20343,0.5126436000000001
+ep-10-12-15-016.txt,016,A new strategy for Afghanistan (debate),10560,63160,40,37,foreign_affairs,xlarge (8K-15K),15790,0.397908
+ep-10-12-15-017.txt,017,Outcome of the NATO Summit in Lisbon (debate),10162,61516,41,39,foreign_affairs,xlarge (8K-15K),15379,0.3875508
+ep-10-12-15-018.txt,018,Situation in Côte d'Ivoire (debate),3836,23178,15,13,other,med-large (2K-4K),5794,0.14600880000000002
+ep-10-12-15-019.txt,019,Control by Member States of the Commission's exercise of implementing powers (debate),5543,33333,16,13,institutional,large (4K-8K),8333,0.2099916
+ep-10-12-16-002.txt,002,European Heritage Label (debate),8967,53716,39,31,economy_finance,xlarge (8K-15K),13429,0.3384108
+ep-10-12-16-003.txt,003,Participation of Switzerland in the 'Youth in Action' programme and in the action programme in the field of lifelong learning (debate),4963,30159,23,20,social_employment,large (4K-8K),7539,0.1899828
+ep-10-12-16-004.txt,004,Welfare of laying hens (debate),8713,51012,37,29,social_employment,xlarge (8K-15K),12753,0.32137560000000004
+ep-10-12-16-005.txt,005,Support for strengthening the European Union ban on shark finning - Increased European Union support for grassroots sports - An EU homelessness strategy (Written declarations),432,2616,6,4,economy_finance,small (500-1K),654,0.0164808
+ep-10-12-16-006-04.txt,006-04,4. Human rights in the world 2009 and EU policy on the matter (,290,1679,6,5,human_rights,small (500-1K),419,0.010558800000000002
+ep-10-12-16-007.txt,007,Explanations of vote,20813,128830,137,60,institutional,xlarge (8K-15K),32207,0.8116164
+ep-10-12-16-010-01.txt,010-01,1. Malaysia: the practice of caning,3708,22790,23,19,other,med-large (2K-4K),5697,0.14356439999999998
+ep-10-12-16-010-02.txt,010-02,2. Uganda: the Bahati Bill and discrimination against the LGBT population,3104,18894,16,15,human_rights,med-large (2K-4K),4723,0.1190196
+ep-10-12-16-010-03.txt,010-03,3. Eritrean refugees held hostage in Sinai,3685,22145,21,17,human_rights,med-large (2K-4K),5536,0.1395072
+ep-10-12-16-012-03.txt,012-03,3. Eritrean refugees held hostage in Sinai (,413,2485,4,3,human_rights,small (500-1K),621,0.015649200000000002
+ep-11-01-17-003.txt,003,Statement by the President,421,2623,1,1,other,small (500-1K),655,0.016506
+ep-11-01-17-009.txt,009,Order of business,1206,6843,13,9,other,medium (1K-2K),1710,0.043092
+ep-11-01-17-011.txt,011,Statement by the President of the European Parliament on the situation in Tunisia,4283,25678,10,10,economy_finance,large (4K-8K),6419,0.1617588
+ep-11-01-17-012.txt,012,Harmonised conditions for the marketing of construction products (debate),5171,31641,16,13,economy_finance,large (4K-8K),7910,0.199332
+ep-11-01-17-013.txt,013,Consequences in the European Union of the dioxin animal feed incident (debate),9361,55563,37,33,economy_finance,xlarge (8K-15K),13890,0.350028
+ep-11-01-17-014.txt,014,EU-Cameroon forest law agreement - EU-Republic of Congo forest law agreement - FLEGT voluntary partnership agreements (debate),3766,23066,7,7,foreign_affairs,med-large (2K-4K),5766,0.14530320000000002
+ep-11-01-17-016.txt,016,EU-Cameroon forest law agreement - EU-Republic of Congo forest law agreement - FLEGT voluntary partnership agreements (continuation of debate),3908,23716,18,17,foreign_affairs,med-large (2K-4K),5929,0.1494108
+ep-11-01-17-017.txt,017,Interim Partnership Agreement between the EC and the Pacific States - Interim Partnership Agreement between the EC and the Pacific States (debate),6522,38834,19,16,foreign_affairs,large (4K-8K),9708,0.24464160000000001
+ep-11-01-17-018.txt,018,International adoption in the European Union (debate),8649,52538,38,36,economy_finance,xlarge (8K-15K),13134,0.3309768
+ep-11-01-17-019.txt,019,One-minute speeches (Rule 150),4737,28878,29,28,other,large (4K-8K),7219,0.18191880000000002
+ep-11-01-17-020.txt,020,European Consensus on humanitarian aid (short presentation),2301,14245,10,9,development_aid,med-large (2K-4K),3561,0.0897372
+ep-11-01-17-021.txt,021,Agriculture as a strategic sector in the context of food security (short presentation),5666,34470,27,26,agriculture_food,large (4K-8K),8617,0.21714840000000002
+ep-11-01-18-003.txt,003,EC-Serbia Stabilisation and Association Agreement - Stabilisation and Association Agreement between the EC and Serbia (debate),2836,17855,5,5,other,med-large (2K-4K),4463,0.1124676
+ep-11-01-18-005.txt,005,EC-Serbia Stabilisation and Association Agreement - Stabilisation and Association Agreement between the EC and Serbia (continuation of debate),9223,55406,41,40,other,xlarge (8K-15K),13851,0.3490452
+ep-11-01-18-006.txt,006,Review of the Belgian Presidency of the Council (debate),16058,94737,51,47,institutional,xlarge (8K-15K),23684,0.5968368000000001
+ep-11-01-18-012.txt,012,Question Hour with the President of the Commission,8875,52294,64,25,institutional,xlarge (8K-15K),13073,0.32943960000000005
+ep-11-01-18-013.txt,013,Patients' rights in cross-border healthcare (debate),16469,100658,67,61,health_consumer,xlarge (8K-15K),25164,0.6341328
+ep-11-01-18-014.txt,014,European initiative on Alzheimer's disease and other dementias - Asthma inhalers (debate),11002,66422,44,39,economy_finance,xlarge (8K-15K),16605,0.418446
+ep-11-01-18-015.txt,015,Question Time (Commission),10277,63613,41,22,institutional,xlarge (8K-15K),15903,0.40075560000000005
+ep-11-01-18-016.txt,016,Situation in Haiti one year after the earthquake: humanitarian aid and reconstruction (debate),8735,52226,30,27,development_aid,xlarge (8K-15K),13056,0.3290112
+ep-11-01-18-017.txt,017,Waste crisis in Campania (debate),7965,47573,24,21,environment_energy,large (4K-8K),11893,0.2997036
+ep-11-01-18-018.txt,018,Violation of freedom of expression and discrimination on the basis of sexual orientation in Lithuania (debate),6717,40806,24,22,human_rights,large (4K-8K),10201,0.2570652
+ep-11-01-19-004.txt,004,Conclusions of the European Council meeting on 16-17 December (debate),13103,76546,34,30,economy_finance,xlarge (8K-15K),19136,0.4822272
+ep-11-01-19-005.txt,005,The programme of activities of the Hungarian Presidency of the Council (debate),24529,145371,83,68,institutional,xlarge (8K-15K),36342,0.9158184
+ep-11-01-19-006-08.txt,006-08,8. Stabilisation and Association Agreement between the EC and Serbia (,266,1580,3,3,other,small (500-1K),395,0.009954
+ep-11-01-19-010.txt,010,Situation of Christians in the context of freedom of religion (debate),14973,90289,64,59,human_rights,xlarge (8K-15K),22572,0.5688144
+ep-11-01-19-011.txt,011,Security situation in the Sahel region (debate),5030,30559,19,17,justice_security,large (4K-8K),7639,0.19250280000000003
+ep-11-01-19-012.txt,012,Situation in Belarus,8724,52316,40,32,other,xlarge (8K-15K),13079,0.32959079999999996
+ep-11-01-19-013.txt,013,EU-Libya Framework Agreement,7191,43720,25,22,other,large (4K-8K),10930,0.275436
+ep-11-01-19-014.txt,014,Cost of examining asylum seekers' applications in Member States (debate),8917,53985,25,21,human_rights,xlarge (8K-15K),13496,0.3400992
+ep-11-01-20-003.txt,003,Report on competition policy 2009 (debate),9804,58713,46,32,trade_market,xlarge (8K-15K),14678,0.36988560000000004
+ep-11-01-20-004.txt,004,A sustainable EU policy for the High North (debate),8601,52231,37,32,environment_energy,xlarge (8K-15K),13057,0.3290364
+ep-11-01-20-006.txt,006,An EU Strategy for the Black Sea (debate),7810,47503,36,33,other,large (4K-8K),11875,0.29925
+ep-11-01-20-007-03.txt,007-03,3. Situation in Belarus (,283,1752,4,4,other,small (500-1K),438,0.0110376
+ep-11-01-20-007.txt,007,Voting time,235,1410,3,2,other,small (500-1K),352,0.008870399999999999
+ep-11-01-20-011-01.txt,011-01,"1. Pakistan: murder of the Governor of Punjab, Salmaan Taseer",6047,36564,32,31,other,large (4K-8K),9141,0.2303532
+ep-11-01-20-011-02.txt,011-02,2. Brazil: extradition of Cesare Battisti,4885,28555,31,22,other,large (4K-8K),7138,0.1798776
+ep-11-01-20-011-03.txt,011-03,"3. Iran, in particular, the case of Nasrin Sotoudeh",4224,25537,24,22,foreign_affairs,large (4K-8K),6384,0.16087680000000001
+ep-11-02-02-003.txt,003,Statements by the President,627,3665,3,2,other,small (500-1K),916,0.0230832
+ep-11-02-02-012.txt,012,Order of business,376,2278,3,2,other,small (500-1K),569,0.0143388
+ep-11-02-02-013.txt,013,EU recognition of the Roma genocide during World War II,4293,25421,15,14,other,large (4K-8K),6355,0.160146
+ep-11-02-02-014.txt,014,Preparation for the European Council meeting (4 February 2011) (debate),18269,109956,59,54,economy_finance,xlarge (8K-15K),27489,0.6927228000000001
+ep-11-02-02-015.txt,015,"Situation in the Mediterranean, in particular in Tunisia and Egypt (debate)",22571,131519,88,80,foreign_affairs,xlarge (8K-15K),32879,0.8285508
+ep-11-02-02-016.txt,016,Referendum on the future status of Southern Sudan (debate),8438,50078,30,29,other,xlarge (8K-15K),12519,0.3154788
+ep-11-02-02-017.txt,017,Appointments of ESA senior executives (debate),5219,30880,13,10,other,large (4K-8K),7720,0.194544
+ep-11-02-02-018.txt,018,Agreements on trade in bananas - Repeal of Council Regulation (EC) No 1964/2005 on the tariff rates for bananas - Agreements on trade in bananas (debate),8960,54298,27,23,trade_market,xlarge (8K-15K),13574,0.3420648
+ep-11-02-02-019.txt,019,Tuberculosis Vaccine Initiative (debate),4750,29618,22,20,health_consumer,large (4K-8K),7404,0.18658080000000002
+ep-11-02-02-020.txt,020,One-minute speeches (Rule 150),3400,20768,22,21,other,med-large (2K-4K),5192,0.13083840000000002
+ep-11-02-03-004.txt,004,Financing instrument for development cooperation - Financing instrument for the promotion of democracy and human rights worldwide (amendment of Regulation (EC) No 1889/2006) - A financing instrument for development cooperation (amendment of Regulation (EC) No 1905/2006) - Establishment of a financing instrument for cooperation with industrialised countries (amendment of Regulation (EC) No 1934/2006) (debate),11133,68349,46,31,development_aid,xlarge (8K-15K),17087,0.43059240000000004
+ep-11-02-03-005.txt,005,Waste electrical and electronic equipment (debate),9124,54402,37,30,environment_energy,xlarge (8K-15K),13600,0.34272
+ep-11-02-03-008-13.txt,008-13,13. Appointment of the Chairperson of the European Supervisory Authority (European Banking Authority),1125,6900,7,6,economy_finance,medium (1K-2K),1725,0.04347
+ep-11-02-03-008-16.txt,008-16,16. Waste crisis in Campania,402,2298,7,5,environment_energy,small (500-1K),574,0.014464800000000002
+ep-11-02-14-003.txt,003,Statements by the President,445,2661,1,1,other,small (500-1K),665,0.016758
+ep-11-02-14-012.txt,012,Order of business,1886,10953,15,10,other,medium (1K-2K),2738,0.0689976
+ep-11-02-14-013.txt,013,Implementation of the Services Directive (debate),12020,72275,39,34,other,xlarge (8K-15K),18068,0.45531360000000004
+ep-11-02-14-014.txt,014,Enhanced cooperation in the area of the creation of unitary patent protection (debate),10018,59076,33,29,technology_digital,xlarge (8K-15K),14769,0.3721788
+ep-11-02-14-015.txt,015,Radioactive contamination of foodstuffs (debate),4735,28557,16,13,agriculture_food,large (4K-8K),7139,0.17990280000000003
+ep-11-02-14-016.txt,016,Practical aspects regarding the revision of EU instruments to support SME finance in the next programming period (debate),7671,46823,29,27,transport_infrastructure,large (4K-8K),11705,0.294966
+ep-11-02-14-017.txt,017,Implementation of the EU strategy for the Danube region (debate),7576,47558,29,27,other,large (4K-8K),11889,0.2996028
+ep-11-02-14-018.txt,018,Cord blood stem cells (debate),3545,20683,16,14,other,med-large (2K-4K),5170,0.130284
+ep-11-02-14-019.txt,019,One-minute speeches (Rule 150),4862,29278,29,28,other,large (4K-8K),7319,0.1844388
+ep-11-02-15-003.txt,003,Emission performance standards for new light commercial vehicles (debate),10448,62042,47,37,trade_market,xlarge (8K-15K),15510,0.390852
+ep-11-02-15-004.txt,004,Rights of passengers in bus and coach transport (debate),9950,60081,41,37,transport_infrastructure,xlarge (8K-15K),15020,0.378504
+ep-11-02-15-005.txt,005,Rule of law in Russia (debate),5782,35026,27,20,foreign_affairs,large (4K-8K),8756,0.22065120000000002
+ep-11-02-15-008-13.txt,008-13,13. Radioactive contamination of foodstuffs (,233,1385,3,3,agriculture_food,small (500-1K),346,0.0087192
+ep-11-02-15-012.txt,012,Adoption of modifications to the Treaty (debate),9103,53075,24,20,institutional,xlarge (8K-15K),13268,0.33435360000000003
+ep-11-02-15-013.txt,013,"State of European asylum system, after the recent decision of the European Court of Human Rights (debate)",5979,35216,24,20,human_rights,large (4K-8K),8804,0.22186080000000002
+ep-11-02-15-014.txt,014,Immediate EU measures in support of Italy and other Member States affected by exceptional migratory flows (debate),9440,55444,43,38,human_rights,xlarge (8K-15K),13861,0.34929720000000003
+ep-11-02-15-015.txt,015,"Adequate, sustainable and safe European pension systems (debate)",13092,79444,56,51,economy_finance,xlarge (8K-15K),19861,0.5004972
+ep-11-02-15-016.txt,016,Falsified medicinal products (debate),7903,48136,34,30,other,large (4K-8K),12034,0.3032568
+ep-11-02-15-017.txt,017,Question Time (Commission),9027,54682,34,19,institutional,xlarge (8K-15K),13670,0.344484
+ep-11-02-15-018.txt,018,Situation in Albania (debate),8474,50608,28,26,other,xlarge (8K-15K),12652,0.3188304
+ep-11-02-15-019.txt,019,Eavesdropping scandal in Bulgaria (debate),7316,43960,34,26,other,large (4K-8K),10990,0.276948
+ep-11-02-15-020.txt,020,World Bank energy strategy (debate),5395,31857,17,13,economy_finance,large (4K-8K),7964,0.2006928
+ep-11-02-16-004.txt,004,2010 progress report on Croatia (debate),9989,60567,39,35,transport_infrastructure,xlarge (8K-15K),15141,0.38155320000000004
+ep-11-02-16-005.txt,005,Guidelines for the employment policies of the Member States - Europe 2020 - Implementation of the guidelines for the employment policies of the Member States (debate),16650,100089,65,53,economy_finance,xlarge (8K-15K),25022,0.6305544000000001
+ep-11-02-16-009.txt,009,Signature of acts adopted under the ordinary legislative procedure,757,4572,2,2,other,small (500-1K),1143,0.028803600000000002
+ep-11-02-16-011.txt,011,Rising food prices (debate),14799,89338,55,52,agriculture_food,xlarge (8K-15K),22334,0.5628168
+ep-11-02-16-012.txt,012,Situation in Egypt (debate),10078,59610,49,42,other,xlarge (8K-15K),14902,0.37553040000000004
+ep-11-02-16-013.txt,013,Media law in Hungary (debate),11775,69899,43,34,other,xlarge (8K-15K),17474,0.44034480000000004
+ep-11-02-16-014.txt,014,Free trade agreement between the EU and the Republic of Korea (debate),7936,48254,27,24,trade_market,large (4K-8K),12063,0.3039876
+ep-11-02-16-016.txt,016,Question Time (Council),4989,30350,23,13,institutional,large (4K-8K),7587,0.19119239999999998
+ep-11-02-17-004.txt,004,EU guarantee to the EIB against losses under loans and guarantees for projects outside the EU (debate),9586,57617,40,33,other,xlarge (8K-15K),14404,0.3629808
+ep-11-02-17-005.txt,005,Commission expert groups and balanced representation and transparency (debate),5085,31162,18,16,institutional,large (4K-8K),7790,0.196308
+ep-11-02-17-006.txt,006,Voting time,322,1832,6,3,other,small (500-1K),458,0.0115416
+ep-11-02-17-010-01.txt,010-01,1. Border clashes between Thailand and Cambodia,3622,21669,21,20,justice_security,med-large (2K-4K),5417,0.1365084
+ep-11-02-17-010-02.txt,010-02,"2. Yemen: death penalty against juvenile offenders, notably the case of Muhammed Taher Thabet Samoum",4276,25367,21,20,human_rights,large (4K-8K),6341,0.15979320000000002
+ep-11-02-17-010-03.txt,010-03,3. Uganda: murder of David Kato,3949,23326,21,19,other,med-large (2K-4K),5831,0.14694120000000002
+ep-11-03-07-004.txt,004,Statements by the President,312,1850,1,1,other,small (500-1K),462,0.011642399999999999
+ep-11-03-07-017.txt,017,Innovative financing at a global and European level (debate),15231,89823,58,55,economy_finance,xlarge (8K-15K),22455,0.565866
+ep-11-03-07-018.txt,018,General Fisheries Commission for the Mediterranean Agreement Area (debate),4097,25057,16,13,agriculture_food,large (4K-8K),6264,0.15785280000000002
+ep-11-03-07-019.txt,019,EU-Mauritania Fisheries Partnership Agreement (debate),4555,28185,16,14,agriculture_food,large (4K-8K),7046,0.1775592
+ep-11-03-07-021.txt,021,One-minute speeches (Rule 150),4908,29755,28,25,other,large (4K-8K),7438,0.1874376
+ep-11-03-07-022.txt,022,General product safety and market surveillance (short presentation),2796,17074,11,10,economy_finance,med-large (2K-4K),4268,0.1075536
+ep-11-03-07-023.txt,023,Management of H1N1 influenza (short presentation),3946,24326,19,18,other,med-large (2K-4K),6081,0.15324120000000002
+ep-11-03-07-024.txt,024,Reducing health inequalities (short presentation),3330,20848,18,17,health_consumer,med-large (2K-4K),5212,0.1313424
+ep-11-03-07-025.txt,025,Cooperating with developing countries on promoting good governance in tax matters (short presentation),1648,10542,7,6,economy_finance,medium (1K-2K),2635,0.066402
+ep-11-03-07-026.txt,026,Agriculture and international trade (short presentation),3011,18830,16,15,trade_market,med-large (2K-4K),4707,0.11861640000000001
+ep-11-03-07-027.txt,027,EU protein deficit (short presentation),3448,20843,17,16,economy_finance,med-large (2K-4K),5210,0.131292
+ep-11-03-08-006.txt,006,Guidelines for the 2012 budget - other sections (debate),6581,38857,29,26,economy_finance,large (4K-8K),9714,0.2447928
+ep-11-03-08-007.txt,007,Female poverty - Equality between women and men - 2010 (debate),17034,100066,74,57,human_rights,xlarge (8K-15K),25016,0.6304032
+ep-11-03-08-008.txt,008,100th anniversary of International Women's Day,4210,24813,13,12,human_rights,large (4K-8K),6203,0.1563156
+ep-11-03-08-009-06.txt,009-06,6. Innovative financing at a global and European level (,375,2251,3,3,economy_finance,small (500-1K),562,0.014162400000000002
+ep-11-03-08-013.txt,013,Preparation of the Eurozone summit of 11 March 2011 (debate),10592,62241,31,24,economy_finance,xlarge (8K-15K),15560,0.392112
+ep-11-03-08-014.txt,014,2010 progress report on Turkey (debate),14925,89689,58,52,foreign_affairs,xlarge (8K-15K),22422,0.5650344
+ep-11-03-08-015.txt,015,European integration process of Montenegro (debate),6244,39667,24,21,economy_finance,large (4K-8K),9916,0.2498832
+ep-11-03-08-016.txt,016,EU strategy on Roma inclusion (debate),11721,70163,41,36,social_employment,xlarge (8K-15K),17540,0.442008
+ep-11-03-08-017.txt,017,Question Time (Commission),6743,39791,37,19,institutional,large (4K-8K),9947,0.2506644
+ep-11-03-08-018.txt,018,Industrial policy for the globalised era (debate),13754,84210,52,45,other,xlarge (8K-15K),21052,0.5305104
+ep-11-03-08-019.txt,019,Securing Europe's supply of rare earth elements (debate),6570,40594,25,23,economy_finance,large (4K-8K),10148,0.2557296
+ep-11-03-08-020.txt,020,Possibility of using gas from alternative sources in Europe (debate),6205,37357,24,22,economy_finance,large (4K-8K),9339,0.23534280000000002
+ep-11-03-09-006.txt,006,"Southern Neighbourhood, and Libya in particular, including humanitarian aspects (debate)",16843,97450,60,47,foreign_affairs,xlarge (8K-15K),24362,0.6139224
+ep-11-03-09-007.txt,007,Amendment of the Treaty on the Functioning of the European Union with regard to a stability mechanism for Member States whose currency is the euro (debate),11467,67864,48,41,economy_finance,xlarge (8K-15K),16966,0.4275432
+ep-11-03-09-008.txt,008,Voting time,799,4262,8,4,other,small (500-1K),1065,0.026838
+ep-11-03-09-009.txt,009,Formal sitting - Hungary,3900,23157,3,2,institutional,med-large (2K-4K),5789,0.1458828
+ep-11-03-09-014.txt,014,EU approach towards Iran (debate),9950,58452,39,35,foreign_affairs,xlarge (8K-15K),14613,0.3682476
+ep-11-03-09-015.txt,015,"16th session of the United Nations Human Rights Council (Geneva, 28 February - 25 March 2011) (debate)",7892,45763,33,27,institutional,large (4K-8K),11440,0.288288
+ep-11-03-09-016.txt,016,State of play of the peace process for the Middle East (debate),11243,64441,36,33,foreign_affairs,xlarge (8K-15K),16110,0.405972
+ep-11-03-10-003.txt,003,Respect of national wage and retirement-setting mechanisms (debate),7605,45452,31,25,other,large (4K-8K),11363,0.28634760000000004
+ep-11-03-10-004.txt,004,Prevention of natural and man-made disasters (debate),5093,31100,22,20,other,large (4K-8K),7775,0.19593
+ep-11-03-10-005.txt,005,Volcanic ash crisis (debate),9403,56852,34,32,other,xlarge (8K-15K),14213,0.35816760000000003
+ep-11-03-10-008.txt,008,Heavy goods vehicle collisions (written declaration),403,2453,4,3,trade_market,small (500-1K),613,0.0154476
+ep-11-03-10-009-01.txt,009-01,1. Media law in Hungary (,874,5151,6,4,other,small (500-1K),1287,0.0324324
+ep-11-03-10-009-02.txt,009-02,"2. Southern Neighbourhood, and Libya in particular, including humanitarian aspects (",493,2859,8,5,foreign_affairs,small (500-1K),714,0.0179928
+ep-11-03-10-009-03.txt,009-03,3. EU approach towards Iran (,257,1625,2,2,foreign_affairs,small (500-1K),406,0.010231200000000001
+ep-11-03-10-009-04.txt,009-04,"4. 16th session of the United Nations Human Rights Council (Geneva, 28 February - 25 March 2011) (",291,1621,5,4,institutional,small (500-1K),405,0.010206
+ep-11-03-10-010.txt,010,Explanations of vote,17921,109702,126,67,institutional,xlarge (8K-15K),27425,0.69111
+ep-11-03-10-014-01.txt,014-01,"1. Pakistan - murder of Shahbaz Bhatti, Minister for Minorities",4594,27795,25,23,other,large (4K-8K),6948,0.1750896
+ep-11-03-10-014-02.txt,014-02,"2. Belarus, in particular the cases of Ales Michalevic and Natalia Radin",3960,24120,21,20,other,med-large (2K-4K),6030,0.151956
+ep-11-03-10-014-03.txt,014-03,"3. Situation and cultural heritage in Kashgar (Xinjiang Uyghur Autonomous Region, China)",3936,23829,22,21,foreign_affairs,med-large (2K-4K),5957,0.15011639999999998
+ep-11-03-23-004.txt,004,Statements by the President,844,4945,7,6,other,small (500-1K),1236,0.0311472
+ep-11-03-23-008.txt,008,Composition of Parliament,907,5182,6,5,institutional,small (500-1K),1295,0.032634
+ep-11-03-23-013-01.txt,013-01,1. Amendment of the Treaty on the Functioning of the European Union with regard to a stability mechanism for Member States whose currency is the euro (,708,4188,3,3,economy_finance,small (500-1K),1047,0.026384400000000002
+ep-11-03-23-014.txt,014,Explanations of vote,7264,45102,48,48,institutional,large (4K-8K),11275,0.28413
+ep-11-03-23-016.txt,016,Preparation for the European Council meeting (24-25 March 2011) (debate),21726,129601,65,59,economy_finance,xlarge (8K-15K),32400,0.81648
+ep-11-03-23-017.txt,017,"Situation in Japan, including the nuclear power plant alerts (debate)",14680,87880,50,48,environment_energy,xlarge (8K-15K),21970,0.553644
+ep-11-03-23-018.txt,018,Establishment of a joint EU resettlement programme (debate),7425,44426,22,19,other,large (4K-8K),11106,0.2798712
+ep-11-03-23-019.txt,019,US subpoenas and EU data protection rules (debate),3994,23970,14,11,justice_security,med-large (2K-4K),5992,0.1509984
+ep-11-03-23-020.txt,020,Consumer rights (debate),13044,79582,51,47,health_consumer,xlarge (8K-15K),19895,0.501354
+ep-11-03-23-021.txt,021,Implementation of the Fuel Quality Directive (debate),4337,25248,17,15,environment_energy,large (4K-8K),6312,0.1590624
+ep-11-03-23-022.txt,022,Generalised tariff preferences (debate),3880,23718,15,11,trade_market,med-large (2K-4K),5929,0.1494108
+ep-11-03-23-023.txt,023,One-minute speeches (Rule 150),3284,19631,20,19,other,med-large (2K-4K),4907,0.12365640000000001
+ep-11-03-23-024.txt,024,EU relations with the Gulf Cooperation Council (short presentation),2637,16229,11,10,institutional,med-large (2K-4K),4057,0.1022364
+ep-11-03-24-004.txt,004,EU-US air transport agreement - EU-Canada air transport agreement - EU-Vietnam air services agreement (debate),7690,47190,26,20,transport_infrastructure,large (4K-8K),11797,0.2972844
+ep-11-03-24-005.txt,005,Preparation of 2012 budget (debate),9403,55352,35,32,economy_finance,xlarge (8K-15K),13838,0.3487176
+ep-11-03-24-006-06.txt,006-06,6. EU relations with the Gulf Cooperation Council (,542,3362,7,1,institutional,small (500-1K),840,0.021168
+ep-11-03-24-006-13.txt,006-13,13. Consumer rights (,334,1850,5,2,health_consumer,small (500-1K),462,0.011642399999999999
+ep-11-04-04-003.txt,003,Statements by the President,1158,6584,5,4,other,medium (1K-2K),1646,0.04147920000000001
+ep-11-04-04-004.txt,004,Composition of Parliament,505,2948,5,3,institutional,small (500-1K),737,0.018572400000000003
+ep-11-04-04-013.txt,013,Order of business,1383,7952,15,9,other,medium (1K-2K),1988,0.0500976
+ep-11-04-04-014.txt,014,Granting and withdrawing international protection (debate),6157,36284,24,19,other,large (4K-8K),9071,0.22858920000000002
+ep-11-04-04-015.txt,015,Dual-use items and technology (debate),3987,24379,17,14,other,med-large (2K-4K),6094,0.1535688
+ep-11-04-04-016.txt,016,European statistics on tourism (debate),6041,36621,29,23,economy_finance,large (4K-8K),9155,0.230706
+ep-11-04-04-017.txt,017,EU policy framework to fight violence against women (debate),11011,66244,46,43,human_rights,xlarge (8K-15K),16561,0.4173372
+ep-11-04-04-019.txt,019,"EU response to the migration flows in North Africa and the Southern Mediterranean, in particular, in Lampedusa - Migration flows arising from instability: scope and role of EU foreign policy (debate)",18079,108847,63,57,foreign_affairs,xlarge (8K-15K),27211,0.6857172
+ep-11-04-04-020.txt,020,One-minute speeches (Rule 150),4001,23974,24,23,other,large (4K-8K),5993,0.1510236
+ep-11-04-04-021.txt,021,Role of women in agriculture and rural areas (short presentation),2544,15759,12,11,agriculture_food,med-large (2K-4K),3939,0.0992628
+ep-11-04-04-022.txt,022,EU funding in the area of decommissioning nuclear power plants in the new Member States (short presentation),2133,13723,11,10,environment_energy,med-large (2K-4K),3430,0.086436
+ep-11-04-04-023.txt,023,European international investment policy (short presentation),1845,11962,7,6,economy_finance,medium (1K-2K),2990,0.075348
+ep-11-04-05-009.txt,009,Question Hour with the President of the Commission,8599,50183,60,21,institutional,xlarge (8K-15K),12545,0.316134
+ep-11-04-05-010.txt,010,EU framework for coordinating national Roma integration strategies (debate),5548,33654,18,16,other,large (4K-8K),8413,0.21200760000000002
+ep-11-04-05-011.txt,011,Estimates of revenue and expenditure for 2012 - Section I - Parliament (debate),8860,51333,38,30,economy_finance,xlarge (8K-15K),12833,0.32339160000000006
+ep-11-04-05-012.txt,012,Protection of Communities' financial interests - fight against fraud (debate),7039,43069,31,26,economy_finance,large (4K-8K),10767,0.2713284
+ep-11-04-05-013.txt,013,Question Time (Commission),13444,82468,52,24,institutional,xlarge (8K-15K),20617,0.5195484
+ep-11-04-05-014.txt,014,Political parties at European level and rules regarding their funding (debate),8845,53958,42,31,economy_finance,xlarge (8K-15K),13489,0.33992279999999997
+ep-11-04-05-015.txt,015,EC-Comoros fisheries agreement - Community financial measures for the implementation of the common fisheries policy and in the area of the Law of the Sea - Fisheries - transitional technical measures - Imports from Greenland of fishery products (debate),11491,69604,34,28,economy_finance,xlarge (8K-15K),17401,0.43850520000000004
+ep-11-04-06-004.txt,004,Governance and partnership in the single market - Single market for Europeans - Single market for enterprises and growth - Public procurement (debate),8709,53230,18,17,economy_finance,xlarge (8K-15K),13307,0.33533640000000003
+ep-11-04-06-006.txt,006,Governance and partnership in the Single Market - Single market for Europeans - Single market for enterprises and growth - Public procurement (continuation of debate),18574,111113,73,68,economy_finance,xlarge (8K-15K),27778,0.7000056
+ep-11-04-06-007.txt,007,Request for the waiver of parliamentary immunity: see Minutes,524,3026,9,6,institutional,small (500-1K),756,0.0190512
+ep-11-04-06-008-14.txt,008-14,14. Authorisation and refusal of authorisation of certain health claims made on foods and referring to children's development and health (,204,1200,2,2,agriculture_food,small (500-1K),300,0.00756
+ep-11-04-06-012.txt,012,Lessons to be drawn for nuclear safety in Europe following the nuclear accident in Japan,16206,95975,68,56,economy_finance,xlarge (8K-15K),23993,0.6046235999999999
+ep-11-04-06-013.txt,013,"Situation in Syria, Bahrain and Yemen",8306,49451,34,31,other,xlarge (8K-15K),12362,0.31152240000000003
+ep-11-04-06-014.txt,014,Fourth United Nations Conference on the Least Developed Countries,4929,30608,25,18,development_aid,large (4K-8K),7652,0.19283039999999999
+ep-11-04-06-015.txt,015,2010 progress report on Iceland,5764,35096,25,21,transport_infrastructure,large (4K-8K),8774,0.22110480000000002
+ep-11-04-06-016.txt,016,2010 progress report on the former Yugoslav Republic of Macedonia,7114,43455,30,25,transport_infrastructure,large (4K-8K),10863,0.27374760000000004
+ep-11-04-06-017.txt,017,Situation in Côte d'Ivoire,4952,29461,22,17,other,large (4K-8K),7365,0.185598
+ep-11-04-06-020.txt,020,Review of the European Neighbourhood Policy - Eastern Dimension - Review of the European Neighbourhood Policy - Southern Dimension,12281,75163,51,48,economy_finance,xlarge (8K-15K),18790,0.473508
+ep-11-04-06-021.txt,021,Use of sexual violence in conflicts in North Africa and the Middle East,2967,18280,14,12,foreign_affairs,med-large (2K-4K),4570,0.115164
+ep-11-04-07-003.txt,003,EIB annual report for 2009 (debate),11196,67307,38,31,transport_infrastructure,xlarge (8K-15K),16826,0.42401520000000004
+ep-11-04-07-004.txt,004,Vaccination against bluetongue (debate),5794,34872,25,21,other,large (4K-8K),8718,0.21969360000000002
+ep-11-04-07-005.txt,005,EU tomato imports from Morocco (Petition 1565/2009) (debate),4646,28429,19,17,trade_market,large (4K-8K),7107,0.1790964
+ep-11-04-07-006-01.txt,006-01,1. Vaccination against bluetongue (,283,1685,3,3,other,small (500-1K),421,0.010609200000000001
+ep-11-04-07-006-06.txt,006-06,6. 2010 progress report on the former Yugoslav Republic of Macedonia (,393,2161,7,5,transport_infrastructure,small (500-1K),540,0.013608
+ep-11-04-07-006.txt,006,Voting time,215,1200,5,2,other,small (500-1K),300,0.00756
+ep-11-04-07-010-01.txt,010-01,1. The case of Ai Weiwei in China,3837,22473,20,18,foreign_affairs,med-large (2K-4K),5618,0.1415736
+ep-11-04-07-010-02.txt,010-02,2. Ban on the elections for the Tibetan government in exile in Nepal,3655,22073,21,19,other,med-large (2K-4K),5518,0.1390536
+ep-11-04-07-010-03.txt,010-03,3. Zimbabwe,4319,26434,22,21,other,large (4K-8K),6608,0.16652160000000002
+ep-11-05-09-003.txt,003,Statements by the President,420,2501,1,1,other,small (500-1K),625,0.01575
+ep-11-05-09-004.txt,004,Request for the defence of parliamentary immunity,207,1222,3,2,institutional,small (500-1K),305,0.007686
+ep-11-05-09-016.txt,016,Order of business,1038,5997,13,5,other,medium (1K-2K),1499,0.037774800000000004
+ep-11-05-09-017.txt,017,European fisheries sector crisis due to rise in oil prices (debate),8225,49014,32,29,economy_finance,xlarge (8K-15K),12253,0.30877560000000004
+ep-11-05-09-018.txt,018,Radio spectrum policy (debate),7175,42701,20,17,technology_digital,large (4K-8K),10675,0.26901
+ep-11-05-09-019.txt,019,Emergency autonomous trade preferences for Pakistan (debate),8903,53092,30,28,trade_market,xlarge (8K-15K),13273,0.33447960000000004
+ep-11-05-09-020.txt,020,Free trade agreement with India (debate),9185,55107,33,29,trade_market,xlarge (8K-15K),13776,0.3471552
+ep-11-05-09-021.txt,021,EU-Japan trade relations (debate),5549,33503,20,18,trade_market,large (4K-8K),8375,0.21105
+ep-11-05-09-022.txt,022,Transitional arrangements for bilateral investment agreements between Member States and third countries (debate),5199,31753,20,17,economy_finance,large (4K-8K),7938,0.2000376
+ep-11-05-09-023.txt,023,One-minute speeches (Rule 150),5081,31121,30,29,other,large (4K-8K),7780,0.196056
+ep-11-05-09-024.txt,024,Preparing forests for climate change (short presentation),2543,15897,13,12,environment_energy,med-large (2K-4K),3974,0.1001448
+ep-11-05-10-004.txt,004,2009 discharge (debate),12669,76391,27,24,other,xlarge (8K-15K),19097,0.4812444
+ep-11-05-10-006.txt,006,2009 discharge (continuation of debate),8092,48608,28,28,other,xlarge (8K-15K),12152,0.3062304
+ep-11-05-10-008.txt,008,2009 discharge (continuation of debate),1558,9476,9,8,other,medium (1K-2K),2369,0.0596988
+ep-11-05-10-015.txt,015,Migration flows and asylum and their impact on Schengen (debate),20276,120935,68,63,human_rights,xlarge (8K-15K),30233,0.7618716
+ep-11-05-10-016.txt,016,Interinstitutional agreement on a common Transparency Register - Amendment of the Rules following the establishment of a common Transparency Register,9312,55461,40,30,institutional,xlarge (8K-15K),13865,0.349398
+ep-11-05-10-017.txt,017,Nuclear safety 25 years after the Chernobyl disaster (debate),9185,55078,36,33,environment_energy,xlarge (8K-15K),13769,0.3469788
+ep-11-05-10-018.txt,018,Question Time (Commission),9699,59219,42,21,institutional,xlarge (8K-15K),14804,0.37306079999999997
+ep-11-05-10-019.txt,019,Textile names and related labelling of textile products (debate),8682,52838,30,24,health_consumer,xlarge (8K-15K),13209,0.33286679999999996
+ep-11-05-10-020.txt,020,Stress tests of the EU banking sector (debate),10650,63110,30,27,economy_finance,xlarge (8K-15K),15777,0.3975804
+ep-11-05-10-021.txt,021,Enforcement of regulations on the shipping of toxic waste to developing countries (debate),4218,25648,15,13,environment_energy,large (4K-8K),6412,0.1615824
+ep-11-05-11-005-12.txt,005-12,12. Exceptional trade measures for countries and territories participating in or linked to the EU's Stabilisation and Association process (,211,1338,5,3,trade_market,small (500-1K),334,0.0084168
+ep-11-05-11-005-20.txt,005-20,20. Annual report from the Council to Parliament on the main aspects and basic choices of the common foreign and security policy (CFSP) in 2009 (,651,3668,13,7,institutional,small (500-1K),917,0.0231084
+ep-11-05-11-005-21.txt,005-21,21. Development of the common security and defence policy following the entry into force of the Lisbon Treaty (,212,1282,3,3,institutional,small (500-1K),320,0.008064
+ep-11-05-11-005-22.txt,005-22,22. The EU as a global actor: its role in multilateral organisations (,311,1689,2,2,other,small (500-1K),422,0.0106344
+ep-11-05-11-009.txt,009,Statement by the President of the European Parliament's delegation to the Conciliation Committee - Novel foods (debate),1422,8362,4,3,economy_finance,medium (1K-2K),2090,0.052668
+ep-11-05-11-011.txt,011,Statement by the President of the European Parliament's delegation to the Conciliation Committee - Novel foods (continuation of debate),7380,43018,31,27,economy_finance,large (4K-8K),10754,0.2710008
+ep-11-05-11-012.txt,012,Small Business Act review (debate),9536,58858,38,34,other,xlarge (8K-15K),14714,0.3707928
+ep-11-05-11-013.txt,013,Developments in the ongoing debt crisis and the EU response (debate),12962,76732,54,35,economy_finance,xlarge (8K-15K),19183,0.48341160000000005
+ep-11-05-11-014.txt,014,"Efficiency of the European agencies linked to employment, working conditions and training (debate)",4559,27667,22,15,social_employment,large (4K-8K),6916,0.1742832
+ep-11-05-11-015.txt,015,Innovation Union: transforming Europe for a post-crisis world (debate),10355,64038,45,40,economy_finance,xlarge (8K-15K),16009,0.4034268
+ep-11-05-11-016.txt,016,ILO Convention supplemented by a recommendation on domestic workers (debate),6267,38123,19,17,social_employment,large (4K-8K),9530,0.240156
+ep-11-05-11-017.txt,017,Antibiotic resistance (debate),4551,27588,20,18,other,large (4K-8K),6897,0.1738044
+ep-11-05-12-010.txt,010,Statement by the President,318,1789,3,2,other,small (500-1K),447,0.011264399999999999
+ep-11-05-12-011.txt,011,Cleanup in Europe and Let's do it World 2012 (written declaration),344,2019,3,3,economy_finance,small (500-1K),504,0.012700800000000002
+ep-11-05-12-016-01.txt,016-01,1. Sri Lanka: follow-up of the UN report (debate),4562,27631,28,23,transport_infrastructure,large (4K-8K),6907,0.1740564
+ep-11-05-12-016-02.txt,016-02,2. Azerbaijan (debate),3794,23780,22,21,other,med-large (2K-4K),5945,0.149814
+ep-11-05-12-016-03.txt,016-03,3. Belarus (debate),4684,28491,25,22,other,large (4K-8K),7122,0.1794744
+ep-11-06-06-004.txt,004,Announcements by the President,352,2012,1,1,other,small (500-1K),503,0.0126756
+ep-11-06-06-014.txt,014,Order of business,248,1436,4,3,other,small (500-1K),359,0.0090468
+ep-11-06-06-015.txt,015,Commemoration of deportations in 1941 in the Baltic States,1803,10942,7,6,transport_infrastructure,medium (1K-2K),2735,0.068922
+ep-11-06-06-016.txt,016,European environmental economic accounts (debate),6959,42165,28,23,economy_finance,large (4K-8K),10541,0.2656332
+ep-11-06-06-017.txt,017,Selection process of a new Managing Director for the IMF and external representation of the euro (debate),5900,34546,20,17,economy_finance,large (4K-8K),8636,0.21762720000000002
+ep-11-06-06-018.txt,018,"Seventh EU programme for research, technological development and demonstration (debate)",10539,64225,41,38,technology_digital,xlarge (8K-15K),16056,0.4046112
+ep-11-06-06-019.txt,019,EU-Canada trade relations (debate),8344,51213,37,33,trade_market,xlarge (8K-15K),12803,0.3226356
+ep-11-06-06-020.txt,020,One-minute speeches (Rule 150),5183,31907,30,29,other,large (4K-8K),7976,0.2009952
+ep-11-06-06-021.txt,021,Credit rating agencies (short presentation),2040,12904,10,9,economy_finance,med-large (2K-4K),3226,0.0812952
+ep-11-06-06-022.txt,022,Guaranteeing independent impact assessments (short presentation),1817,11218,12,9,other,medium (1K-2K),2804,0.07066080000000001
+ep-11-06-06-023.txt,023,External dimension of social policy (short presentation),2209,14163,12,11,foreign_affairs,med-large (2K-4K),3540,0.089208
+ep-11-06-06-024.txt,024,Financing instrument for development cooperation (short presentation),1513,9902,8,7,development_aid,medium (1K-2K),2475,0.06237
+ep-11-06-06-025.txt,025,Progress towards a European contract law for consumers and businesses (short presentation),1809,10744,9,8,economy_finance,medium (1K-2K),2686,0.0676872
+ep-11-06-06-026.txt,026,Cooperation in vocational education and training to support the Europe 2020 strategy (short presentation),2855,17826,14,13,social_employment,med-large (2K-4K),4456,0.11229120000000001
+ep-11-06-07-006.txt,006,EHEC outbreak in the EU Member States (debate),14840,87871,57,55,other,xlarge (8K-15K),21967,0.5535684000000001
+ep-11-06-07-007.txt,007,Charging of heavy goods vehicles (debate),13156,78416,47,41,trade_market,xlarge (8K-15K),19604,0.49402080000000004
+ep-11-06-07-008-05.txt,008-05,5. Extension of scope of regulation on the professional cross-border transportation of euro cash by road between euro area Member States (,383,2187,4,4,transport_infrastructure,small (500-1K),546,0.013759200000000001
+ep-11-06-07-013.txt,013,Question Hour with the President of the Commission,8254,47846,53,22,institutional,xlarge (8K-15K),11961,0.3014172
+ep-11-06-07-014.txt,014,Sudan and South Sudan (debate),9219,54724,35,33,other,xlarge (8K-15K),13681,0.3447612
+ep-11-06-07-015.txt,015,Application of Schengen acquis in Bulgaria and Romania (debate),14793,89672,60,56,justice_security,xlarge (8K-15K),22418,0.5649335999999999
+ep-11-06-07-016.txt,016,Question Time (Commission),12127,73442,48,21,institutional,xlarge (8K-15K),18360,0.462672
+ep-11-06-08-003.txt,003,"A new Multiannual Financial Framework (MFF) for a competitive, sustainable and inclusive Europe (debate)",11651,68145,42,32,economy_finance,xlarge (8K-15K),17036,0.4293072
+ep-11-06-08-005.txt,005,"A new Multiannual Financial Framework (MFF) for a competitive, sustainable and inclusive Europe (continuation of debate)",16098,96933,77,70,economy_finance,xlarge (8K-15K),24233,0.6106716
+ep-11-06-08-011.txt,011,Revised Hungarian constitution (debate),16527,99375,85,50,institutional,xlarge (8K-15K),24843,0.6260435999999999
+ep-11-06-08-012.txt,012,European Arrest Warrant (debate),12651,75356,51,34,economy_finance,xlarge (8K-15K),18839,0.4747428
+ep-11-06-08-013.txt,013,EU-Russia summit (debate),11766,71863,46,44,foreign_affairs,xlarge (8K-15K),17965,0.452718
+ep-11-06-09-003.txt,003,Application of EIA Directive in Austria (debate),5694,33888,25,16,other,large (4K-8K),8472,0.21349440000000003
+ep-11-06-09-004.txt,004,Misleading business directories (debate),5546,34228,25,23,other,large (4K-8K),8557,0.21563640000000003
+ep-11-06-09-005.txt,005,Stress tests of nuclear power plants in EU and nuclear safety in EU neighbourhood countries (debate),17037,100308,71,53,environment_energy,xlarge (8K-15K),25077,0.6319404000000001
+ep-11-06-09-006.txt,006,Other business,383,2178,3,3,other,small (500-1K),544,0.013708800000000002
+ep-11-06-09-007.txt,007,Combating corruption in European Sport - The work of the Committee on Missing Persons in Cyprus (written declarations),241,1464,3,3,economy_finance,small (500-1K),366,0.0092232
+ep-11-06-09-009.txt,009,Explanations of vote,15734,98561,105,60,institutional,xlarge (8K-15K),24640,0.620928
+ep-11-06-09-012-01.txt,012-01,1. Madagascar (debate),4101,25266,25,23,environment_energy,large (4K-8K),6316,0.1591632
+ep-11-06-09-012-02.txt,012-02,2. Guantánamo: imminent death penalty decision (debate),6482,37882,40,25,human_rights,large (4K-8K),9470,0.238644
+ep-11-06-09-012-03.txt,012-03,3. Ukraine: the cases of Yulia Tymoshenko and other members of the former government (debate),5457,33314,29,23,foreign_affairs,large (4K-8K),8328,0.2098656
+ep-11-06-22-011.txt,011,Order of business,807,4574,8,6,other,small (500-1K),1143,0.028803600000000002
+ep-11-06-22-012.txt,012,Preparations for the European Council meeting (24 June 2011) (debate),5286,32062,5,5,economy_finance,large (4K-8K),8015,0.201978
+ep-11-06-22-014.txt,014,Preparations for the European Council meeting (24 June 2011) (continuation of debate),16208,94702,59,51,economy_finance,xlarge (8K-15K),23675,0.59661
+ep-11-06-22-015.txt,015,"The CAP towards 2020: Meeting the food, natural resources and territorial challenges of the future (debate)",17019,103128,76,70,agriculture_food,xlarge (8K-15K),25782,0.6497064
+ep-11-06-22-016.txt,016,Prevention and correction of macroeconomic imbalances - Implementation of excessive deficit procedure - Requirements for budgetary frameworks of Member States - Budgetary surveillance in euro area - Surveillance of budgetary positions and surveillance and coordination of economic policies - Enforcement measures to correct excessive macroeconomic imbalances in euro area (debate),16135,96030,38,38,economy_finance,xlarge (8K-15K),24007,0.6049764
+ep-11-06-22-018.txt,018,Prevention and correction of macroeconomic imbalances - Implementation of excessive deficit procedure - Requirements for budgetary frameworks of Member States - Budgetary surveillance in euro area - Surveillance of budgetary positions and surveillance and coordination of economic policies - Enforcement measures to correct excessive macroeconomic imbalances in euro area (continuation of debate),11791,70047,50,42,economy_finance,xlarge (8K-15K),17511,0.44127720000000004
+ep-11-06-22-019.txt,019,Spent fuel and radioactive waste (debate),7792,47956,33,30,environment_energy,large (4K-8K),11989,0.30212279999999997
+ep-11-06-22-020.txt,020,One-minute speeches (Rule 150),3763,23317,24,23,other,med-large (2K-4K),5829,0.14689080000000002
+ep-11-06-22-021.txt,021,Greenhouse gas emission reductions and risk of carbon leakage (short presentation),5438,32288,21,20,environment_energy,large (4K-8K),8072,0.2034144
+ep-11-06-23-004.txt,004,2012 draft budget trilogue (debate),8621,51382,36,32,economy_finance,xlarge (8K-15K),12845,0.323694
+ep-11-06-23-005.txt,005,"5th cohesion report and strategy for the post-2013 cohesion policy - Implementation of cohesion policy programmes for 2007-2013 - European urban agenda and its future in cohesion policy - Objective 3: future agenda for cross-border, transnational and interregional cooperation - Increased effectiveness between ERDF and other structural funds (debate)",16829,104703,62,59,social_employment,xlarge (8K-15K),26175,0.65961
+ep-11-06-23-007.txt,007,"5th cohesion report and strategy for the post-2013 cohesion policy - Implementation of cohesion policy programmes for 2007-2013 - European urban agenda and its future in cohesion policy - Objective 3: future agenda for cross-border, transnational and interregional cooperation - Increased effectiveness between ERDF and other structural funds (continuation of debate)",3003,19023,14,13,social_employment,med-large (2K-4K),4755,0.119826
+ep-11-06-23-008.txt,008,Interinstitutional Agreement on the Transparency Register (signing),392,2553,3,2,institutional,small (500-1K),638,0.0160776
+ep-11-06-23-009.txt,009,Other business,419,2323,2,2,other,small (500-1K),580,0.014616
+ep-11-06-23-010.txt,010,Composition of Parliament,484,2804,7,4,institutional,small (500-1K),701,0.017665200000000002
+ep-11-06-23-012-13.txt,012-13,13. Prevention and correction of macroeconomic imbalances (,367,2047,3,3,economy_finance,small (500-1K),511,0.0128772
+ep-11-06-23-012-19.txt,012-19,19. Consumer rights (final vote) (,941,5484,7,6,health_consumer,small (500-1K),1371,0.0345492
+ep-11-06-23-012-23.txt,012-23,"23. The CAP towards 2020: Meeting the food, natural resources and territorial challenges of the future (",255,1420,3,3,agriculture_food,small (500-1K),355,0.008946
+ep-11-07-04-003.txt,003,Statements by the President,215,1415,1,1,other,small (500-1K),353,0.0088956
+ep-11-07-04-004.txt,004,Tribute,271,1590,1,1,other,small (500-1K),397,0.0100044
+ep-11-07-04-019.txt,019,"Derivatives, central counterparties and trade repositories (debate)",7787,47441,25,20,trade_market,large (4K-8K),11860,0.298872
+ep-11-07-04-020.txt,020,Supplementary supervision of financial entities in a financial conglomerate (debate),3582,22210,16,12,economy_finance,med-large (2K-4K),5552,0.1399104
+ep-11-07-04-021.txt,021,Short selling and certain aspects of credit default swaps (debate),7222,41971,26,20,economy_finance,large (4K-8K),10492,0.26439840000000003
+ep-11-07-04-022.txt,022,Investor-compensation schemes (debate),4276,25191,12,9,other,large (4K-8K),6297,0.1586844
+ep-11-07-04-023.txt,023,"Agency for the management of large-scale IT systems in the area of freedom, security and justice (debate)",5586,33891,23,21,justice_security,large (4K-8K),8472,0.21349440000000003
+ep-11-07-04-024.txt,024,"Negotiations on the PNR agreements with the US, Australia and Canada (debate)",8185,48672,26,23,other,xlarge (8K-15K),12168,0.30663360000000006
+ep-11-07-04-025.txt,025,One-minute speeches on matters of political importance,5498,33704,31,30,trade_market,large (4K-8K),8426,0.2123352
+ep-11-07-04-026.txt,026,Universal service and '112' emergency number (short presentation),2881,17497,13,12,other,med-large (2K-4K),4374,0.1102248
+ep-11-07-04-027.txt,027,A more efficient and fairer retail market (short presentation),1829,10982,7,6,economy_finance,medium (1K-2K),2745,0.069174
+ep-11-07-04-028.txt,028,Budget support to developing countries (short presentation),2852,17636,14,12,economy_finance,med-large (2K-4K),4409,0.1111068
+ep-11-07-04-029.txt,029,Energy infrastructure priorities for 2020 and beyond (short presentation),4264,27048,19,18,environment_energy,large (4K-8K),6762,0.17040239999999998
+ep-11-07-04-030.txt,030,Social services of general interest (short presentation),3093,19463,14,13,social_employment,med-large (2K-4K),4865,0.122598
+ep-11-07-04-031.txt,031,Impact of EU development policy (short presentation),2310,14227,10,9,development_aid,med-large (2K-4K),3556,0.0896112
+ep-11-07-05-005.txt,005,Review of the Hungarian Presidency (debate),16403,98301,47,41,institutional,xlarge (8K-15K),24575,0.61929
+ep-11-07-05-006.txt,006,Possibility for Member States to restrict or prohibit the cultivation of GMOs in their territory (debate),10450,63561,46,43,agriculture_food,xlarge (8K-15K),15890,0.400428
+ep-11-07-05-007-01.txt,007-01,1. Election of a Vice-President of the European Parliament (to replace Mrs Koch-Mehrin) (vote),237,1456,1,1,institutional,small (500-1K),364,0.009172800000000002
+ep-11-07-05-007-17.txt,007-17,17. Short selling and certain aspects of credit default swaps (,251,1426,2,2,economy_finance,small (500-1K),356,0.0089712
+ep-11-07-05-007-22.txt,007-22,22. 5th cohesion report and strategy for the post-2013 cohesion policy (,298,1630,4,4,transport_infrastructure,small (500-1K),407,0.010256399999999999
+ep-11-07-05-007.txt,007,Voting time,571,3159,8,5,other,small (500-1K),789,0.0198828
+ep-11-07-05-011.txt,011,Multiannual Financial Framework (debate),15856,94082,52,46,economy_finance,xlarge (8K-15K),23520,0.592704
+ep-11-07-05-012.txt,012,Food information to consumers (debate),13082,78480,50,46,agriculture_food,xlarge (8K-15K),19620,0.494424
+ep-11-07-05-013.txt,013,Legislation on Transmissible Spongiform Encephalopathies (TSE) and on related feed and food controls (debate),6467,37669,25,22,agriculture_food,large (4K-8K),9417,0.23730840000000003
+ep-11-07-05-014.txt,014,Question Time (Commission),8525,51357,39,14,institutional,xlarge (8K-15K),12839,0.32354279999999996
+ep-11-07-05-015.txt,015,Cross-border exchange of information on road safety related traffic offences,9176,54482,35,27,justice_security,xlarge (8K-15K),13620,0.343224
+ep-11-07-05-016.txt,016,Aviation security with a special focus on security scanners - Liquids (LAG) ban on aircrafts (debate),9952,59500,33,28,justice_security,xlarge (8K-15K),14875,0.37485
+ep-11-07-05-017.txt,017,Women and business leadership (debate),6786,40096,27,18,human_rights,large (4K-8K),10024,0.2526048
+ep-11-07-06-002.txt,002,Programme of activities of the Polish Presidency of the Council (debate),24210,140528,84,63,institutional,xlarge (8K-15K),35132,0.8853264000000001
+ep-11-07-06-003.txt,003,"Financial, economic and social crisis: measures and initiatives to be taken (debate)",12718,75190,46,42,economy_finance,xlarge (8K-15K),18797,0.4736844
+ep-11-07-06-005.txt,005,"Financial, economic and social crisis: measures and initiatives to be taken (continuation of debate)",1697,10065,10,9,economy_finance,medium (1K-2K),2516,0.0634032
+ep-11-07-06-006-05.txt,006-05,5. Cross-border exchange of information on road safety-related traffic offences (,446,2801,2,2,justice_security,small (500-1K),700,0.01764
+ep-11-07-06-010.txt,010,Situation in the Arab world and North Africa - Situation in Yemen - Situation in Syria (debate),5780,33738,10,10,foreign_affairs,large (4K-8K),8434,0.21253680000000003
+ep-11-07-06-012.txt,012,Situation in the Arab world and North Africa - Situation in Yemen - Situation in Syria (continuation of debate),21546,126780,80,72,foreign_affairs,xlarge (8K-15K),31695,0.798714
+ep-11-07-06-013.txt,013,EU external policies in favour of democratisation (debate),6220,36776,23,20,foreign_affairs,large (4K-8K),9194,0.23168880000000003
+ep-11-07-06-014.txt,014,Situation in Nagorno-Karabakh (debate),7971,47785,34,26,other,large (4K-8K),11946,0.3010392
+ep-11-07-06-015.txt,015,Preparations for the Russian State Duma elections in December (debate),5602,33592,27,19,foreign_affairs,large (4K-8K),8398,0.2116296
+ep-11-07-06-017.txt,017,Changes to Schengen (debate),9344,56087,41,35,justice_security,xlarge (8K-15K),14021,0.3533292
+ep-11-07-06-018.txt,018,Approach of the European Parliament to implementing Articles 9 and 10 of Protocol 1 of the Lisbon Treaty on parliamentary cooperation in the field of CFSP/CSDP (debate),2299,14087,10,8,institutional,med-large (2K-4K),3521,0.0887292
+ep-11-07-07-003.txt,003,Scheme for food distribution to the most deprived persons in the Union (debate),7700,44471,36,34,agriculture_food,large (4K-8K),11117,0.2801484
+ep-11-07-07-004.txt,004,Modification of the Act concerning the election of the Members of the European Parliament (debate),13341,79151,62,48,economy_finance,xlarge (8K-15K),19787,0.49863240000000003
+ep-11-07-07-005.txt,005,Progress on mine action (short presentation),2187,13300,9,8,other,med-large (2K-4K),3325,0.08379
+ep-11-07-07-007-01.txt,007-01,1. European Year for Active Ageing (2012) (,209,1135,1,1,economy_finance,small (500-1K),283,0.0071316
+ep-11-07-07-011-01.txt,011-01,"1. Democratic Republic of Congo, mass rape in South Kivu province (",5452,32542,28,27,other,large (4K-8K),8135,0.205002
+ep-11-07-07-011-02.txt,011-02,"2. Indonesia, including attacks on minorities (",3994,25609,22,21,other,med-large (2K-4K),6402,0.16133039999999998
+ep-11-07-07-011-03.txt,011-03,"3. India, in particular the death sentence on Davinder Pal Singh (",3068,18166,19,16,other,med-large (2K-4K),4541,0.11443320000000001
+ep-11-07-07-012-02.txt,012-02,"2. Indonesia, including attacks on minorities (",310,1861,1,1,other,small (500-1K),465,0.011718
+ep-11-09-13-005-23.txt,005-23,23. EU counter-terrorism policy: main achievements and future challenges (,372,2147,3,3,justice_security,small (500-1K),536,0.0135072
+ep-11-09-28-004-09.txt,004-09,9. Budgetary surveillance in euro area (,289,1850,1,1,economy_finance,small (500-1K),462,0.011642399999999999

@@ -1,0 +1,17 @@
+# Normalise text files to LF inside the repository, and convert on checkout
+# according to each platform's convention.
+* text=auto
+
+# The released corpus. Git already detects these as binary, but state it
+# explicitly: a contributor with an unusual core.autocrlf setting must never be
+# able to apply line-ending conversion to a compressed archive, which would
+# corrupt it silently.
+*.gz     binary
+*.tar.gz binary
+
+# Notebooks are JSON. Keeping them LF avoids diffs that are pure line endings.
+*.ipynb text eol=lf
+
+# Data files the metrics and notebooks read back: keep them byte-stable.
+*.csv  text eol=lf
+*.json text eol=lf

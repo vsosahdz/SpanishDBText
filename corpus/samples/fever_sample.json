@@ -1,0 +1,187 @@
+{
+  "source_name": "fever",
+  "url": "https://fever.ai/dataset/fever.html",
+  "creation_date": "2018",
+  "authors_name": [
+    "Thorne et al."
+  ],
+  "payload": [
+    {
+      "file_name": "fever_selected.jsonl",
+      "file_size": "25.85 MB",
+      "file_format": "jsonl",
+      "description": "FEVER (Fact Extraction and VERification) dataset. Wikipedia article excerpts used for fact-checking research. Each entry is an independent factual passage.",
+      "translation_date": "2026-07-10",
+      "llm_used": [
+        "azure:dataset-frontierscience-gpt41mini",
+        "foundry:dataset-frontierscience-mistral-large",
+        "ollama:qwen3.5:9b"
+      ],
+      "data": [
+        {
+          "id": 800,
+          "source_language": "en",
+          "english": {
+            "title": "1956–57 Chicago Black Hawks season",
+            "keywords": [
+              "Chicago Black Hawks",
+              "NHL",
+              "Dick Irvin",
+              "Ed Litzenberger",
+              "1956–57 season"
+            ],
+            "summary": "The 1956–57 Chicago Black Hawks endured a poor season, finishing last in the NHL for the fourth consecutive year. Key events included coach Dick Irvin's resignation and death, and standout player Ed Litzenberger leading in goals and points.",
+            "classification": "sports",
+            "text": "The 1956 -- 57 Chicago Black Hawks season was the team 's 31st season in the NHL , and the club was coming off their third consecutive last place finish in the league in 1955 -- 56 , as they had a 19 -- 39 -- 12 record , earning 50 points . The struggling Black Hawks had finished in last eight times in the past ten seasons , and only one playoff appearance since 1946 .   On October 1 , the Hawks announced that head coach Dick Irvin resigned as head coach of the club due to ill health . Irvin was suffering from bone cancer and had been ill for the past two years , and was hospitalized in Montreal . Tommy Ivan took over for Irvin . On May 15 , 1957 , Dick Irvin died at the age of 64 .   The Black Hawks got off to a miserable start to the season , as they had a 2 -- 12 -- 1 record in their first 15 games , and sat in last place in the league . The team could never overcome their bad start , and slumped all season long , finishing the year with a 16 -- 39 -- 15 record , earning 47 points , and finishing in last place for the fourth straight season , and the ninth time in eleven years .   Offensively , Chicago was led by Ed Litzenberger , who led the club in goals with 32 , and assists with 32 , recording 64 points , which was good for fifth in the NHL . His 32 goals was the teams highest total since 1943 -- 44 . Johnny Wilson had a solid year , scoring 18 goals and 48 points , while Glen Skov also cracked the 40 point barrier , as he earned 42 points . Jack McIntyre led the defense with 18 goals and 32 points , while fellow defenceman and team captain Gus Mortson had 5 goals , 23 points , and a team high 147 penalty minutes .   In goal , Al Rollins had all the playing time , winning 16 games , while posting a 3.20 GAA , and recording 3 shutouts ."
+          },
+          "spanish": {
+            "title": "Temporada 1956-57 de los Chicago Black Hawks",
+            "keywords": [
+              "NHL",
+              "hockey sobre hielo",
+              "Chicago Black Hawks",
+              "temporada 1956-57",
+              "Dick Irvin",
+              "Ed Litzenberger"
+            ],
+            "summary": "La temporada 1956-57 de los Chicago Black Hawks fue difícil, con un mal inicio y último lugar en la liga. El entrenador Dick Irvin renunció por enfermedad y falleció ese año. Ed Litzenberger destacó ofensivamente, mientras que Al Rollins fue el portero principal.",
+            "classification": "sports",
+            "text": "La temporada 1956-57 de los Chicago Black Hawks fue la trigésima primera del equipo en la NHL, y el club llegaba tras haber finalizado en último lugar por tercer año consecutivo en la liga en 1955-56, con un récord de 19-39-12 y 50 puntos. Los Black Hawks, en dificultades, habían terminado en la última posición ocho veces en las últimas diez temporadas y solo habían clasificado a los playoffs una vez desde 1946.\n\nEl 1 de octubre, los Hawks anunciaron que el entrenador en jefe Dick Irvin había renunciado al cargo debido a problemas de salud. Irvin padecía cáncer óseo y había estado enfermo durante los dos últimos años, encontrándose hospitalizado en Montreal. Tommy Ivan asumió el puesto de Irvin. El 15 de mayo de 1957, Dick Irvin falleció a los 64 años.\n\nLos Black Hawks comenzaron la temporada con un pésimo rendimiento, registrando un récord de 2-12-1 en sus primeros 15 partidos y ocupando el último lugar en la liga. El equipo nunca logró recuperarse de este mal inicio y decayó durante toda la temporada, finalizando el año con un récord de 16-39-15, 47 puntos y el último puesto por cuarta temporada consecutiva, y la novena vez en once años.\n\nEn el aspecto ofensivo, Chicago fue liderado por Ed Litzenberger, quien encabezó al equipo en goles con 32 y en asistencias con 32, acumulando 64 puntos, lo que lo situó quinto en la NHL. Sus 32 goles fueron el total más alto del equipo desde la temporada 1943-44. Johnny Wilson tuvo un buen año, anotando 18 goles y 48 puntos, mientras que Glen Skov también superó la barrera de los 40 puntos, al registrar 42. Jack McIntyre lideró la defensa con 18 goles y 32 puntos, mientras que su compañero defensor y capitán del equipo, Gus Mortson, aportó 5 goles, 23 puntos y un máximo del equipo de 147 minutos de penalización.\n\nEn la portería, Al Rollins disputó todos los minutos, logrando 16 victorias, un promedio de goles en contra (GAA) de 3.20 y 3 juegos en blanco.",
+            "translated_at": "2026-07-08T12:00:13.011160",
+            "translated_by": "azure:dataset-frontierscience-gpt41"
+          }
+        },
+        {
+          "id": 1391,
+          "source_language": "en",
+          "english": {
+            "title": "1922 Land Code",
+            "keywords": [
+              "RSFSR",
+              "land legislation",
+              "Vladimir Lenin",
+              "Soviet Union",
+              "agricultural collectivization"
+            ],
+            "summary": "The 1922 Land Code of the RSFSR was the first major land legislation in Soviet Russia, regulating rural land tenure under Lenin's supervision. It influenced other Soviet republics until collectivization diminished its role, with new codes adopted in 1970 and a modern version enacted in Russia in 2001.",
+            "classification": "history",
+            "text": "The 1922 Land Code of the RSFSR -LRB- Земельный кодекс , Zemelniy kodeks -RRB- was the first principal document that systemized land legislation in the Russian Soviet Federative Socialist Republic . It was adopted at the 4th session of the All-Russian Central Executive Committee -LRB- VTsIK -RRB- and carried into effect on December 1 , 1922 .   The 1922 Land Code was elaborated under the supervision and with the direct participation of Vladimir Lenin . The main purpose of the code was to regulate the land tenure by rural communities . Similar land codes were adopted by other republics of the Soviet Union between 1922 and 1929 . After the universal agricultural collectivization , land codes of the Soviet republics lost their significance .   In 1970-1971 , the Soviet Union adopted new land codes in all of the republics . The 1970 Land Code of the RSFSR was adopted on December 1 , 1970 .   In modern Russia the 2001 Land Code of the Russian Federation -LRB- Земельный кодекс Российской Федерации от 25 октября 2001 г . N 136-ФЗ -RRB- , with a number of later amendments is in effect ."
+          },
+          "spanish": {
+            "title": "Código de Tierras de 1922",
+            "keywords": [
+              "legislación agraria",
+              "RSFSR",
+              "Vladimir Lenin",
+              "tenencia de tierras",
+              "Unión Soviética"
+            ],
+            "summary": "El Código de Tierras de 1922 fue el primer documento que sistematizó la legislación sobre tierras en la RSFSR, regulando la tenencia rural bajo supervisión de Lenin. Fue reemplazado tras la colectivización y posteriormente por códigos de tierras más modernos en la URSS y Rusia.",
+            "classification": "history",
+            "text": "El Código de Tierras de 1922 de la RSFSR (Земельный кодекс, Zemelniy kodeks) fue el primer documento principal que sistematizó la legislación sobre tierras en la República Socialista Federativa Soviética de Rusia. Fue adoptado en la cuarta sesión del Comité Ejecutivo Central Panruso (VTsIK) y entró en vigor el 1 de diciembre de 1922.\n\nEl Código de Tierras de 1922 fue elaborado bajo la supervisión y con la participación directa de Vladimir Lenin. El objetivo principal del código era regular la tenencia de tierras por las comunidades rurales. Códigos de tierras similares fueron adoptados por otras repúblicas de la Unión Soviética entre 1922 y 1929. Tras la colectivización agrícola universal, los códigos de tierras de las repúblicas soviéticas perdieron su relevancia.\n\nEn 1970-1971, la Unión Soviética adoptó nuevos códigos de tierras en todas las repúblicas. El Código de Tierras de 1970 de la RSFSR fue adoptado el 1 de diciembre de 1970.\n\nEn la Rusia moderna, el Código de Tierras de la Federación Rusa de 2001 (Земельный кодекс Российской Федерации от 25 октября 2001 г. N 136-ФЗ), junto con numerosas enmiendas posteriores, está en vigor.",
+            "translated_at": "2026-07-04T03:24:19.872862",
+            "translated_by": "azure:dataset-frontierscience-gpt41"
+          }
+        },
+        {
+          "id": 4694,
+          "source_language": "en",
+          "english": {
+            "title": "13th Canadian Ministry",
+            "keywords": [
+              "Arthur Meighen",
+              "Canadian government",
+              "Conservative Party",
+              "1926",
+              "15th Canadian Parliament"
+            ],
+            "summary": "The 13th Canadian Ministry, led by Prime Minister Arthur Meighen, governed Canada briefly in 1926. It was a short-lived Conservative cabinet during the 15th Parliament, with all ministers acting due to lack of confidence in the House.",
+            "classification": "politics",
+            "text": "The Thirteenth Canadian Ministry was the second cabinet chaired by Prime Minister Arthur Meighen . It governed Canada from 29 June 1926 to 25 September 1926 , including only the last three months of the 15th Canadian Parliament , all cabinet ministers were acting cabinet ministers as Meighen had n't been given the confidence of the house , and any cabinet ministers appointed by him would have had to resign their seats and run for re-election . The government was formed by the old Conservative Party of Canada . Meighen was also Prime Minister in the Eleventh Canadian Ministry ."
+          },
+          "spanish": {
+            "title": "Decimotercer Ministerio Canadiense",
+            "keywords": [
+              "Arthur Meighen",
+              "Canadá",
+              "Partido Conservador",
+              "gabinete interino",
+              "Parlamento Canadiense"
+            ],
+            "summary": "El Decimotercer Ministerio Canadiense fue un breve gabinete interino liderado por Arthur Meighen en 1926, formado por el Partido Conservador y sin confianza parlamentaria, durante los últimos tres meses del 15.º Parlamento Canadiense.",
+            "classification": "politics",
+            "text": "El Decimotercer Ministerio Canadiense fue el segundo gabinete presidido por el primer ministro Arthur Meighen. Gobernó Canadá desde el 29 de junio de 1926 hasta el 25 de septiembre de 1926, abarcando solo los últimos tres meses del 15.º Parlamento Canadiense. Todos los ministros del gabinete fueron ministros interinos, ya que Meighen no contaba con la confianza de la Cámara de los Comunes, y cualquier ministro nombrado por él habría tenido que renunciar a su escaño y presentarse a la reelección. El gobierno fue formado por el antiguo Partido Conservador de Canadá. Meighen también había sido primer ministro en el Undécimo Ministerio Canadiense.",
+            "translated_at": "2026-07-10T20:10:07.809523",
+            "translated_by": "azure:dataset-frontierscience-gpt41"
+          }
+        },
+        {
+          "id": 8704,
+          "source_language": "en",
+          "english": {
+            "title": "1977 Cal State Los Angeles Diablos football team",
+            "keywords": [
+              "Cal State Los Angeles",
+              "Diablos",
+              "1977 football season",
+              "NCAA Division II",
+              "Ron Hull"
+            ],
+            "summary": "The 1977 Cal State Los Angeles Diablos football team, led by coach Ron Hull, played as an independent in NCAA Division II. They ended the season with a 4–5 record and discontinued the football program after 27 seasons, finishing with an overall record of 102–139–10.",
+            "classification": "sports",
+            "text": "The 1977 Cal State Los Angeles Diablos football team represented California State University , Los Angeles during the 1977 NCAA Division II football season . The Diablos played as an independent in 1977 then discontinued the football program at the end of the season . They played 27 seasons in all , and finished with a record of 102 -- 139 -- 10 over those seasons .   The 1977 Diablos were led by Ron Hull in his second year as head coach . The team played home games at the Campus Field in Los Angeles , California . They finished the season with a record of four wins and five losses -LRB- 4 -- 5 -RRB- . The Diablos were outscored by their opponents 93 -- 123 for the season ."
+          },
+          "spanish": {
+            "title": "Temporada 1977 de los Diablos de Cal State Los Angeles",
+            "keywords": [
+              "fútbol americano",
+              "Cal State Los Angeles",
+              "temporada 1977",
+              "NCAA División II",
+              "Ron Hull",
+              "equipo independiente"
+            ],
+            "summary": "El equipo de fútbol americano de Cal State Los Angeles en 1977 jugó como independiente en la NCAA División II, finalizando con un récord de 4-5. Fue la última temporada antes de discontinuar el programa tras 27 años y 102 victorias acumuladas.",
+            "classification": "sports",
+            "text": "El equipo de fútbol americano de los Diablos de Cal State Los Angeles de 1977 representó a la Universidad Estatal de California, Los Ángeles, durante la temporada de fútbol americano de la División II de la NCAA de 1977. Los Diablos jugaron como independientes ese año y luego discontinuaron el programa de fútbol americano al final de la temporada. En total, participaron en 27 temporadas y concluyeron con un récord de 102 victorias, 139 derrotas y 10 empates a lo largo de ese periodo.\n\nLos Diablos de 1977 fueron dirigidos por Ron Hull en su segundo año como entrenador en jefe. El equipo disputó sus partidos como local en el Campus Field en Los Ángeles, California. Terminaron la temporada con un récord de cuatro victorias y cinco derrotas (4-5). Los Diablos fueron superados en puntos por sus oponentes 93 a 123 durante la temporada.",
+            "translated_at": "2026-07-12T08:56:38.602715",
+            "translated_by": "azure:dataset-frontierscience-gpt41"
+          }
+        },
+        {
+          "id": 9542,
+          "source_language": "en",
+          "english": {
+            "title": "1986 Belgian Grand Prix",
+            "keywords": [
+              "Formula One",
+              "Nigel Mansell",
+              "Spa-Francorchamps",
+              "Ayrton Senna",
+              "Stefan Johansson"
+            ],
+            "summary": "The 1986 Belgian Grand Prix, held at Spa-Francorchamps, was won by Nigel Mansell driving a Williams FW11. Ayrton Senna finished second and Stefan Johansson third. It was Mansell's first win of the season and Johansson's first top-three finish in a year.",
+            "classification": "sports",
+            "text": "The 1986 Belgian Grand Prix was a Formula One motor race held at the Circuit de Spa-Francorchamps on May 25 , 1986 . It was the fifth round of the 1986 Formula One season . The race was the 44th Belgian Grand Prix and the 32nd to be held at Spa-Francorchamps . The race was held over 43 laps of the 7.0-kilometre circuit for a total race distance of 301 kilometres .   The race was won by British driver Nigel Mansell driving a Williams FW11 . It was Mansell 's third Grand Prix victory after his two breakthrough wins at the end of the previous season and his first in 1986 . Mansell won by 19 seconds over Brazilian driver Ayrton Senna driving a Lotus 98T . Third was Swedish driver Stefan Johansson driving a Ferrari F1/86 . It was Johansson 's first top three finish in a year after finishing second at the 1985 Detroit Grand Prix ."
+          },
+          "spanish": {
+            "title": "Gran Premio de Bélgica de 1986",
+            "keywords": [
+              "Fórmula 1",
+              "Nigel Mansell",
+              "Spa-Francorchamps",
+              "Ayrton Senna",
+              "Stefan Johansson"
+            ],
+            "summary": "El Gran Premio de Bélgica de 1986, disputado en Spa-Francorchamps, fue ganado por Nigel Mansell. Ayrton Senna y Stefan Johansson completaron el podio. Fue la quinta carrera de la temporada 1986 de Fórmula 1.",
+            "classification": "sports",
+            "text": "El Gran Premio de Bélgica de 1986 fue una carrera de automovilismo de Fórmula 1 disputada en el Circuito de Spa-Francorchamps el 25 de mayo de 1986. Fue la quinta prueba de la temporada 1986 de Fórmula 1. La carrera fue el 44.º Gran Premio de Bélgica y el 32.º celebrado en Spa-Francorchamps. La prueba se disputó a lo largo de 43 vueltas al circuito de 7,0 kilómetros, para una distancia total de 301 kilómetros.\n\nLa carrera fue ganada por el piloto británico Nigel Mansell al volante de un Williams FW11. Fue la tercera victoria de Mansell en un Gran Premio, después de sus dos victorias de debut al final de la temporada anterior y su primera en 1986. Mansell ganó con una ventaja de 19 segundos sobre el piloto brasileño Ayrton Senna, que conducía un Lotus 98T. El tercer puesto fue para el piloto sueco Stefan Johansson, al volante de un Ferrari F1/86. Fue el primer podio de Johansson en un año, tras haber terminado segundo en el Gran Premio de Detroit de 1985.",
+            "translated_at": "2026-07-12T16:42:59.933336",
+            "translated_by": "azure:dataset-frontierscience-gpt41"
+          }
+        }
+      ]
+    }
+  ],
+  "_sample_note": "5 of 9998 entries, sampled at evenly spaced length percentiles. Full file: corpus/final/fever_selected_260712_212751.json.gz"
+}

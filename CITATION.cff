@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+title: >-
+  Building a Bilingual English–Spanish Parallel Corpus Using
+  Multi-Model LLM Translation with Consensus Review
+message: >-
+  If you use this corpus or the pipeline that produced it, please cite the
+  paper below, and also cite the three source datasets listed in
+  LICENSE-DATA.md.
+type: dataset
+authors:
+  - given-names: Mario Augusto
+    family-names: Ramírez-Morales
+    affiliation: >-
+      School of Engineering and Sciences, Tecnológico de Monterrey, Monterrey,
+      Mexico; Centro de Innovación y Desarrollo Tecnológico en Cómputo,
+      Instituto Politécnico Nacional, Mexico City, Mexico
+  - given-names: Esteban
+    family-names: Castillo
+    affiliation: >-
+      School of Engineering and Sciences, Tecnológico de Monterrey, Monterrey,
+      Mexico
+  - given-names: David Camilo
+    family-names: Corrales
+    affiliation: >-
+      INRAE, Institut National de Recherche pour l'Agriculture, l'Alimentation
+      et l'Environnement, Toulouse, France
+  - given-names: Victor Adrian
+    family-names: Sosa-Hernández
+    email: vsosa@tec.mx
+    affiliation: >-
+      School of Engineering and Sciences, Tecnológico de Monterrey, Monterrey,
+      Mexico
+repository-code: 'https://github.com/vsosahdz/SpanishDBText'
+abstract: >-
+  A bilingual English–Spanish parallel corpus of 12,003 aligned entries and
+  23.5 million words, built from WikiText-103, FEVER and Europarl with a
+  pipeline of general-purpose large language models: three models translate
+  each text in parallel, a reviewer model merges the candidates into a
+  consensus translation, and an evaluator model scores the result against a
+  calibrated guide that needs no human reference. The repository contains the
+  corpus, the per-entry pipeline traces, the pipeline code, the evaluation
+  metrics and the analysis notebooks.
+keywords:
+  - bilingual parallel corpus
+  - machine translation
+  - large language models
+  - multi-model consensus
+  - natural language processing
+  - Spanish
+# This entry describes the corpus (type: dataset), which is CC BY-SA 4.0 —
+# inherited from its Wikipedia-derived sources, see LICENSE-DATA.md. The code
+# that produced it is separately licensed under Apache-2.0, see LICENSE.
+license: CC-BY-SA-4.0
+license-url: 'https://creativecommons.org/licenses/by-sa/4.0/'
