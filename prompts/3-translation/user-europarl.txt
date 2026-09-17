@@ -1,0 +1,5 @@
+Traduce el siguiente texto parlamentario al español. Si ya está en español, tradúcelo al inglés.
+Preserva INTACTOS todos los tags XML (<CHAPTER>, <SPEAKER>, <P>).
+Responde SOLO con la traducción.
+
+{{SOURCE_TEXT}}

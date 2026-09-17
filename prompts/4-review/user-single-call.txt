@@ -1,0 +1,13 @@
+=== TEXTO ORIGINAL ===
+{{SOURCE_TEXT}}
+
+=== TRADUCCIÓN CANDIDATA 1 (modelo: {{MODEL_1}}) ===
+{{CANDIDATE_1_TEXT}}
+
+=== TRADUCCIÓN CANDIDATA 2 (modelo: {{MODEL_2}}) ===
+{{CANDIDATE_2_TEXT}}
+
+=== TRADUCCIÓN CANDIDATA 3 (modelo: {{MODEL_3}}) ===
+{{CANDIDATE_3_TEXT}}
+
+Evalúa cada candidato (fortalezas, debilidades, puntuación 0-100), decide cuál usar como base y genera la traducción final mejorada. Responde con ANALYSIS: (JSON) y FINAL TRANSLATION: como se indica.

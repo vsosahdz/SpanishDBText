@@ -126,6 +126,9 @@ Different families is the design requirement, not a preference. Three models
 from one family tend to make the same mistakes, and a consensus over correlated
 errors adds nothing.
 
+The exact text of every prompt in this and the following stages is published
+under [`prompts/`](../prompts/), one file each.
+
 The system prompt asks for semantic fidelity (invent nothing, omit nothing),
 natural rather than literal phrasing, preservation of technical terms and proper
 nouns, respect for tone and paragraph structure, and no summarising,

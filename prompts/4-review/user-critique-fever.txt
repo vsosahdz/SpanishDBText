@@ -1,0 +1,13 @@
+=== TEXTO ORIGINAL ===
+{{SOURCE_TEXT}}
+
+=== CANDIDATO 1 (modelo: {{MODEL_1}}, {{CANDIDATE_1_CHARS}} chars) ===
+{{CANDIDATE_1_TEXT}}
+
+=== CANDIDATO 2 (modelo: {{MODEL_2}}, {{CANDIDATE_2_CHARS}} chars) ===
+{{CANDIDATE_2_TEXT}}
+
+=== CANDIDATO 3 (modelo: {{MODEL_3}}, {{CANDIDATE_3_CHARS}} chars) ===
+{{CANDIDATE_3_TEXT}}
+
+Evalúa cada candidato y decide cuál usar como base. Responde solo con JSON.

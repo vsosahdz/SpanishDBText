@@ -1,0 +1,11 @@
+Analyze the following encyclopedia excerpt and respond EXACTLY with this format (one line per field):
+
+TITLE: [clean article title (use: {{SOURCE_TITLE}})]
+KEYWORDS: [between 3 and 6 keywords separated by comma]
+CLASSIFICATION: [main category: sports, music, film, history, politics, science, geography, biography, technology, religion, military, transport, or other appropriate]
+SUMMARY: [brief informative summary, maximum 60 words]
+
+Respond ONLY with these 4 fields.
+
+=== EXCERPT ===
+{{SOURCE_TEXT}}

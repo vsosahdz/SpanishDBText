@@ -1,0 +1,18 @@
+The {{LENGTH_WARNING}} slot of 5-evaluation/user.txt takes one of three values,
+decided by the character ratio r = len(translation) / len(original).
+
+r >= 0.92
+    (empty — no warning is inserted)
+
+0.85 <= r < 0.92
+    ⚠️ NOTA: La traducción es el {{PERCENT}} del largo del original. Verifica posibles omisiones.
+
+r < 0.85
+    ⚠️ ADVERTENCIA: La traducción es solo el {{PERCENT}} del largo del original. Esto sugiere fuertemente TRUNCAMIENTO u OMISIONES. Penaliza completitud en consecuencia.
+
+Both variants are preceded by a newline. {{PERCENT}} is the ratio formatted as a
+whole percentage, e.g. "78%".
+
+This warning is the evaluator's cue, not the pipeline's decision: the
+programmatic truncation check of Stage 5 runs independently and can override the
+model's completeness score. See docs/pipeline.md.

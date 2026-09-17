@@ -1,0 +1,14 @@
+=== SECCIÓN ORIGINAL ===
+{{ORIGINAL_SECTION}}
+
+=== CANDIDATO 1 {{BEST_MARKER_1}} ({{MODEL_1}}) ===
+{{CANDIDATE_1_TEXT}}
+
+=== CANDIDATO 2 {{BEST_MARKER_2}} ({{MODEL_2}}) ===
+{{CANDIDATE_2_TEXT}}
+
+=== CANDIDATO 3 {{BEST_MARKER_3}} ({{MODEL_3}}) ===
+{{CANDIDATE_3_TEXT}}
+
+Decisión: {{REVIEWER_DECISION}}
+Genera la traducción final mejorada. Responde SOLO con el texto traducido.

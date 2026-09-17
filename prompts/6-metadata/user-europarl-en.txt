@@ -1,0 +1,11 @@
+Analyze the following parliamentary debate and respond EXACTLY with this format (one line per field):
+
+TITLE: [clean debate title]
+KEYWORDS: [between 3 and 8 keywords separated by comma]
+CLASSIFICATION: [main category: politics, legislation, economy, environment, human rights, agriculture, defense, trade, health, technology, or other appropriate]
+SUMMARY: [informative summary of the debate, maximum 100 words]
+
+Respond ONLY with these 4 fields.
+
+=== DEBATE ===
+{{SOURCE_TEXT}}

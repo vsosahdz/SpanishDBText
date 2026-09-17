@@ -1,0 +1,11 @@
+Analiza el siguiente artículo y responde EXACTAMENTE con este formato (una línea por campo):
+
+TITLE: [título limpio del artículo, sin signos =]
+KEYWORDS: [entre 3 y 8 keywords separadas por coma]
+CLASSIFICATION: [categoría principal: video game, novel, biography, science, history, technology, politics, medicine, sports, entertainment, u otra apropiada]
+SUMMARY: [resumen informativo del artículo, máximo 100 palabras]
+
+Responde SOLO con estos 4 campos.
+
+=== ARTÍCULO ===
+{{SOURCE_TEXT}}

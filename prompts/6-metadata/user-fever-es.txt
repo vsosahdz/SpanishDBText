@@ -1,0 +1,11 @@
+Analiza el siguiente extracto enciclopédico (ya traducido al español) y responde EXACTAMENTE con este formato (una línea por campo):
+
+TITLE: [título en español: traduce el título "{{SOURCE_TITLE}}" al español cuando sea posible (ej. "Temporada 1999 de los Detroit Lions", "Serie Mundial de 1980"); conserva en inglés solo los nombres propios sin equivalente establecido]
+KEYWORDS: [entre 3 y 6 keywords en español, separadas por coma]
+CLASSIFICATION: [categoría principal: sports, music, film, history, politics, science, geography, biography, technology, religion, military, transport, u otra apropiada]
+SUMMARY: [resumen informativo breve en español, máximo 60 palabras]
+
+Responde SOLO con estos 4 campos.
+
+=== EXTRACTO ===
+{{SOURCE_TEXT}}

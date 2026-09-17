@@ -181,8 +181,14 @@ since the reviewer chose the Qwen candidate as its base for only 8.2% of entries
 ## The prompts
 
 Not configuration in the strict sense, but the next thing you will want to change
-for a different language or domain. They are plain string constants grouped near
-the top of `agents/agente_wikitext.py`:
+for a different language or domain.
+
+Every prompt is also published as plain text under [`prompts/`](../prompts/), one
+file per prompt, with [`prompts/README.md`](../prompts/README.md) explaining what
+each does and why it is worded that way. Read them there; edit them in the code.
+
+They are plain string constants grouped near the top of
+`agents/agente_wikitext.py`:
 
 | Constant | Used by |
 |---|---|

@@ -1,0 +1,11 @@
+Analiza el siguiente debate parlamentario y responde EXACTAMENTE con este formato (una línea por campo):
+
+TITLE: [título limpio del debate]
+KEYWORDS: [entre 3 y 8 keywords separadas por coma]
+CLASSIFICATION: [categoría principal: politics, legislation, economy, environment, human rights, agriculture, defense, trade, health, technology, u otra apropiada]
+SUMMARY: [resumen informativo del debate, máximo 100 palabras]
+
+Responde SOLO con estos 4 campos.
+
+=== DEBATE ===
+{{SOURCE_TEXT}}

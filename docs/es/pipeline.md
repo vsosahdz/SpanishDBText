@@ -133,6 +133,9 @@ Que sean familias distintas es un requisito de diseño, no una preferencia. Tres
 modelos de una misma familia tienden a cometer los mismos errores, y un consenso
 sobre errores correlacionados no aporta nada.
 
+El texto exacto de cada prompt de esta etapa y las siguientes está publicado en
+[`prompts/`](../../prompts/), un archivo por prompt.
+
 El prompt de sistema pide fidelidad semántica (no inventar, no omitir), fraseo
 natural y no literal, preservación de términos técnicos y nombres propios,
 respeto al tono y a la estructura de párrafos, y nada de resumir, simplificar ni

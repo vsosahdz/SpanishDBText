@@ -1,0 +1,14 @@
+Evalúa la siguiente traducción comparándola con el texto original.
+
+=== METADATOS ===
+Original: {{ORIGINAL_CHARS}} caracteres
+Traducción: {{TRANSLATION_CHARS}} caracteres
+Ratio: {{RATIO}}{{LENGTH_WARNING}}
+
+=== TEXTO ORIGINAL ===
+{{SOURCE_TEXT}}
+
+=== TRADUCCIÓN ===
+{{TRANSLATION}}
+
+Responde SOLO con el JSON de evaluación.

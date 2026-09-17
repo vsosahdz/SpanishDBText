@@ -190,7 +190,14 @@ de las entradas.
 ## Los prompts
 
 No son configuración en sentido estricto, pero sí lo siguiente que querrá cambiar
-para otro idioma o dominio. Son constantes de texto agrupadas cerca del inicio de
+para otro idioma o dominio.
+
+Cada prompt está publicado además como texto plano en [`prompts/`](../../prompts/),
+un archivo por prompt, con [`prompts/README.md`](../../prompts/README.md) que
+explica qué hace cada uno y por qué está redactado así. Léalos ahí; edítelos en el
+código.
+
+Son constantes de texto agrupadas cerca del inicio de
 `agents/agente_wikitext.py`:
 
 | Constante | Usada por |

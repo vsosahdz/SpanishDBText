@@ -140,8 +140,9 @@ python3 scripts/unpack_corpus.py --all        # todo                          53
 │   ├── ablation_consensus.py    la ablación de la Etapa 4: consenso vs sus candidatos
 │   └── run_metrics.py           punto de entrada: python3 -m metrics.run_metrics --all
 │
+├── prompts/                     cada instrucción a los modelos como texto plano, un archivo por prompt
 ├── notebooks/                   01–03 seleccionan los subconjuntos, 04–06 analizan la salida
-├── scripts/                     descargar, descomprimir, comprimir, verificar, muestrear
+├── scripts/                     descargar, descomprimir, comprimir, verificar, muestrear, exportar prompts
 ├── docs/                        guías y referencia, en inglés y español
 ├── data/  output/  figures/     vacíos; los llenan los scripts
 │
@@ -165,6 +166,7 @@ python3 scripts/unpack_corpus.py --all        # todo                          53
 | [docs/es/corpus-format.md](docs/es/corpus-format.md) | La estructura JSON del corpus y de las trazas, campo por campo |
 | [docs/es/metrics-reference.md](docs/es/metrics-reference.md) | Cada métrica: qué mide, quién la introdujo, cómo se calcula aquí |
 | [docs/es/metrics-results.md](docs/es/metrics-results.md) | Los resultados calculados, leídos críticamente, anomalías incluidas |
+| [prompts/README.md](prompts/README.md) | Cada prompt que envía el pipeline, qué hace y por qué está redactado así *(en inglés)* |
 
 ---
 

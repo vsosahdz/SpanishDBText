@@ -136,8 +136,9 @@ python3 scripts/unpack_corpus.py --all        # everything                 530 M
 │   ├── ablation_consensus.py    the Stage 4 ablation: consensus vs its candidates
 │   └── run_metrics.py           entry point: python3 -m metrics.run_metrics --all
 │
+├── prompts/                     every LLM instruction as plain text, one file each
 ├── notebooks/                   01–03 select the subsets, 04–06 analyse the output
-├── scripts/                     download, unpack, pack, verify, sample
+├── scripts/                     download, unpack, pack, verify, sample, export prompts
 ├── docs/                        guides and reference, English and Spanish
 ├── data/  output/  figures/     empty; filled by the scripts
 │
@@ -161,6 +162,7 @@ python3 scripts/unpack_corpus.py --all        # everything                 530 M
 | [docs/corpus-format.md](docs/corpus-format.md) | The JSON layout of the corpus files and of the pipeline traces, field by field |
 | [docs/metrics-reference.md](docs/metrics-reference.md) | Every metric: what it measures, who introduced it, how it is computed here |
 | [docs/metrics-results.md](docs/metrics-results.md) | The computed results, read critically, anomalies included |
+| [prompts/README.md](prompts/README.md) | Every prompt the pipeline sends, what each one does and why it is worded that way |
 
 Every one of them has a Spanish version in [docs/es/](docs/es/).
 

@@ -1,0 +1,11 @@
+Analyze the following article and respond EXACTLY with this format (one line per field):
+
+TITLE: [clean article title, without = signs]
+KEYWORDS: [between 3 and 8 keywords separated by comma]
+CLASSIFICATION: [main category: video game, novel, biography, science, history, technology, politics, medicine, sports, entertainment, or other appropriate]
+SUMMARY: [informative summary of the article, maximum 100 words]
+
+Respond ONLY with these 4 fields.
+
+=== ARTICLE ===
+{{SOURCE_TEXT}}

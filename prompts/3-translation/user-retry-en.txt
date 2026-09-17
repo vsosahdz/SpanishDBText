@@ -1,0 +1,4 @@
+IMPORTANT: Your previous response was in Spanish. You MUST translate the following text to English.
+Do not return the original text. Respond ONLY with the English translation.
+
+{{SOURCE_TEXT}}

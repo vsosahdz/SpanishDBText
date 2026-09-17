@@ -1,0 +1,4 @@
+Traduce el siguiente artículo al español. Si ya está en español, tradúcelo al inglés.
+Responde SOLO con la traducción, sin explicaciones ni prefijos.
+
+{{SOURCE_TEXT}}
