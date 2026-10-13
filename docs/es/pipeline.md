@@ -207,7 +207,7 @@ primer lugar donde mirar al optimizar un presupuesto.
 Es la etapa que elimina la dependencia de traducciones humanas de referencia. El
 evaluador recibe el original y la traducción final y califica cuatro dimensiones
 de 0 a 100 —claridad, fidelidad, completitud, fluidez— más una puntuación global
-y una lista de errores, contra una guía calibrada.
+y una lista de errores, contra una guía de puntuación anclada.
 
 ### La verificación programática de truncamiento
 

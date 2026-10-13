@@ -1,0 +1,414 @@
+{
+  "G1L1": {
+    "description": "producción: guía + evidencia de longitud",
+    "keys": 186,
+    "parse_failures": 0,
+    "cost_usd": 0.7809,
+    "overall_complete": {
+      "n": 177,
+      "mean": 95.75,
+      "median": 96,
+      "sd": 2.01,
+      "min": 90,
+      "max": 98,
+      "pct_ge95": 80.2,
+      "pct_ge90": 100.0,
+      "mode": 95,
+      "pct_mode": 28.2,
+      "distinct": 8
+    },
+    "completeness_complete": {
+      "n": 177,
+      "mean": 99.99,
+      "median": 100,
+      "sd": 0.07,
+      "min": 99,
+      "max": 100,
+      "pct_ge95": 100.0,
+      "pct_ge90": 100.0,
+      "mode": 100,
+      "pct_mode": 99.4,
+      "distinct": 2
+    },
+    "truncated": {
+      "7": {
+        "char_ratio": 0.362,
+        "llm_completeness": [
+          36,
+          36,
+          36
+        ],
+        "llm_overall": [
+          50,
+          50,
+          50
+        ],
+        "adjusted_overall": [
+          50,
+          50,
+          50
+        ],
+        "detected_by_llm": 3,
+        "mentioned_in_errors": 3,
+        "repeats": 3
+      },
+      "24": {
+        "char_ratio": 0.262,
+        "llm_completeness": [
+          26,
+          26,
+          26
+        ],
+        "llm_overall": [
+          40,
+          40,
+          30
+        ],
+        "adjusted_overall": [
+          40,
+          40,
+          30
+        ],
+        "detected_by_llm": 3,
+        "mentioned_in_errors": 3,
+        "repeats": 3
+      },
+      "41": {
+        "char_ratio": 0.788,
+        "llm_completeness": [
+          79,
+          70,
+          79
+        ],
+        "llm_overall": [
+          85,
+          80,
+          85
+        ],
+        "adjusted_overall": [
+          85,
+          80,
+          85
+        ],
+        "detected_by_llm": 1,
+        "mentioned_in_errors": 3,
+        "repeats": 3
+      }
+    }
+  },
+  "G0L1": {
+    "description": "sin guía, con evidencia de longitud",
+    "keys": 186,
+    "parse_failures": 0,
+    "cost_usd": 0.7371,
+    "overall_complete": {
+      "n": 177,
+      "mean": 96.79,
+      "median": 97,
+      "sd": 0.99,
+      "min": 90,
+      "max": 98,
+      "pct_ge95": 96.6,
+      "pct_ge90": 100.0,
+      "mode": 97,
+      "pct_mode": 81.9,
+      "distinct": 7
+    },
+    "completeness_complete": {
+      "n": 177,
+      "mean": 99.98,
+      "median": 100,
+      "sd": 0.21,
+      "min": 98,
+      "max": 100,
+      "pct_ge95": 100.0,
+      "pct_ge90": 100.0,
+      "mode": 100,
+      "pct_mode": 98.9,
+      "distinct": 2
+    },
+    "truncated": {
+      "7": {
+        "char_ratio": 0.362,
+        "llm_completeness": [
+          36,
+          36,
+          36
+        ],
+        "llm_overall": [
+          50,
+          60,
+          50
+        ],
+        "adjusted_overall": [
+          50,
+          60,
+          50
+        ],
+        "detected_by_llm": 3,
+        "mentioned_in_errors": 3,
+        "repeats": 3
+      },
+      "24": {
+        "char_ratio": 0.262,
+        "llm_completeness": [
+          30,
+          30,
+          30
+        ],
+        "llm_overall": [
+          50,
+          50,
+          50
+        ],
+        "adjusted_overall": [
+          50,
+          50,
+          50
+        ],
+        "detected_by_llm": 3,
+        "mentioned_in_errors": 3,
+        "repeats": 3
+      },
+      "41": {
+        "char_ratio": 0.788,
+        "llm_completeness": [
+          70,
+          70,
+          70
+        ],
+        "llm_overall": [
+          80,
+          80,
+          80
+        ],
+        "adjusted_overall": [
+          80,
+          80,
+          80
+        ],
+        "detected_by_llm": 3,
+        "mentioned_in_errors": 3,
+        "repeats": 3
+      }
+    },
+    "paired_vs_G1L1_overall": {
+      "n": 59,
+      "mean_diff": 1.04,
+      "ci95": [
+        0.68,
+        1.42
+      ]
+    }
+  },
+  "G1L0": {
+    "description": "con guía, sin evidencia de longitud",
+    "keys": 186,
+    "parse_failures": 0,
+    "cost_usd": 0.8297,
+    "overall_complete": {
+      "n": 177,
+      "mean": 94.92,
+      "median": 95,
+      "sd": 1.7,
+      "min": 90,
+      "max": 98,
+      "pct_ge95": 76.3,
+      "pct_ge90": 100.0,
+      "mode": 95,
+      "pct_mode": 37.3,
+      "distinct": 8
+    },
+    "completeness_complete": {
+      "n": 177,
+      "mean": 99.56,
+      "median": 100,
+      "sd": 0.81,
+      "min": 95,
+      "max": 100,
+      "pct_ge95": 100.0,
+      "pct_ge90": 100.0,
+      "mode": 100,
+      "pct_mode": 74.0,
+      "distinct": 4
+    },
+    "truncated": {
+      "7": {
+        "char_ratio": 0.362,
+        "llm_completeness": [
+          90,
+          95,
+          95
+        ],
+        "llm_overall": [
+          92,
+          85,
+          95
+        ],
+        "adjusted_overall": [
+          72,
+          72,
+          73
+        ],
+        "detected_by_llm": 0,
+        "mentioned_in_errors": 2,
+        "repeats": 3
+      },
+      "24": {
+        "char_ratio": 0.262,
+        "llm_completeness": [
+          95,
+          95,
+          95
+        ],
+        "llm_overall": [
+          95,
+          94,
+          96
+        ],
+        "adjusted_overall": [
+          69,
+          69,
+          69
+        ],
+        "detected_by_llm": 0,
+        "mentioned_in_errors": 2,
+        "repeats": 3
+      },
+      "41": {
+        "char_ratio": 0.788,
+        "llm_completeness": [
+          99,
+          99,
+          99
+        ],
+        "llm_overall": [
+          98,
+          98,
+          97
+        ],
+        "adjusted_overall": [
+          90,
+          90,
+          90
+        ],
+        "detected_by_llm": 0,
+        "mentioned_in_errors": 3,
+        "repeats": 3
+      }
+    },
+    "paired_vs_G1L1_overall": {
+      "n": 59,
+      "mean_diff": -0.82,
+      "ci95": [
+        -1.13,
+        -0.52
+      ]
+    }
+  },
+  "G0L0": {
+    "description": "sin guía y sin evidencia de longitud",
+    "keys": 186,
+    "parse_failures": 0,
+    "cost_usd": 0.735,
+    "overall_complete": {
+      "n": 177,
+      "mean": 96.44,
+      "median": 97,
+      "sd": 1.5,
+      "min": 90,
+      "max": 99,
+      "pct_ge95": 91.5,
+      "pct_ge90": 100.0,
+      "mode": 97,
+      "pct_mode": 78.5,
+      "distinct": 8
+    },
+    "completeness_complete": {
+      "n": 177,
+      "mean": 99.71,
+      "median": 100,
+      "sd": 1.08,
+      "min": 90,
+      "max": 100,
+      "pct_ge95": 99.4,
+      "pct_ge90": 100.0,
+      "mode": 100,
+      "pct_mode": 88.7,
+      "distinct": 5
+    },
+    "truncated": {
+      "7": {
+        "char_ratio": 0.362,
+        "llm_completeness": [
+          90,
+          90,
+          90
+        ],
+        "llm_overall": [
+          90,
+          85,
+          92
+        ],
+        "adjusted_overall": [
+          72,
+          72,
+          72
+        ],
+        "detected_by_llm": 0,
+        "mentioned_in_errors": 3,
+        "repeats": 3
+      },
+      "24": {
+        "char_ratio": 0.262,
+        "llm_completeness": [
+          90,
+          90,
+          90
+        ],
+        "llm_overall": [
+          85,
+          90,
+          92
+        ],
+        "adjusted_overall": [
+          68,
+          68,
+          68
+        ],
+        "detected_by_llm": 0,
+        "mentioned_in_errors": 2,
+        "repeats": 3
+      },
+      "41": {
+        "char_ratio": 0.788,
+        "llm_completeness": [
+          100,
+          99,
+          99
+        ],
+        "llm_overall": [
+          97,
+          97,
+          97
+        ],
+        "adjusted_overall": [
+          88,
+          89,
+          89
+        ],
+        "detected_by_llm": 0,
+        "mentioned_in_errors": 0,
+        "repeats": 3
+      }
+    },
+    "paired_vs_G1L1_overall": {
+      "n": 59,
+      "mean_diff": 0.69,
+      "ci95": [
+        0.23,
+        1.14
+      ]
+    }
+  }
+}

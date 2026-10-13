@@ -1,52 +1,54 @@
 # -*- coding: utf-8 -*-
-"""Ablacion de la Etapa 4: el consenso, comparado contra sus propios candidatos.
+"""Ablation of Stage 4: the consensus, compared against its own candidates.
 
-PREGUNTA
-    El articulo presenta la fusion por consenso como su aportacion central y esa
-    etapa consume el 77% del presupuesto, pero nunca se compara contra nada. Un
-    revisor preguntara: "mejor, comparado con que?".
+QUESTION
+    The article presents consensus fusion as its main contribution, and this
+    stage uses 77% of the budget, but it is never compared against anything. A
+    reviewer will ask: "better, compared with what?".
 
-DISENO
-    Los tres candidatos ya estan guardados en los pipeline JSON, asi que NO hay
-    que retraducir nada. Solo se evalua cada candidato con el MISMO evaluador de
-    la Etapa 5: mismo modelo, mismo prompt, misma escala, mismo ajuste
-    programatico de completitud. Por eso este script IMPORTA las funciones del
-    agente en lugar de reimplementarlas; cualquier reimplementacion invalidaria
-    la comparacion.
+DESIGN
+    The three candidates are already saved in the pipeline JSON files, so there
+    is NO need to translate anything again. Each candidate is only evaluated
+    with the SAME evaluator as Stage 5: same model, same prompt, same scale,
+    same programmatic completeness adjustment. This is why this script IMPORTS
+    the agent's functions instead of writing them again; any reimplementation
+    would make the comparison invalid.
 
-DOS BASELINES, NO UNO
-    (a) CADA MODELO FIJO: "si simplemente hubieras usado Mistral Large para
-        todo". Es el baseline realista, el que alguien podria adoptar.
-    (b) MEJOR CANDIDATO POR ENTRADA: un ORACULO. En un pipeline real no se sabe
-        de antemano cual modelo sera el mejor en cada entrada, asi que es una
-        cota superior, no una alternativa disponible. Si el consenso pierde
-        contra el oraculo pero gana a todos los modelos fijos, la lectura
-        correcta es que el consenso equivale a un selector perfecto.
+TWO BASELINES, NOT ONE
+    (a) EACH FIXED MODEL: "if you had simply used Mistral Large for
+        everything". This is the realistic baseline, the one someone could
+        adopt.
+    (b) BEST CANDIDATE PER ENTRY: an ORACLE. In a real pipeline you do not
+        know in advance which model will be the best for each entry, so this
+        is an upper bound, not an available option. If the consensus loses
+        to the oracle but beats every fixed model, the correct reading is
+        that the consensus is as good as a perfect selector.
 
-    Reportar solo (b) seria injusto con el metodo; reportar solo (a) seria
-    complaciente. Por eso van los dos.
+    Reporting only (b) would be unfair to the method; reporting only (a)
+    would be too lenient. This is why both are reported.
 
-RESULTADO POSIBLE INCOMODO
-    Si (b) iguala al consenso, la conclusion seria que basta SELECCIONAR y no
-    hace falta FUSIONAR, lo que eliminaria la etapa mas cara del pipeline. Es un
-    hallazgo valioso, y conviene conocerlo antes del envio y no en la revision.
+POSSIBLE UNCOMFORTABLE RESULT
+    If (b) matches the consensus, the conclusion would be that SELECTING is
+    enough and FUSING is not needed, which would remove the most expensive
+    stage of the pipeline. That is a valuable finding, and it is better to
+    know it before submission than during review.
 
-RECUPERACION ANTE FALLOS
-    El proceso son miles de llamadas a una API, asi que se guarda una linea por
-    entrada TERMINADA en metrics/output/ablation_progress.jsonl, con flush
-    inmediato. Si el script muere -- corte de red, limite de cuota, Ctrl-C,
-    reinicio -- basta volver a lanzar EL MISMO COMANDO: las entradas ya
-    evaluadas se saltan y no se vuelven a pagar. Los tokens gastados en
-    ejecuciones previas se acumulan, de modo que el coste que reporta al final
-    es el total real y no el de la ultima tanda.
-    Una entrada en la que fallo TODO no se marca como hecha, para que el
-    siguiente intento la reintente. Con --restart se empieza de cero.
+RECOVERY FROM FAILURES
+    The process makes thousands of API calls, so one line is saved per
+    FINISHED entry in metrics/output/ablation_progress.jsonl, with an
+    immediate flush. If the script dies -- network outage, quota limit,
+    Ctrl-C, reboot -- just run THE SAME COMMAND again: entries that were
+    already evaluated are skipped and are not paid for again. Tokens spent in
+    earlier runs are added up, so the cost reported at the end is the real
+    total and not only the cost of the last batch.
+    An entry where EVERYTHING failed is not marked as done, so the next
+    attempt retries it. With --restart the run starts from scratch.
 
-USO
+USAGE
     python metrics/ablation_consensus.py --sample 50 --dry-run
-    python metrics/ablation_consensus.py --sample 20          # calibrar velocidad
-    python metrics/ablation_consensus.py --sample 200         # corrida completa
-    python metrics/ablation_consensus.py --sample 200         # retoma si se corto
+    python metrics/ablation_consensus.py --sample 20          # calibrate speed
+    python metrics/ablation_consensus.py --sample 200         # full run
+    python metrics/ablation_consensus.py --sample 200         # resumes if it was cut off
     python metrics/ablation_consensus.py --datasets fever --sample 100
 """
 from __future__ import annotations
@@ -72,7 +74,7 @@ CORPORA = {
 SEED = 42
 OUTDIR = BASE / "metrics" / "output"
 
-# tarifas de GPT-4.1 Mini en Azure, USD por millon de tokens
+# GPT-4.1 Mini prices on Azure, USD per million tokens
 PRECIO_IN, PRECIO_OUT = 0.40, 1.60
 
 
@@ -89,7 +91,7 @@ def id_de(p):
 
 
 def pares(corpus, pipe):
-    """Entradas con 3 candidatos y consenso disponible."""
+    """Entries with 3 candidates and an available consensus."""
     out = []
     for p in pipe:
         pid = id_de(p)
@@ -110,20 +112,20 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--datasets", nargs="+", default=list(CORPORA), choices=list(CORPORA))
-    ap.add_argument("--sample", type=int, default=200, help="entradas por dataset")
+    ap.add_argument("--sample", type=int, default=200, help="entries per dataset")
     ap.add_argument("--dry-run", action="store_true",
-                    help="no llama al modelo: solo estima coste y numero de llamadas")
+                    help="does not call the model: only estimates cost and number of calls")
     ap.add_argument("--reuse-consensus-eval", action="store_true",
-                    help="reutiliza la evaluacion del consenso ya guardada en el pipeline JSON "
-                         "en vez de recalcularla (ahorra 1 de cada 4 llamadas, pero mezcla "
-                         "evaluaciones de fechas distintas)")
+                    help="reuses the consensus evaluation already saved in the pipeline JSON "
+                         "instead of computing it again (saves 1 call in 4, but mixes "
+                         "evaluations from different dates)")
     ap.add_argument("--progress", default=None,
-                    help="archivo de progreso JSONL (por defecto "
-                         "metrics/output/ablation_progress.jsonl). Se escribe una linea "
-                         "por entrada terminada; si el proceso se corta, la siguiente "
-                         "ejecucion retoma donde quedo.")
+                    help="JSONL progress file (default "
+                         "metrics/output/ablation_progress.jsonl). One line is written "
+                         "per finished entry; if the process is cut off, the next "
+                         "run resumes where it stopped.")
     ap.add_argument("--restart", action="store_true",
-                    help="ignora el progreso previo y empieza de cero")
+                    help="ignores previous progress and starts from scratch")
     ap.add_argument("--out", default=None)
     args = ap.parse_args()
 
@@ -132,7 +134,7 @@ def main() -> int:
     for ds in args.datasets:
         cp, pp = CORPORA[ds]
         if not cp.exists() or not pp.exists():
-            print("  !! faltan archivos de %s, se omite" % ds, file=sys.stderr)
+            print("  !! files missing for %s, skipped" % ds, file=sys.stderr)
             continue
         corpus, pipe = cargar(cp, pp)
         items = pares(corpus, pipe)
@@ -140,13 +142,13 @@ def main() -> int:
             items = rng.sample(items, args.sample)
         trabajo[ds] = items
 
-    # ── progreso: se carga ANTES de informar, para que el recuento y el
-    #    --dry-run reflejen lo que realmente falta por hacer ──
+    # ── progress: loaded BEFORE reporting, so that the count and
+    #    --dry-run show what is really left to do ──
     prog_path = Path(args.progress) if args.progress else OUTDIR / "ablation_progress.jsonl"
     OUTDIR.mkdir(parents=True, exist_ok=True)
     if args.restart and prog_path.exists():
         prog_path.rename(prog_path.with_suffix(".jsonl.bak"))
-        print("progreso previo movido a %s\n" % prog_path.with_suffix(".jsonl.bak").name)
+        print("previous progress moved to %s\n" % prog_path.with_suffix(".jsonl.bak").name)
 
     resultados, uso_total = {ds: [] for ds in trabajo}, {"in": 0, "out": 0}
     hechas = set()
@@ -158,7 +160,7 @@ def main() -> int:
             try:
                 r = json.loads(linea)
             except json.JSONDecodeError:
-                continue          # linea truncada por un corte: se descarta
+                continue          # line truncated by a cut-off: discarded
             ds = r.get("ds")
             if ds is None or "id" not in r:
                 continue
@@ -168,7 +170,7 @@ def main() -> int:
             uso_total["in"] += (r.get("tokens") or {}).get("in", 0)
             uso_total["out"] += (r.get("tokens") or {}).get("out", 0)
         if hechas:
-            print("progreso recuperado de %s: %s entradas ya evaluadas\n"
+            print("progress recovered from %s: %s entries already evaluated\n"
                   % (prog_path.name, f"{len(hechas):,}"))
 
     pendientes = {ds: [i for i in items if (ds, i["id"]) not in hechas]
@@ -178,35 +180,35 @@ def main() -> int:
         pend = pendientes[ds]
         n_cand = sum(len(i["candidatos"]) for i in pend)
         n_cons = 0 if args.reuse_consensus_eval else len(pend)
-        print("%-9s %4d entradas | %4d ya hechas | faltan %4d = %4d llamadas"
+        print("%-9s %4d entries | %4d already done | %4d left = %4d calls"
               % (ds, len(items), len(items) - len(pend), len(pend), n_cand + n_cons))
 
     total = sum(len(i["candidatos"]) + (0 if args.reuse_consensus_eval else 1)
                 for v in pendientes.values() for i in v)
     n_pend = sum(len(v) for v in pendientes.values())
-    print("\nllamadas pendientes al evaluador: %s" % f"{total:,}")
+    print("\npending calls to the evaluator: %s" % f"{total:,}")
 
     if args.dry_run:
-        print("\n--dry-run: no se llamo a ningun modelo.")
-        print("Para estimar el coste, el script usa el consumo real por llamada que")
-        print("ya esta registrado en los pipeline JSON. Ejecuta sin --dry-run para medir.")
+        print("\n--dry-run: no model was called.")
+        print("To estimate the cost, the script uses the real usage per call that")
+        print("is already recorded in the pipeline JSON files. Run without --dry-run to measure.")
         return 0
 
-    # importar el agente SOLO cuando se va a ejecutar de verdad
+    # import the agent ONLY when the run is real
     try:
         import agente_wikitext as ag
     except ImportError as exc:
-        print("No se pudo importar agente_wikitext: %s" % exc, file=sys.stderr)
+        print("Could not import agente_wikitext: %s" % exc, file=sys.stderr)
         return 1
 
     cfg = ag.load_pipeline_config()["evaluator_model"]
     if cfg is None:
-        print("EVALUATOR_MODEL no esta definido en el .env", file=sys.stderr)
+        print("EVALUATOR_MODEL is not defined in the .env", file=sys.stderr)
         return 1
-    print("evaluador: %s\n" % cfg.name)
+    print("evaluator: %s\n" % cfg.name)
 
     def evaluar(original, texto, etiqueta):
-        """Misma ruta de codigo que la Etapa 5 del pipeline."""
+        """Same code path as Stage 5 of the pipeline."""
         resp = ag.call_with_retries(
             ag.EVALUATOR_SYSTEM,
             ag.build_evaluator_prompt(original, texto),
@@ -222,10 +224,10 @@ def main() -> int:
         return ev, uso
 
     if not n_pend:
-        print("no queda nada por evaluar; se genera el resumen con lo ya guardado.\n")
+        print("nothing left to evaluate; the summary is built from what is already saved.\n")
 
     t0 = time.time()
-    nuevas = 0            # entradas evaluadas en ESTA ejecucion, para el ritmo
+    nuevas = 0            # entries evaluated in THIS run, for the pace
     prog = prog_path.open("a", encoding="utf-8")
     try:
         for ds, items in pendientes.items():
@@ -246,24 +248,24 @@ def main() -> int:
 
                 uso_total["in"] += uso_fila["in"]; uso_total["out"] += uso_fila["out"]
 
-                # Si TODO fallo en esta entrada no se marca como hecha: asi la
-                # proxima ejecucion la reintenta en vez de darla por perdida.
+                # If EVERYTHING failed for this entry it is not marked as done:
+                # this way the next run retries it instead of treating it as lost.
                 if not fila["candidatos"] and fila["consenso"] is None:
-                    print("\n  !! %s id=%s sin resultado, quedara pendiente" % (ds, it["id"]))
+                    print("\n  !! %s id=%s has no result, it will stay pending" % (ds, it["id"]))
                     continue
 
                 resultados.setdefault(ds, []).append(fila)
-                # se escribe y se vacia el buffer ANTES de seguir: si el proceso
-                # muere aqui, esta entrada no se vuelve a pagar
+                # the line is written and the buffer flushed BEFORE going on: if
+                # the process dies here, this entry is not paid for again
                 prog.write(json.dumps({"ds": ds, **fila, "tokens": uso_fila},
                                       ensure_ascii=False) + "\n")
                 prog.flush()
 
-                # ── avance en pantalla ──
-                # El ritmo se calcula con un contador GLOBAL de entradas nuevas,
-                # no con el indice del dataset: al pasar al segundo corpus el
-                # indice reinicia mientras el reloj sigue, y la estimacion se
-                # iria al traste.
+                # ── on-screen progress ──
+                # The pace is computed with a GLOBAL counter of new entries,
+                # not with the dataset index: when moving to the second corpus
+                # the index restarts while the clock keeps running, and the
+                # estimate would be ruined.
                 nuevas += 1
                 seg = time.time() - t0
                 por_entrada = seg / nuevas
@@ -274,17 +276,17 @@ def main() -> int:
                 if vals:
                     m_cons = sum(f["consenso"] for f in vals) / len(vals)
                     m_mejor = sum(max(f["candidatos"].values()) for f in vals) / len(vals)
-                    marcador = "cons %.1f  mejor cand %.1f" % (m_cons, m_mejor)
+                    marcador = "cons %.1f  best cand %.1f" % (m_cons, m_mejor)
                 else:
-                    marcador = "sin datos aun"
-                print("  %-9s %4d/%-4d  %s  |  %.1f s/entrada  faltan %d (~%.0f min)   "
+                    marcador = "no data yet"
+                print("  %-9s %4d/%-4d  %s  |  %.1f s/entry  %d left (~%.0f min)   "
                       % (ds, k, len(items), marcador, por_entrada, faltan, max(eta, 0)),
                       end="\r", flush=True)
             if items:
-                print()   # fija la ultima linea del dataset antes de pasar al siguiente
+                print()   # keeps the last line of the dataset before moving to the next one
     except KeyboardInterrupt:
-        print("\n\ninterrumpido. El progreso quedo guardado en %s" % prog_path)
-        print("Vuelve a ejecutar el mismo comando para retomar donde quedo.")
+        print("\n\ninterrupted. Progress was saved in %s" % prog_path)
+        print("Run the same command again to resume where it stopped.")
         return 130
     finally:
         prog.close()
@@ -296,9 +298,9 @@ def main() -> int:
     out = Path(args.out) if args.out else OUTDIR / "ablation_consensus.json"
     out.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
 
-    # ── resumen ──
+    # ── summary ──
     print("\n" + "=" * 72)
-    print("%-10s %10s %10s %10s %10s" % ("dataset", "consenso", "mejor modelo", "oraculo", "n"))
+    print("%-10s %10s %10s %10s %10s" % ("dataset", "consensus", "best model", "oracle", "n"))
     print("=" * 72)
     for ds, filas in resultados.items():
         val = [f for f in filas if f["consenso"] is not None and f["candidatos"]]
@@ -314,9 +316,9 @@ def main() -> int:
         for m, v in sorted(medias.items(), key=lambda x: -x[1]):
             print("             %-52s %6.2f" % (str(m)[-50:], v))
     print()
-    print("tokens: %s in / %s out   coste: $%.2f USD"
+    print("tokens: %s in / %s out   cost: $%.2f USD"
           % (f"{uso_total['in']:,}", f"{uso_total['out']:,}", coste))
-    print("guardado: %s" % out)
+    print("saved: %s" % out)
     return 0
 
 

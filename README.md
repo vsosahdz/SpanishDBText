@@ -11,8 +11,8 @@ words** drawn from three domains — encyclopedic articles (WikiText-103), short
 factual passages (FEVER) and parliamentary debate (Europarl). It was produced
 entirely by general-purpose language models: three models translate every text
 in parallel, a reviewer model merges their candidates into one consensus
-translation, and an evaluator model scores the result against a calibrated
-guide that needs no human reference translation. The whole corpus cost **\$453.90**,
+translation, and an evaluator model scores the result against an anchored
+scoring guide that needs no human reference translation. The whole corpus cost **\$454.30**,
 or \$39 per million source words, on a single consumer laptop.
 
 Everything needed to inspect the corpus, reproduce the analysis or rerun the
@@ -24,13 +24,13 @@ pipeline on new text is here.
 
 | Dataset | Domain | Entries | English words | Spanish words | Mean quality score |
 |---|---|---:|---:|---:|---:|
-| WikiText-103 | Encyclopedic | 1,000 | 2,855,853 | 3,037,875 | 95.9 |
-| FEVER | Factual | 9,998 | 1,753,860 | 1,941,463 | 95.1 |
+| WikiText-103 | Encyclopedic | 1,000 | 2,855,853 | 3,038,960 | 95.9 |
+| FEVER | Factual | 9,998 | 1,753,843 | 1,941,480 | 95.1 |
 | Europarl | Parliamentary | 1,005 | 6,950,546 | 6,954,048 | 97.0 |
-| **Total** | | **12,003** | **11,560,259** | **11,933,386** | **—** |
+| **Total** | | **12,003** | **11,560,242** | **11,934,488** | **—** |
 
 Cross-lingual semantic fidelity, measured with LaBSE against no reference
-translation, is 0.92 and holds within six thousandths across all three domains.
+translation, is 0.92 and varies by about six thousandths across the three domains.
 Sentence-level omission stays between 0.34% and 1.43%.
 
 Every entry carries a title, keywords, a summary and a topic classification on
@@ -90,13 +90,15 @@ text — follow [docs/reproduction.md](docs/reproduction.md).
 The corpus is 437 MB of JSON. Shipped as `.json.gz` it fits in a GitHub
 repository, with every file under the 100 MB per-file limit.
 
-That compression is the **only** difference between what is released and what
-was run. The agents, the metrics package and the notebooks were not modified
-for release: they read plain JSON from `output/` and `data/` exactly as they did
-during production, so `scripts/unpack_corpus.py` restores that layout, filenames
-included. (The one exception is noted in
-[docs/reproduction.md](docs/reproduction.md#changes-made-for-release): notebook 06
-now writes its figures to `figures/` instead of into the paper's LaTeX tree.)
+The code is the code that produced the corpus. The agents in `agents/` are
+exactly as they ran in production, so their comments and log messages are still
+in Spanish, the working language of the project. In the metrics package, the
+ablation code and the notebooks, the comments and explanatory text were
+translated into English for release, and no computation changed. All of them read
+plain JSON from `output/` and `data/` exactly as they did during production, so
+`scripts/unpack_corpus.py` restores that layout, filenames included.
+[docs/reproduction.md](docs/reproduction.md#changes-made-for-release) lists every
+change made for release.
 
 ```bash
 python3 scripts/unpack_corpus.py --final      # the bilingual corpus       159 MB
@@ -117,7 +119,7 @@ python3 scripts/unpack_corpus.py --all        # everything                 530 M
 │   ├── inputs/                  the selected English subsets the pipeline consumed
 │   ├── selection/               the stratified selection tables (CSV)
 │   ├── metrics/                 the computed metrics behind the paper's tables
-│   ├── pilot/                   the June 2026 WikiText pilot run
+│   ├── pilot/                   the June 2026 WikiText trial runs
 │   └── samples/                 a few entries, uncompressed and readable on GitHub
 │
 ├── agents/                      the pipeline, one agent per source dataset
@@ -137,8 +139,10 @@ python3 scripts/unpack_corpus.py --all        # everything                 530 M
 │   └── run_metrics.py           entry point: python3 -m metrics.run_metrics --all
 │
 ├── prompts/                     every LLM instruction as plain text, one file each
-├── notebooks/                   01–03 select the subsets, 04–06 analyse the output
+├── ablation/                    the Stage 5 evaluator ablation: scoring guide × length evidence
+├── notebooks/                   01–03 select the subsets, 04–06 analyse the output, 07 recommendations
 ├── scripts/                     download, unpack, pack, verify, sample, export prompts
+│   └── correction/              the October 2026 correction run: five WikiText entries
 ├── docs/                        guides and reference, English and Spanish
 ├── data/  output/  figures/     empty; filled by the scripts
 │
@@ -162,9 +166,10 @@ python3 scripts/unpack_corpus.py --all        # everything                 530 M
 | [docs/corpus-format.md](docs/corpus-format.md) | The JSON layout of the corpus files and of the pipeline traces, field by field |
 | [docs/metrics-reference.md](docs/metrics-reference.md) | Every metric: what it measures, who introduced it, how it is computed here |
 | [docs/metrics-results.md](docs/metrics-results.md) | The computed results, read critically, anomalies included |
+| [docs/supplementary/](docs/supplementary/) | The paper's supplementary material (PDF and LaTeX source): the per-dataset tables and the Zipf figure |
 | [prompts/README.md](prompts/README.md) | Every prompt the pipeline sends, what each one does and why it is worded that way |
 
-Every one of them has a Spanish version in [docs/es/](docs/es/).
+Every guide has a Spanish version in [docs/es/](docs/es/); the supplementary material is in English only.
 
 ---
 
@@ -255,10 +260,13 @@ them. See [docs/reproduction.md](docs/reproduction.md#using-the-pipeline-on-your
 
 | Dataset | Entries | Cost (USD) | Per entry | Stage 4 share | Hours |
 |---|---:|---:|---:|---:|---:|
-| WikiText | 1,000 | 104.54 | 0.1045 | 73.5% | 120.8 |
+| WikiText | 1,000 | 104.94 | 0.1049 | 73.5% | 120.8 |
 | FEVER | 9,998 | 142.17 | 0.0142 | 80.7% | 266.3 |
 | Europarl | 1,005 | 207.18 | 0.2062 | 75.5% | 227.6 |
-| **Total** | **12,003** | **453.90** | **0.0378** | **76.6%** | **614.7** |
+| **Total** | **12,003** | **454.30** | **0.0378** | **76.7%** | **614.7** |
+
+The WikiText cost includes the correction run of October 2026 (\$0.40, five entries
+translated again; see [corpus/README.md](corpus/README.md)); the hours cover the production run only.
 
 These are measured, not estimated: every API response reports its token counts,
 and the pipeline writes the per-call cost into the trace files under

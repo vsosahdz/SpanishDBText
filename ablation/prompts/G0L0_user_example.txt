@@ -1,0 +1,9 @@
+Evalúa la siguiente traducción comparándola con el texto original.
+
+=== TEXTO ORIGINAL ===
+The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. 
+
+=== TRADUCCIÓN ===
+El rápido zorro marrón salta sobre el perro perezoso. El rápido zorro marrón salta sobre el perro perezoso. 
+
+Responde SOLO con el JSON de evaluación.

@@ -4,7 +4,8 @@
     "source_file": "wikitext-103-raw.wiki.train.selected_1000_260620_235838.json",
     "source_name": "wikitext",
     "total_entries": 1000,
-    "generated_at": "2026-09-07T13:56:02.142123"
+    "generated_at": "2026-10-11T23:01:38.116164",
+    "elapsed_seconds": 312.5
   },
   "general_metrics": {
     "english": {
@@ -3044,13 +3045,13 @@
     "spanish": {
       "language": "es",
       "num_documents": 1000,
-      "total_tokens": 3037875,
-      "unique_types": 105266,
-      "total_characters": 18427292,
+      "total_tokens": 3038960,
+      "unique_types": 104670,
+      "total_characters": 18433116,
       "words_per_document": {
-        "mean": 3037.9,
+        "mean": 3039.0,
         "median": 2409.0,
-        "std": 1875.5,
+        "std": 1875.3,
         "min": 872,
         "max": 9438
       },
@@ -3062,9 +3063,9 @@
         "max": 524
       },
       "characters_per_document": {
-        "mean": 18427.3,
+        "mean": 18433.1,
         "median": 14508.0,
-        "std": 11523.5,
+        "std": 11522.0,
         "min": 4851,
         "max": 58440
       },
@@ -3074,7 +3075,7 @@
         4192,
         4084,
         6708,
-        966,
+        955,
         4061,
         1237,
         1619,
@@ -3120,7 +3121,7 @@
         1742,
         4366,
         2210,
-        3300,
+        3847,
         7918,
         967,
         3531,
@@ -3332,7 +3333,7 @@
         1369,
         7244,
         3445,
-        2040,
+        2194,
         3184,
         1508,
         1188,
@@ -3376,7 +3377,7 @@
         6392,
         1437,
         2079,
-        949,
+        1099,
         1527,
         1160,
         8307,
@@ -3406,7 +3407,7 @@
         1816,
         1740,
         1383,
-        1844,
+        2089,
         8390,
         5420,
         2117,
@@ -4076,7 +4077,7 @@
         149,
         135,
         314,
-        42,
+        43,
         151,
         59,
         71,
@@ -4122,7 +4123,7 @@
         90,
         170,
         89,
-        154,
+        155,
         277,
         32,
         142,
@@ -4334,7 +4335,7 @@
         59,
         251,
         130,
-        94,
+        91,
         117,
         53,
         42,
@@ -4408,7 +4409,7 @@
         74,
         83,
         68,
-        92,
+        103,
         323,
         243,
         89,
@@ -5078,7 +5079,7 @@
         25997,
         24946,
         40714,
-        5742,
+        5674,
         25185,
         7271,
         9462,
@@ -5124,7 +5125,7 @@
         11041,
         26820,
         13004,
-        20221,
+        22624,
         52456,
         6037,
         21767,
@@ -5336,7 +5337,7 @@
         7721,
         42331,
         20516,
-        13026,
+        14240,
         19159,
         8999,
         6915,
@@ -5380,7 +5381,7 @@
         38355,
         8123,
         12404,
-        5546,
+        6362,
         9209,
         7094,
         51516,
@@ -5410,7 +5411,7 @@
         11102,
         10747,
         8367,
-        11087,
+        12546,
         49965,
         33560,
         12855,
@@ -9904,272 +9905,272 @@
     },
     "spanish": {
       "language": "es",
-      "total_tokens": 3037875,
-      "total_types": 105266,
-      "hapax_legomena": 42093,
-      "hapax_legomena_pct": 39.99,
-      "dis_legomena": 15258,
-      "dis_legomena_pct": 14.49,
+      "total_tokens": 3038960,
+      "total_types": 104670,
+      "hapax_legomena": 41878,
+      "hapax_legomena_pct": 40.01,
+      "dis_legomena": 15134,
+      "dis_legomena_pct": 14.46,
       "zipf_exponent": 0.946,
       "vocabulary_coverage_by_top_n": {
-        "100": 45.19,
-        "500": 57.23,
-        "1000": 63.72,
-        "5000": 80.49,
-        "10000": 87.36
+        "100": 45.28,
+        "500": 57.33,
+        "1000": 63.82,
+        "5000": 80.59,
+        "10000": 87.45
       },
       "zipf_distribution": [
         {
           "rank": 1,
-          "frequency": 218317,
+          "frequency": 219044,
           "log_rank": 0.0,
-          "log_freq": 5.3391
+          "log_freq": 5.3405
         },
         {
           "rank": 2,
-          "frequency": 116974,
+          "frequency": 117458,
           "log_rank": 0.301,
-          "log_freq": 5.0681
+          "log_freq": 5.0699
         },
         {
           "rank": 3,
-          "frequency": 104884,
+          "frequency": 105239,
           "log_rank": 0.4771,
-          "log_freq": 5.0207
+          "log_freq": 5.0222
         },
         {
           "rank": 4,
-          "frequency": 97684,
+          "frequency": 98035,
           "log_rank": 0.6021,
-          "log_freq": 4.9898
+          "log_freq": 4.9914
         },
         {
           "rank": 5,
-          "frequency": 78907,
+          "frequency": 79184,
           "log_rank": 0.699,
-          "log_freq": 4.8971
+          "log_freq": 4.8986
         },
         {
           "rank": 6,
-          "frequency": 58353,
+          "frequency": 58376,
           "log_rank": 0.7782,
-          "log_freq": 4.7661
+          "log_freq": 4.7662
         },
         {
           "rank": 7,
-          "frequency": 53484,
+          "frequency": 53644,
           "log_rank": 0.8451,
-          "log_freq": 4.7282
+          "log_freq": 4.7295
         },
         {
           "rank": 8,
-          "frequency": 43444,
+          "frequency": 43578,
           "log_rank": 0.9031,
-          "log_freq": 4.6379
+          "log_freq": 4.6393
         },
         {
           "rank": 9,
-          "frequency": 35196,
+          "frequency": 35305,
           "log_rank": 0.9542,
-          "log_freq": 4.5465
+          "log_freq": 4.5478
         },
         {
           "rank": 10,
-          "frequency": 33765,
+          "frequency": 33879,
           "log_rank": 1.0,
-          "log_freq": 4.5285
+          "log_freq": 4.5299
         },
         {
           "rank": 11,
-          "frequency": 32902,
+          "frequency": 33052,
           "log_rank": 1.0414,
-          "log_freq": 4.5172
+          "log_freq": 4.5192
         },
         {
           "rank": 12,
-          "frequency": 29357,
+          "frequency": 29455,
           "log_rank": 1.0792,
-          "log_freq": 4.4677
+          "log_freq": 4.4692
         },
         {
           "rank": 13,
-          "frequency": 27805,
+          "frequency": 27869,
           "log_rank": 1.1139,
-          "log_freq": 4.4441
+          "log_freq": 4.4451
         },
         {
           "rank": 14,
-          "frequency": 26693,
+          "frequency": 26763,
           "log_rank": 1.1461,
-          "log_freq": 4.4264
+          "log_freq": 4.4275
         },
         {
           "rank": 15,
-          "frequency": 26135,
+          "frequency": 26175,
           "log_rank": 1.1761,
-          "log_freq": 4.4172
+          "log_freq": 4.4179
         },
         {
           "rank": 16,
-          "frequency": 25266,
+          "frequency": 25323,
           "log_rank": 1.2041,
-          "log_freq": 4.4025
+          "log_freq": 4.4035
         },
         {
           "rank": 17,
-          "frequency": 24528,
+          "frequency": 24617,
           "log_rank": 1.2304,
-          "log_freq": 4.3897
+          "log_freq": 4.3912
         },
         {
           "rank": 18,
-          "frequency": 20316,
+          "frequency": 20370,
           "log_rank": 1.2553,
-          "log_freq": 4.3078
+          "log_freq": 4.309
         },
         {
           "rank": 19,
-          "frequency": 18495,
+          "frequency": 18561,
           "log_rank": 1.2788,
-          "log_freq": 4.2671
+          "log_freq": 4.2686
         },
         {
           "rank": 20,
-          "frequency": 15923,
+          "frequency": 15978,
           "log_rank": 1.301,
-          "log_freq": 4.202
+          "log_freq": 4.2035
         },
         {
           "rank": 21,
-          "frequency": 12423,
+          "frequency": 12464,
           "log_rank": 1.3222,
-          "log_freq": 4.0942
+          "log_freq": 4.0957
         },
         {
           "rank": 22,
-          "frequency": 11328,
+          "frequency": 11353,
           "log_rank": 1.3424,
-          "log_freq": 4.0542
+          "log_freq": 4.0551
         },
         {
           "rank": 23,
-          "frequency": 9733,
+          "frequency": 9770,
           "log_rank": 1.3617,
-          "log_freq": 3.9882
+          "log_freq": 3.9899
         },
         {
           "rank": 24,
-          "frequency": 8412,
+          "frequency": 8439,
           "log_rank": 1.3802,
-          "log_freq": 3.9249
+          "log_freq": 3.9263
         },
         {
           "rank": 25,
-          "frequency": 7802,
+          "frequency": 7813,
           "log_rank": 1.3979,
-          "log_freq": 3.8922
+          "log_freq": 3.8928
         },
         {
           "rank": 26,
-          "frequency": 6653,
+          "frequency": 6349,
           "log_rank": 1.415,
-          "log_freq": 3.823
+          "log_freq": 3.8027
         },
         {
           "rank": 27,
-          "frequency": 6328,
+          "frequency": 6229,
           "log_rank": 1.4314,
-          "log_freq": 3.8013
+          "log_freq": 3.7944
         },
         {
           "rank": 28,
-          "frequency": 6208,
+          "frequency": 6073,
           "log_rank": 1.4472,
-          "log_freq": 3.793
+          "log_freq": 3.7834
         },
         {
           "rank": 29,
-          "frequency": 6058,
+          "frequency": 5961,
           "log_rank": 1.4624,
-          "log_freq": 3.7823
+          "log_freq": 3.7753
         },
         {
           "rank": 30,
-          "frequency": 5429,
+          "frequency": 5454,
           "log_rank": 1.4771,
-          "log_freq": 3.7347
+          "log_freq": 3.7367
         },
         {
           "rank": 31,
-          "frequency": 5289,
+          "frequency": 5298,
           "log_rank": 1.4914,
-          "log_freq": 3.7234
+          "log_freq": 3.7241
         },
         {
           "rank": 32,
-          "frequency": 5266,
+          "frequency": 5278,
           "log_rank": 1.5051,
-          "log_freq": 3.7215
+          "log_freq": 3.7225
         },
         {
           "rank": 33,
-          "frequency": 5148,
+          "frequency": 5204,
           "log_rank": 1.5185,
-          "log_freq": 3.7116
+          "log_freq": 3.7163
         },
         {
           "rank": 34,
-          "frequency": 4740,
+          "frequency": 4755,
           "log_rank": 1.5315,
-          "log_freq": 3.6758
+          "log_freq": 3.6772
         },
         {
           "rank": 35,
-          "frequency": 4614,
+          "frequency": 4628,
           "log_rank": 1.5441,
-          "log_freq": 3.6641
+          "log_freq": 3.6654
         },
         {
           "rank": 36,
-          "frequency": 4591,
+          "frequency": 4608,
           "log_rank": 1.5563,
-          "log_freq": 3.6619
+          "log_freq": 3.6635
         },
         {
           "rank": 37,
-          "frequency": 4555,
+          "frequency": 4583,
           "log_rank": 1.5682,
-          "log_freq": 3.6585
+          "log_freq": 3.6611
         },
         {
           "rank": 38,
-          "frequency": 4542,
+          "frequency": 4547,
           "log_rank": 1.5798,
-          "log_freq": 3.6572
+          "log_freq": 3.6577
         },
         {
           "rank": 39,
-          "frequency": 4200,
+          "frequency": 4216,
           "log_rank": 1.5911,
-          "log_freq": 3.6232
+          "log_freq": 3.6249
         },
         {
           "rank": 40,
-          "frequency": 4030,
+          "frequency": 4059,
           "log_rank": 1.6021,
-          "log_freq": 3.6053
+          "log_freq": 3.6084
         },
         {
           "rank": 41,
-          "frequency": 4024,
+          "frequency": 4052,
           "log_rank": 1.6128,
-          "log_freq": 3.6047
+          "log_freq": 3.6077
         },
         {
           "rank": 42,
-          "frequency": 3872,
+          "frequency": 3891,
           "log_rank": 1.6232,
-          "log_freq": 3.5879
+          "log_freq": 3.5901
         },
         {
           "rank": 43,
@@ -10179,81 +10180,81 @@
         },
         {
           "rank": 44,
-          "frequency": 3717,
+          "frequency": 3729,
           "log_rank": 1.6435,
-          "log_freq": 3.5702
+          "log_freq": 3.5716
         },
         {
           "rank": 45,
-          "frequency": 3703,
+          "frequency": 3711,
           "log_rank": 1.6532,
-          "log_freq": 3.5686
+          "log_freq": 3.5695
         },
         {
           "rank": 46,
-          "frequency": 3655,
+          "frequency": 3672,
           "log_rank": 1.6628,
-          "log_freq": 3.5629
+          "log_freq": 3.5649
         },
         {
           "rank": 47,
-          "frequency": 3637,
+          "frequency": 3655,
           "log_rank": 1.6721,
-          "log_freq": 3.5607
+          "log_freq": 3.5629
         },
         {
           "rank": 48,
-          "frequency": 3497,
+          "frequency": 3509,
           "log_rank": 1.6812,
-          "log_freq": 3.5437
+          "log_freq": 3.5452
         },
         {
           "rank": 49,
-          "frequency": 3365,
+          "frequency": 3407,
           "log_rank": 1.6902,
-          "log_freq": 3.527
+          "log_freq": 3.5324
         },
         {
           "rank": 50,
-          "frequency": 3264,
+          "frequency": 3271,
           "log_rank": 1.699,
-          "log_freq": 3.5138
+          "log_freq": 3.5147
         },
         {
           "rank": 51,
-          "frequency": 3244,
+          "frequency": 3259,
           "log_rank": 1.7076,
-          "log_freq": 3.5111
+          "log_freq": 3.5131
         },
         {
           "rank": 52,
-          "frequency": 3240,
+          "frequency": 3255,
           "log_rank": 1.716,
-          "log_freq": 3.5105
+          "log_freq": 3.5126
         },
         {
           "rank": 53,
-          "frequency": 3207,
+          "frequency": 3213,
           "log_rank": 1.7243,
-          "log_freq": 3.5061
+          "log_freq": 3.5069
         },
         {
           "rank": 54,
-          "frequency": 3197,
+          "frequency": 3211,
           "log_rank": 1.7324,
-          "log_freq": 3.5047
+          "log_freq": 3.5066
         },
         {
           "rank": 55,
-          "frequency": 3057,
+          "frequency": 3063,
           "log_rank": 1.7404,
-          "log_freq": 3.4853
+          "log_freq": 3.4861
         },
         {
           "rank": 56,
-          "frequency": 2994,
+          "frequency": 2996,
           "log_rank": 1.7482,
-          "log_freq": 3.4763
+          "log_freq": 3.4765
         },
         {
           "rank": 57,
@@ -10263,21 +10264,21 @@
         },
         {
           "rank": 58,
-          "frequency": 2858,
+          "frequency": 2859,
           "log_rank": 1.7634,
-          "log_freq": 3.4561
+          "log_freq": 3.4562
         },
         {
           "rank": 59,
-          "frequency": 2777,
+          "frequency": 2794,
           "log_rank": 1.7709,
-          "log_freq": 3.4436
+          "log_freq": 3.4462
         },
         {
           "rank": 60,
-          "frequency": 2700,
+          "frequency": 2646,
           "log_rank": 1.7782,
-          "log_freq": 3.4314
+          "log_freq": 3.4226
         },
         {
           "rank": 61,
@@ -10287,81 +10288,81 @@
         },
         {
           "rank": 62,
-          "frequency": 2639,
+          "frequency": 2630,
           "log_rank": 1.7924,
-          "log_freq": 3.4214
+          "log_freq": 3.42
         },
         {
           "rank": 63,
-          "frequency": 2615,
+          "frequency": 2612,
           "log_rank": 1.7993,
-          "log_freq": 3.4175
+          "log_freq": 3.417
         },
         {
           "rank": 64,
-          "frequency": 2610,
+          "frequency": 2578,
           "log_rank": 1.8062,
-          "log_freq": 3.4166
+          "log_freq": 3.4113
         },
         {
           "rank": 65,
-          "frequency": 2568,
+          "frequency": 2550,
           "log_rank": 1.8129,
-          "log_freq": 3.4096
+          "log_freq": 3.4065
         },
         {
           "rank": 66,
-          "frequency": 2549,
-          "log_rank": 1.8195,
-          "log_freq": 3.4064
-        },
-        {
-          "rank": 67,
           "frequency": 2546,
-          "log_rank": 1.8261,
+          "log_rank": 1.8195,
           "log_freq": 3.4059
         },
         {
-          "rank": 68,
+          "rank": 67,
           "frequency": 2513,
-          "log_rank": 1.8325,
+          "log_rank": 1.8261,
           "log_freq": 3.4002
         },
         {
+          "rank": 68,
+          "frequency": 2498,
+          "log_rank": 1.8325,
+          "log_freq": 3.3976
+        },
+        {
           "rank": 69,
-          "frequency": 2492,
+          "frequency": 2458,
           "log_rank": 1.8388,
-          "log_freq": 3.3965
+          "log_freq": 3.3906
         },
         {
           "rank": 70,
-          "frequency": 2451,
+          "frequency": 2450,
           "log_rank": 1.8451,
-          "log_freq": 3.3893
+          "log_freq": 3.3892
         },
         {
           "rank": 71,
-          "frequency": 2448,
+          "frequency": 2450,
           "log_rank": 1.8513,
-          "log_freq": 3.3888
+          "log_freq": 3.3892
         },
         {
           "rank": 72,
-          "frequency": 2395,
+          "frequency": 2401,
           "log_rank": 1.8573,
-          "log_freq": 3.3793
+          "log_freq": 3.3804
         },
         {
           "rank": 73,
-          "frequency": 2386,
+          "frequency": 2392,
           "log_rank": 1.8633,
-          "log_freq": 3.3777
+          "log_freq": 3.3788
         },
         {
           "rank": 74,
-          "frequency": 2381,
+          "frequency": 2389,
           "log_rank": 1.8692,
-          "log_freq": 3.3768
+          "log_freq": 3.3782
         },
         {
           "rank": 75,
@@ -10371,15 +10372,15 @@
         },
         {
           "rank": 76,
-          "frequency": 2367,
+          "frequency": 2375,
           "log_rank": 1.8808,
-          "log_freq": 3.3742
+          "log_freq": 3.3757
         },
         {
           "rank": 77,
-          "frequency": 2341,
+          "frequency": 2344,
           "log_rank": 1.8865,
-          "log_freq": 3.3694
+          "log_freq": 3.37
         },
         {
           "rank": 78,
@@ -10389,51 +10390,51 @@
         },
         {
           "rank": 79,
-          "frequency": 2278,
+          "frequency": 2294,
           "log_rank": 1.8976,
-          "log_freq": 3.3576
+          "log_freq": 3.3606
         },
         {
           "rank": 80,
-          "frequency": 2273,
+          "frequency": 2276,
           "log_rank": 1.9031,
-          "log_freq": 3.3566
+          "log_freq": 3.3572
         },
         {
           "rank": 81,
-          "frequency": 2259,
+          "frequency": 2268,
           "log_rank": 1.9085,
-          "log_freq": 3.3539
+          "log_freq": 3.3556
         },
         {
           "rank": 82,
-          "frequency": 2191,
+          "frequency": 2195,
           "log_rank": 1.9138,
-          "log_freq": 3.3406
+          "log_freq": 3.3414
         },
         {
           "rank": 83,
-          "frequency": 2177,
+          "frequency": 2179,
           "log_rank": 1.9191,
-          "log_freq": 3.3379
+          "log_freq": 3.3383
         },
         {
           "rank": 84,
-          "frequency": 2162,
+          "frequency": 2167,
           "log_rank": 1.9243,
-          "log_freq": 3.3349
+          "log_freq": 3.3359
         },
         {
           "rank": 85,
-          "frequency": 2133,
+          "frequency": 2141,
           "log_rank": 1.9294,
-          "log_freq": 3.329
+          "log_freq": 3.3306
         },
         {
           "rank": 86,
-          "frequency": 2119,
+          "frequency": 2138,
           "log_rank": 1.9345,
-          "log_freq": 3.3261
+          "log_freq": 3.33
         },
         {
           "rank": 87,
@@ -10443,27 +10444,27 @@
         },
         {
           "rank": 88,
-          "frequency": 2074,
+          "frequency": 2080,
           "log_rank": 1.9445,
-          "log_freq": 3.3168
+          "log_freq": 3.3181
         },
         {
           "rank": 89,
-          "frequency": 2061,
+          "frequency": 2069,
           "log_rank": 1.9494,
-          "log_freq": 3.3141
+          "log_freq": 3.3158
         },
         {
           "rank": 90,
-          "frequency": 2052,
+          "frequency": 2057,
           "log_rank": 1.9542,
-          "log_freq": 3.3122
+          "log_freq": 3.3132
         },
         {
           "rank": 91,
-          "frequency": 2037,
+          "frequency": 2039,
           "log_rank": 1.959,
-          "log_freq": 3.309
+          "log_freq": 3.3094
         },
         {
           "rank": 92,
@@ -10473,21 +10474,21 @@
         },
         {
           "rank": 93,
-          "frequency": 2035,
+          "frequency": 2033,
           "log_rank": 1.9685,
-          "log_freq": 3.3086
+          "log_freq": 3.3081
         },
         {
           "rank": 94,
-          "frequency": 1981,
+          "frequency": 1989,
           "log_rank": 1.9731,
-          "log_freq": 3.2969
+          "log_freq": 3.2986
         },
         {
           "rank": 95,
-          "frequency": 1971,
+          "frequency": 1980,
           "log_rank": 1.9777,
-          "log_freq": 3.2947
+          "log_freq": 3.2967
         },
         {
           "rank": 96,
@@ -10497,33 +10498,33 @@
         },
         {
           "rank": 97,
-          "frequency": 1925,
+          "frequency": 1926,
           "log_rank": 1.9868,
-          "log_freq": 3.2844
+          "log_freq": 3.2847
         },
         {
           "rank": 98,
-          "frequency": 1905,
+          "frequency": 1911,
           "log_rank": 1.9912,
-          "log_freq": 3.2799
+          "log_freq": 3.2813
         },
         {
           "rank": 99,
-          "frequency": 1864,
+          "frequency": 1878,
           "log_rank": 1.9956,
-          "log_freq": 3.2704
+          "log_freq": 3.2737
         },
         {
           "rank": 100,
-          "frequency": 1854,
+          "frequency": 1855,
           "log_rank": 2.0,
-          "log_freq": 3.2681
+          "log_freq": 3.2683
         },
         {
           "rank": 101,
-          "frequency": 1847,
+          "frequency": 1851,
           "log_rank": 2.0043,
-          "log_freq": 3.2665
+          "log_freq": 3.2674
         },
         {
           "rank": 102,
@@ -10545,51 +10546,51 @@
         },
         {
           "rank": 105,
-          "frequency": 1737,
+          "frequency": 1743,
           "log_rank": 2.0212,
-          "log_freq": 3.2398
+          "log_freq": 3.2413
         },
         {
           "rank": 106,
-          "frequency": 1732,
+          "frequency": 1735,
           "log_rank": 2.0253,
-          "log_freq": 3.2385
+          "log_freq": 3.2393
         },
         {
           "rank": 107,
-          "frequency": 1727,
+          "frequency": 1729,
           "log_rank": 2.0294,
-          "log_freq": 3.2373
+          "log_freq": 3.2378
         },
         {
           "rank": 108,
-          "frequency": 1721,
+          "frequency": 1723,
           "log_rank": 2.0334,
-          "log_freq": 3.2358
+          "log_freq": 3.2363
         },
         {
           "rank": 109,
-          "frequency": 1710,
+          "frequency": 1711,
           "log_rank": 2.0374,
-          "log_freq": 3.233
+          "log_freq": 3.2333
         },
         {
           "rank": 110,
-          "frequency": 1696,
+          "frequency": 1702,
           "log_rank": 2.0414,
-          "log_freq": 3.2294
+          "log_freq": 3.231
         },
         {
           "rank": 111,
-          "frequency": 1675,
+          "frequency": 1685,
           "log_rank": 2.0453,
-          "log_freq": 3.224
+          "log_freq": 3.2266
         },
         {
           "rank": 112,
-          "frequency": 1675,
+          "frequency": 1681,
           "log_rank": 2.0492,
-          "log_freq": 3.224
+          "log_freq": 3.2256
         },
         {
           "rank": 113,
@@ -10599,27 +10600,27 @@
         },
         {
           "rank": 114,
-          "frequency": 1664,
+          "frequency": 1665,
           "log_rank": 2.0569,
-          "log_freq": 3.2212
+          "log_freq": 3.2214
         },
         {
           "rank": 115,
-          "frequency": 1622,
+          "frequency": 1628,
           "log_rank": 2.0607,
-          "log_freq": 3.2101
+          "log_freq": 3.2117
         },
         {
           "rank": 116,
-          "frequency": 1609,
+          "frequency": 1613,
           "log_rank": 2.0645,
-          "log_freq": 3.2066
+          "log_freq": 3.2076
         },
         {
           "rank": 117,
-          "frequency": 1605,
+          "frequency": 1607,
           "log_rank": 2.0682,
-          "log_freq": 3.2055
+          "log_freq": 3.206
         },
         {
           "rank": 118,
@@ -10629,105 +10630,105 @@
         },
         {
           "rank": 119,
-          "frequency": 1572,
+          "frequency": 1586,
           "log_rank": 2.0755,
-          "log_freq": 3.1965
+          "log_freq": 3.2003
         },
         {
           "rank": 120,
-          "frequency": 1565,
+          "frequency": 1573,
           "log_rank": 2.0792,
-          "log_freq": 3.1945
+          "log_freq": 3.1967
         },
         {
           "rank": 121,
-          "frequency": 1562,
+          "frequency": 1563,
           "log_rank": 2.0828,
-          "log_freq": 3.1937
+          "log_freq": 3.194
         },
         {
           "rank": 122,
-          "frequency": 1555,
+          "frequency": 1562,
           "log_rank": 2.0864,
-          "log_freq": 3.1917
+          "log_freq": 3.1937
         },
         {
           "rank": 123,
-          "frequency": 1554,
+          "frequency": 1538,
           "log_rank": 2.0899,
-          "log_freq": 3.1915
+          "log_freq": 3.187
         },
         {
           "rank": 124,
-          "frequency": 1530,
+          "frequency": 1532,
           "log_rank": 2.0934,
-          "log_freq": 3.1847
+          "log_freq": 3.1853
         },
         {
           "rank": 125,
-          "frequency": 1502,
+          "frequency": 1509,
           "log_rank": 2.0969,
-          "log_freq": 3.1767
+          "log_freq": 3.1787
         },
         {
           "rank": 126,
-          "frequency": 1501,
+          "frequency": 1506,
           "log_rank": 2.1004,
-          "log_freq": 3.1764
+          "log_freq": 3.1778
         },
         {
           "rank": 127,
-          "frequency": 1495,
+          "frequency": 1504,
           "log_rank": 2.1038,
-          "log_freq": 3.1746
+          "log_freq": 3.1772
         },
         {
           "rank": 128,
-          "frequency": 1493,
+          "frequency": 1495,
           "log_rank": 2.1072,
-          "log_freq": 3.1741
+          "log_freq": 3.1746
         },
         {
           "rank": 129,
-          "frequency": 1482,
+          "frequency": 1486,
           "log_rank": 2.1106,
-          "log_freq": 3.1708
+          "log_freq": 3.172
         },
         {
           "rank": 130,
-          "frequency": 1470,
+          "frequency": 1484,
           "log_rank": 2.1139,
-          "log_freq": 3.1673
+          "log_freq": 3.1714
         },
         {
           "rank": 131,
-          "frequency": 1466,
+          "frequency": 1470,
           "log_rank": 2.1173,
-          "log_freq": 3.1661
+          "log_freq": 3.1673
         },
         {
           "rank": 132,
-          "frequency": 1466,
+          "frequency": 1468,
           "log_rank": 2.1206,
-          "log_freq": 3.1661
+          "log_freq": 3.1667
         },
         {
           "rank": 133,
-          "frequency": 1454,
+          "frequency": 1460,
           "log_rank": 2.1239,
-          "log_freq": 3.1626
+          "log_freq": 3.1644
         },
         {
           "rank": 134,
-          "frequency": 1427,
+          "frequency": 1428,
           "log_rank": 2.1271,
-          "log_freq": 3.1544
+          "log_freq": 3.1547
         },
         {
           "rank": 135,
-          "frequency": 1414,
+          "frequency": 1423,
           "log_rank": 2.1303,
-          "log_freq": 3.1504
+          "log_freq": 3.1532
         },
         {
           "rank": 136,
@@ -10737,51 +10738,51 @@
         },
         {
           "rank": 137,
-          "frequency": 1414,
+          "frequency": 1394,
           "log_rank": 2.1367,
-          "log_freq": 3.1504
+          "log_freq": 3.1443
         },
         {
           "rank": 138,
-          "frequency": 1399,
+          "frequency": 1394,
           "log_rank": 2.1399,
-          "log_freq": 3.1458
+          "log_freq": 3.1443
         },
         {
           "rank": 139,
-          "frequency": 1391,
+          "frequency": 1393,
           "log_rank": 2.143,
-          "log_freq": 3.1433
+          "log_freq": 3.144
         },
         {
           "rank": 140,
-          "frequency": 1386,
+          "frequency": 1392,
           "log_rank": 2.1461,
-          "log_freq": 3.1418
+          "log_freq": 3.1436
         },
         {
           "rank": 141,
-          "frequency": 1384,
-          "log_rank": 2.1492,
-          "log_freq": 3.1411
-        },
-        {
-          "rank": 142,
           "frequency": 1383,
-          "log_rank": 2.1523,
+          "log_rank": 2.1492,
           "log_freq": 3.1408
         },
         {
+          "rank": 142,
+          "frequency": 1374,
+          "log_rank": 2.1523,
+          "log_freq": 3.138
+        },
+        {
           "rank": 143,
-          "frequency": 1367,
+          "frequency": 1373,
           "log_rank": 2.1553,
-          "log_freq": 3.1358
+          "log_freq": 3.1377
         },
         {
           "rank": 144,
-          "frequency": 1367,
+          "frequency": 1368,
           "log_rank": 2.1584,
-          "log_freq": 3.1358
+          "log_freq": 3.1361
         },
         {
           "rank": 145,
@@ -10791,15 +10792,15 @@
         },
         {
           "rank": 146,
-          "frequency": 1363,
+          "frequency": 1362,
           "log_rank": 2.1644,
-          "log_freq": 3.1345
+          "log_freq": 3.1342
         },
         {
           "rank": 147,
-          "frequency": 1360,
+          "frequency": 1351,
           "log_rank": 2.1673,
-          "log_freq": 3.1335
+          "log_freq": 3.1307
         },
         {
           "rank": 148,
@@ -10809,63 +10810,63 @@
         },
         {
           "rank": 149,
-          "frequency": 1347,
+          "frequency": 1348,
           "log_rank": 2.1732,
-          "log_freq": 3.1294
+          "log_freq": 3.1297
         },
         {
           "rank": 150,
-          "frequency": 1346,
+          "frequency": 1347,
           "log_rank": 2.1761,
-          "log_freq": 3.129
+          "log_freq": 3.1294
         },
         {
           "rank": 151,
-          "frequency": 1345,
+          "frequency": 1347,
           "log_rank": 2.179,
-          "log_freq": 3.1287
+          "log_freq": 3.1294
         },
         {
           "rank": 152,
-          "frequency": 1343,
+          "frequency": 1338,
           "log_rank": 2.1818,
-          "log_freq": 3.1281
+          "log_freq": 3.1265
         },
         {
           "rank": 153,
-          "frequency": 1334,
+          "frequency": 1338,
           "log_rank": 2.1847,
-          "log_freq": 3.1252
+          "log_freq": 3.1265
         },
         {
           "rank": 154,
-          "frequency": 1332,
+          "frequency": 1326,
           "log_rank": 2.1875,
-          "log_freq": 3.1245
+          "log_freq": 3.1225
         },
         {
           "rank": 155,
-          "frequency": 1325,
+          "frequency": 1323,
           "log_rank": 2.1903,
-          "log_freq": 3.1222
+          "log_freq": 3.1216
         },
         {
           "rank": 156,
-          "frequency": 1322,
+          "frequency": 1320,
           "log_rank": 2.1931,
-          "log_freq": 3.1212
+          "log_freq": 3.1206
         },
         {
           "rank": 157,
-          "frequency": 1312,
+          "frequency": 1311,
           "log_rank": 2.1959,
-          "log_freq": 3.1179
+          "log_freq": 3.1176
         },
         {
           "rank": 158,
-          "frequency": 1308,
+          "frequency": 1309,
           "log_rank": 2.1987,
-          "log_freq": 3.1166
+          "log_freq": 3.1169
         },
         {
           "rank": 159,
@@ -10875,75 +10876,75 @@
         },
         {
           "rank": 160,
-          "frequency": 1307,
+          "frequency": 1292,
           "log_rank": 2.2041,
-          "log_freq": 3.1163
+          "log_freq": 3.1113
         },
         {
           "rank": 161,
-          "frequency": 1284,
+          "frequency": 1289,
           "log_rank": 2.2068,
-          "log_freq": 3.1086
+          "log_freq": 3.1103
         },
         {
           "rank": 162,
-          "frequency": 1282,
+          "frequency": 1288,
           "log_rank": 2.2095,
-          "log_freq": 3.1079
+          "log_freq": 3.1099
         },
         {
           "rank": 163,
-          "frequency": 1281,
+          "frequency": 1284,
           "log_rank": 2.2122,
-          "log_freq": 3.1075
+          "log_freq": 3.1086
         },
         {
           "rank": 164,
-          "frequency": 1279,
+          "frequency": 1283,
           "log_rank": 2.2148,
-          "log_freq": 3.1069
+          "log_freq": 3.1082
         },
         {
           "rank": 165,
-          "frequency": 1278,
+          "frequency": 1282,
           "log_rank": 2.2175,
-          "log_freq": 3.1065
+          "log_freq": 3.1079
         },
         {
           "rank": 166,
-          "frequency": 1278,
+          "frequency": 1282,
           "log_rank": 2.2201,
-          "log_freq": 3.1065
+          "log_freq": 3.1079
         },
         {
           "rank": 167,
-          "frequency": 1275,
+          "frequency": 1277,
           "log_rank": 2.2227,
-          "log_freq": 3.1055
+          "log_freq": 3.1062
         },
         {
           "rank": 168,
-          "frequency": 1268,
+          "frequency": 1277,
           "log_rank": 2.2253,
-          "log_freq": 3.1031
+          "log_freq": 3.1062
         },
         {
           "rank": 169,
-          "frequency": 1267,
+          "frequency": 1273,
           "log_rank": 2.2279,
-          "log_freq": 3.1028
+          "log_freq": 3.1048
         },
         {
           "rank": 170,
-          "frequency": 1266,
+          "frequency": 1258,
           "log_rank": 2.2304,
-          "log_freq": 3.1024
+          "log_freq": 3.0997
         },
         {
           "rank": 171,
-          "frequency": 1255,
+          "frequency": 1257,
           "log_rank": 2.233,
-          "log_freq": 3.0986
+          "log_freq": 3.0993
         },
         {
           "rank": 172,
@@ -10953,159 +10954,159 @@
         },
         {
           "rank": 173,
-          "frequency": 1251,
+          "frequency": 1250,
           "log_rank": 2.238,
-          "log_freq": 3.0973
+          "log_freq": 3.0969
         },
         {
           "rank": 174,
-          "frequency": 1243,
+          "frequency": 1239,
           "log_rank": 2.2405,
-          "log_freq": 3.0945
+          "log_freq": 3.0931
         },
         {
           "rank": 175,
-          "frequency": 1235,
+          "frequency": 1234,
           "log_rank": 2.243,
-          "log_freq": 3.0917
+          "log_freq": 3.0913
         },
         {
           "rank": 176,
-          "frequency": 1223,
+          "frequency": 1227,
           "log_rank": 2.2455,
-          "log_freq": 3.0874
+          "log_freq": 3.0888
         },
         {
           "rank": 177,
-          "frequency": 1218,
+          "frequency": 1222,
           "log_rank": 2.248,
-          "log_freq": 3.0856
+          "log_freq": 3.0871
         },
         {
           "rank": 178,
-          "frequency": 1214,
+          "frequency": 1213,
           "log_rank": 2.2504,
-          "log_freq": 3.0842
+          "log_freq": 3.0839
         },
         {
           "rank": 179,
-          "frequency": 1212,
+          "frequency": 1213,
           "log_rank": 2.2529,
-          "log_freq": 3.0835
+          "log_freq": 3.0839
         },
         {
           "rank": 180,
-          "frequency": 1209,
+          "frequency": 1212,
           "log_rank": 2.2553,
-          "log_freq": 3.0824
+          "log_freq": 3.0835
         },
         {
           "rank": 181,
-          "frequency": 1208,
+          "frequency": 1209,
           "log_rank": 2.2577,
-          "log_freq": 3.0821
+          "log_freq": 3.0824
         },
         {
           "rank": 182,
-          "frequency": 1208,
+          "frequency": 1209,
           "log_rank": 2.2601,
-          "log_freq": 3.0821
+          "log_freq": 3.0824
         },
         {
           "rank": 183,
-          "frequency": 1207,
+          "frequency": 1208,
           "log_rank": 2.2625,
-          "log_freq": 3.0817
+          "log_freq": 3.0821
         },
         {
           "rank": 184,
-          "frequency": 1205,
+          "frequency": 1208,
           "log_rank": 2.2648,
-          "log_freq": 3.081
+          "log_freq": 3.0821
         },
         {
           "rank": 185,
-          "frequency": 1204,
+          "frequency": 1207,
           "log_rank": 2.2672,
-          "log_freq": 3.0806
+          "log_freq": 3.0817
         },
         {
           "rank": 186,
-          "frequency": 1203,
+          "frequency": 1206,
           "log_rank": 2.2695,
-          "log_freq": 3.0803
+          "log_freq": 3.0813
         },
         {
           "rank": 187,
-          "frequency": 1202,
+          "frequency": 1205,
           "log_rank": 2.2718,
-          "log_freq": 3.0799
+          "log_freq": 3.081
         },
         {
           "rank": 188,
-          "frequency": 1197,
+          "frequency": 1204,
           "log_rank": 2.2742,
-          "log_freq": 3.0781
+          "log_freq": 3.0806
         },
         {
           "rank": 189,
-          "frequency": 1195,
+          "frequency": 1199,
           "log_rank": 2.2765,
-          "log_freq": 3.0774
+          "log_freq": 3.0788
         },
         {
           "rank": 190,
-          "frequency": 1192,
+          "frequency": 1196,
           "log_rank": 2.2788,
-          "log_freq": 3.0763
+          "log_freq": 3.0777
         },
         {
           "rank": 191,
-          "frequency": 1192,
+          "frequency": 1194,
           "log_rank": 2.281,
-          "log_freq": 3.0763
+          "log_freq": 3.077
         },
         {
           "rank": 192,
-          "frequency": 1190,
+          "frequency": 1192,
           "log_rank": 2.2833,
-          "log_freq": 3.0755
+          "log_freq": 3.0763
         },
         {
           "rank": 193,
-          "frequency": 1189,
-          "log_rank": 2.2856,
-          "log_freq": 3.0752
-        },
-        {
-          "rank": 194,
           "frequency": 1187,
-          "log_rank": 2.2878,
+          "log_rank": 2.2856,
           "log_freq": 3.0745
         },
         {
+          "rank": 194,
+          "frequency": 1175,
+          "log_rank": 2.2878,
+          "log_freq": 3.07
+        },
+        {
           "rank": 195,
-          "frequency": 1172,
+          "frequency": 1167,
           "log_rank": 2.29,
-          "log_freq": 3.0689
+          "log_freq": 3.0671
         },
         {
           "rank": 196,
-          "frequency": 1163,
+          "frequency": 1165,
           "log_rank": 2.2923,
-          "log_freq": 3.0656
+          "log_freq": 3.0663
         },
         {
           "rank": 197,
-          "frequency": 1163,
+          "frequency": 1152,
           "log_rank": 2.2945,
-          "log_freq": 3.0656
+          "log_freq": 3.0615
         },
         {
           "rank": 198,
-          "frequency": 1144,
+          "frequency": 1143,
           "log_rank": 2.2967,
-          "log_freq": 3.0584
+          "log_freq": 3.058
         },
         {
           "rank": 199,
@@ -11121,33 +11122,33 @@
         },
         {
           "rank": 201,
-          "frequency": 1127,
+          "frequency": 1132,
           "log_rank": 2.3032,
-          "log_freq": 3.0519
+          "log_freq": 3.0538
         },
         {
           "rank": 202,
-          "frequency": 1126,
+          "frequency": 1127,
           "log_rank": 2.3054,
-          "log_freq": 3.0515
+          "log_freq": 3.0519
         },
         {
           "rank": 203,
-          "frequency": 1124,
+          "frequency": 1125,
           "log_rank": 2.3075,
-          "log_freq": 3.0508
+          "log_freq": 3.0512
         },
         {
           "rank": 204,
-          "frequency": 1122,
+          "frequency": 1124,
           "log_rank": 2.3096,
-          "log_freq": 3.05
+          "log_freq": 3.0508
         },
         {
           "rank": 205,
-          "frequency": 1120,
+          "frequency": 1123,
           "log_rank": 2.3118,
-          "log_freq": 3.0492
+          "log_freq": 3.0504
         },
         {
           "rank": 206,
@@ -11157,87 +11158,87 @@
         },
         {
           "rank": 207,
-          "frequency": 1113,
+          "frequency": 1116,
           "log_rank": 2.316,
-          "log_freq": 3.0465
+          "log_freq": 3.0477
         },
         {
           "rank": 208,
-          "frequency": 1113,
+          "frequency": 1115,
           "log_rank": 2.3181,
-          "log_freq": 3.0465
+          "log_freq": 3.0473
         },
         {
           "rank": 209,
-          "frequency": 1108,
+          "frequency": 1113,
           "log_rank": 2.3201,
-          "log_freq": 3.0445
+          "log_freq": 3.0465
         },
         {
           "rank": 210,
-          "frequency": 1105,
+          "frequency": 1108,
           "log_rank": 2.3222,
-          "log_freq": 3.0434
+          "log_freq": 3.0445
         },
         {
           "rank": 211,
-          "frequency": 1101,
+          "frequency": 1105,
           "log_rank": 2.3243,
-          "log_freq": 3.0418
+          "log_freq": 3.0434
         },
         {
           "rank": 212,
-          "frequency": 1096,
+          "frequency": 1102,
           "log_rank": 2.3263,
-          "log_freq": 3.0398
+          "log_freq": 3.0422
         },
         {
           "rank": 213,
-          "frequency": 1093,
+          "frequency": 1094,
           "log_rank": 2.3284,
-          "log_freq": 3.0386
+          "log_freq": 3.039
         },
         {
           "rank": 214,
-          "frequency": 1082,
+          "frequency": 1093,
           "log_rank": 2.3304,
-          "log_freq": 3.0342
+          "log_freq": 3.0386
         },
         {
           "rank": 215,
-          "frequency": 1081,
+          "frequency": 1082,
           "log_rank": 2.3324,
-          "log_freq": 3.0338
+          "log_freq": 3.0342
         },
         {
           "rank": 216,
-          "frequency": 1073,
+          "frequency": 1076,
           "log_rank": 2.3345,
-          "log_freq": 3.0306
+          "log_freq": 3.0318
         },
         {
           "rank": 217,
-          "frequency": 1069,
+          "frequency": 1074,
           "log_rank": 2.3365,
-          "log_freq": 3.029
+          "log_freq": 3.031
         },
         {
           "rank": 218,
-          "frequency": 1069,
+          "frequency": 1071,
           "log_rank": 2.3385,
-          "log_freq": 3.029
+          "log_freq": 3.0298
         },
         {
           "rank": 219,
-          "frequency": 1062,
+          "frequency": 1065,
           "log_rank": 2.3404,
-          "log_freq": 3.0261
+          "log_freq": 3.0273
         },
         {
           "rank": 220,
-          "frequency": 1053,
+          "frequency": 1054,
           "log_rank": 2.3424,
-          "log_freq": 3.0224
+          "log_freq": 3.0228
         },
         {
           "rank": 221,
@@ -11247,33 +11248,33 @@
         },
         {
           "rank": 222,
-          "frequency": 1031,
+          "frequency": 1029,
           "log_rank": 2.3464,
-          "log_freq": 3.0133
+          "log_freq": 3.0124
         },
         {
           "rank": 223,
-          "frequency": 1024,
+          "frequency": 1028,
           "log_rank": 2.3483,
-          "log_freq": 3.0103
+          "log_freq": 3.012
         },
         {
           "rank": 224,
-          "frequency": 1024,
+          "frequency": 1026,
           "log_rank": 2.3502,
-          "log_freq": 3.0103
+          "log_freq": 3.0111
         },
         {
           "rank": 225,
-          "frequency": 1024,
+          "frequency": 1022,
           "log_rank": 2.3522,
-          "log_freq": 3.0103
+          "log_freq": 3.0095
         },
         {
           "rank": 226,
-          "frequency": 1019,
+          "frequency": 1021,
           "log_rank": 2.3541,
-          "log_freq": 3.0082
+          "log_freq": 3.009
         },
         {
           "rank": 227,
@@ -11283,15 +11284,15 @@
         },
         {
           "rank": 228,
-          "frequency": 1019,
+          "frequency": 1011,
           "log_rank": 2.3579,
-          "log_freq": 3.0082
+          "log_freq": 3.0048
         },
         {
           "rank": 229,
-          "frequency": 1008,
+          "frequency": 1006,
           "log_rank": 2.3598,
-          "log_freq": 3.0035
+          "log_freq": 3.0026
         },
         {
           "rank": 230,
@@ -11301,45 +11302,45 @@
         },
         {
           "rank": 231,
-          "frequency": 995,
+          "frequency": 998,
           "log_rank": 2.3636,
-          "log_freq": 2.9978
+          "log_freq": 2.9991
         },
         {
           "rank": 232,
-          "frequency": 995,
+          "frequency": 994,
           "log_rank": 2.3655,
-          "log_freq": 2.9978
+          "log_freq": 2.9974
         },
         {
           "rank": 233,
-          "frequency": 993,
+          "frequency": 991,
           "log_rank": 2.3674,
-          "log_freq": 2.9969
+          "log_freq": 2.9961
         },
         {
           "rank": 234,
-          "frequency": 989,
+          "frequency": 991,
           "log_rank": 2.3692,
-          "log_freq": 2.9952
+          "log_freq": 2.9961
         },
         {
           "rank": 235,
-          "frequency": 987,
+          "frequency": 982,
           "log_rank": 2.3711,
-          "log_freq": 2.9943
+          "log_freq": 2.9921
         },
         {
           "rank": 236,
-          "frequency": 980,
+          "frequency": 982,
           "log_rank": 2.3729,
-          "log_freq": 2.9912
+          "log_freq": 2.9921
         },
         {
           "rank": 237,
-          "frequency": 977,
+          "frequency": 978,
           "log_rank": 2.3747,
-          "log_freq": 2.9899
+          "log_freq": 2.9903
         },
         {
           "rank": 238,
@@ -11349,39 +11350,39 @@
         },
         {
           "rank": 239,
-          "frequency": 977,
+          "frequency": 975,
           "log_rank": 2.3784,
-          "log_freq": 2.9899
+          "log_freq": 2.989
         },
         {
           "rank": 240,
-          "frequency": 974,
+          "frequency": 973,
           "log_rank": 2.3802,
-          "log_freq": 2.9886
+          "log_freq": 2.9881
         },
         {
           "rank": 241,
-          "frequency": 972,
-          "log_rank": 2.382,
-          "log_freq": 2.9877
-        },
-        {
-          "rank": 242,
           "frequency": 971,
-          "log_rank": 2.3838,
+          "log_rank": 2.382,
           "log_freq": 2.9872
         },
         {
-          "rank": 243,
+          "rank": 242,
           "frequency": 966,
-          "log_rank": 2.3856,
+          "log_rank": 2.3838,
           "log_freq": 2.985
         },
         {
+          "rank": 243,
+          "frequency": 964,
+          "log_rank": 2.3856,
+          "log_freq": 2.9841
+        },
+        {
           "rank": 244,
-          "frequency": 962,
+          "frequency": 963,
           "log_rank": 2.3874,
-          "log_freq": 2.9832
+          "log_freq": 2.9836
         },
         {
           "rank": 245,
@@ -11391,69 +11392,69 @@
         },
         {
           "rank": 246,
-          "frequency": 953,
+          "frequency": 957,
           "log_rank": 2.3909,
-          "log_freq": 2.9791
+          "log_freq": 2.9809
         },
         {
           "rank": 247,
-          "frequency": 953,
+          "frequency": 957,
           "log_rank": 2.3927,
-          "log_freq": 2.9791
+          "log_freq": 2.9809
         },
         {
           "rank": 248,
-          "frequency": 952,
+          "frequency": 956,
           "log_rank": 2.3945,
-          "log_freq": 2.9786
+          "log_freq": 2.9805
         },
         {
           "rank": 249,
-          "frequency": 951,
+          "frequency": 952,
           "log_rank": 2.3962,
-          "log_freq": 2.9782
+          "log_freq": 2.9786
         },
         {
           "rank": 250,
-          "frequency": 944,
+          "frequency": 949,
           "log_rank": 2.3979,
-          "log_freq": 2.975
+          "log_freq": 2.9773
         },
         {
           "rank": 251,
-          "frequency": 944,
+          "frequency": 946,
           "log_rank": 2.3997,
-          "log_freq": 2.975
+          "log_freq": 2.9759
         },
         {
           "rank": 252,
-          "frequency": 943,
+          "frequency": 944,
           "log_rank": 2.4014,
-          "log_freq": 2.9745
+          "log_freq": 2.975
         },
         {
           "rank": 253,
-          "frequency": 942,
+          "frequency": 944,
           "log_rank": 2.4031,
-          "log_freq": 2.9741
+          "log_freq": 2.975
         },
         {
           "rank": 254,
-          "frequency": 941,
+          "frequency": 942,
           "log_rank": 2.4048,
-          "log_freq": 2.9736
+          "log_freq": 2.9741
         },
         {
           "rank": 255,
-          "frequency": 937,
+          "frequency": 939,
           "log_rank": 2.4065,
-          "log_freq": 2.9717
+          "log_freq": 2.9727
         },
         {
           "rank": 256,
-          "frequency": 933,
+          "frequency": 937,
           "log_rank": 2.4082,
-          "log_freq": 2.9699
+          "log_freq": 2.9717
         },
         {
           "rank": 257,
@@ -11481,27 +11482,27 @@
         },
         {
           "rank": 261,
-          "frequency": 928,
+          "frequency": 930,
           "log_rank": 2.4166,
-          "log_freq": 2.9675
+          "log_freq": 2.9685
         },
         {
           "rank": 262,
-          "frequency": 925,
+          "frequency": 926,
           "log_rank": 2.4183,
-          "log_freq": 2.9661
+          "log_freq": 2.9666
         },
         {
           "rank": 263,
-          "frequency": 923,
+          "frequency": 919,
           "log_rank": 2.42,
-          "log_freq": 2.9652
+          "log_freq": 2.9633
         },
         {
           "rank": 264,
-          "frequency": 917,
+          "frequency": 918,
           "log_rank": 2.4216,
-          "log_freq": 2.9624
+          "log_freq": 2.9628
         },
         {
           "rank": 265,
@@ -11511,15 +11512,15 @@
         },
         {
           "rank": 266,
-          "frequency": 913,
+          "frequency": 914,
           "log_rank": 2.4249,
-          "log_freq": 2.9605
+          "log_freq": 2.9609
         },
         {
           "rank": 267,
-          "frequency": 911,
+          "frequency": 912,
           "log_rank": 2.4265,
-          "log_freq": 2.9595
+          "log_freq": 2.96
         },
         {
           "rank": 268,
@@ -11529,15 +11530,15 @@
         },
         {
           "rank": 269,
-          "frequency": 909,
+          "frequency": 910,
           "log_rank": 2.4298,
-          "log_freq": 2.9586
+          "log_freq": 2.959
         },
         {
           "rank": 270,
-          "frequency": 906,
+          "frequency": 909,
           "log_rank": 2.4314,
-          "log_freq": 2.9571
+          "log_freq": 2.9586
         },
         {
           "rank": 271,
@@ -11547,39 +11548,39 @@
         },
         {
           "rank": 272,
-          "frequency": 903,
+          "frequency": 904,
           "log_rank": 2.4346,
-          "log_freq": 2.9557
+          "log_freq": 2.9562
         },
         {
           "rank": 273,
-          "frequency": 903,
+          "frequency": 904,
           "log_rank": 2.4362,
-          "log_freq": 2.9557
+          "log_freq": 2.9562
         },
         {
           "rank": 274,
-          "frequency": 899,
-          "log_rank": 2.4378,
-          "log_freq": 2.9538
-        },
-        {
-          "rank": 275,
           "frequency": 894,
-          "log_rank": 2.4393,
+          "log_rank": 2.4378,
           "log_freq": 2.9513
         },
         {
+          "rank": 275,
+          "frequency": 893,
+          "log_rank": 2.4393,
+          "log_freq": 2.9509
+        },
+        {
           "rank": 276,
-          "frequency": 892,
+          "frequency": 890,
           "log_rank": 2.4409,
-          "log_freq": 2.9504
+          "log_freq": 2.9494
         },
         {
           "rank": 277,
-          "frequency": 887,
+          "frequency": 889,
           "log_rank": 2.4425,
-          "log_freq": 2.9479
+          "log_freq": 2.9489
         },
         {
           "rank": 278,
@@ -11601,15 +11602,15 @@
         },
         {
           "rank": 281,
-          "frequency": 879,
+          "frequency": 883,
           "log_rank": 2.4487,
-          "log_freq": 2.944
+          "log_freq": 2.946
         },
         {
           "rank": 282,
-          "frequency": 878,
+          "frequency": 879,
           "log_rank": 2.4502,
-          "log_freq": 2.9435
+          "log_freq": 2.944
         },
         {
           "rank": 283,
@@ -11625,15 +11626,15 @@
         },
         {
           "rank": 285,
-          "frequency": 867,
+          "frequency": 871,
           "log_rank": 2.4548,
-          "log_freq": 2.938
+          "log_freq": 2.94
         },
         {
           "rank": 286,
-          "frequency": 866,
+          "frequency": 867,
           "log_rank": 2.4564,
-          "log_freq": 2.9375
+          "log_freq": 2.938
         },
         {
           "rank": 287,
@@ -11655,15 +11656,15 @@
         },
         {
           "rank": 290,
-          "frequency": 863,
+          "frequency": 862,
           "log_rank": 2.4624,
-          "log_freq": 2.936
+          "log_freq": 2.9355
         },
         {
           "rank": 291,
-          "frequency": 862,
+          "frequency": 854,
           "log_rank": 2.4639,
-          "log_freq": 2.9355
+          "log_freq": 2.9315
         },
         {
           "rank": 292,
@@ -11679,9 +11680,9 @@
         },
         {
           "rank": 294,
-          "frequency": 849,
+          "frequency": 847,
           "log_rank": 2.4683,
-          "log_freq": 2.9289
+          "log_freq": 2.9279
         },
         {
           "rank": 295,
@@ -11691,9 +11692,9 @@
         },
         {
           "rank": 296,
-          "frequency": 842,
+          "frequency": 843,
           "log_rank": 2.4713,
-          "log_freq": 2.9253
+          "log_freq": 2.9258
         },
         {
           "rank": 297,
@@ -11703,15 +11704,15 @@
         },
         {
           "rank": 298,
-          "frequency": 836,
+          "frequency": 839,
           "log_rank": 2.4742,
-          "log_freq": 2.9222
+          "log_freq": 2.9238
         },
         {
           "rank": 299,
-          "frequency": 835,
+          "frequency": 834,
           "log_rank": 2.4757,
-          "log_freq": 2.9217
+          "log_freq": 2.9212
         },
         {
           "rank": 300,
@@ -11721,51 +11722,51 @@
         },
         {
           "rank": 301,
-          "frequency": 833,
-          "log_rank": 2.4786,
-          "log_freq": 2.9206
-        },
-        {
-          "rank": 302,
-          "frequency": 831,
-          "log_rank": 2.48,
-          "log_freq": 2.9196
-        },
-        {
-          "rank": 303,
           "frequency": 830,
-          "log_rank": 2.4814,
+          "log_rank": 2.4786,
           "log_freq": 2.9191
         },
         {
-          "rank": 304,
+          "rank": 302,
           "frequency": 829,
-          "log_rank": 2.4829,
+          "log_rank": 2.48,
           "log_freq": 2.9186
         },
         {
-          "rank": 305,
+          "rank": 303,
           "frequency": 828,
-          "log_rank": 2.4843,
+          "log_rank": 2.4814,
           "log_freq": 2.918
         },
         {
-          "rank": 306,
+          "rank": 304,
           "frequency": 827,
-          "log_rank": 2.4857,
+          "log_rank": 2.4829,
           "log_freq": 2.9175
         },
         {
-          "rank": 307,
+          "rank": 305,
           "frequency": 826,
-          "log_rank": 2.4871,
+          "log_rank": 2.4843,
           "log_freq": 2.917
         },
         {
-          "rank": 308,
+          "rank": 306,
           "frequency": 826,
-          "log_rank": 2.4886,
+          "log_rank": 2.4857,
           "log_freq": 2.917
+        },
+        {
+          "rank": 307,
+          "frequency": 822,
+          "log_rank": 2.4871,
+          "log_freq": 2.9149
+        },
+        {
+          "rank": 308,
+          "frequency": 810,
+          "log_rank": 2.4886,
+          "log_freq": 2.9085
         },
         {
           "rank": 309,
@@ -11775,33 +11776,33 @@
         },
         {
           "rank": 310,
-          "frequency": 809,
+          "frequency": 808,
           "log_rank": 2.4914,
-          "log_freq": 2.9079
+          "log_freq": 2.9074
         },
         {
           "rank": 311,
-          "frequency": 806,
+          "frequency": 805,
           "log_rank": 2.4928,
-          "log_freq": 2.9063
+          "log_freq": 2.9058
         },
         {
           "rank": 312,
-          "frequency": 801,
+          "frequency": 800,
           "log_rank": 2.4942,
-          "log_freq": 2.9036
+          "log_freq": 2.9031
         },
         {
           "rank": 313,
-          "frequency": 798,
+          "frequency": 791,
           "log_rank": 2.4955,
-          "log_freq": 2.902
+          "log_freq": 2.8982
         },
         {
           "rank": 314,
-          "frequency": 791,
+          "frequency": 790,
           "log_rank": 2.4969,
-          "log_freq": 2.8982
+          "log_freq": 2.8976
         },
         {
           "rank": 315,
@@ -11811,57 +11812,57 @@
         },
         {
           "rank": 316,
-          "frequency": 788,
-          "log_rank": 2.4997,
-          "log_freq": 2.8965
-        },
-        {
-          "rank": 317,
-          "frequency": 787,
-          "log_rank": 2.5011,
-          "log_freq": 2.896
-        },
-        {
-          "rank": 318,
           "frequency": 783,
-          "log_rank": 2.5024,
+          "log_rank": 2.4997,
           "log_freq": 2.8938
         },
         {
-          "rank": 319,
+          "rank": 317,
           "frequency": 778,
-          "log_rank": 2.5038,
+          "log_rank": 2.5011,
           "log_freq": 2.891
         },
         {
-          "rank": 320,
+          "rank": 318,
           "frequency": 777,
-          "log_rank": 2.5051,
+          "log_rank": 2.5024,
           "log_freq": 2.8904
         },
         {
+          "rank": 319,
+          "frequency": 775,
+          "log_rank": 2.5038,
+          "log_freq": 2.8893
+        },
+        {
+          "rank": 320,
+          "frequency": 775,
+          "log_rank": 2.5051,
+          "log_freq": 2.8893
+        },
+        {
           "rank": 321,
-          "frequency": 769,
+          "frequency": 765,
           "log_rank": 2.5065,
-          "log_freq": 2.8859
+          "log_freq": 2.8837
         },
         {
           "rank": 322,
-          "frequency": 764,
-          "log_rank": 2.5079,
-          "log_freq": 2.8831
-        },
-        {
-          "rank": 323,
           "frequency": 763,
-          "log_rank": 2.5092,
+          "log_rank": 2.5079,
           "log_freq": 2.8825
         },
         {
-          "rank": 324,
+          "rank": 323,
           "frequency": 760,
-          "log_rank": 2.5105,
+          "log_rank": 2.5092,
           "log_freq": 2.8808
+        },
+        {
+          "rank": 324,
+          "frequency": 754,
+          "log_rank": 2.5105,
+          "log_freq": 2.8774
         },
         {
           "rank": 325,
@@ -11871,45 +11872,45 @@
         },
         {
           "rank": 326,
-          "frequency": 751,
+          "frequency": 752,
           "log_rank": 2.5132,
-          "log_freq": 2.8756
+          "log_freq": 2.8762
         },
         {
           "rank": 327,
-          "frequency": 751,
+          "frequency": 752,
           "log_rank": 2.5145,
-          "log_freq": 2.8756
+          "log_freq": 2.8762
         },
         {
           "rank": 328,
-          "frequency": 751,
+          "frequency": 748,
           "log_rank": 2.5159,
-          "log_freq": 2.8756
+          "log_freq": 2.8739
         },
         {
           "rank": 329,
-          "frequency": 745,
+          "frequency": 748,
           "log_rank": 2.5172,
-          "log_freq": 2.8722
+          "log_freq": 2.8739
         },
         {
           "rank": 330,
-          "frequency": 743,
+          "frequency": 746,
           "log_rank": 2.5185,
-          "log_freq": 2.871
+          "log_freq": 2.8727
         },
         {
           "rank": 331,
-          "frequency": 742,
+          "frequency": 743,
           "log_rank": 2.5198,
-          "log_freq": 2.8704
+          "log_freq": 2.871
         },
         {
           "rank": 332,
-          "frequency": 741,
+          "frequency": 742,
           "log_rank": 2.5211,
-          "log_freq": 2.8698
+          "log_freq": 2.8704
         },
         {
           "rank": 333,
@@ -11919,21 +11920,21 @@
         },
         {
           "rank": 334,
-          "frequency": 739,
+          "frequency": 738,
           "log_rank": 2.5237,
-          "log_freq": 2.8686
+          "log_freq": 2.8681
         },
         {
           "rank": 335,
-          "frequency": 737,
+          "frequency": 734,
           "log_rank": 2.525,
-          "log_freq": 2.8675
+          "log_freq": 2.8657
         },
         {
           "rank": 336,
-          "frequency": 731,
+          "frequency": 733,
           "log_rank": 2.5263,
-          "log_freq": 2.8639
+          "log_freq": 2.8651
         },
         {
           "rank": 337,
@@ -11943,21 +11944,21 @@
         },
         {
           "rank": 338,
-          "frequency": 728,
+          "frequency": 726,
           "log_rank": 2.5289,
-          "log_freq": 2.8621
+          "log_freq": 2.8609
         },
         {
           "rank": 339,
-          "frequency": 724,
+          "frequency": 725,
           "log_rank": 2.5302,
-          "log_freq": 2.8597
+          "log_freq": 2.8603
         },
         {
           "rank": 340,
-          "frequency": 723,
+          "frequency": 724,
           "log_rank": 2.5315,
-          "log_freq": 2.8591
+          "log_freq": 2.8597
         },
         {
           "rank": 341,
@@ -11967,21 +11968,21 @@
         },
         {
           "rank": 342,
-          "frequency": 722,
+          "frequency": 723,
           "log_rank": 2.534,
-          "log_freq": 2.8585
+          "log_freq": 2.8591
         },
         {
           "rank": 343,
-          "frequency": 721,
+          "frequency": 722,
           "log_rank": 2.5353,
-          "log_freq": 2.8579
+          "log_freq": 2.8585
         },
         {
           "rank": 344,
-          "frequency": 720,
+          "frequency": 721,
           "log_rank": 2.5366,
-          "log_freq": 2.8573
+          "log_freq": 2.8579
         },
         {
           "rank": 345,
@@ -11991,9 +11992,9 @@
         },
         {
           "rank": 346,
-          "frequency": 718,
+          "frequency": 719,
           "log_rank": 2.5391,
-          "log_freq": 2.8561
+          "log_freq": 2.8567
         },
         {
           "rank": 347,
@@ -12027,27 +12028,27 @@
         },
         {
           "rank": 352,
-          "frequency": 710,
+          "frequency": 711,
           "log_rank": 2.5465,
-          "log_freq": 2.8513
+          "log_freq": 2.8519
         },
         {
           "rank": 353,
-          "frequency": 708,
+          "frequency": 711,
           "log_rank": 2.5478,
-          "log_freq": 2.85
+          "log_freq": 2.8519
         },
         {
           "rank": 354,
-          "frequency": 708,
+          "frequency": 709,
           "log_rank": 2.549,
-          "log_freq": 2.85
+          "log_freq": 2.8506
         },
         {
           "rank": 355,
-          "frequency": 707,
+          "frequency": 709,
           "log_rank": 2.5502,
-          "log_freq": 2.8494
+          "log_freq": 2.8506
         },
         {
           "rank": 356,
@@ -12057,39 +12058,39 @@
         },
         {
           "rank": 357,
-          "frequency": 706,
-          "log_rank": 2.5527,
-          "log_freq": 2.8488
-        },
-        {
-          "rank": 358,
           "frequency": 705,
-          "log_rank": 2.5539,
+          "log_rank": 2.5527,
           "log_freq": 2.8482
         },
         {
-          "rank": 359,
+          "rank": 358,
           "frequency": 703,
-          "log_rank": 2.5551,
+          "log_rank": 2.5539,
           "log_freq": 2.847
         },
         {
-          "rank": 360,
+          "rank": 359,
           "frequency": 702,
-          "log_rank": 2.5563,
+          "log_rank": 2.5551,
           "log_freq": 2.8463
         },
         {
-          "rank": 361,
+          "rank": 360,
           "frequency": 701,
-          "log_rank": 2.5575,
+          "log_rank": 2.5563,
           "log_freq": 2.8457
         },
         {
-          "rank": 362,
+          "rank": 361,
           "frequency": 699,
-          "log_rank": 2.5587,
+          "log_rank": 2.5575,
           "log_freq": 2.8445
+        },
+        {
+          "rank": 362,
+          "frequency": 698,
+          "log_rank": 2.5587,
+          "log_freq": 2.8439
         },
         {
           "rank": 363,
@@ -12111,15 +12112,15 @@
         },
         {
           "rank": 366,
-          "frequency": 691,
+          "frequency": 692,
           "log_rank": 2.5635,
-          "log_freq": 2.8395
+          "log_freq": 2.8401
         },
         {
           "rank": 367,
-          "frequency": 690,
+          "frequency": 691,
           "log_rank": 2.5647,
-          "log_freq": 2.8388
+          "log_freq": 2.8395
         },
         {
           "rank": 368,
@@ -12135,57 +12136,57 @@
         },
         {
           "rank": 370,
-          "frequency": 687,
-          "log_rank": 2.5682,
-          "log_freq": 2.837
-        },
-        {
-          "rank": 371,
           "frequency": 686,
-          "log_rank": 2.5694,
+          "log_rank": 2.5682,
           "log_freq": 2.8363
         },
         {
+          "rank": 371,
+          "frequency": 684,
+          "log_rank": 2.5694,
+          "log_freq": 2.8351
+        },
+        {
           "rank": 372,
-          "frequency": 681,
+          "frequency": 682,
           "log_rank": 2.5705,
-          "log_freq": 2.8331
+          "log_freq": 2.8338
         },
         {
           "rank": 373,
-          "frequency": 679,
+          "frequency": 681,
           "log_rank": 2.5717,
-          "log_freq": 2.8319
+          "log_freq": 2.8331
         },
         {
           "rank": 374,
-          "frequency": 677,
+          "frequency": 679,
           "log_rank": 2.5729,
-          "log_freq": 2.8306
+          "log_freq": 2.8319
         },
         {
           "rank": 375,
-          "frequency": 677,
+          "frequency": 678,
           "log_rank": 2.574,
-          "log_freq": 2.8306
+          "log_freq": 2.8312
         },
         {
           "rank": 376,
-          "frequency": 677,
-          "log_rank": 2.5752,
-          "log_freq": 2.8306
-        },
-        {
-          "rank": 377,
           "frequency": 676,
-          "log_rank": 2.5763,
+          "log_rank": 2.5752,
           "log_freq": 2.8299
         },
         {
-          "rank": 378,
+          "rank": 377,
           "frequency": 675,
-          "log_rank": 2.5775,
+          "log_rank": 2.5763,
           "log_freq": 2.8293
+        },
+        {
+          "rank": 378,
+          "frequency": 673,
+          "log_rank": 2.5775,
+          "log_freq": 2.828
         },
         {
           "rank": 379,
@@ -12195,15 +12196,15 @@
         },
         {
           "rank": 380,
-          "frequency": 671,
+          "frequency": 668,
           "log_rank": 2.5798,
-          "log_freq": 2.8267
+          "log_freq": 2.8248
         },
         {
           "rank": 381,
-          "frequency": 668,
+          "frequency": 667,
           "log_rank": 2.5809,
-          "log_freq": 2.8248
+          "log_freq": 2.8241
         },
         {
           "rank": 382,
@@ -12213,9 +12214,9 @@
         },
         {
           "rank": 383,
-          "frequency": 666,
+          "frequency": 665,
           "log_rank": 2.5832,
-          "log_freq": 2.8235
+          "log_freq": 2.8228
         },
         {
           "rank": 384,
@@ -12225,9 +12226,9 @@
         },
         {
           "rank": 385,
-          "frequency": 664,
+          "frequency": 665,
           "log_rank": 2.5855,
-          "log_freq": 2.8222
+          "log_freq": 2.8228
         },
         {
           "rank": 386,
@@ -12237,33 +12238,33 @@
         },
         {
           "rank": 387,
-          "frequency": 663,
+          "frequency": 664,
           "log_rank": 2.5877,
-          "log_freq": 2.8215
+          "log_freq": 2.8222
         },
         {
           "rank": 388,
-          "frequency": 663,
-          "log_rank": 2.5888,
-          "log_freq": 2.8215
-        },
-        {
-          "rank": 389,
-          "frequency": 662,
-          "log_rank": 2.5899,
-          "log_freq": 2.8209
-        },
-        {
-          "rank": 390,
           "frequency": 661,
-          "log_rank": 2.5911,
+          "log_rank": 2.5888,
           "log_freq": 2.8202
         },
         {
-          "rank": 391,
+          "rank": 389,
           "frequency": 660,
-          "log_rank": 2.5922,
+          "log_rank": 2.5899,
           "log_freq": 2.8195
+        },
+        {
+          "rank": 390,
+          "frequency": 659,
+          "log_rank": 2.5911,
+          "log_freq": 2.8189
+        },
+        {
+          "rank": 391,
+          "frequency": 659,
+          "log_rank": 2.5922,
+          "log_freq": 2.8189
         },
         {
           "rank": 392,
@@ -12279,15 +12280,15 @@
         },
         {
           "rank": 394,
-          "frequency": 657,
+          "frequency": 656,
           "log_rank": 2.5955,
-          "log_freq": 2.8176
+          "log_freq": 2.8169
         },
         {
           "rank": 395,
-          "frequency": 656,
+          "frequency": 655,
           "log_rank": 2.5966,
-          "log_freq": 2.8169
+          "log_freq": 2.8162
         },
         {
           "rank": 396,
@@ -12297,15 +12298,15 @@
         },
         {
           "rank": 397,
-          "frequency": 654,
+          "frequency": 655,
           "log_rank": 2.5988,
-          "log_freq": 2.8156
+          "log_freq": 2.8162
         },
         {
           "rank": 398,
-          "frequency": 651,
+          "frequency": 653,
           "log_rank": 2.5999,
-          "log_freq": 2.8136
+          "log_freq": 2.8149
         },
         {
           "rank": 399,
@@ -12315,15 +12316,15 @@
         },
         {
           "rank": 400,
-          "frequency": 650,
+          "frequency": 651,
           "log_rank": 2.6021,
-          "log_freq": 2.8129
+          "log_freq": 2.8136
         },
         {
           "rank": 401,
-          "frequency": 649,
+          "frequency": 648,
           "log_rank": 2.6031,
-          "log_freq": 2.8122
+          "log_freq": 2.8116
         },
         {
           "rank": 402,
@@ -12339,111 +12340,111 @@
         },
         {
           "rank": 404,
-          "frequency": 644,
+          "frequency": 646,
           "log_rank": 2.6064,
-          "log_freq": 2.8089
+          "log_freq": 2.8102
         },
         {
           "rank": 405,
-          "frequency": 643,
+          "frequency": 646,
           "log_rank": 2.6075,
-          "log_freq": 2.8082
+          "log_freq": 2.8102
         },
         {
           "rank": 406,
-          "frequency": 641,
+          "frequency": 643,
           "log_rank": 2.6085,
-          "log_freq": 2.8069
+          "log_freq": 2.8082
         },
         {
           "rank": 407,
-          "frequency": 640,
+          "frequency": 642,
           "log_rank": 2.6096,
-          "log_freq": 2.8062
+          "log_freq": 2.8075
         },
         {
           "rank": 408,
-          "frequency": 639,
+          "frequency": 641,
           "log_rank": 2.6107,
-          "log_freq": 2.8055
+          "log_freq": 2.8069
         },
         {
           "rank": 409,
-          "frequency": 637,
+          "frequency": 640,
           "log_rank": 2.6117,
-          "log_freq": 2.8041
+          "log_freq": 2.8062
         },
         {
           "rank": 410,
-          "frequency": 635,
+          "frequency": 639,
           "log_rank": 2.6128,
-          "log_freq": 2.8028
+          "log_freq": 2.8055
         },
         {
           "rank": 411,
-          "frequency": 635,
+          "frequency": 638,
           "log_rank": 2.6138,
-          "log_freq": 2.8028
+          "log_freq": 2.8048
         },
         {
           "rank": 412,
-          "frequency": 634,
+          "frequency": 637,
           "log_rank": 2.6149,
-          "log_freq": 2.8021
+          "log_freq": 2.8041
         },
         {
           "rank": 413,
-          "frequency": 634,
+          "frequency": 636,
           "log_rank": 2.616,
-          "log_freq": 2.8021
+          "log_freq": 2.8035
         },
         {
           "rank": 414,
-          "frequency": 633,
+          "frequency": 634,
           "log_rank": 2.617,
-          "log_freq": 2.8014
+          "log_freq": 2.8021
         },
         {
           "rank": 415,
-          "frequency": 632,
+          "frequency": 633,
           "log_rank": 2.618,
-          "log_freq": 2.8007
+          "log_freq": 2.8014
         },
         {
           "rank": 416,
-          "frequency": 631,
+          "frequency": 633,
           "log_rank": 2.6191,
-          "log_freq": 2.8
+          "log_freq": 2.8014
         },
         {
           "rank": 417,
-          "frequency": 630,
+          "frequency": 632,
           "log_rank": 2.6201,
-          "log_freq": 2.7993
+          "log_freq": 2.8007
         },
         {
           "rank": 418,
-          "frequency": 630,
+          "frequency": 632,
           "log_rank": 2.6212,
-          "log_freq": 2.7993
+          "log_freq": 2.8007
         },
         {
           "rank": 419,
-          "frequency": 629,
+          "frequency": 632,
           "log_rank": 2.6222,
-          "log_freq": 2.7987
+          "log_freq": 2.8007
         },
         {
           "rank": 420,
-          "frequency": 628,
+          "frequency": 629,
           "log_rank": 2.6232,
-          "log_freq": 2.798
+          "log_freq": 2.7987
         },
         {
           "rank": 421,
-          "frequency": 627,
+          "frequency": 629,
           "log_rank": 2.6243,
-          "log_freq": 2.7973
+          "log_freq": 2.7987
         },
         {
           "rank": 422,
@@ -12471,75 +12472,75 @@
         },
         {
           "rank": 426,
-          "frequency": 616,
+          "frequency": 618,
           "log_rank": 2.6294,
-          "log_freq": 2.7896
+          "log_freq": 2.791
         },
         {
           "rank": 427,
-          "frequency": 615,
+          "frequency": 616,
           "log_rank": 2.6304,
-          "log_freq": 2.7889
+          "log_freq": 2.7896
         },
         {
           "rank": 428,
-          "frequency": 613,
+          "frequency": 615,
           "log_rank": 2.6314,
-          "log_freq": 2.7875
+          "log_freq": 2.7889
         },
         {
           "rank": 429,
-          "frequency": 612,
+          "frequency": 614,
           "log_rank": 2.6325,
-          "log_freq": 2.7868
+          "log_freq": 2.7882
         },
         {
           "rank": 430,
-          "frequency": 612,
+          "frequency": 613,
           "log_rank": 2.6335,
-          "log_freq": 2.7868
+          "log_freq": 2.7875
         },
         {
           "rank": 431,
-          "frequency": 611,
+          "frequency": 612,
           "log_rank": 2.6345,
-          "log_freq": 2.786
+          "log_freq": 2.7868
         },
         {
           "rank": 432,
-          "frequency": 611,
+          "frequency": 612,
           "log_rank": 2.6355,
-          "log_freq": 2.786
+          "log_freq": 2.7868
         },
         {
           "rank": 433,
-          "frequency": 607,
+          "frequency": 610,
           "log_rank": 2.6365,
-          "log_freq": 2.7832
+          "log_freq": 2.7853
         },
         {
           "rank": 434,
-          "frequency": 606,
+          "frequency": 607,
           "log_rank": 2.6375,
-          "log_freq": 2.7825
+          "log_freq": 2.7832
         },
         {
           "rank": 435,
-          "frequency": 604,
+          "frequency": 605,
           "log_rank": 2.6385,
-          "log_freq": 2.781
+          "log_freq": 2.7818
         },
         {
           "rank": 436,
-          "frequency": 603,
+          "frequency": 604,
           "log_rank": 2.6395,
-          "log_freq": 2.7803
+          "log_freq": 2.781
         },
         {
           "rank": 437,
-          "frequency": 602,
+          "frequency": 604,
           "log_rank": 2.6405,
-          "log_freq": 2.7796
+          "log_freq": 2.781
         },
         {
           "rank": 438,
@@ -12549,15 +12550,15 @@
         },
         {
           "rank": 439,
-          "frequency": 600,
+          "frequency": 602,
           "log_rank": 2.6425,
-          "log_freq": 2.7782
+          "log_freq": 2.7796
         },
         {
           "rank": 440,
-          "frequency": 598,
+          "frequency": 599,
           "log_rank": 2.6435,
-          "log_freq": 2.7767
+          "log_freq": 2.7774
         },
         {
           "rank": 441,
@@ -12585,27 +12586,27 @@
         },
         {
           "rank": 445,
-          "frequency": 588,
+          "frequency": 591,
           "log_rank": 2.6484,
-          "log_freq": 2.7694
+          "log_freq": 2.7716
         },
         {
           "rank": 446,
-          "frequency": 584,
+          "frequency": 587,
           "log_rank": 2.6493,
-          "log_freq": 2.7664
+          "log_freq": 2.7686
         },
         {
           "rank": 447,
-          "frequency": 583,
+          "frequency": 586,
           "log_rank": 2.6503,
-          "log_freq": 2.7657
+          "log_freq": 2.7679
         },
         {
           "rank": 448,
-          "frequency": 582,
+          "frequency": 583,
           "log_rank": 2.6513,
-          "log_freq": 2.7649
+          "log_freq": 2.7657
         },
         {
           "rank": 449,
@@ -12621,9 +12622,9 @@
         },
         {
           "rank": 451,
-          "frequency": 580,
+          "frequency": 582,
           "log_rank": 2.6542,
-          "log_freq": 2.7634
+          "log_freq": 2.7649
         },
         {
           "rank": 452,
@@ -12633,51 +12634,51 @@
         },
         {
           "rank": 453,
-          "frequency": 580,
+          "frequency": 579,
           "log_rank": 2.6561,
-          "log_freq": 2.7634
+          "log_freq": 2.7627
         },
         {
           "rank": 454,
-          "frequency": 578,
+          "frequency": 579,
           "log_rank": 2.6571,
-          "log_freq": 2.7619
+          "log_freq": 2.7627
         },
         {
           "rank": 455,
-          "frequency": 577,
+          "frequency": 579,
           "log_rank": 2.658,
-          "log_freq": 2.7612
+          "log_freq": 2.7627
         },
         {
           "rank": 456,
-          "frequency": 577,
+          "frequency": 578,
           "log_rank": 2.659,
-          "log_freq": 2.7612
+          "log_freq": 2.7619
         },
         {
           "rank": 457,
-          "frequency": 576,
+          "frequency": 577,
           "log_rank": 2.6599,
-          "log_freq": 2.7604
+          "log_freq": 2.7612
         },
         {
           "rank": 458,
-          "frequency": 575,
+          "frequency": 577,
           "log_rank": 2.6609,
-          "log_freq": 2.7597
+          "log_freq": 2.7612
         },
         {
           "rank": 459,
-          "frequency": 575,
+          "frequency": 577,
           "log_rank": 2.6618,
-          "log_freq": 2.7597
+          "log_freq": 2.7612
         },
         {
           "rank": 460,
-          "frequency": 574,
+          "frequency": 576,
           "log_rank": 2.6628,
-          "log_freq": 2.7589
+          "log_freq": 2.7604
         },
         {
           "rank": 461,
@@ -12687,39 +12688,39 @@
         },
         {
           "rank": 462,
-          "frequency": 574,
+          "frequency": 573,
           "log_rank": 2.6646,
-          "log_freq": 2.7589
+          "log_freq": 2.7582
         },
         {
           "rank": 463,
-          "frequency": 572,
+          "frequency": 573,
           "log_rank": 2.6656,
-          "log_freq": 2.7574
+          "log_freq": 2.7582
         },
         {
           "rank": 464,
-          "frequency": 569,
+          "frequency": 572,
           "log_rank": 2.6665,
-          "log_freq": 2.7551
+          "log_freq": 2.7574
         },
         {
           "rank": 465,
-          "frequency": 569,
+          "frequency": 570,
           "log_rank": 2.6675,
-          "log_freq": 2.7551
+          "log_freq": 2.7559
         },
         {
           "rank": 466,
-          "frequency": 569,
+          "frequency": 568,
           "log_rank": 2.6684,
-          "log_freq": 2.7551
+          "log_freq": 2.7543
         },
         {
           "rank": 467,
-          "frequency": 563,
+          "frequency": 567,
           "log_rank": 2.6693,
-          "log_freq": 2.7505
+          "log_freq": 2.7536
         },
         {
           "rank": 468,
@@ -12735,27 +12736,27 @@
         },
         {
           "rank": 470,
-          "frequency": 558,
+          "frequency": 560,
           "log_rank": 2.6721,
-          "log_freq": 2.7466
+          "log_freq": 2.7482
         },
         {
           "rank": 471,
-          "frequency": 558,
+          "frequency": 559,
           "log_rank": 2.673,
-          "log_freq": 2.7466
+          "log_freq": 2.7474
         },
         {
           "rank": 472,
-          "frequency": 557,
+          "frequency": 558,
           "log_rank": 2.6739,
-          "log_freq": 2.7459
+          "log_freq": 2.7466
         },
         {
           "rank": 473,
-          "frequency": 557,
+          "frequency": 558,
           "log_rank": 2.6749,
-          "log_freq": 2.7459
+          "log_freq": 2.7466
         },
         {
           "rank": 474,
@@ -12777,81 +12778,81 @@
         },
         {
           "rank": 477,
-          "frequency": 556,
+          "frequency": 557,
           "log_rank": 2.6785,
-          "log_freq": 2.7451
+          "log_freq": 2.7459
         },
         {
           "rank": 478,
-          "frequency": 555,
+          "frequency": 556,
           "log_rank": 2.6794,
-          "log_freq": 2.7443
+          "log_freq": 2.7451
         },
         {
           "rank": 479,
-          "frequency": 553,
+          "frequency": 556,
           "log_rank": 2.6803,
-          "log_freq": 2.7427
+          "log_freq": 2.7451
         },
         {
           "rank": 480,
-          "frequency": 553,
+          "frequency": 555,
           "log_rank": 2.6812,
-          "log_freq": 2.7427
+          "log_freq": 2.7443
         },
         {
           "rank": 481,
-          "frequency": 551,
+          "frequency": 554,
           "log_rank": 2.6821,
-          "log_freq": 2.7412
+          "log_freq": 2.7435
         },
         {
           "rank": 482,
-          "frequency": 551,
+          "frequency": 554,
           "log_rank": 2.683,
-          "log_freq": 2.7412
+          "log_freq": 2.7435
         },
         {
           "rank": 483,
-          "frequency": 551,
+          "frequency": 553,
           "log_rank": 2.6839,
-          "log_freq": 2.7412
+          "log_freq": 2.7427
         },
         {
           "rank": 484,
-          "frequency": 550,
+          "frequency": 552,
           "log_rank": 2.6848,
-          "log_freq": 2.7404
+          "log_freq": 2.7419
         },
         {
           "rank": 485,
-          "frequency": 550,
+          "frequency": 552,
           "log_rank": 2.6857,
-          "log_freq": 2.7404
+          "log_freq": 2.7419
         },
         {
           "rank": 486,
-          "frequency": 549,
+          "frequency": 551,
           "log_rank": 2.6866,
-          "log_freq": 2.7396
+          "log_freq": 2.7412
         },
         {
           "rank": 487,
-          "frequency": 549,
+          "frequency": 551,
           "log_rank": 2.6875,
-          "log_freq": 2.7396
+          "log_freq": 2.7412
         },
         {
           "rank": 488,
-          "frequency": 546,
+          "frequency": 547,
           "log_rank": 2.6884,
-          "log_freq": 2.7372
+          "log_freq": 2.738
         },
         {
           "rank": 489,
-          "frequency": 544,
+          "frequency": 545,
           "log_rank": 2.6893,
-          "log_freq": 2.7356
+          "log_freq": 2.7364
         },
         {
           "rank": 490,
@@ -12861,27 +12862,27 @@
         },
         {
           "rank": 491,
-          "frequency": 543,
+          "frequency": 544,
           "log_rank": 2.6911,
-          "log_freq": 2.7348
+          "log_freq": 2.7356
         },
         {
           "rank": 492,
-          "frequency": 543,
+          "frequency": 544,
           "log_rank": 2.692,
-          "log_freq": 2.7348
+          "log_freq": 2.7356
         },
         {
           "rank": 493,
-          "frequency": 541,
+          "frequency": 543,
           "log_rank": 2.6928,
-          "log_freq": 2.7332
+          "log_freq": 2.7348
         },
         {
           "rank": 494,
-          "frequency": 541,
+          "frequency": 543,
           "log_rank": 2.6937,
-          "log_freq": 2.7332
+          "log_freq": 2.7348
         },
         {
           "rank": 495,
@@ -12909,821 +12910,821 @@
         },
         {
           "rank": 499,
-          "frequency": 533,
+          "frequency": 536,
           "log_rank": 2.6981,
-          "log_freq": 2.7267
+          "log_freq": 2.7292
         },
         {
           "rank": 500,
-          "frequency": 533,
+          "frequency": 535,
           "log_rank": 2.699,
-          "log_freq": 2.7267
+          "log_freq": 2.7284
         }
       ],
       "vocabulary_growth_curve": [
         {
-          "tokens": 15189,
+          "tokens": 15194,
           "types": 3410
         },
         {
-          "tokens": 30378,
-          "types": 6160
+          "tokens": 30388,
+          "types": 5996
         },
         {
-          "tokens": 45567,
-          "types": 8515
+          "tokens": 45582,
+          "types": 8343
         },
         {
-          "tokens": 60756,
-          "types": 10448
+          "tokens": 60776,
+          "types": 10262
         },
         {
-          "tokens": 75945,
-          "types": 12339
+          "tokens": 75970,
+          "types": 12171
         },
         {
-          "tokens": 91134,
-          "types": 13916
+          "tokens": 91164,
+          "types": 13747
         },
         {
-          "tokens": 106323,
-          "types": 15400
+          "tokens": 106358,
+          "types": 15242
         },
         {
-          "tokens": 121512,
-          "types": 16739
+          "tokens": 121552,
+          "types": 16582
         },
         {
-          "tokens": 136701,
-          "types": 18042
+          "tokens": 136746,
+          "types": 17886
         },
         {
-          "tokens": 151890,
-          "types": 19576
+          "tokens": 151940,
+          "types": 19057
         },
         {
-          "tokens": 167079,
-          "types": 20686
+          "tokens": 167134,
+          "types": 20145
         },
         {
-          "tokens": 182268,
-          "types": 21740
+          "tokens": 182328,
+          "types": 21188
         },
         {
-          "tokens": 197457,
-          "types": 22742
+          "tokens": 197522,
+          "types": 22203
         },
         {
-          "tokens": 212646,
-          "types": 23680
+          "tokens": 212716,
+          "types": 23128
         },
         {
-          "tokens": 227835,
-          "types": 24765
+          "tokens": 227910,
+          "types": 24189
         },
         {
-          "tokens": 243024,
-          "types": 25669
+          "tokens": 243104,
+          "types": 25105
         },
         {
-          "tokens": 258213,
-          "types": 26653
+          "tokens": 258298,
+          "types": 26098
         },
         {
-          "tokens": 273402,
-          "types": 27498
+          "tokens": 273492,
+          "types": 26954
         },
         {
-          "tokens": 288591,
-          "types": 28629
+          "tokens": 288686,
+          "types": 28069
         },
         {
-          "tokens": 303780,
-          "types": 29408
+          "tokens": 303880,
+          "types": 28879
         },
         {
-          "tokens": 318969,
-          "types": 30308
+          "tokens": 319074,
+          "types": 29765
         },
         {
-          "tokens": 334158,
-          "types": 31163
+          "tokens": 334268,
+          "types": 30628
         },
         {
-          "tokens": 349347,
-          "types": 32005
+          "tokens": 349462,
+          "types": 31465
         },
         {
-          "tokens": 364536,
-          "types": 32691
+          "tokens": 364656,
+          "types": 32153
         },
         {
-          "tokens": 379725,
-          "types": 33641
+          "tokens": 379850,
+          "types": 33113
         },
         {
-          "tokens": 394914,
-          "types": 34376
+          "tokens": 395044,
+          "types": 33854
         },
         {
-          "tokens": 410103,
-          "types": 35083
+          "tokens": 410238,
+          "types": 34573
         },
         {
-          "tokens": 425292,
-          "types": 35825
+          "tokens": 425432,
+          "types": 35330
         },
         {
-          "tokens": 440481,
-          "types": 36544
+          "tokens": 440626,
+          "types": 36051
         },
         {
-          "tokens": 455670,
-          "types": 37184
+          "tokens": 455820,
+          "types": 36708
         },
         {
-          "tokens": 470859,
-          "types": 37929
+          "tokens": 471014,
+          "types": 37454
         },
         {
-          "tokens": 486048,
-          "types": 38552
+          "tokens": 486208,
+          "types": 38083
         },
         {
-          "tokens": 501237,
-          "types": 39097
+          "tokens": 501402,
+          "types": 38622
         },
         {
-          "tokens": 516426,
-          "types": 39847
+          "tokens": 516596,
+          "types": 39370
         },
         {
-          "tokens": 531615,
-          "types": 40366
+          "tokens": 531790,
+          "types": 39878
         },
         {
-          "tokens": 546804,
-          "types": 40871
+          "tokens": 546984,
+          "types": 40403
         },
         {
-          "tokens": 561993,
-          "types": 41537
+          "tokens": 562178,
+          "types": 41066
         },
         {
-          "tokens": 577182,
-          "types": 42154
+          "tokens": 577372,
+          "types": 41698
         },
         {
-          "tokens": 592371,
-          "types": 42723
+          "tokens": 592566,
+          "types": 42259
         },
         {
-          "tokens": 607560,
-          "types": 43163
+          "tokens": 607760,
+          "types": 42715
         },
         {
-          "tokens": 622749,
-          "types": 43653
+          "tokens": 622954,
+          "types": 43216
         },
         {
-          "tokens": 637938,
-          "types": 44156
+          "tokens": 638148,
+          "types": 43713
         },
         {
-          "tokens": 653127,
-          "types": 44761
+          "tokens": 653342,
+          "types": 44316
         },
         {
-          "tokens": 668316,
-          "types": 45261
+          "tokens": 668536,
+          "types": 44823
         },
         {
-          "tokens": 683505,
-          "types": 46003
+          "tokens": 683730,
+          "types": 45504
         },
         {
-          "tokens": 698694,
-          "types": 46919
+          "tokens": 698924,
+          "types": 46477
         },
         {
-          "tokens": 713883,
-          "types": 47771
+          "tokens": 714118,
+          "types": 47353
         },
         {
-          "tokens": 729072,
-          "types": 48381
+          "tokens": 729312,
+          "types": 48030
         },
         {
-          "tokens": 744261,
-          "types": 48873
+          "tokens": 744506,
+          "types": 48519
         },
         {
-          "tokens": 759450,
-          "types": 49326
+          "tokens": 759700,
+          "types": 48973
         },
         {
-          "tokens": 774639,
-          "types": 49949
+          "tokens": 774894,
+          "types": 49601
         },
         {
-          "tokens": 789828,
-          "types": 50455
+          "tokens": 790088,
+          "types": 50090
         },
         {
-          "tokens": 805017,
-          "types": 50880
+          "tokens": 805282,
+          "types": 50530
         },
         {
-          "tokens": 820206,
-          "types": 51636
+          "tokens": 820476,
+          "types": 51116
         },
         {
-          "tokens": 835395,
-          "types": 52085
+          "tokens": 835670,
+          "types": 51557
         },
         {
-          "tokens": 850584,
-          "types": 52665
+          "tokens": 850864,
+          "types": 52137
         },
         {
-          "tokens": 865773,
-          "types": 53138
+          "tokens": 866058,
+          "types": 52605
         },
         {
-          "tokens": 880962,
-          "types": 54152
+          "tokens": 881252,
+          "types": 53674
         },
         {
-          "tokens": 896151,
-          "types": 54607
+          "tokens": 896446,
+          "types": 54114
         },
         {
-          "tokens": 911340,
-          "types": 55184
+          "tokens": 911640,
+          "types": 54685
         },
         {
-          "tokens": 926529,
-          "types": 55801
+          "tokens": 926834,
+          "types": 55241
         },
         {
-          "tokens": 941718,
-          "types": 56286
+          "tokens": 942028,
+          "types": 55729
         },
         {
-          "tokens": 956907,
-          "types": 56795
+          "tokens": 957222,
+          "types": 56232
         },
         {
-          "tokens": 972096,
-          "types": 57319
+          "tokens": 972416,
+          "types": 56751
         },
         {
-          "tokens": 987285,
-          "types": 57832
+          "tokens": 987610,
+          "types": 57280
         },
         {
-          "tokens": 1002474,
-          "types": 58480
+          "tokens": 1002804,
+          "types": 57764
         },
         {
-          "tokens": 1017663,
-          "types": 58963
+          "tokens": 1017998,
+          "types": 58253
         },
         {
-          "tokens": 1032852,
-          "types": 59278
+          "tokens": 1033192,
+          "types": 58575
         },
         {
-          "tokens": 1048041,
-          "types": 59816
+          "tokens": 1048386,
+          "types": 59097
         },
         {
-          "tokens": 1063230,
-          "types": 60314
+          "tokens": 1063580,
+          "types": 59607
         },
         {
-          "tokens": 1078419,
-          "types": 60755
+          "tokens": 1078774,
+          "types": 60053
         },
         {
-          "tokens": 1093608,
-          "types": 61029
+          "tokens": 1093968,
+          "types": 60317
         },
         {
-          "tokens": 1108797,
-          "types": 61551
+          "tokens": 1109162,
+          "types": 60835
         },
         {
-          "tokens": 1123986,
-          "types": 61972
+          "tokens": 1124356,
+          "types": 61271
         },
         {
-          "tokens": 1139175,
-          "types": 62464
+          "tokens": 1139550,
+          "types": 61692
         },
         {
-          "tokens": 1154364,
-          "types": 63014
+          "tokens": 1154744,
+          "types": 62331
         },
         {
-          "tokens": 1169553,
-          "types": 63456
+          "tokens": 1169938,
+          "types": 62770
         },
         {
-          "tokens": 1184742,
-          "types": 63890
+          "tokens": 1185132,
+          "types": 63209
         },
         {
-          "tokens": 1199931,
-          "types": 64310
+          "tokens": 1200326,
+          "types": 63637
         },
         {
-          "tokens": 1215120,
-          "types": 64652
+          "tokens": 1215520,
+          "types": 63980
         },
         {
-          "tokens": 1230309,
-          "types": 65113
+          "tokens": 1230714,
+          "types": 64445
         },
         {
-          "tokens": 1245498,
-          "types": 65421
+          "tokens": 1245908,
+          "types": 64740
         },
         {
-          "tokens": 1260687,
-          "types": 65793
+          "tokens": 1261102,
+          "types": 65117
         },
         {
-          "tokens": 1275876,
-          "types": 66191
+          "tokens": 1276296,
+          "types": 65521
         },
         {
-          "tokens": 1291065,
-          "types": 66522
+          "tokens": 1291490,
+          "types": 65851
         },
         {
-          "tokens": 1306254,
-          "types": 67179
+          "tokens": 1306684,
+          "types": 66490
         },
         {
-          "tokens": 1321443,
-          "types": 67986
+          "tokens": 1321878,
+          "types": 67322
         },
         {
-          "tokens": 1336632,
-          "types": 68399
+          "tokens": 1337072,
+          "types": 67742
         },
         {
-          "tokens": 1351821,
-          "types": 68794
+          "tokens": 1352266,
+          "types": 68138
         },
         {
-          "tokens": 1367010,
-          "types": 69288
+          "tokens": 1367460,
+          "types": 68631
         },
         {
-          "tokens": 1382199,
-          "types": 69671
+          "tokens": 1382654,
+          "types": 69013
         },
         {
-          "tokens": 1397388,
-          "types": 70075
+          "tokens": 1397848,
+          "types": 69419
         },
         {
-          "tokens": 1412577,
-          "types": 70384
+          "tokens": 1413042,
+          "types": 69723
         },
         {
-          "tokens": 1427766,
-          "types": 70736
+          "tokens": 1428236,
+          "types": 70083
         },
         {
-          "tokens": 1442955,
-          "types": 71215
+          "tokens": 1443430,
+          "types": 70553
         },
         {
-          "tokens": 1458144,
-          "types": 71704
+          "tokens": 1458624,
+          "types": 71025
         },
         {
-          "tokens": 1473333,
-          "types": 72171
+          "tokens": 1473818,
+          "types": 71513
         },
         {
-          "tokens": 1488522,
-          "types": 72559
+          "tokens": 1489012,
+          "types": 71901
         },
         {
-          "tokens": 1503711,
-          "types": 73005
+          "tokens": 1504206,
+          "types": 72336
         },
         {
-          "tokens": 1518900,
-          "types": 73447
+          "tokens": 1519400,
+          "types": 72799
         },
         {
-          "tokens": 1534089,
-          "types": 73819
+          "tokens": 1534594,
+          "types": 73145
         },
         {
-          "tokens": 1549278,
-          "types": 74085
+          "tokens": 1549788,
+          "types": 73422
         },
         {
-          "tokens": 1564467,
-          "types": 74428
+          "tokens": 1564982,
+          "types": 73776
         },
         {
-          "tokens": 1579656,
-          "types": 74783
+          "tokens": 1580176,
+          "types": 74127
         },
         {
-          "tokens": 1594845,
-          "types": 75159
+          "tokens": 1595370,
+          "types": 74489
         },
         {
-          "tokens": 1610034,
-          "types": 75567
+          "tokens": 1610564,
+          "types": 74915
         },
         {
-          "tokens": 1625223,
-          "types": 75888
+          "tokens": 1625758,
+          "types": 75221
         },
         {
-          "tokens": 1640412,
-          "types": 76450
+          "tokens": 1640952,
+          "types": 75794
         },
         {
-          "tokens": 1655601,
-          "types": 76826
+          "tokens": 1656146,
+          "types": 76175
         },
         {
-          "tokens": 1670790,
-          "types": 77120
+          "tokens": 1671340,
+          "types": 76461
         },
         {
-          "tokens": 1685979,
-          "types": 77636
+          "tokens": 1686534,
+          "types": 76972
         },
         {
-          "tokens": 1701168,
-          "types": 78154
+          "tokens": 1701728,
+          "types": 77479
         },
         {
-          "tokens": 1716357,
-          "types": 78534
+          "tokens": 1716922,
+          "types": 77883
         },
         {
-          "tokens": 1731546,
-          "types": 78868
+          "tokens": 1732116,
+          "types": 78211
         },
         {
-          "tokens": 1746735,
-          "types": 79226
+          "tokens": 1747310,
+          "types": 78569
         },
         {
-          "tokens": 1761924,
-          "types": 79661
+          "tokens": 1762504,
+          "types": 78999
         },
         {
-          "tokens": 1777113,
-          "types": 80120
+          "tokens": 1777698,
+          "types": 79466
         },
         {
-          "tokens": 1792302,
-          "types": 80413
+          "tokens": 1792892,
+          "types": 79754
         },
         {
-          "tokens": 1807491,
-          "types": 80655
+          "tokens": 1808086,
+          "types": 80005
         },
         {
-          "tokens": 1822680,
-          "types": 81048
+          "tokens": 1823280,
+          "types": 80387
         },
         {
-          "tokens": 1837869,
-          "types": 81403
+          "tokens": 1838474,
+          "types": 80755
         },
         {
-          "tokens": 1853058,
-          "types": 81699
+          "tokens": 1853668,
+          "types": 81052
         },
         {
-          "tokens": 1868247,
-          "types": 82021
+          "tokens": 1868862,
+          "types": 81372
         },
         {
-          "tokens": 1883436,
-          "types": 82386
+          "tokens": 1884056,
+          "types": 81738
         },
         {
-          "tokens": 1898625,
-          "types": 82610
+          "tokens": 1899250,
+          "types": 81963
         },
         {
-          "tokens": 1913814,
-          "types": 82851
+          "tokens": 1914444,
+          "types": 82187
         },
         {
-          "tokens": 1929003,
-          "types": 83199
+          "tokens": 1929638,
+          "types": 82520
         },
         {
-          "tokens": 1944192,
-          "types": 83529
+          "tokens": 1944832,
+          "types": 82878
         },
         {
-          "tokens": 1959381,
-          "types": 83985
+          "tokens": 1960026,
+          "types": 83344
         },
         {
-          "tokens": 1974570,
-          "types": 84270
+          "tokens": 1975220,
+          "types": 83613
         },
         {
-          "tokens": 1989759,
-          "types": 84578
+          "tokens": 1990414,
+          "types": 83938
         },
         {
-          "tokens": 2004948,
-          "types": 84912
+          "tokens": 2005608,
+          "types": 84263
         },
         {
-          "tokens": 2020137,
-          "types": 85284
+          "tokens": 2020802,
+          "types": 84630
         },
         {
-          "tokens": 2035326,
-          "types": 85662
+          "tokens": 2035996,
+          "types": 85019
         },
         {
-          "tokens": 2050515,
-          "types": 85972
+          "tokens": 2051190,
+          "types": 85339
         },
         {
-          "tokens": 2065704,
-          "types": 86155
+          "tokens": 2066384,
+          "types": 85522
         },
         {
-          "tokens": 2080893,
-          "types": 86480
+          "tokens": 2081578,
+          "types": 85847
         },
         {
-          "tokens": 2096082,
-          "types": 86758
+          "tokens": 2096772,
+          "types": 86127
         },
         {
-          "tokens": 2111271,
-          "types": 87026
+          "tokens": 2111966,
+          "types": 86391
         },
         {
-          "tokens": 2126460,
-          "types": 87276
+          "tokens": 2127160,
+          "types": 86644
         },
         {
-          "tokens": 2141649,
-          "types": 87679
+          "tokens": 2142354,
+          "types": 87040
         },
         {
-          "tokens": 2156838,
-          "types": 87993
+          "tokens": 2157548,
+          "types": 87356
         },
         {
-          "tokens": 2172027,
-          "types": 88408
+          "tokens": 2172742,
+          "types": 87777
         },
         {
-          "tokens": 2187216,
-          "types": 88666
+          "tokens": 2187936,
+          "types": 88035
         },
         {
-          "tokens": 2202405,
-          "types": 88995
+          "tokens": 2203130,
+          "types": 88361
         },
         {
-          "tokens": 2217594,
-          "types": 89341
+          "tokens": 2218324,
+          "types": 88693
         },
         {
-          "tokens": 2232783,
-          "types": 89722
+          "tokens": 2233518,
+          "types": 89090
         },
         {
-          "tokens": 2247972,
-          "types": 90059
+          "tokens": 2248712,
+          "types": 89418
         },
         {
-          "tokens": 2263161,
-          "types": 90340
+          "tokens": 2263906,
+          "types": 89705
         },
         {
-          "tokens": 2278350,
-          "types": 90629
+          "tokens": 2279100,
+          "types": 89993
         },
         {
-          "tokens": 2293539,
-          "types": 90938
+          "tokens": 2294294,
+          "types": 90300
         },
         {
-          "tokens": 2308728,
-          "types": 91211
+          "tokens": 2309488,
+          "types": 90585
         },
         {
-          "tokens": 2323917,
-          "types": 91632
+          "tokens": 2324682,
+          "types": 91004
         },
         {
-          "tokens": 2339106,
-          "types": 91797
+          "tokens": 2339876,
+          "types": 91172
         },
         {
-          "tokens": 2354295,
-          "types": 91971
+          "tokens": 2355070,
+          "types": 91344
         },
         {
-          "tokens": 2369484,
-          "types": 92258
+          "tokens": 2370264,
+          "types": 91626
         },
         {
-          "tokens": 2384673,
-          "types": 92503
+          "tokens": 2385458,
+          "types": 91877
         },
         {
-          "tokens": 2399862,
-          "types": 92777
+          "tokens": 2400652,
+          "types": 92153
         },
         {
-          "tokens": 2415051,
-          "types": 93042
+          "tokens": 2415846,
+          "types": 92421
         },
         {
-          "tokens": 2430240,
-          "types": 93470
+          "tokens": 2431040,
+          "types": 92841
         },
         {
-          "tokens": 2445429,
-          "types": 93702
+          "tokens": 2446234,
+          "types": 93081
         },
         {
-          "tokens": 2460618,
-          "types": 93978
+          "tokens": 2461428,
+          "types": 93353
         },
         {
-          "tokens": 2475807,
-          "types": 94311
+          "tokens": 2476622,
+          "types": 93688
         },
         {
-          "tokens": 2490996,
-          "types": 94577
+          "tokens": 2491816,
+          "types": 93950
         },
         {
-          "tokens": 2506185,
-          "types": 94816
+          "tokens": 2507010,
+          "types": 94192
         },
         {
-          "tokens": 2521374,
-          "types": 95146
+          "tokens": 2522204,
+          "types": 94523
         },
         {
-          "tokens": 2536563,
-          "types": 95503
+          "tokens": 2537398,
+          "types": 94874
         },
         {
-          "tokens": 2551752,
-          "types": 95846
+          "tokens": 2552592,
+          "types": 95223
         },
         {
-          "tokens": 2566941,
-          "types": 96129
+          "tokens": 2567786,
+          "types": 95511
         },
         {
-          "tokens": 2582130,
-          "types": 96501
+          "tokens": 2582980,
+          "types": 95880
         },
         {
-          "tokens": 2597319,
-          "types": 96960
+          "tokens": 2598174,
+          "types": 96346
         },
         {
-          "tokens": 2612508,
-          "types": 97200
+          "tokens": 2613368,
+          "types": 96584
         },
         {
-          "tokens": 2627697,
-          "types": 97513
+          "tokens": 2628562,
+          "types": 96900
         },
         {
-          "tokens": 2642886,
-          "types": 97833
+          "tokens": 2643756,
+          "types": 97214
         },
         {
-          "tokens": 2658075,
-          "types": 98113
+          "tokens": 2658950,
+          "types": 97500
         },
         {
-          "tokens": 2673264,
-          "types": 98444
+          "tokens": 2674144,
+          "types": 97828
         },
         {
-          "tokens": 2688453,
-          "types": 98704
+          "tokens": 2689338,
+          "types": 98090
         },
         {
-          "tokens": 2703642,
-          "types": 98984
+          "tokens": 2704532,
+          "types": 98370
         },
         {
-          "tokens": 2718831,
-          "types": 99283
+          "tokens": 2719726,
+          "types": 98669
         },
         {
-          "tokens": 2734020,
-          "types": 99536
+          "tokens": 2734920,
+          "types": 98922
         },
         {
-          "tokens": 2749209,
-          "types": 99869
+          "tokens": 2750114,
+          "types": 99255
         },
         {
-          "tokens": 2764398,
-          "types": 100152
+          "tokens": 2765308,
+          "types": 99529
         },
         {
-          "tokens": 2779587,
-          "types": 100327
+          "tokens": 2780502,
+          "types": 99719
         },
         {
-          "tokens": 2794776,
-          "types": 100550
+          "tokens": 2795696,
+          "types": 99939
         },
         {
-          "tokens": 2809965,
-          "types": 100784
+          "tokens": 2810890,
+          "types": 100176
         },
         {
-          "tokens": 2825154,
-          "types": 101104
+          "tokens": 2826084,
+          "types": 100492
         },
         {
-          "tokens": 2840343,
-          "types": 101640
+          "tokens": 2841278,
+          "types": 101011
         },
         {
-          "tokens": 2855532,
-          "types": 101893
+          "tokens": 2856472,
+          "types": 101285
         },
         {
-          "tokens": 2870721,
-          "types": 102142
+          "tokens": 2871666,
+          "types": 101529
         },
         {
-          "tokens": 2885910,
-          "types": 102442
+          "tokens": 2886860,
+          "types": 101835
         },
         {
-          "tokens": 2901099,
-          "types": 102797
+          "tokens": 2902054,
+          "types": 102189
         },
         {
-          "tokens": 2916288,
-          "types": 103088
+          "tokens": 2917248,
+          "types": 102483
         },
         {
-          "tokens": 2931477,
-          "types": 103353
+          "tokens": 2932442,
+          "types": 102747
         },
         {
-          "tokens": 2946666,
-          "types": 103727
+          "tokens": 2947636,
+          "types": 103122
         },
         {
-          "tokens": 2961855,
-          "types": 103998
+          "tokens": 2962830,
+          "types": 103393
         },
         {
-          "tokens": 2977044,
-          "types": 104218
+          "tokens": 2978024,
+          "types": 103620
         },
         {
-          "tokens": 2992233,
-          "types": 104450
+          "tokens": 2993218,
+          "types": 103850
         },
         {
-          "tokens": 3007422,
-          "types": 104693
+          "tokens": 3008412,
+          "types": 104091
         },
         {
-          "tokens": 3022611,
-          "types": 105069
+          "tokens": 3023606,
+          "types": 104471
         },
         {
-          "tokens": 3037800,
-          "types": 105266
+          "tokens": 3038800,
+          "types": 104670
         },
         {
-          "tokens": 3037875,
-          "types": 105266
+          "tokens": 3038960,
+          "types": 104670
         }
       ]
     }
@@ -16758,21 +16759,21 @@
     "spanish": {
       "language": "es",
       "corpus_level": {
-        "vocabulary_size": 105266,
-        "total_tokens": 3037875,
-        "ttr": 0.0347,
-        "rttr": 60.3953,
-        "cttr": 42.7059,
-        "mattr_w100": 0.6949,
-        "mtld": 77.33
+        "vocabulary_size": 104670,
+        "total_tokens": 3038960,
+        "ttr": 0.0344,
+        "rttr": 60.0426,
+        "cttr": 42.4566,
+        "mattr_w100": 0.6948,
+        "mtld": 77.27
       },
       "per_document_averages": {
-        "ttr_mean": 0.335,
+        "ttr_mean": 0.3349,
         "ttr_std": 0.0557,
-        "mattr_mean": 0.6946,
-        "mattr_std": 0.0259,
-        "mtld_mean": 77.91,
-        "mtld_std": 13.23
+        "mattr_mean": 0.6944,
+        "mattr_std": 0.0258,
+        "mtld_mean": 77.83,
+        "mtld_std": 13.17
       },
       "distribution_ttr": [
         0.4116,
@@ -16780,7 +16781,7 @@
         0.2798,
         0.3435,
         0.2543,
-        0.383,
+        0.3738,
         0.3268,
         0.3622,
         0.3533,
@@ -16826,7 +16827,7 @@
         0.3967,
         0.27,
         0.3489,
-        0.2679,
+        0.2519,
         0.2302,
         0.4157,
         0.2846,
@@ -17038,7 +17039,7 @@
         0.3806,
         0.2358,
         0.3358,
-        0.3363,
+        0.3387,
         0.3094,
         0.3176,
         0.4209,
@@ -17082,7 +17083,7 @@
         0.3121,
         0.35,
         0.3256,
-        0.392,
+        0.3594,
         0.2967,
         0.4284,
         0.2914,
@@ -17112,7 +17113,7 @@
         0.4146,
         0.3753,
         0.3811,
-        0.3888,
+        0.3533,
         0.2472,
         0.314,
         0.3684,
@@ -17782,7 +17783,7 @@
         0.6822,
         0.6982,
         0.667,
-        0.6955,
+        0.6849,
         0.7249,
         0.7087,
         0.657,
@@ -17828,7 +17829,7 @@
         0.7224,
         0.6577,
         0.6879,
-        0.7028,
+        0.6571,
         0.6583,
         0.6944,
         0.6644,
@@ -18040,7 +18041,7 @@
         0.693,
         0.6806,
         0.7055,
-        0.6816,
+        0.6888,
         0.6955,
         0.6238,
         0.708,
@@ -18084,7 +18085,7 @@
         0.7132,
         0.6877,
         0.6951,
-        0.7136,
+        0.6867,
         0.6317,
         0.719,
         0.7122,
@@ -18114,7 +18115,7 @@
         0.7214,
         0.7134,
         0.7107,
-        0.7519,
+        0.6945,
         0.7072,
         0.6942,
         0.7067,
@@ -18784,7 +18785,7 @@
         70.83,
         78.31,
         58.96,
-        85.72,
+        73.77,
         94.22,
         78.67,
         59.52,
@@ -18830,7 +18831,7 @@
         98.1,
         57.46,
         73.52,
-        79.31,
+        60.0,
         58.92,
         81.53,
         61.61,
@@ -19042,7 +19043,7 @@
         76.23,
         71.08,
         82.25,
-        64.63,
+        77.22,
         76.92,
         47.12,
         84.32,
@@ -19086,7 +19087,7 @@
         88.78,
         73.25,
         74.37,
-        90.82,
+        74.54,
         54.95,
         86.85,
         90.52,
@@ -19116,7 +19117,7 @@
         91.4,
         87.36,
         81.64,
-        116.12,
+        78.38,
         82.88,
         73.79,
         84.2,
@@ -25782,48 +25783,49 @@
         14,
         12,
         1,
-        23,
-        18,
-        15,
-        15,
-        19,
-        24,
-        24,
-        28,
-        36,
-        23,
-        30,
-        11,
-        17,
-        18,
-        11,
-        23,
-        27,
         25,
-        27,
-        23,
-        22,
-        38,
-        27,
-        44,
+        17,
+        15,
+        15,
         18,
         27,
+        33,
         29,
+        35,
+        20,
+        34,
         11,
-        23,
-        6,
-        50,
-        29,
-        15,
-        17,
         16,
+        18,
+        11,
+        22,
+        24,
+        21,
+        29,
+        23,
+        18,
+        39,
+        26,
+        36,
+        14,
+        19,
+        25,
+        14,
+        25,
+        7,
+        29,
+        26,
+        29,
+        14,
+        17,
+        15,
+        18,
+        30,
+        24,
         17,
         30,
-        23,
-        15,
-        37,
-        16,
-        19,
+        18,
+        22,
         29,
         16,
         35,
@@ -29882,63 +29884,62 @@
         16,
         29,
         31,
-        9,
-        33
+        9
       ],
       "pos_distribution": {
         "NOUN": {
-          "count": 66795,
-          "percentage": 20.43
+          "count": 66941,
+          "percentage": 20.47
         },
         "ADP": {
-          "count": 62043,
-          "percentage": 18.98
+          "count": 62256,
+          "percentage": 19.04
         },
         "PROPN": {
-          "count": 52853,
-          "percentage": 16.17
+          "count": 52091,
+          "percentage": 15.93
         },
         "DET": {
-          "count": 44043,
-          "percentage": 13.47
+          "count": 44242,
+          "percentage": 13.53
         },
         "ADJ": {
-          "count": 25793,
-          "percentage": 7.89
+          "count": 25830,
+          "percentage": 7.9
         },
         "VERB": {
-          "count": 24611,
+          "count": 24623,
           "percentage": 7.53
         },
         "CCONJ": {
-          "count": 10788,
-          "percentage": 3.3
+          "count": 10845,
+          "percentage": 3.32
         },
         "PRON": {
-          "count": 9282,
-          "percentage": 2.84
+          "count": 9332,
+          "percentage": 2.85
         },
         "NUM": {
-          "count": 9196,
-          "percentage": 2.81
+          "count": 9207,
+          "percentage": 2.82
         },
         "AUX": {
-          "count": 8170,
-          "percentage": 2.5
+          "count": 8197,
+          "percentage": 2.51
         },
         "ADV": {
-          "count": 8051,
-          "percentage": 2.46
+          "count": 8079,
+          "percentage": 2.47
         },
         "SCONJ": {
-          "count": 5206,
-          "percentage": 1.59
-        },
-        "INTJ": {
-          "count": 31,
-          "percentage": 0.01
+          "count": 5238,
+          "percentage": 1.6
         },
         "PART": {
+          "count": 28,
+          "percentage": 0.01
+        },
+        "INTJ": {
           "count": 28,
           "percentage": 0.01
         },
@@ -29951,14 +29952,14 @@
           "percentage": 0.0
         }
       },
-      "pos_total_tokens_analyzed": 326925
+      "pos_total_tokens_analyzed": 326972
     }
   },
   "quality_metrics": {
     "expansion_ratio_en_es": {
-      "mean": 1.043,
-      "median": 1.043,
-      "std": 0.037,
+      "mean": 1.044,
+      "median": 1.044,
+      "std": 0.036,
       "min": 0.794,
       "max": 1.182,
       "distribution": [
@@ -29967,7 +29968,7 @@
         1.072,
         1.012,
         1.014,
-        0.937,
+        0.926,
         1.042,
         1.096,
         1.021,
@@ -30013,7 +30014,7 @@
         1.043,
         1.027,
         1.056,
-        0.966,
+        1.081,
         1.131,
         1.036,
         1.07,
@@ -30225,7 +30226,7 @@
         1.067,
         1.101,
         1.028,
-        0.94,
+        1.028,
         1.013,
         1.134,
         0.994,
@@ -30269,7 +30270,7 @@
         1.023,
         1.079,
         1.048,
-        0.966,
+        1.109,
         1.047,
         1.014,
         1.04,
@@ -30299,7 +30300,7 @@
         1.021,
         1.008,
         1.023,
-        0.94,
+        1.063,
         1.07,
         1.07,
         1.078,
@@ -30978,11 +30979,11 @@
     },
     "uppercase_pct": {
       "en_mean": 3.56,
-      "es_mean": 3.16
+      "es_mean": 3.15
     },
     "stopword_pct": {
       "en": 36.67,
-      "es": 38.59
+      "es": 38.71
     },
     "classification_distribution": {
       "history": 284,
@@ -31072,26 +31073,26 @@
       }
     },
     "ner_es": {
-      "total_entities": 34235,
-      "unique_entities": 19353,
-      "entity_diversity": 0.5653,
+      "total_entities": 34163,
+      "unique_entities": 19220,
+      "entity_diversity": 0.5626,
       "entity_types": {
-        "MISC": 10341,
-        "PER": 10301,
-        "LOC": 9888,
-        "ORG": 3705
+        "PER": 10282,
+        "MISC": 10255,
+        "LOC": 9931,
+        "ORG": 3695
       },
       "top_entities": {
-        "estados unidos": 163,
+        "estados unidos": 165,
         "también": 142,
         "inglaterra": 111,
+        "además": 92,
         "australia": 92,
-        "además": 91,
         "en estados unidos": 90,
         "segunda guerra mundial": 84,
         "europa": 83,
         "londres": 77,
-        "francia": 75,
+        "francia": 76,
         "primera guerra mundial": 66,
         "homero": 64,
         "nueva york": 63,
@@ -31100,10 +31101,10 @@
         "reino unido": 56,
         "texas": 51,
         "fox": 50,
+        "china": 49,
         "canadá": 48,
         "alemania": 47,
         "norteamérica": 47,
-        "china": 46,
         "el reino unido": 46,
         "us": 45,
         "bart": 45,

@@ -198,7 +198,7 @@ python3 scripts/unpack_corpus.py --inputs
 
 ### Antes de gastar nada
 
-El corpus completo costó **\$453.90** y 615 horas de reloj. Conviene hacer tres
+El corpus completo costó **\$454.30** y 615 horas de reloj. Conviene hacer tres
 cosas primero:
 
 1. **Consultar los precios actuales.** Las cifras del artículo son precios de
@@ -317,7 +317,7 @@ un par que se expanda o contraiga de otra manera.
 
 ## Cambios hechos para la publicación
 
-El código aquí es el que produjo el corpus. Dos diferencias deliberadas:
+El código aquí es el que produjo el corpus. Tres diferencias deliberadas:
 
 1. **Los datos se distribuyen comprimidos.** `corpus/*/*.gz` en vez de JSON
    plano, para que cada archivo quede bajo el límite de 100 MB de GitHub.
@@ -327,9 +327,18 @@ El código aquí es el que produjo el corpus. Dos diferencias deliberadas:
 2. **El notebook 06 escribe sus figuras en `figures/`.** Antes escribía
    directamente en el árbol LaTeX del artículo, que no forma parte de este
    repositorio.
+3. **Los comentarios y el texto explicativo están en inglés.** Los comentarios,
+   docstrings y mensajes de `metrics/`, `ablation/` y los notebooks 01–03 y 05
+   se tradujeron del español, el idioma de trabajo del proyecto. Ningún cálculo
+   cambió, y los notebooks no se volvieron a ejecutar. Tres tipos de texto siguen
+   en español: los comentarios y mensajes de log de los agentes de `agents/`, que
+   se dejaron exactamente como se ejecutaron; las etiquetas de los gráficos de los
+   notebooks 01–03 y 05, que forman parte de sus figuras guardadas; y los nombres
+   de columna y las etiquetas de tamaño de las tablas de selección de
+   `corpus/selection/`, que son datos.
 
 Lo que no se trasladó: el `.env` con credenciales vivas, las fuentes LaTeX del
-artículo, las corridas piloto distintas de la de WikiText en `corpus/pilot/`, y
+artículo, las corridas piloto distintas de las de WikiText en `corpus/pilot/`, y
 la salida intermedia de las corridas exploratorias.
 
 ---

@@ -58,10 +58,15 @@ INPUTS = [
      "data/FEVER/selected/fever_selected.jsonl"),
 ]
 
-# The June 2026 WikiText pilot run, read by notebook 05. It is small and it is
-# the only record of the pipeline behaviour before the production configuration
-# was frozen, so it ships with the release.
+# The June 2026 WikiText trial runs. The 11 June pilot is read by notebook 05;
+# the 7 June run is the input of the evaluator ablation in ablation/. Both are
+# small and they are the only record of the pipeline behaviour before the
+# production configuration was frozen, so they ship with the release.
 PILOT = [
+    ("pilot/wikitext-103-raw.wiki.test_260607.json.gz",
+     "output/wikitext/tests/wikitext-103-raw.wiki.test_260607.json"),
+    ("pilot/wikitext-103-raw.wiki.test_pipeline_260607.json.gz",
+     "output/wikitext/tests/wikitext-103-raw.wiki.test_pipeline_260607.json"),
     ("pilot/wikitext-103-raw.wiki.test_260612_032122.json.gz",
      "output/wikitext/tests/wikitext-103-raw.wiki.test_260612_032122.json"),
     ("pilot/wikitext-103-raw.wiki.test_pipeline_260612_032122.json.gz",
@@ -135,7 +140,7 @@ def main() -> None:
     parser.add_argument("--inputs", action="store_true",
                         help="expand the selected English source subsets (87 MB)")
     parser.add_argument("--pilot", action="store_true",
-                        help="expand the June 2026 WikiText pilot run (7 MB), used by notebook 05")
+                        help="expand the June 2026 WikiText trial runs (13 MB), used by notebook 05 and ablation/")
     parser.add_argument("--force", action="store_true",
                         help="overwrite files that already exist")
     args = parser.parse_args()

@@ -199,7 +199,7 @@ the first place to look when optimising a budget.
 This is the stage that removes the dependency on human reference translations.
 The evaluator receives the original and the final translation and scores four
 dimensions 0–100 — clarity, fidelity, completeness, fluency — plus an overall
-score and a list of errors, against a calibrated guide.
+score and a list of errors, against an anchored scoring guide.
 
 ### The programmatic truncation check
 
@@ -215,15 +215,18 @@ and maps to a programmatic completeness score:
 
 | Range of r | Programmatic score S_p |
 |---|---|
-| r < 0.50 | max(100·r, 10) |
-| 0.50 ≤ r < 0.75 | max(100·r, 40) |
-| 0.75 ≤ r < 0.85 | max(100·r, 70) |
-| 0.85 ≤ r < 0.92 | max(105·r, 85) |
+| r < 0.85 | max(100·r, 10) |
+| 0.85 ≤ r < 0.92 | 105·r |
 | r ≥ 0.92 | not computed; the model's score stands |
 
-Each band applies a floor, so a short translation is not penalised beyond what
-its length alone justifies; the top band's 5% tolerance covers entries that are
-legitimately more compact than their source.
+Below 0.85 the score is the percentage of characters kept, with a minimum of 10.
+Between 0.85 and 0.92 it is raised by 5% to allow for entries that are shorter
+than their source for a valid reason.
+
+The code (`_adjust_evaluation_by_completeness`) writes the first row as three
+bands with floors of 10, 40 and 70, and the second with a floor of 85. Only the
+floor of 10 can ever apply, because inside each band 100·r (or 105·r) is already
+above its floor, so the table above gives the same scores.
 
 If the model's completeness score exceeds S_p by more than 10 points, S_p wins,
 a truncation error is recorded, and the overall score is recomputed as

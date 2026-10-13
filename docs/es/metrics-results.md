@@ -7,6 +7,9 @@ tres datasets bilingües generados por el pipeline de traducción: WikiText (1,0
 artículos), FEVER (9,998 artículos) y Europarl (1,005 debates). El objetivo es
 evaluar la calidad real de los datasets generados y señalar cualquier anomalía.
 
+
+*Actualizado el 2026-10-11: las cifras se recalcularon sobre el corpus publicado, después de volver a traducir cinco entradas de WikiText y de reparar la entrada 4148 de FEVER; ver [../../corpus/README.md](../../corpus/README.md#caveats).*
+
 ---
 
 ## 1. Métricas generales del corpus
@@ -16,9 +19,9 @@ evaluar la calidad real de los datasets generados y señalar cualquier anomalía
 | Métrica | WikiText EN | WikiText ES | FEVER EN | FEVER ES | Europarl EN | Europarl ES |
 |--------|-------------|-------------|----------|----------|-------------|-------------|
 | Documentos | 1,000 | 1,000 | 9,998 | 9,998 | 1,005 | 1,005 |
-| Tokens totales | 2,855,853 | 3,037,875 | 1,753,860 | 1,941,463 | 6,950,546 | 6,954,048 |
-| Types únicos | 84,029 | 105,266 | 54,087 | 63,259 | 36,790 | 57,701 |
-| Palabras/doc (media) | 2,855.9 | 3,037.9 | 175.4 | 194.2 | 6,916.0 | 6,919.5 |
+| Tokens totales | 2,855,853 | 3,038,960 | 1,753,843 | 1,941,480 | 6,950,546 | 6,954,048 |
+| Types únicos | 84,029 | 104,670 | 54,057 | 63,253 | 36,790 | 57,701 |
+| Palabras/doc (media) | 2,855.9 | 3,039.0 | 175.4 | 194.2 | 6,916.0 | 6,919.5 |
 | Palabras/doc (mediana) | 2,247 | 2,409 | 139.5 | 156 | 5,886 | 5,898 |
 | Palabras/doc (mín.) | 807 | 872 | 76 | 71 | 217 | 199 |
 | Palabras/doc (máx.) | 8,571 | 9,438 | 3,554 | 3,701 | 25,619 | 26,145 |
@@ -47,10 +50,10 @@ FEVER muestra un mínimo de 76 palabras en inglés pese a un filtro de 100 palab
 | Métrica | WikiText EN | WikiText ES | FEVER EN | FEVER ES | Europarl EN | Europarl ES |
 |--------|-------------|-------------|----------|----------|-------------|-------------|
 | Exponente de Zipf | 0.897 | 0.946 | 0.932 | 0.954 | 0.985 | 0.963 |
-| Hapax % | 39.72% | 39.99% | 44.33% | 43.91% | 28.63% | 31.74% |
-| Dis legomena % | 14.08% | 14.49% | 14.52% | 14.75% | 11.22% | 12.30% |
-| Cobertura top-100 | 42.17% | 45.19% | 46.84% | 50.03% | 53.77% | 52.53% |
-| Cobertura top-1000 | 64.66% | 63.72% | 73.51% | 73.29% | 80.90% | 77.72% |
+| Hapax % | 39.72% | 40.01% | 44.31% | 43.91% | 28.63% | 31.74% |
+| Dis legomena % | 14.08% | 14.46% | 14.52% | 14.75% | 11.22% | 12.30% |
+| Cobertura top-100 | 42.17% | 45.28% | 46.84% | 50.03% | 53.77% | 52.53% |
+| Cobertura top-1000 | 64.66% | 63.82% | 73.51% | 73.29% | 80.90% | 77.72% |
 
 ### Observaciones
 
@@ -72,13 +75,13 @@ FEVER muestra un mínimo de 76 palabras en inglés pese a un filtro de 100 palab
 
 | Métrica | WikiText EN | WikiText ES | FEVER EN | FEVER ES | Europarl EN | Europarl ES |
 |--------|-------------|-------------|----------|----------|-------------|-------------|
-| TTR de corpus | 0.0294 | 0.0347 | 0.0308 | 0.0326 | 0.0053 | 0.0083 |
-| RTTR | 49.72 | 60.40 | 40.84 | 45.40 | 13.95 | 21.88 |
-| MATTR (w=100) | 0.7081 | 0.6949 | 0.6903 | 0.6702 | 0.7146 | 0.7170 |
-| MTLD | 84.63 | 77.33 | 72.85 | 63.24 | 89.74 | 91.47 |
+| TTR de corpus | 0.0294 | 0.0344 | 0.0308 | 0.0326 | 0.0053 | 0.0083 |
+| RTTR | 49.72 | 60.04 | 40.82 | 45.40 | 13.95 | 21.88 |
+| MATTR (w=100) | 0.7081 | 0.6948 | 0.6903 | 0.6701 | 0.7146 | 0.7170 |
+| MTLD | 84.63 | 77.27 | 72.86 | 63.24 | 89.74 | 91.47 |
 | TTR por doc (media) | 0.335 | 0.335 | 0.606 | 0.577 | 0.275 | 0.301 |
-| MATTR por doc (media) | 0.707 | 0.695 | 0.677 | 0.663 | 0.712 | 0.716 |
-| MTLD por doc (media) | 84.69 | 77.91 | 68.44 | 61.19 | 89.29 | 91.54 |
+| MATTR por doc (media) | 0.707 | 0.694 | 0.677 | 0.663 | 0.712 | 0.716 |
+| MTLD por doc (media) | 84.69 | 77.83 | 68.44 | 61.19 | 89.29 | 91.54 |
 
 ### Observaciones
 
@@ -133,19 +136,19 @@ WikiText EN tiene 9 oraciones de longitud cero y FEVER EN tiene 44. Son artefact
 
 | Métrica | WikiText | FEVER | Europarl |
 |--------|----------|-------|----------|
-| Razón de expansión (media) | 1.043 | 1.091 | 1.051 |
-| Razón de expansión (desv. est.) | 0.037 | 0.066 | 0.021 |
+| Razón de expansión (media) | 1.044 | 1.091 | 1.051 |
+| Razón de expansión (desv. est.) | 0.036 | 0.066 | 0.021 |
 | Razón de expansión (mín.) | 0.794 | 0.568 | 0.940 |
 | Duplicados exactos EN | 0 | 11 | 0 |
 | Duplicados exactos ES | 0 | 0 | 0 |
 | Casi duplicados EN | 0 | 0 | 0 |
 | Casi duplicados ES | 0 | 0 | 0 |
 | Stopwords EN % | 36.67% | 33.16% | 43.16% |
-| Stopwords ES % | 38.59% | 38.89% | 40.68% |
+| Stopwords ES % | 38.71% | 38.89% | 40.68% |
 | Caracteres especiales EN % | 3.08% | 3.24% | 3.23% |
 | Caracteres especiales ES % | 2.47% | 2.44% | 3.05% |
 | Mayúsculas EN % | 3.56% | 5.66% | 4.51% |
-| Mayúsculas ES % | 3.16% | 4.15% | 3.98% |
+| Mayúsculas ES % | 3.15% | 4.15% | 3.98% |
 
 ### Observaciones
 
@@ -254,17 +257,17 @@ como recurso unificado.
 | Métrica | Inglés | Español |
 |--------|---------|---------|
 | Documentos totales | 12,003 | 12,003 |
-| Tokens totales | 11,560,259 | 11,933,386 |
-| Types totales (vocabulario combinado) | 117,323 | 151,264 |
-| Caracteres totales | 69,700,989 | 73,566,725 |
-| Suma de los types de cada dataset | 174,906 | 226,226 |
-| Solapamiento de vocabulario (suma − combinado) | 57,583 | 74,962 |
+| Tokens totales | 11,560,242 | 11,934,488 |
+| Types totales (vocabulario combinado) | 117,297 | 150,745 |
+| Caracteres totales | 69,700,888 | 73,572,650 |
+| Suma de los types de cada dataset | 174,876 | 225,624 |
+| Solapamiento de vocabulario (suma − combinado) | 57,579 | 74,879 |
 
 **Hallazgo clave: el corpus combinado contiene 11.5M de tokens en inglés y 11.9M en español a lo largo de 12,003 documentos bilingües.** Es un recurso bilingüe sustancial: aproximadamente 23.5 millones de tokens en total entre ambos idiomas.
 
-**El solapamiento de vocabulario es significativo pero no excesivo.** La suma de los vocabularios individuales (174,906 types EN) es un 49% mayor que el vocabulario combinado (117,323 types EN). Esto significa que 57,583 types en inglés (el 33% de la suma) aparecen en más de un dataset. Es un nivel de solapamiento saludable: los datasets comparten un núcleo común de vocabulario general y cada uno aporta además un vocabulario exclusivo sustancial. Si el solapamiento fuera cercano a cero, los datasets no tendrían nada en común (improbable en lenguaje natural). Si fuera cercano al 100%, serían redundantes.
+**El solapamiento de vocabulario es significativo pero no excesivo.** La suma de los vocabularios individuales (174,876 types EN) es un 49% mayor que el vocabulario combinado (117,297 types EN). Esto significa que 57,579 types en inglés (el 33% de la suma) aparecen en más de un dataset. Es un nivel de solapamiento saludable: los datasets comparten un núcleo común de vocabulario general y cada uno aporta además un vocabulario exclusivo sustancial. Si el solapamiento fuera cercano a cero, los datasets no tendrían nada en común (improbable en lenguaje natural). Si fuera cercano al 100%, serían redundantes.
 
-El español muestra un patrón similar con 33% de solapamiento (74,962 types compartidos de una suma de 226,226). El vocabulario combinado en español (151,264) es un 29% mayor que el inglés (117,323), coherente con la riqueza morfológica del español observada en las métricas por dataset.
+El español muestra un patrón similar con 33% de solapamiento (74,879 types compartidos de una suma de 225,624). El vocabulario combinado en español (150,745) es un 29% mayor que el inglés (117,297), coherente con la riqueza morfológica del español observada en las métricas por dataset.
 
 ### 7.2 Análisis del solapamiento de vocabulario
 
@@ -294,19 +297,19 @@ El español muestra un patrón similar con 33% de solapamiento (74,962 types com
 
 | Dataset | Types EN exclusivos | % de su vocabulario | % del combinado |
 |---------|-------------------|----------------|---------------|
-| WikiText | 45,568 | 54.2% | 38.8% |
-| FEVER | 21,889 | 40.5% | 18.7% |
-| Europarl | 10,132 | 27.5% | 8.6% |
+| WikiText | 45,570 | 54.2% | 38.9% |
+| FEVER | 21,863 | 40.4% | 18.6% |
+| Europarl | 10,134 | 27.5% | 8.6% |
 
 | Dataset | Types ES exclusivos | % de su vocabulario | % del combinado |
 |---------|-------------------|----------------|---------------|
-| WikiText | 54,480 | 51.8% | 36.0% |
-| FEVER | 23,025 | 36.4% | 15.2% |
-| Europarl | 21,099 | 36.6% | 14.0% |
+| WikiText | 53,966 | 51.6% | 35.8% |
+| FEVER | 23,072 | 36.5% | 15.3% |
+| Europarl | 21,122 | 36.6% | 14.0% |
 
-**WikiText es el mayor contribuyente de vocabulario.** Aporta en exclusiva el 38.8% del vocabulario combinado en inglés: palabras que aparecen en WikiText pero ni en FEVER ni en Europarl. Refleja la amplitud del contenido enciclopédico, que cubre ciencia, tecnología, geografía, música y muchos otros dominios.
+**WikiText es el mayor contribuyente de vocabulario.** Aporta en exclusiva el 38.9% del vocabulario combinado en inglés: palabras que aparecen en WikiText pero ni en FEVER ni en Europarl. Refleja la amplitud del contenido enciclopédico, que cubre ciencia, tecnología, geografía, música y muchos otros dominios.
 
-**FEVER aporta el 18.7% en exclusiva.** Pese a ser el menor en types totales (54,087 EN), la terminología deportiva y los nombres propios de FEVER (nombres de atletas, de equipos, eventos específicos) son muy propios del dominio y rara vez aparecen en otro sitio.
+**FEVER aporta el 18.6% en exclusiva.** Pese a ser el menor en types totales (54,057 EN), la terminología deportiva y los nombres propios de FEVER (nombres de atletas, de equipos, eventos específicos) son muy propios del dominio y rara vez aparecen en otro sitio.
 
 **Europarl aporta el menor vocabulario exclusivo (8.6% EN).** Es esperable: el vocabulario político y procedimental de Europarl es relativamente estándar y se solapa en gran medida con el vocabulario general de WikiText. Sin embargo, en español Europarl aporta un 14.0% en exclusiva, casi igualando el 15.2% de FEVER. Esto se debe a que las traducciones al español del texto parlamentario usan un repertorio más rico de expresiones formales, terminología jurídica y formas verbales que no aparecen en la enciclopedia ni en los pasajes factuales.
 
@@ -332,20 +335,20 @@ Orden de procesamiento: WikiText → FEVER → Europarl
 | Dataset | Tokens añadidos | Types después | Types nuevos | % nuevo del total |
 |---------|-------------|-------------|-----------|----------------|
 | WikiText | 2,855,853 | 84,029 | 84,029 | 100.0% |
-| FEVER | 1,753,860 | 107,191 | 23,162 | 21.6% |
-| Europarl | 6,950,546 | 117,323 | 10,132 | 8.6% |
+| FEVER | 1,753,843 | 107,163 | 23,134 | 21.6% |
+| Europarl | 6,950,546 | 117,297 | 10,134 | 8.6% |
 
 #### Español
 
 | Dataset | Tokens añadidos | Types después | Types nuevos | % nuevo del total |
 |---------|-------------|-------------|-----------|----------------|
-| WikiText | 3,037,875 | 105,266 | 105,266 | 100.0% |
-| FEVER | 1,941,463 | 130,165 | 24,899 | 19.1% |
-| Europarl | 6,954,048 | 151,264 | 21,099 | 13.9% |
+| WikiText | 3,038,960 | 104,670 | 104,670 | 100.0% |
+| FEVER | 1,941,480 | 129,623 | 24,953 | 19.3% |
+| Europarl | 6,954,048 | 150,745 | 21,122 | 14.0% |
 
-**Cada dataset aporta vocabulario nuevo significativo.** Después de que WikiText establece el vocabulario base (84,029 types EN), FEVER añade 23,162 types nuevos (27.6% de crecimiento) y Europarl añade otros 10,132 (9.4%). El vocabulario sigue creciendo con cada dataset, lo que confirma que las tres fuentes son complementarias y no redundantes.
+**Cada dataset aporta vocabulario nuevo significativo.** Después de que WikiText establece el vocabulario base (84,029 types EN), FEVER añade 23,134 types nuevos (27.5% de crecimiento) y Europarl añade otros 10,134 (9.5%). El vocabulario sigue creciendo con cada dataset, lo que confirma que las tres fuentes son complementarias y no redundantes.
 
-**El patrón de crecimiento es distinto en inglés y en español.** En inglés, Europarl aporta solo 10,132 types nuevos (8.6% del vocabulario final). En español, Europarl aporta 21,099 (13.9% del vocabulario final), casi igualando la aportación de FEVER en español (24,899). Esto refuerza la observación del análisis de solapamiento: las traducciones al español de Europarl usan un vocabulario claramente más rico, con expresiones formales y conjugaciones que no aparecen en los otros dos datasets.
+**El patrón de crecimiento es distinto en inglés y en español.** En inglés, Europarl aporta solo 10,134 types nuevos (8.6% del vocabulario final). En español, Europarl aporta 21,122 (14.0% del vocabulario final), casi igualando la aportación de FEVER en español (24,953). Esto refuerza la observación del análisis de solapamiento: las traducciones al español de Europarl usan un vocabulario claramente más rico, con expresiones formales y conjugaciones que no aparecen en los otros dos datasets.
 
 **Europarl añade la mayor cantidad de tokens pero la menor cantidad de types nuevos.** Con 6.95M de tokens (60% del corpus combinado), Europarl solo añade un 8.6% de vocabulario nuevo en inglés. Esto confirma que el texto parlamentario es muy repetitivo en su vocabulario: reutiliza extensamente los mismos términos políticos y procedimentales. El vocabulario que sí aporta en exclusiva (términos institucionales, jerga propia de la UE) es pequeño pero especializado.
 

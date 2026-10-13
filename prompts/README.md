@@ -129,7 +129,7 @@ for long ones, which is what the paper describes and what the pipeline does.
 
 One evaluator scores the consensus translation against the original, with no
 human reference translation. This is the stage that makes the method
-self-contained, so its prompt is the most heavily calibrated of the set.
+self-contained, so its prompt is the most heavily iterated of the set.
 
 | File | What it is |
 |---|---|

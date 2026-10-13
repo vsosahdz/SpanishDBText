@@ -322,5 +322,5 @@ if you change that table later.
 | `corpus/metrics/metrics_combined.json` | Cross-dataset totals, vocabulary overlap, duplicates, vocabulary growth |
 | `corpus/metrics/semantic_full.json` | LaBSE fidelity and omission over all 12,003 entries |
 | `corpus/metrics/ablation_consensus.json` | The Stage 4 ablation: consensus against each single model and against the per-entry oracle |
-| `corpus/pilot/*` | The June 2026 WikiText pilot run, read by notebook 05 |
+| `corpus/pilot/*` | The June 2026 WikiText trial runs, read by notebook 05 and by `ablation/` |
 | `corpus/samples/*` | A few entries per dataset, uncompressed |

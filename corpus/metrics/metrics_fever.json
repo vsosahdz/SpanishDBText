@@ -4,15 +4,16 @@
     "source_file": "fever_selected_260712_212751.json",
     "source_name": "fever",
     "total_entries": 9998,
-    "generated_at": "2026-09-07T13:56:02.192082"
+    "generated_at": "2026-10-11T23:07:55.254942",
+    "elapsed_seconds": 896.5
   },
   "general_metrics": {
     "english": {
       "language": "en",
       "num_documents": 9998,
-      "total_tokens": 1753860,
-      "unique_types": 54087,
-      "total_characters": 10527617,
+      "total_tokens": 1753843,
+      "unique_types": 54057,
+      "total_characters": 10527516,
       "words_per_document": {
         "mean": 175.4,
         "median": 139.5,
@@ -4182,7 +4183,7 @@
         123,
         92,
         109,
-        125,
+        108,
         183,
         185,
         134,
@@ -14182,7 +14183,7 @@
         4,
         4,
         8,
-        6,
+        7,
         10,
         10,
         7,
@@ -24182,7 +24183,7 @@
         687,
         534,
         628,
-        723,
+        622,
         1052,
         1006,
         763,
@@ -30038,9 +30039,9 @@
     "spanish": {
       "language": "es",
       "num_documents": 9998,
-      "total_tokens": 1941463,
-      "unique_types": 63259,
-      "total_characters": 11443988,
+      "total_tokens": 1941480,
+      "unique_types": 63253,
+      "total_characters": 11444089,
       "words_per_document": {
         "mean": 194.2,
         "median": 156.0,
@@ -34210,7 +34211,7 @@
         129,
         111,
         134,
-        108,
+        125,
         196,
         204,
         154,
@@ -44210,7 +44211,7 @@
         4,
         4,
         8,
-        7,
+        6,
         10,
         10,
         7,
@@ -54210,7 +54211,7 @@
         718,
         588,
         758,
-        622,
+        723,
         1146,
         1140,
         879,
@@ -60067,60 +60068,60 @@
   "frequency_metrics": {
     "english": {
       "language": "en",
-      "total_tokens": 1753860,
-      "total_types": 54087,
-      "hapax_legomena": 23975,
-      "hapax_legomena_pct": 44.33,
-      "dis_legomena": 7856,
+      "total_tokens": 1753843,
+      "total_types": 54057,
+      "hapax_legomena": 23955,
+      "hapax_legomena_pct": 44.31,
+      "dis_legomena": 7849,
       "dis_legomena_pct": 14.52,
       "zipf_exponent": 0.932,
       "vocabulary_coverage_by_top_n": {
         "100": 46.84,
-        "500": 65.27,
+        "500": 65.28,
         "1000": 73.51,
         "5000": 90.03,
-        "10000": 94.41
+        "10000": 94.42
       },
       "zipf_distribution": [
         {
           "rank": 1,
-          "frequency": 154728,
+          "frequency": 154738,
           "log_rank": 0.0,
           "log_freq": 5.1896
         },
         {
           "rank": 2,
-          "frequency": 49326,
+          "frequency": 49328,
           "log_rank": 0.301,
           "log_freq": 4.6931
         },
         {
           "rank": 3,
-          "frequency": 46328,
+          "frequency": 46331,
           "log_rank": 0.4771,
-          "log_freq": 4.6658
+          "log_freq": 4.6659
         },
         {
           "rank": 4,
-          "frequency": 41895,
+          "frequency": 41899,
           "log_rank": 0.6021,
           "log_freq": 4.6222
         },
         {
           "rank": 5,
-          "frequency": 31225,
+          "frequency": 31224,
           "log_rank": 0.699,
           "log_freq": 4.4945
         },
         {
           "rank": 6,
-          "frequency": 29719,
+          "frequency": 29720,
           "log_rank": 0.7782,
           "log_freq": 4.473
         },
         {
           "rank": 7,
-          "frequency": 27625,
+          "frequency": 27626,
           "log_rank": 0.8451,
           "log_freq": 4.4413
         },
@@ -60144,15 +60145,15 @@
         },
         {
           "rank": 11,
-          "frequency": 14156,
+          "frequency": 14157,
           "log_rank": 1.0414,
-          "log_freq": 4.1509
+          "log_freq": 4.151
         },
         {
           "rank": 12,
-          "frequency": 13675,
+          "frequency": 13676,
           "log_rank": 1.0792,
-          "log_freq": 4.1359
+          "log_freq": 4.136
         },
         {
           "rank": 13,
@@ -60162,7 +60163,7 @@
         },
         {
           "rank": 14,
-          "frequency": 13175,
+          "frequency": 13176,
           "log_rank": 1.1461,
           "log_freq": 4.1198
         },
@@ -60228,7 +60229,7 @@
         },
         {
           "rank": 25,
-          "frequency": 6218,
+          "frequency": 6219,
           "log_rank": 1.3979,
           "log_freq": 3.7937
         },
@@ -60240,15 +60241,15 @@
         },
         {
           "rank": 27,
-          "frequency": 5840,
+          "frequency": 5841,
           "log_rank": 1.4314,
-          "log_freq": 3.7664
+          "log_freq": 3.7665
         },
         {
           "rank": 28,
-          "frequency": 5604,
+          "frequency": 5605,
           "log_rank": 1.4472,
-          "log_freq": 3.7485
+          "log_freq": 3.7486
         },
         {
           "rank": 29,
@@ -60270,9 +60271,9 @@
         },
         {
           "rank": 32,
-          "frequency": 4648,
+          "frequency": 4652,
           "log_rank": 1.5051,
-          "log_freq": 3.6673
+          "log_freq": 3.6676
         },
         {
           "rank": 33,
@@ -60318,9 +60319,9 @@
         },
         {
           "rank": 40,
-          "frequency": 4269,
+          "frequency": 4270,
           "log_rank": 1.6021,
-          "log_freq": 3.6303
+          "log_freq": 3.6304
         },
         {
           "rank": 41,
@@ -60366,9 +60367,9 @@
         },
         {
           "rank": 48,
-          "frequency": 3812,
+          "frequency": 3813,
           "log_rank": 1.6812,
-          "log_freq": 3.5812
+          "log_freq": 3.5813
         },
         {
           "rank": 49,
@@ -60510,9 +60511,9 @@
         },
         {
           "rank": 72,
-          "frequency": 2671,
+          "frequency": 2672,
           "log_rank": 1.8573,
-          "log_freq": 3.4267
+          "log_freq": 3.4268
         },
         {
           "rank": 73,
@@ -60564,9 +60565,9 @@
         },
         {
           "rank": 81,
-          "frequency": 2421,
+          "frequency": 2422,
           "log_rank": 1.9085,
-          "log_freq": 3.384
+          "log_freq": 3.3842
         },
         {
           "rank": 82,
@@ -60594,9 +60595,9 @@
         },
         {
           "rank": 86,
-          "frequency": 2284,
+          "frequency": 2285,
           "log_rank": 1.9345,
-          "log_freq": 3.3587
+          "log_freq": 3.3589
         },
         {
           "rank": 87,
@@ -60648,9 +60649,9 @@
         },
         {
           "rank": 95,
-          "frequency": 2032,
+          "frequency": 2033,
           "log_rank": 1.9777,
-          "log_freq": 3.3079
+          "log_freq": 3.3081
         },
         {
           "rank": 96,
@@ -60726,9 +60727,9 @@
         },
         {
           "rank": 108,
-          "frequency": 1723,
+          "frequency": 1724,
           "log_rank": 2.0334,
-          "log_freq": 3.2363
+          "log_freq": 3.2365
         },
         {
           "rank": 109,
@@ -60834,9 +60835,9 @@
         },
         {
           "rank": 126,
-          "frequency": 1538,
+          "frequency": 1539,
           "log_rank": 2.1004,
-          "log_freq": 3.187
+          "log_freq": 3.1872
         },
         {
           "rank": 127,
@@ -61170,9 +61171,9 @@
         },
         {
           "rank": 182,
-          "frequency": 1106,
+          "frequency": 1108,
           "log_rank": 2.2601,
-          "log_freq": 3.0438
+          "log_freq": 3.0445
         },
         {
           "rank": 183,
@@ -61236,9 +61237,9 @@
         },
         {
           "rank": 193,
-          "frequency": 1070,
+          "frequency": 1071,
           "log_rank": 2.2856,
-          "log_freq": 3.0294
+          "log_freq": 3.0298
         },
         {
           "rank": 194,
@@ -61446,9 +61447,9 @@
         },
         {
           "rank": 228,
-          "frequency": 908,
+          "frequency": 909,
           "log_rank": 2.3579,
-          "log_freq": 2.9581
+          "log_freq": 2.9586
         },
         {
           "rank": 229,
@@ -61590,15 +61591,15 @@
         },
         {
           "rank": 252,
-          "frequency": 826,
+          "frequency": 821,
           "log_rank": 2.4014,
-          "log_freq": 2.917
+          "log_freq": 2.9143
         },
         {
           "rank": 253,
-          "frequency": 821,
+          "frequency": 816,
           "log_rank": 2.4031,
-          "log_freq": 2.9143
+          "log_freq": 2.9117
         },
         {
           "rank": 254,
@@ -61752,9 +61753,9 @@
         },
         {
           "rank": 279,
-          "frequency": 729,
+          "frequency": 730,
           "log_rank": 2.4456,
-          "log_freq": 2.8627
+          "log_freq": 2.8633
         },
         {
           "rank": 280,
@@ -62106,9 +62107,9 @@
         },
         {
           "rank": 338,
-          "frequency": 601,
+          "frequency": 602,
           "log_rank": 2.5289,
-          "log_freq": 2.7789
+          "log_freq": 2.7796
         },
         {
           "rank": 339,
@@ -62364,9 +62365,9 @@
         },
         {
           "rank": 381,
-          "frequency": 546,
+          "frequency": 545,
           "log_rank": 2.5809,
-          "log_freq": 2.7372
+          "log_freq": 2.7364
         },
         {
           "rank": 382,
@@ -62712,9 +62713,9 @@
         },
         {
           "rank": 439,
-          "frequency": 469,
+          "frequency": 470,
           "log_rank": 2.6425,
-          "log_freq": 2.6712
+          "log_freq": 2.6721
         },
         {
           "rank": 440,
@@ -63414,489 +63415,489 @@
         },
         {
           "tokens": 727827,
-          "types": 34733
+          "types": 34702
         },
         {
           "tokens": 736596,
-          "types": 34943
+          "types": 34912
         },
         {
           "tokens": 745365,
-          "types": 35214
+          "types": 35183
         },
         {
           "tokens": 754134,
-          "types": 35398
+          "types": 35367
         },
         {
           "tokens": 762903,
-          "types": 35592
+          "types": 35562
         },
         {
           "tokens": 771672,
-          "types": 35816
+          "types": 35785
         },
         {
           "tokens": 780441,
-          "types": 36013
+          "types": 35982
         },
         {
           "tokens": 789210,
-          "types": 36179
+          "types": 36148
         },
         {
           "tokens": 797979,
-          "types": 36352
+          "types": 36321
         },
         {
           "tokens": 806748,
-          "types": 36560
+          "types": 36530
         },
         {
           "tokens": 815517,
-          "types": 36754
+          "types": 36724
         },
         {
           "tokens": 824286,
-          "types": 36955
+          "types": 36924
         },
         {
           "tokens": 833055,
-          "types": 37128
+          "types": 37100
         },
         {
           "tokens": 841824,
-          "types": 37328
+          "types": 37298
         },
         {
           "tokens": 850593,
-          "types": 37600
+          "types": 37570
         },
         {
           "tokens": 859362,
-          "types": 37735
+          "types": 37704
         },
         {
           "tokens": 868131,
-          "types": 37940
+          "types": 37911
         },
         {
           "tokens": 876900,
-          "types": 38158
+          "types": 38127
         },
         {
           "tokens": 885669,
-          "types": 38351
+          "types": 38320
         },
         {
           "tokens": 894438,
-          "types": 38466
+          "types": 38436
         },
         {
           "tokens": 903207,
-          "types": 38654
+          "types": 38623
         },
         {
           "tokens": 911976,
-          "types": 38829
+          "types": 38798
         },
         {
           "tokens": 920745,
-          "types": 39023
+          "types": 38993
         },
         {
           "tokens": 929514,
-          "types": 39220
+          "types": 39193
         },
         {
           "tokens": 938283,
-          "types": 39424
+          "types": 39393
         },
         {
           "tokens": 947052,
-          "types": 39570
+          "types": 39540
         },
         {
           "tokens": 955821,
-          "types": 39771
+          "types": 39740
         },
         {
           "tokens": 964590,
-          "types": 39910
+          "types": 39879
         },
         {
           "tokens": 973359,
-          "types": 40096
+          "types": 40065
         },
         {
           "tokens": 982128,
-          "types": 40263
+          "types": 40232
         },
         {
           "tokens": 990897,
-          "types": 40483
+          "types": 40452
         },
         {
           "tokens": 999666,
-          "types": 40731
+          "types": 40700
         },
         {
           "tokens": 1008435,
-          "types": 40895
+          "types": 40864
         },
         {
           "tokens": 1017204,
-          "types": 41098
+          "types": 41068
         },
         {
           "tokens": 1025973,
-          "types": 41260
+          "types": 41229
         },
         {
           "tokens": 1034742,
-          "types": 41430
+          "types": 41399
         },
         {
           "tokens": 1043511,
-          "types": 41688
+          "types": 41657
         },
         {
           "tokens": 1052280,
-          "types": 41863
+          "types": 41833
         },
         {
           "tokens": 1061049,
-          "types": 41999
+          "types": 41968
         },
         {
           "tokens": 1069818,
-          "types": 42194
+          "types": 42163
         },
         {
           "tokens": 1078587,
-          "types": 42387
+          "types": 42356
         },
         {
           "tokens": 1087356,
-          "types": 42504
+          "types": 42473
         },
         {
           "tokens": 1096125,
-          "types": 42672
+          "types": 42641
         },
         {
           "tokens": 1104894,
-          "types": 42850
+          "types": 42819
         },
         {
           "tokens": 1113663,
-          "types": 42998
+          "types": 42967
         },
         {
           "tokens": 1122432,
-          "types": 43135
+          "types": 43104
         },
         {
           "tokens": 1131201,
-          "types": 43286
+          "types": 43255
         },
         {
           "tokens": 1139970,
-          "types": 43448
+          "types": 43417
         },
         {
           "tokens": 1148739,
-          "types": 43572
+          "types": 43541
         },
         {
           "tokens": 1157508,
-          "types": 43760
+          "types": 43729
         },
         {
           "tokens": 1166277,
-          "types": 43936
+          "types": 43905
         },
         {
           "tokens": 1175046,
-          "types": 44177
+          "types": 44147
         },
         {
           "tokens": 1183815,
-          "types": 44330
+          "types": 44299
         },
         {
           "tokens": 1192584,
-          "types": 44501
+          "types": 44471
         },
         {
           "tokens": 1201353,
-          "types": 44645
+          "types": 44616
         },
         {
           "tokens": 1210122,
-          "types": 44802
+          "types": 44771
         },
         {
           "tokens": 1218891,
-          "types": 44934
+          "types": 44903
         },
         {
           "tokens": 1227660,
-          "types": 45126
+          "types": 45095
         },
         {
           "tokens": 1236429,
-          "types": 45325
+          "types": 45294
         },
         {
           "tokens": 1245198,
-          "types": 45505
+          "types": 45474
         },
         {
           "tokens": 1253967,
-          "types": 45627
+          "types": 45596
         },
         {
           "tokens": 1262736,
-          "types": 45754
+          "types": 45725
         },
         {
           "tokens": 1271505,
-          "types": 45901
+          "types": 45870
         },
         {
           "tokens": 1280274,
-          "types": 46084
+          "types": 46054
         },
         {
           "tokens": 1289043,
-          "types": 46188
+          "types": 46158
         },
         {
           "tokens": 1297812,
-          "types": 46416
+          "types": 46386
         },
         {
           "tokens": 1306581,
-          "types": 46536
+          "types": 46507
         },
         {
           "tokens": 1315350,
-          "types": 46646
+          "types": 46616
         },
         {
           "tokens": 1324119,
-          "types": 46846
+          "types": 46816
         },
         {
           "tokens": 1332888,
-          "types": 46969
+          "types": 46939
         },
         {
           "tokens": 1341657,
-          "types": 47084
+          "types": 47054
         },
         {
           "tokens": 1350426,
-          "types": 47231
+          "types": 47201
         },
         {
           "tokens": 1359195,
-          "types": 47431
+          "types": 47401
         },
         {
           "tokens": 1367964,
-          "types": 47615
+          "types": 47585
         },
         {
           "tokens": 1376733,
-          "types": 47734
+          "types": 47704
         },
         {
           "tokens": 1385502,
-          "types": 47852
+          "types": 47822
         },
         {
           "tokens": 1394271,
-          "types": 48044
+          "types": 48014
         },
         {
           "tokens": 1403040,
-          "types": 48187
+          "types": 48157
         },
         {
           "tokens": 1411809,
-          "types": 48342
+          "types": 48312
         },
         {
           "tokens": 1420578,
-          "types": 48476
+          "types": 48446
         },
         {
           "tokens": 1429347,
-          "types": 48626
+          "types": 48596
         },
         {
           "tokens": 1438116,
-          "types": 48798
+          "types": 48768
         },
         {
           "tokens": 1446885,
-          "types": 48944
+          "types": 48915
         },
         {
           "tokens": 1455654,
-          "types": 49150
+          "types": 49120
         },
         {
           "tokens": 1464423,
-          "types": 49337
+          "types": 49307
         },
         {
           "tokens": 1473192,
-          "types": 49454
+          "types": 49425
         },
         {
           "tokens": 1481961,
-          "types": 49574
+          "types": 49545
         },
         {
           "tokens": 1490730,
-          "types": 49717
+          "types": 49689
         },
         {
           "tokens": 1499499,
-          "types": 49889
+          "types": 49860
         },
         {
           "tokens": 1508268,
-          "types": 50047
+          "types": 50017
         },
         {
           "tokens": 1517037,
-          "types": 50141
+          "types": 50111
         },
         {
           "tokens": 1525806,
-          "types": 50315
+          "types": 50286
         },
         {
           "tokens": 1534575,
-          "types": 50467
+          "types": 50437
         },
         {
           "tokens": 1543344,
-          "types": 50585
+          "types": 50555
         },
         {
           "tokens": 1552113,
-          "types": 50776
+          "types": 50746
         },
         {
           "tokens": 1560882,
-          "types": 50881
+          "types": 50852
         },
         {
           "tokens": 1569651,
-          "types": 51069
+          "types": 51039
         },
         {
           "tokens": 1578420,
-          "types": 51195
+          "types": 51165
         },
         {
           "tokens": 1587189,
-          "types": 51325
+          "types": 51295
         },
         {
           "tokens": 1595958,
-          "types": 51492
+          "types": 51465
         },
         {
           "tokens": 1604727,
-          "types": 51642
+          "types": 51612
         },
         {
           "tokens": 1613496,
-          "types": 51883
+          "types": 51853
         },
         {
           "tokens": 1622265,
-          "types": 52000
+          "types": 51970
         },
         {
           "tokens": 1631034,
-          "types": 52186
+          "types": 52159
         },
         {
           "tokens": 1639803,
-          "types": 52345
+          "types": 52315
         },
         {
           "tokens": 1648572,
-          "types": 52445
+          "types": 52415
         },
         {
           "tokens": 1657341,
-          "types": 52639
+          "types": 52609
         },
         {
           "tokens": 1666110,
-          "types": 52750
+          "types": 52720
         },
         {
           "tokens": 1674879,
-          "types": 52847
+          "types": 52817
         },
         {
           "tokens": 1683648,
-          "types": 52999
+          "types": 52969
         },
         {
           "tokens": 1692417,
-          "types": 53158
+          "types": 53129
         },
         {
           "tokens": 1701186,
-          "types": 53304
+          "types": 53274
         },
         {
           "tokens": 1709955,
-          "types": 53487
+          "types": 53457
         },
         {
           "tokens": 1718724,
-          "types": 53628
+          "types": 53600
         },
         {
           "tokens": 1727493,
-          "types": 53758
+          "types": 53728
         },
         {
           "tokens": 1736262,
-          "types": 53842
+          "types": 53812
         },
         {
           "tokens": 1745031,
-          "types": 53959
+          "types": 53929
         },
         {
           "tokens": 1753800,
-          "types": 54085
+          "types": 54055
         },
         {
-          "tokens": 1753860,
-          "types": 54087
+          "tokens": 1753843,
+          "types": 54057
         }
       ]
     },
     "spanish": {
       "language": "es",
-      "total_tokens": 1941463,
-      "total_types": 63259,
-      "hapax_legomena": 27778,
+      "total_tokens": 1941480,
+      "total_types": 63253,
+      "hapax_legomena": 27775,
       "hapax_legomena_pct": 43.91,
-      "dis_legomena": 9330,
+      "dis_legomena": 9328,
       "dis_legomena_pct": 14.75,
       "zipf_exponent": 0.954,
       "vocabulary_coverage_by_top_n": {
@@ -63909,93 +63910,93 @@
       "zipf_distribution": [
         {
           "rank": 1,
-          "frequency": 160756,
+          "frequency": 160766,
           "log_rank": 0.0,
           "log_freq": 5.2062
         },
         {
           "rank": 2,
-          "frequency": 91107,
+          "frequency": 91112,
           "log_rank": 0.301,
           "log_freq": 4.9596
         },
         {
           "rank": 3,
-          "frequency": 74534,
+          "frequency": 74540,
           "log_rank": 0.4771,
           "log_freq": 4.8724
         },
         {
           "rank": 4,
-          "frequency": 73282,
+          "frequency": 73284,
           "log_rank": 0.6021,
           "log_freq": 4.865
         },
         {
           "rank": 5,
-          "frequency": 41832,
+          "frequency": 41836,
           "log_rank": 0.699,
-          "log_freq": 4.6215
+          "log_freq": 4.6216
         },
         {
           "rank": 6,
-          "frequency": 35106,
+          "frequency": 35107,
           "log_rank": 0.7782,
           "log_freq": 4.5454
         },
         {
           "rank": 7,
-          "frequency": 30176,
+          "frequency": 30177,
           "log_rank": 0.8451,
           "log_freq": 4.4797
         },
         {
           "rank": 8,
-          "frequency": 24780,
+          "frequency": 24781,
           "log_rank": 0.9031,
           "log_freq": 4.3941
         },
         {
           "rank": 9,
-          "frequency": 22301,
+          "frequency": 22302,
           "log_rank": 0.9542,
           "log_freq": 4.3483
         },
         {
           "rank": 10,
-          "frequency": 20968,
+          "frequency": 20969,
           "log_rank": 1.0,
           "log_freq": 4.3216
         },
         {
           "rank": 11,
-          "frequency": 19942,
+          "frequency": 19943,
           "log_rank": 1.0414,
           "log_freq": 4.2998
         },
         {
           "rank": 12,
-          "frequency": 19646,
+          "frequency": 19648,
           "log_rank": 1.0792,
           "log_freq": 4.2933
         },
         {
           "rank": 13,
-          "frequency": 17314,
+          "frequency": 17315,
           "log_rank": 1.1139,
           "log_freq": 4.2384
         },
         {
           "rank": 14,
-          "frequency": 16808,
+          "frequency": 16811,
           "log_rank": 1.1461,
-          "log_freq": 4.2255
+          "log_freq": 4.2256
         },
         {
           "rank": 15,
-          "frequency": 13971,
+          "frequency": 13973,
           "log_rank": 1.1761,
-          "log_freq": 4.1452
+          "log_freq": 4.1453
         },
         {
           "rank": 16,
@@ -64029,7 +64030,7 @@
         },
         {
           "rank": 21,
-          "frequency": 10612,
+          "frequency": 10613,
           "log_rank": 1.3222,
           "log_freq": 4.0258
         },
@@ -64041,15 +64042,15 @@
         },
         {
           "rank": 23,
-          "frequency": 6374,
+          "frequency": 6373,
           "log_rank": 1.3617,
-          "log_freq": 3.8044
+          "log_freq": 3.8043
         },
         {
           "rank": 24,
-          "frequency": 5332,
+          "frequency": 5333,
           "log_rank": 1.3802,
-          "log_freq": 3.7269
+          "log_freq": 3.727
         },
         {
           "rank": 25,
@@ -64095,9 +64096,9 @@
         },
         {
           "rank": 32,
-          "frequency": 4423,
+          "frequency": 4424,
           "log_rank": 1.5051,
-          "log_freq": 3.6457
+          "log_freq": 3.6458
         },
         {
           "rank": 33,
@@ -64107,9 +64108,9 @@
         },
         {
           "rank": 34,
-          "frequency": 4123,
+          "frequency": 4122,
           "log_rank": 1.5315,
-          "log_freq": 3.6152
+          "log_freq": 3.6151
         },
         {
           "rank": 35,
@@ -64149,15 +64150,15 @@
         },
         {
           "rank": 41,
-          "frequency": 3685,
+          "frequency": 3686,
           "log_rank": 1.6128,
-          "log_freq": 3.5664
+          "log_freq": 3.5666
         },
         {
           "rank": 42,
-          "frequency": 3584,
+          "frequency": 3585,
           "log_rank": 1.6232,
-          "log_freq": 3.5544
+          "log_freq": 3.5545
         },
         {
           "rank": 43,
@@ -64215,9 +64216,9 @@
         },
         {
           "rank": 52,
-          "frequency": 2924,
+          "frequency": 2925,
           "log_rank": 1.716,
-          "log_freq": 3.466
+          "log_freq": 3.4661
         },
         {
           "rank": 53,
@@ -64269,9 +64270,9 @@
         },
         {
           "rank": 61,
-          "frequency": 2640,
+          "frequency": 2639,
           "log_rank": 1.7853,
-          "log_freq": 3.4216
+          "log_freq": 3.4214
         },
         {
           "rank": 62,
@@ -64365,9 +64366,9 @@
         },
         {
           "rank": 77,
-          "frequency": 2247,
+          "frequency": 2246,
           "log_rank": 1.8865,
-          "log_freq": 3.3516
+          "log_freq": 3.3514
         },
         {
           "rank": 78,
@@ -64545,9 +64546,9 @@
         },
         {
           "rank": 107,
-          "frequency": 1652,
+          "frequency": 1653,
           "log_rank": 2.0294,
-          "log_freq": 3.218
+          "log_freq": 3.2183
         },
         {
           "rank": 108,
@@ -64713,9 +64714,9 @@
         },
         {
           "rank": 135,
-          "frequency": 1337,
+          "frequency": 1327,
           "log_rank": 2.1303,
-          "log_freq": 3.1261
+          "log_freq": 3.1229
         },
         {
           "rank": 136,
@@ -64791,9 +64792,9 @@
         },
         {
           "rank": 148,
-          "frequency": 1254,
+          "frequency": 1255,
           "log_rank": 2.1703,
-          "log_freq": 3.0983
+          "log_freq": 3.0986
         },
         {
           "rank": 149,
@@ -64839,9 +64840,9 @@
         },
         {
           "rank": 156,
-          "frequency": 1186,
+          "frequency": 1187,
           "log_rank": 2.1931,
-          "log_freq": 3.0741
+          "log_freq": 3.0745
         },
         {
           "rank": 157,
@@ -64857,9 +64858,9 @@
         },
         {
           "rank": 159,
-          "frequency": 1163,
+          "frequency": 1165,
           "log_rank": 2.2014,
-          "log_freq": 3.0656
+          "log_freq": 3.0663
         },
         {
           "rank": 160,
@@ -65055,9 +65056,9 @@
         },
         {
           "rank": 192,
-          "frequency": 981,
+          "frequency": 982,
           "log_rank": 2.2833,
-          "log_freq": 2.9917
+          "log_freq": 2.9921
         },
         {
           "rank": 193,
@@ -65073,15 +65074,15 @@
         },
         {
           "rank": 195,
-          "frequency": 969,
+          "frequency": 970,
           "log_rank": 2.29,
-          "log_freq": 2.9863
+          "log_freq": 2.9868
         },
         {
           "rank": 196,
-          "frequency": 968,
+          "frequency": 969,
           "log_rank": 2.2923,
-          "log_freq": 2.9859
+          "log_freq": 2.9863
         },
         {
           "rank": 197,
@@ -65169,9 +65170,9 @@
         },
         {
           "rank": 211,
-          "frequency": 909,
+          "frequency": 910,
           "log_rank": 2.3243,
-          "log_freq": 2.9586
+          "log_freq": 2.959
         },
         {
           "rank": 212,
@@ -65397,15 +65398,15 @@
         },
         {
           "rank": 249,
-          "frequency": 762,
+          "frequency": 761,
           "log_rank": 2.3962,
-          "log_freq": 2.882
+          "log_freq": 2.8814
         },
         {
           "rank": 250,
-          "frequency": 761,
+          "frequency": 759,
           "log_rank": 2.3979,
-          "log_freq": 2.8814
+          "log_freq": 2.8802
         },
         {
           "rank": 251,
@@ -65529,9 +65530,9 @@
         },
         {
           "rank": 271,
-          "frequency": 699,
+          "frequency": 700,
           "log_rank": 2.433,
-          "log_freq": 2.8445
+          "log_freq": 2.8451
         },
         {
           "rank": 272,
@@ -65583,9 +65584,9 @@
         },
         {
           "rank": 280,
-          "frequency": 667,
+          "frequency": 668,
           "log_rank": 2.4472,
-          "log_freq": 2.8241
+          "log_freq": 2.8248
         },
         {
           "rank": 281,
@@ -65835,9 +65836,9 @@
         },
         {
           "rank": 322,
-          "frequency": 598,
+          "frequency": 599,
           "log_rank": 2.5079,
-          "log_freq": 2.7767
+          "log_freq": 2.7774
         },
         {
           "rank": 323,
@@ -66003,9 +66004,9 @@
         },
         {
           "rank": 350,
-          "frequency": 558,
+          "frequency": 559,
           "log_rank": 2.5441,
-          "log_freq": 2.7466
+          "log_freq": 2.7474
         },
         {
           "rank": 351,
@@ -66363,9 +66364,9 @@
         },
         {
           "rank": 410,
-          "frequency": 490,
+          "frequency": 489,
           "log_rank": 2.6128,
-          "log_freq": 2.6902
+          "log_freq": 2.6893
         },
         {
           "rank": 411,
@@ -66465,9 +66466,9 @@
         },
         {
           "rank": 427,
-          "frequency": 474,
+          "frequency": 475,
           "log_rank": 2.6304,
-          "log_freq": 2.6758
+          "log_freq": 2.6767
         },
         {
           "rank": 428,
@@ -66903,9 +66904,9 @@
         },
         {
           "rank": 500,
-          "frequency": 418,
+          "frequency": 419,
           "log_rank": 2.699,
-          "log_freq": 2.6212
+          "log_freq": 2.6222
         }
       ],
       "vocabulary_growth_curve": [
@@ -67239,479 +67240,479 @@
         },
         {
           "tokens": 805681,
-          "types": 40765
+          "types": 40755
         },
         {
           "tokens": 815388,
-          "types": 41017
+          "types": 41008
         },
         {
           "tokens": 825095,
-          "types": 41344
+          "types": 41336
         },
         {
           "tokens": 834802,
-          "types": 41553
+          "types": 41545
         },
         {
           "tokens": 844509,
-          "types": 41786
+          "types": 41778
         },
         {
           "tokens": 854216,
-          "types": 42086
+          "types": 42078
         },
         {
           "tokens": 863923,
-          "types": 42305
+          "types": 42297
         },
         {
           "tokens": 873630,
-          "types": 42512
+          "types": 42504
         },
         {
           "tokens": 883337,
-          "types": 42708
+          "types": 42700
         },
         {
           "tokens": 893044,
-          "types": 42970
+          "types": 42962
         },
         {
           "tokens": 902751,
-          "types": 43185
+          "types": 43177
         },
         {
           "tokens": 912458,
-          "types": 43436
+          "types": 43426
         },
         {
           "tokens": 922165,
-          "types": 43672
+          "types": 43664
         },
         {
           "tokens": 931872,
-          "types": 43926
+          "types": 43917
         },
         {
           "tokens": 941579,
-          "types": 44223
+          "types": 44215
         },
         {
           "tokens": 951286,
-          "types": 44381
+          "types": 44374
         },
         {
           "tokens": 960993,
-          "types": 44609
+          "types": 44601
         },
         {
           "tokens": 970700,
-          "types": 44830
+          "types": 44822
         },
         {
           "tokens": 980407,
-          "types": 45061
+          "types": 45054
         },
         {
           "tokens": 990114,
-          "types": 45211
+          "types": 45204
         },
         {
           "tokens": 999821,
-          "types": 45430
+          "types": 45423
         },
         {
           "tokens": 1009528,
-          "types": 45639
+          "types": 45631
         },
         {
           "tokens": 1019235,
-          "types": 45848
+          "types": 45841
         },
         {
           "tokens": 1028942,
-          "types": 46104
+          "types": 46095
         },
         {
           "tokens": 1038649,
-          "types": 46310
+          "types": 46303
         },
         {
           "tokens": 1048356,
-          "types": 46476
+          "types": 46469
         },
         {
           "tokens": 1058063,
-          "types": 46713
+          "types": 46706
         },
         {
           "tokens": 1067770,
-          "types": 46878
+          "types": 46871
         },
         {
           "tokens": 1077477,
-          "types": 47097
+          "types": 47090
         },
         {
           "tokens": 1087184,
-          "types": 47293
+          "types": 47284
         },
         {
           "tokens": 1096891,
-          "types": 47536
+          "types": 47528
         },
         {
           "tokens": 1106598,
-          "types": 47812
+          "types": 47805
         },
         {
           "tokens": 1116305,
-          "types": 47991
+          "types": 47984
         },
         {
           "tokens": 1126012,
-          "types": 48235
+          "types": 48228
         },
         {
           "tokens": 1135719,
-          "types": 48412
+          "types": 48405
         },
         {
           "tokens": 1145426,
-          "types": 48612
+          "types": 48605
         },
         {
           "tokens": 1155133,
-          "types": 48894
+          "types": 48887
         },
         {
           "tokens": 1164840,
-          "types": 49105
+          "types": 49098
         },
         {
           "tokens": 1174547,
-          "types": 49295
+          "types": 49288
         },
         {
           "tokens": 1184254,
-          "types": 49510
+          "types": 49503
         },
         {
           "tokens": 1193961,
-          "types": 49702
+          "types": 49695
         },
         {
           "tokens": 1203668,
-          "types": 49837
+          "types": 49829
         },
         {
           "tokens": 1213375,
-          "types": 50043
+          "types": 50036
         },
         {
           "tokens": 1223082,
-          "types": 50254
+          "types": 50242
         },
         {
           "tokens": 1232789,
-          "types": 50424
+          "types": 50416
         },
         {
           "tokens": 1242496,
-          "types": 50579
+          "types": 50572
         },
         {
           "tokens": 1252203,
-          "types": 50755
+          "types": 50748
         },
         {
           "tokens": 1261910,
-          "types": 50920
+          "types": 50913
         },
         {
           "tokens": 1271617,
-          "types": 51060
+          "types": 51052
         },
         {
           "tokens": 1281324,
-          "types": 51270
+          "types": 51263
         },
         {
           "tokens": 1291031,
-          "types": 51462
+          "types": 51455
         },
         {
           "tokens": 1300738,
-          "types": 51720
+          "types": 51713
         },
         {
           "tokens": 1310445,
-          "types": 51897
+          "types": 51890
         },
         {
           "tokens": 1320152,
-          "types": 52115
+          "types": 52106
         },
         {
           "tokens": 1329859,
-          "types": 52296
+          "types": 52289
         },
         {
           "tokens": 1339566,
-          "types": 52482
+          "types": 52475
         },
         {
           "tokens": 1349273,
-          "types": 52628
+          "types": 52620
         },
         {
           "tokens": 1358980,
-          "types": 52872
+          "types": 52865
         },
         {
           "tokens": 1368687,
-          "types": 53107
+          "types": 53100
         },
         {
           "tokens": 1378394,
-          "types": 53325
+          "types": 53318
         },
         {
           "tokens": 1388101,
-          "types": 53481
+          "types": 53474
         },
         {
           "tokens": 1397808,
-          "types": 53620
+          "types": 53613
         },
         {
           "tokens": 1407515,
-          "types": 53813
+          "types": 53806
         },
         {
           "tokens": 1417222,
-          "types": 54000
+          "types": 53992
         },
         {
           "tokens": 1426929,
-          "types": 54130
+          "types": 54124
         },
         {
           "tokens": 1436636,
-          "types": 54370
+          "types": 54364
         },
         {
           "tokens": 1446343,
-          "types": 54510
+          "types": 54504
         },
         {
           "tokens": 1456050,
-          "types": 54640
+          "types": 54634
         },
         {
           "tokens": 1465757,
-          "types": 54874
+          "types": 54868
         },
         {
           "tokens": 1475464,
-          "types": 55023
+          "types": 55017
         },
         {
           "tokens": 1485171,
-          "types": 55165
+          "types": 55159
         },
         {
           "tokens": 1494878,
-          "types": 55321
+          "types": 55315
         },
         {
           "tokens": 1504585,
-          "types": 55562
+          "types": 55555
         },
         {
           "tokens": 1514292,
-          "types": 55768
+          "types": 55762
         },
         {
           "tokens": 1523999,
-          "types": 55903
+          "types": 55897
         },
         {
           "tokens": 1533706,
-          "types": 56041
+          "types": 56035
         },
         {
           "tokens": 1543413,
-          "types": 56266
+          "types": 56260
         },
         {
           "tokens": 1553120,
-          "types": 56440
+          "types": 56434
         },
         {
           "tokens": 1562827,
-          "types": 56630
+          "types": 56624
         },
         {
           "tokens": 1572534,
-          "types": 56780
+          "types": 56774
         },
         {
           "tokens": 1582241,
-          "types": 56942
+          "types": 56936
         },
         {
           "tokens": 1591948,
-          "types": 57131
+          "types": 57125
         },
         {
           "tokens": 1601655,
-          "types": 57328
+          "types": 57320
         },
         {
           "tokens": 1611362,
-          "types": 57585
+          "types": 57579
         },
         {
           "tokens": 1621069,
-          "types": 57791
+          "types": 57785
         },
         {
           "tokens": 1630776,
-          "types": 57944
+          "types": 57938
         },
         {
           "tokens": 1640483,
-          "types": 58069
+          "types": 58063
         },
         {
           "tokens": 1650190,
-          "types": 58257
+          "types": 58251
         },
         {
           "tokens": 1659897,
-          "types": 58453
+          "types": 58446
         },
         {
           "tokens": 1669604,
-          "types": 58635
+          "types": 58629
         },
         {
           "tokens": 1679311,
-          "types": 58746
+          "types": 58739
         },
         {
           "tokens": 1689018,
-          "types": 58954
+          "types": 58948
         },
         {
           "tokens": 1698725,
-          "types": 59124
+          "types": 59118
         },
         {
           "tokens": 1708432,
-          "types": 59264
+          "types": 59258
         },
         {
           "tokens": 1718139,
-          "types": 59472
+          "types": 59466
         },
         {
           "tokens": 1727846,
-          "types": 59590
+          "types": 59584
         },
         {
           "tokens": 1737553,
-          "types": 59796
+          "types": 59790
         },
         {
           "tokens": 1747260,
-          "types": 59947
+          "types": 59941
         },
         {
           "tokens": 1756967,
-          "types": 60093
+          "types": 60087
         },
         {
           "tokens": 1766674,
-          "types": 60278
+          "types": 60272
         },
         {
           "tokens": 1776381,
-          "types": 60440
+          "types": 60434
         },
         {
           "tokens": 1786088,
-          "types": 60685
+          "types": 60678
         },
         {
           "tokens": 1795795,
-          "types": 60825
+          "types": 60818
         },
         {
           "tokens": 1805502,
-          "types": 61060
+          "types": 61053
         },
         {
           "tokens": 1815209,
-          "types": 61233
+          "types": 61227
         },
         {
           "tokens": 1824916,
-          "types": 61365
+          "types": 61357
         },
         {
           "tokens": 1834623,
-          "types": 61563
+          "types": 61555
         },
         {
           "tokens": 1844330,
-          "types": 61683
+          "types": 61677
         },
         {
           "tokens": 1854037,
-          "types": 61803
+          "types": 61797
         },
         {
           "tokens": 1863744,
-          "types": 61989
+          "types": 61983
         },
         {
           "tokens": 1873451,
-          "types": 62161
+          "types": 62154
         },
         {
           "tokens": 1883158,
-          "types": 62323
+          "types": 62315
         },
         {
           "tokens": 1892865,
-          "types": 62532
+          "types": 62522
         },
         {
           "tokens": 1902572,
-          "types": 62728
+          "types": 62722
         },
         {
           "tokens": 1912279,
-          "types": 62896
+          "types": 62890
         },
         {
           "tokens": 1921986,
-          "types": 62983
+          "types": 62977
         },
         {
           "tokens": 1931693,
-          "types": 63120
+          "types": 63114
         },
         {
           "tokens": 1941400,
-          "types": 63257
+          "types": 63250
         },
         {
-          "tokens": 1941463,
-          "types": 63259
+          "tokens": 1941480,
+          "types": 63253
         }
       ]
     }
@@ -67720,13 +67721,13 @@
     "english": {
       "language": "en",
       "corpus_level": {
-        "vocabulary_size": 54087,
-        "total_tokens": 1753860,
+        "vocabulary_size": 54057,
+        "total_tokens": 1753843,
         "ttr": 0.0308,
-        "rttr": 40.8409,
-        "cttr": 28.8789,
+        "rttr": 40.8185,
+        "cttr": 28.863,
         "mattr_w100": 0.6903,
-        "mtld": 72.85
+        "mtld": 72.86
       },
       "per_document_averages": {
         "ttr_mean": 0.6064,
@@ -71884,7 +71885,7 @@
         0.626,
         0.5543,
         0.6697,
-        0.664,
+        0.7222,
         0.612,
         0.6324,
         0.6866,
@@ -81884,7 +81885,7 @@
         0.6642,
         0.5543,
         0.703,
-        0.6927,
+        0.7278,
         0.6965,
         0.7477,
         0.7566,
@@ -91884,7 +91885,7 @@
         74.27,
         25.16,
         64.29,
-        70.95,
+        108.43,
         65.42,
         86.36,
         82.28,
@@ -97740,21 +97741,21 @@
     "spanish": {
       "language": "es",
       "corpus_level": {
-        "vocabulary_size": 63259,
-        "total_tokens": 1941463,
+        "vocabulary_size": 63253,
+        "total_tokens": 1941480,
         "ttr": 0.0326,
-        "rttr": 45.4002,
-        "cttr": 32.1028,
-        "mattr_w100": 0.6702,
+        "rttr": 45.3957,
+        "cttr": 32.0996,
+        "mattr_w100": 0.6701,
         "mtld": 63.24
       },
       "per_document_averages": {
-        "ttr_mean": 0.5766,
+        "ttr_mean": 0.5765,
         "ttr_std": 0.0732,
         "mattr_mean": 0.6633,
         "mattr_std": 0.0565,
         "mtld_mean": 61.19,
-        "mtld_std": 20.22
+        "mtld_std": 20.21
       },
       "distribution_ttr": [
         0.5612,
@@ -101904,7 +101905,7 @@
         0.5659,
         0.5045,
         0.6119,
-        0.7222,
+        0.664,
         0.5867,
         0.6127,
         0.5974,
@@ -111904,7 +111905,7 @@
         0.6247,
         0.5433,
         0.698,
-        0.7278,
+        0.6927,
         0.6977,
         0.762,
         0.6789,
@@ -121904,7 +121905,7 @@
         57.55,
         24.98,
         71.41,
-        108.43,
+        70.95,
         53.25,
         87.4,
         51.53,
@@ -132776,35 +132777,35 @@
       ],
       "pos_distribution": {
         "PROPN": {
-          "count": 357127,
+          "count": 357072,
           "percentage": 21.5
         },
         "NOUN": {
-          "count": 300931,
+          "count": 300939,
           "percentage": 18.12
         },
         "ADP": {
-          "count": 211371,
+          "count": 211378,
           "percentage": 12.73
         },
         "DET": {
-          "count": 192018,
+          "count": 192028,
           "percentage": 11.56
         },
         "VERB": {
-          "count": 138811,
+          "count": 138816,
           "percentage": 8.36
         },
         "NUM": {
-          "count": 118205,
+          "count": 118209,
           "percentage": 7.12
         },
         "ADJ": {
-          "count": 103047,
-          "percentage": 6.2
+          "count": 103049,
+          "percentage": 6.21
         },
         "AUX": {
-          "count": 60141,
+          "count": 60143,
           "percentage": 3.62
         },
         "PRON": {
@@ -132812,7 +132813,7 @@
           "percentage": 2.74
         },
         "CCONJ": {
-          "count": 45372,
+          "count": 45376,
           "percentage": 2.73
         },
         "ADV": {
@@ -132828,7 +132829,7 @@
           "percentage": 0.81
         },
         "PUNCT": {
-          "count": 9625,
+          "count": 9627,
           "percentage": 0.58
         },
         "INTJ": {
@@ -132836,7 +132837,7 @@
           "percentage": 0.08
         },
         "X": {
-          "count": 994,
+          "count": 989,
           "percentage": 0.06
         },
         "SYM": {
@@ -132844,7 +132845,7 @@
           "percentage": 0.05
         }
       },
-      "pos_total_tokens_analyzed": 1660736
+      "pos_total_tokens_analyzed": 1660720
     },
     "spanish": {
       "language": "es",
@@ -137863,19 +137864,19 @@
       ],
       "pos_distribution": {
         "ADP": {
-          "count": 356317,
+          "count": 356333,
           "percentage": 19.98
         },
         "NOUN": {
-          "count": 340929,
-          "percentage": 19.11
+          "count": 340939,
+          "percentage": 19.12
         },
         "PROPN": {
-          "count": 314377,
-          "percentage": 17.63
+          "count": 314340,
+          "percentage": 17.62
         },
         "DET": {
-          "count": 262062,
+          "count": 262079,
           "percentage": 14.69
         },
         "ADJ": {
@@ -137883,7 +137884,7 @@
           "percentage": 6.99
         },
         "VERB": {
-          "count": 115383,
+          "count": 115386,
           "percentage": 6.47
         },
         "NUM": {
@@ -137891,7 +137892,7 @@
           "percentage": 4.58
         },
         "CCONJ": {
-          "count": 46737,
+          "count": 46741,
           "percentage": 2.62
         },
         "PRON": {
@@ -137899,11 +137900,11 @@
           "percentage": 2.34
         },
         "AUX": {
-          "count": 40067,
+          "count": 40071,
           "percentage": 2.25
         },
         "ADV": {
-          "count": 36067,
+          "count": 36068,
           "percentage": 2.02
         },
         "SCONJ": {
@@ -137915,7 +137916,7 @@
           "percentage": 0.13
         },
         "PUNCT": {
-          "count": 289,
+          "count": 287,
           "percentage": 0.02
         },
         "PART": {
@@ -137931,7 +137932,7 @@
           "percentage": 0.0
         }
       },
-      "pos_total_tokens_analyzed": 1783591
+      "pos_total_tokens_analyzed": 1783607
     }
   },
   "quality_metrics": {
@@ -142089,7 +142090,7 @@
         1.045,
         1.101,
         1.207,
-        0.86,
+        1.162,
         1.089,
         1.133,
         1.152,
@@ -147993,22 +147994,22 @@
       "education": 1
     },
     "ner_en": {
-      "total_entities": 289250,
-      "unique_entities": 75120,
+      "total_entities": 289251,
+      "unique_entities": 75115,
       "entity_diversity": 0.2597,
       "entity_types": {
-        "DATE": 53864,
-        "ORG": 52779,
-        "CARDINAL": 50298,
+        "DATE": 53866,
+        "ORG": 52774,
+        "CARDINAL": 50300,
         "PERSON": 40015,
-        "GPE": 33943,
-        "ORDINAL": 19666,
+        "GPE": 33941,
+        "ORDINAL": 19667,
         "NORP": 8946,
         "EVENT": 7247,
-        "FAC": 5906,
+        "FAC": 5908,
         "LOC": 4366,
         "QUANTITY": 3274,
-        "PRODUCT": 2020,
+        "PRODUCT": 2021,
         "TIME": 1973,
         "WORK_OF_ART": 1696,
         "MONEY": 1552,
@@ -148020,22 +148021,22 @@
         "first": 7516,
         "two": 3421,
         "second": 3257,
-        "1": 2419,
+        "1": 2420,
         "three": 2232,
         "one": 2064,
         "third": 1957,
-        "2": 1865,
+        "2": 1866,
         "four": 1846,
         "3": 1684,
         "the season": 1546,
         "five": 1153,
         "4": 1148,
         "5": 1082,
-        "6": 1075,
+        "6": 1076,
         "six": 916,
         "fourth": 871,
         "american": 862,
-        "7": 813,
+        "7": 814,
         "the united states": 728,
         "-rrb-": 723,
         "eight": 722,
@@ -148050,14 +148051,14 @@
       }
     },
     "ner_es": {
-      "total_entities": 193005,
-      "unique_entities": 69245,
+      "total_entities": 193009,
+      "unique_entities": 69243,
       "entity_diversity": 0.3588,
       "entity_types": {
-        "LOC": 55979,
-        "MISC": 55572,
-        "PER": 45081,
-        "ORG": 36373
+        "LOC": 55984,
+        "MISC": 55571,
+        "PER": 45083,
+        "ORG": 36371
       },
       "top_entities": {
         "estados unidos": 915,

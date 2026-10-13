@@ -327,5 +327,5 @@ tabla.
 | `corpus/metrics/metrics_combined.json` | Totales entre datasets, solapamiento de vocabulario, duplicados, curva de crecimiento léxico |
 | `corpus/metrics/semantic_full.json` | Fidelidad y omisión con LaBSE sobre las 12,003 entradas |
 | `corpus/metrics/ablation_consensus.json` | La ablación de la Etapa 4: consenso contra cada modelo individual y contra el oráculo por entrada |
-| `corpus/pilot/*` | La corrida piloto de WikiText de junio de 2026, que lee el notebook 05 |
+| `corpus/pilot/*` | Las corridas de prueba de WikiText de junio de 2026, que leen el notebook 05 y `ablation/` |
 | `corpus/samples/*` | Algunas entradas por dataset, sin comprimir |

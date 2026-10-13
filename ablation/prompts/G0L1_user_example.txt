@@ -1,0 +1,15 @@
+Evalúa la siguiente traducción comparándola con el texto original.
+
+=== METADATOS ===
+Original: 135 caracteres
+Traducción: 108 caracteres
+Ratio: 0.80
+⚠️ ADVERTENCIA: La traducción es solo el 80% del largo del original. Esto sugiere fuertemente TRUNCAMIENTO u OMISIONES. Penaliza completitud en consecuencia.
+
+=== TEXTO ORIGINAL ===
+The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. 
+
+=== TRADUCCIÓN ===
+El rápido zorro marrón salta sobre el perro perezoso. El rápido zorro marrón salta sobre el perro perezoso. 
+
+Responde SOLO con el JSON de evaluación.

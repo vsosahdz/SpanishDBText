@@ -192,7 +192,7 @@ python3 scripts/unpack_corpus.py --inputs
 
 ### Before you spend anything
 
-The full corpus cost **\$453.90** and 615 hours of wall-clock time. Three things
+The full corpus cost **\$454.30** and 615 hours of wall-clock time. Three things
 are worth doing first:
 
 1. **Check current prices.** The figures in the paper are Azure list prices from
@@ -309,7 +309,7 @@ expands or contracts differently.
 
 ## Changes made for release
 
-The code here is the code that produced the corpus. Two deliberate differences:
+The code here is the code that produced the corpus. Three deliberate differences:
 
 1. **The data ships compressed.** `corpus/*/*.gz` instead of plain JSON, so that
    every file stays under GitHub's 100 MB limit.
@@ -318,9 +318,17 @@ The code here is the code that produced the corpus. Two deliberate differences:
    `metrics/ablation_consensus.py` still resolve.
 2. **Notebook 06 writes figures to `figures/`.** It previously wrote straight
    into the paper's LaTeX source tree, which is not part of this repository.
+3. **Comments and explanatory text are in English.** The comments, docstrings
+   and messages of `metrics/`, `ablation/` and notebooks 01–03 and 05 were
+   translated from Spanish, the working language of the project. No computation
+   changed, and the notebooks were not run again. Three kinds of text stay in
+   Spanish: the comments and log messages of the agents in `agents/`, which were
+   left exactly as they ran; the plot labels of notebooks 01–03 and 05, which are
+   part of their stored figures; and the column names and size-bin labels of the
+   selection tables in `corpus/selection/`, which are data.
 
 Files not carried over: the `.env` with live credentials, the LaTeX sources of
-the paper, the pilot runs other than the WikiText one in `corpus/pilot/`, and the
+the paper, the pilot runs other than the WikiText ones in `corpus/pilot/`, and the
 intermediate output of the exploratory runs.
 
 ---

@@ -11,33 +11,32 @@ authors:
   - given-names: Mario Augusto
     family-names: Ramírez-Morales
     affiliation: >-
-      School of Engineering and Sciences, Tecnológico de Monterrey, Monterrey,
-      Mexico; Centro de Innovación y Desarrollo Tecnológico en Cómputo,
-      Instituto Politécnico Nacional, Mexico City, Mexico
+      Tecnológico de Monterrey, School of Engineering and Sciences, Atizapán de
+      Zaragoza, Estado de México, Mexico; Centro de Innovación y Desarrollo
+      Tecnológico en Cómputo, Instituto Politécnico Nacional, Mexico City, Mexico
   - given-names: Esteban
     family-names: Castillo
     affiliation: >-
-      School of Engineering and Sciences, Tecnológico de Monterrey, Monterrey,
-      Mexico
+      Tecnológico de Monterrey, School of Engineering and Sciences, Santa Fe,
+      Mexico City, Mexico
   - given-names: David Camilo
     family-names: Corrales
     affiliation: >-
-      INRAE, Institut National de Recherche pour l'Agriculture, l'Alimentation
-      et l'Environnement, Toulouse, France
+      TBI, Université de Toulouse, CNRS, INRAE, INSA, Toulouse, France
   - given-names: Victor Adrian
     family-names: Sosa-Hernández
     email: vsosa@tec.mx
     affiliation: >-
-      School of Engineering and Sciences, Tecnológico de Monterrey, Monterrey,
-      Mexico
+      Tecnológico de Monterrey, School of Engineering and Sciences, Atizapán de
+      Zaragoza, Estado de México, Mexico
 repository-code: 'https://github.com/vsosahdz/SpanishDBText'
 abstract: >-
   A bilingual English–Spanish parallel corpus of 12,003 aligned entries and
   23.5 million words, built from WikiText-103, FEVER and Europarl with a
   pipeline of general-purpose large language models: three models translate
   each text in parallel, a reviewer model merges the candidates into a
-  consensus translation, and an evaluator model scores the result against a
-  calibrated guide that needs no human reference. The repository contains the
+  consensus translation, and an evaluator model scores the result against an
+  anchored scoring guide that needs no human reference. The repository contains the
   corpus, the per-entry pipeline traces, the pipeline code, the evaluation
   metrics and the analysis notebooks.
 keywords:

@@ -12,8 +12,8 @@ factuales breves (FEVER) y debate parlamentario (Europarl). Lo produjeron
 únicamente modelos de lenguaje de propósito general: tres modelos traducen cada
 texto en paralelo, un modelo revisor fusiona sus candidatos en una sola
 traducción por consenso, y un modelo evaluador califica el resultado contra una
-guía calibrada que no necesita traducción humana de referencia. El corpus
-completo costó **\$453.90**, es decir \$39 por millón de palabras fuente, en una
+guía de puntuación anclada que no necesita traducción humana de referencia. El corpus
+completo costó **\$454.30**, es decir \$39 por millón de palabras fuente, en una
 sola laptop de consumo.
 
 Aquí está todo lo necesario para inspeccionar el corpus, reproducir el análisis o
@@ -25,13 +25,13 @@ volver a ejecutar el pipeline sobre texto nuevo.
 
 | Dataset | Dominio | Entradas | Palabras EN | Palabras ES | Calificación media |
 |---|---|---:|---:|---:|---:|
-| WikiText-103 | Enciclopédico | 1,000 | 2,855,853 | 3,037,875 | 95.9 |
-| FEVER | Factual | 9,998 | 1,753,860 | 1,941,463 | 95.1 |
+| WikiText-103 | Enciclopédico | 1,000 | 2,855,853 | 3,038,960 | 95.9 |
+| FEVER | Factual | 9,998 | 1,753,843 | 1,941,480 | 95.1 |
 | Europarl | Parlamentario | 1,005 | 6,950,546 | 6,954,048 | 97.0 |
-| **Total** | | **12,003** | **11,560,259** | **11,933,386** | **—** |
+| **Total** | | **12,003** | **11,560,242** | **11,934,488** | **—** |
 
 La fidelidad semántica translingüe, medida con LaBSE sin traducción de
-referencia, es de 0.92 y se mantiene dentro de seis milésimas en los tres
+referencia, es de 0.92 y varía unas seis milésimas entre los tres
 dominios. La omisión a nivel de oración queda entre 0.34% y 1.43%.
 
 Cada entrada lleva título, palabras clave, resumen y clasificación temática en
@@ -93,14 +93,15 @@ aplicarlo a texto propio— siga [docs/es/reproduction.md](docs/es/reproduction.
 El corpus son 437 MB de JSON. Distribuido como `.json.gz` cabe en un repositorio
 de GitHub, con cada archivo por debajo del límite de 100 MB por archivo.
 
-Esa compresión es la **única** diferencia entre lo que se publica y lo que se
-ejecutó. Los agentes, el paquete de métricas y los notebooks no se modificaron
-para la publicación: leen JSON plano de `output/` y `data/` exactamente como
-durante la producción, así que `scripts/unpack_corpus.py` restaura esa
-estructura, nombres de archivo incluidos. (La única excepción está anotada en
-[docs/es/reproduction.md](docs/es/reproduction.md#cambios-hechos-para-la-publicación):
-el notebook 06 ahora escribe sus figuras en `figures/` y no dentro del árbol
-LaTeX del artículo.)
+El código es el que produjo el corpus. Los agentes de `agents/` están exactamente
+como se ejecutaron en producción, así que sus comentarios y mensajes de log siguen
+en español, el idioma de trabajo del proyecto. En el paquete de métricas, el
+código de la ablation y los notebooks, los comentarios y el texto explicativo se
+tradujeron al inglés para la publicación, sin cambiar ningún cálculo. Todos leen
+JSON plano de `output/` y `data/` exactamente como durante la producción, así que
+`scripts/unpack_corpus.py` restaura esa estructura, nombres de archivo incluidos.
+[docs/es/reproduction.md](docs/es/reproduction.md#cambios-hechos-para-la-publicación)
+enumera todos los cambios hechos para la publicación.
 
 ```bash
 python3 scripts/unpack_corpus.py --final      # el corpus bilingüe            159 MB
@@ -121,7 +122,7 @@ python3 scripts/unpack_corpus.py --all        # todo                          53
 │   ├── inputs/                  los subconjuntos en inglés que consumió el pipeline
 │   ├── selection/               las tablas de selección estratificada (CSV)
 │   ├── metrics/                 las métricas calculadas detrás de las tablas del artículo
-│   ├── pilot/                   la corrida piloto de WikiText (junio 2026)
+│   ├── pilot/                   las corridas de prueba de WikiText (junio 2026)
 │   └── samples/                 algunas entradas, sin comprimir y legibles en GitHub
 │
 ├── agents/                      el pipeline, un agente por dataset de origen
@@ -141,8 +142,10 @@ python3 scripts/unpack_corpus.py --all        # todo                          53
 │   └── run_metrics.py           punto de entrada: python3 -m metrics.run_metrics --all
 │
 ├── prompts/                     cada instrucción a los modelos como texto plano, un archivo por prompt
-├── notebooks/                   01–03 seleccionan los subconjuntos, 04–06 analizan la salida
+├── ablation/                    la ablation del evaluador de la etapa 5: guía × evidencia de longitud
+├── notebooks/                   01–03 seleccionan los subconjuntos, 04–06 analizan la salida, 07 recomendaciones
 ├── scripts/                     descargar, descomprimir, comprimir, verificar, muestrear, exportar prompts
+│   └── correction/              la corrida de corrección de octubre de 2026: cinco entradas de WikiText
 ├── docs/                        guías y referencia, en inglés y español
 ├── data/  output/  figures/     vacíos; los llenan los scripts
 │
@@ -166,6 +169,7 @@ python3 scripts/unpack_corpus.py --all        # todo                          53
 | [docs/es/corpus-format.md](docs/es/corpus-format.md) | La estructura JSON del corpus y de las trazas, campo por campo |
 | [docs/es/metrics-reference.md](docs/es/metrics-reference.md) | Cada métrica: qué mide, quién la introdujo, cómo se calcula aquí |
 | [docs/es/metrics-results.md](docs/es/metrics-results.md) | Los resultados calculados, leídos críticamente, anomalías incluidas |
+| [docs/supplementary/](docs/supplementary/) | El material suplementario del artículo (PDF y fuente LaTeX): las tablas por dataset y la figura de Zipf *(en inglés)* |
 | [prompts/README.md](prompts/README.md) | Cada prompt que envía el pipeline, qué hace y por qué está redactado así *(en inglés)* |
 
 ---
@@ -260,10 +264,13 @@ ejemplos resueltos, y `agente_fever.py` es el más pequeño. Vea
 
 | Dataset | Entradas | Costo (USD) | Por entrada | Etapa 4 | Horas |
 |---|---:|---:|---:|---:|---:|
-| WikiText | 1,000 | 104.54 | 0.1045 | 73.5% | 120.8 |
+| WikiText | 1,000 | 104.94 | 0.1049 | 73.5% | 120.8 |
 | FEVER | 9,998 | 142.17 | 0.0142 | 80.7% | 266.3 |
 | Europarl | 1,005 | 207.18 | 0.2062 | 75.5% | 227.6 |
-| **Total** | **12,003** | **453.90** | **0.0378** | **76.6%** | **614.7** |
+| **Total** | **12,003** | **454.30** | **0.0378** | **76.7%** | **614.7** |
+
+El costo de WikiText incluye la corrida de corrección de octubre de 2026 (\$0.40, cinco
+entradas traducidas de nuevo; vea [corpus/README.md](corpus/README.md)); las horas son solo de la corrida de producción.
 
 Son cifras medidas, no estimadas: cada respuesta de la API reporta sus conteos de
 tokens, y el pipeline escribe el costo por llamada en las trazas de
