@@ -21,8 +21,13 @@ La mayoría de los lectores quiere 1 o 2. Lea
 
 Se requiere Python 3.11 o superior: el código usa la sintaxis de tipos `X | None`.
 
+Durante la revisión anónima, el repositorio es una copia anonimizada que no
+se puede clonar con git; descárguelo como ZIP (o use el botón **Download** en
+<https://anonymous.4open.science/r/SpanishDBText-1513/>).
+
 ```bash
-git clone https://github.com/vsosahdz/SpanishDBText.git
+curl -L -o SpanishDBText.zip https://anonymous.4open.science/api/repo/SpanishDBText-1513/zip
+unzip SpanishDBText.zip -d SpanishDBText   # Windows: Expand-Archive SpanishDBText.zip SpanishDBText
 cd SpanishDBText
 
 python3 -m venv venv

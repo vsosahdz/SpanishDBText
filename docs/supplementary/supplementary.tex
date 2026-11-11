@@ -1,6 +1,5 @@
-% supplementary.tex — Supplementary material for the bilingual corpus article.
-% Compiles on its own: pdflatex supplementary.tex
-% Elsevier publishes supplementary files exactly as received, so this file must be final.
+% supplementary.tex -- Supplementary material of the article (anonymized for review).
+% Compiles on its own: pdflatex supplementary.tex (reads graphics/zipf_distribution.png).
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -13,31 +12,37 @@
 \usepackage{amsmath}
 \usepackage{xurl}
 \usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+\DeclareRobustCommand{\mainref}[1]{\ref*{M-#1}}
+% Labels of the article, copied from main.aux so that this file compiles on its own.
+\newlabel{M-sec:implementation}{{3.6}{13}{}{}{}}
+\newlabel{M-sec:parameters}{{3.6.2}{14}{}{}{}}
+\newlabel{M-tab:frequency-stats}{{10}{23}{}{}{}}
+\newlabel{M-tab:scoring-guide}{{1}{10}{}{}{}}
 
 \renewcommand{\thetable}{S\arabic{table}}
 \renewcommand{\thefigure}{S\arabic{figure}}
 \renewcommand{\thesection}{S\arabic{section}}
-\makeatletter\setlength{\@fptop}{0pt}\makeatother % float-only pages start at the top
+\makeatletter\setlength{\@fptop}{0pt}\makeatother
 
 \title{Supplementary material for\\[0.3em]
 \large Building a Bilingual English--Spanish Parallel Corpus Using Multi-Model LLM Translation with Consensus Review}
-\author{Mario Augusto Ram\'irez-Morales \and Esteban Castillo \and David Camilo Corrales \and Victor Adrian Sosa-Hern\'andez}
+\author{}
 \date{}
 
 \begin{document}
 \maketitle
 
-This document has two parts. Section~\ref{secS:measures} contains the per-dataset measures that the article summarizes in its text, and Section~\ref{secS:config} gives the configuration of the production run: implementation and hardware, the topic categories used for sampling, the parameters, and the prompts. The corpus, the code, and the notebooks are available at \url{https://github.com/vsosahdz/SpanishDBText}.
+This document has two parts. Section~\ref{secS:measures} presents the per-dataset measures summarized in the text, and Section~\ref{secS:config} describes the production run configuration: implementation and hardware, the topic categories used for sampling, the parameters, the prompts, and the processing time per dataset. The corpus, the code, and the notebooks are available at \url{https://anonymous.4open.science/r/SpanishDBText-1513/} (anonymized copy for review).
 
 \section{Corpus measures}
 \label{secS:measures}
 
-All measures were computed separately for English and Spanish and for each dataset (WikiText, FEVER, and Europarl), on the 12,003~entries of the released corpus.
+We computed all measures separately for English and Spanish and for each dataset (WikiText, FEVER, and Europarl), on the 12,003~entries of the released corpus.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\textwidth]{graphics/zipf_distribution.png}
-\caption{Zipf distribution (log-log) per dataset and language. The green line shows the ideal Zipf distribution ($\alpha = 1.0$) as a visual reference. Points above the line are words that appear more often than the ideal predicts (typically function words), and points below it are rare words in the long tail. Both languages follow near-linear trends close to the reference; the fitted exponents (0.89--0.99) are given in the word-frequency table of the article.}
+\caption[Zipf distribution (log-log) per dataset and language]{Zipf distribution (log-log) per dataset and language. The green line shows the ideal Zipf distribution ($\alpha = 1.0$) as a visual reference. Points above the line are words that appear more often than the ideal predicts (typically function words), and points below it are rare words in the long tail. Both languages follow near-linear trends close to the reference; the fitted exponents (0.89--0.99) are given in Table~\mainref{tab:frequency-stats} of the article.}
 \label{figS:zipf}
 \end{figure}
 
@@ -155,25 +160,28 @@ WikiText   & EN & 2,855,853 & 84,029  & 84,029 & 100.0 \\
 \section{Pipeline configuration}
 \label{secS:config}
 
-This section gives the configuration of the production run that the article summarizes in its Implementation and Pipeline Configuration sections. The code and the full text of every prompt are in the repository.
+This section describes the production run configuration summarized in Section~\mainref{sec:implementation} of the article. The code and the full text of every prompt are in the repository.
 
 \subsection{Implementation and hardware}
+\label{secS:hardware}
 
 The pipeline is written in Python~3.11+ and uses no NLP or translation libraries. API calls are made with httpx, and the translation models run in parallel with Python's ThreadPoolExecutor. Model assignments, provider credentials, and generation parameters (temperature, context window, and output limit) are read from a \texttt{.env} file; the other thresholds and the retry counts are constants in the pipeline code. Subset selection and corpus analysis were done in Jupyter notebooks with pandas and NumPy, and all outputs are stored as JSON files.
 
 We ran the whole production from one laptop: an 8-core AMD Ryzen~9 8945HS with 32~GB of RAM and an NVIDIA RTX~4060 Laptop GPU with 8~GB of VRAM, under Windows~11. The same machine served Qwen~3.5~9B with Ollama inside a Docker container. The other five model roles were reached through Azure OpenAI and Azure AI Foundry.
 
 \subsection{Topic categories for stratified sampling}
+\label{secS:topics}
 
-WikiText and FEVER, both taken from Wikipedia, share 14 categories: music, military history, sports, film and television, geography and places, science, transport, biography, politics and government, nature and weather, technology, history, religion and philosophy, and \emph{other}. Europarl uses 15 categories adapted to parliamentary business: economy and finance, institutional affairs, foreign affairs, trade and market, environment and energy, human rights, transport and infrastructure, development aid, agriculture and food, justice and security, social affairs and employment, health and consumers, digital technology, defence, and \emph{other}.
+WikiText and FEVER, both taken from Wikipedia, share 14 categories: music, military history, sports, film and television, geography and places, science, transport, biography, politics and government, nature and weather, technology, history, religion and philosophy, and \emph{other}. Europarl uses 15 categories adapted to parliamentary business: economy and finance, institutional affairs, foreign affairs, trade and market, environment and energy, human rights, transport and infrastructure, development aid, agriculture and food, justice and security, social affairs and employment, health and consumers, digital technology, defense, and \emph{other}.
 
 Each entry goes to the category whose keyword list has the most matches in the entry, or to \emph{other} when no keyword matches. The text matched against the keyword lists differs by source. For WikiText and FEVER, it is the title plus the first 2,000 characters of the body; for Europarl, it is the debate title alone, because the title of a session already states its subject.
 
 \subsection{Parameters}
+\label{secS:parameters}
 
-Table~\ref{tabS:parameters} lists the parameters of the run. We used a temperature of 0.2 for all models, so that translations are mostly stable but can vary slightly. A value of 0 would remove all variation, and higher values would add randomness to a task that requires fidelity to the source. The context window (32,768 tokens) and the maximum output (8,192 tokens for translation and review, 1,024 for evaluation and metadata) are the limits supported by the models used. The article explains the chunking values in its Pipeline Configuration section.
+Table~\ref{tabS:parameters} lists the run parameters. We used a temperature of 0.2 for all models, so that translations are mostly stable but can vary slightly. A value of 0 would remove all variation, and higher values would add randomness to a task that requires fidelity to the source. The context window (32,768 tokens) and the maximum output (8,192 tokens for translation and review, 1,024 for evaluation and metadata) are the limits supported by the models used. Section~\mainref{sec:parameters} of the article explains the chunking values.
 
-We set the API timeout at 600 seconds (10 minutes) for the local Qwen model, which is much slower than the cloud models on long chunks. The override margin of 10 points means that the programmatic truncation check replaces the completeness score of the evaluator only when the two differ widely, which avoids corrections for small differences. The 40\% weight of completeness in the overall score reflects the priority given to missing content: truncation is a more serious problem than minor issues of fluency or clarity.
+We set the API timeout at 600 seconds (10 minutes) for the local Qwen model, which is much slower than the cloud models on long chunks. The override margin of 10 points means the programmatic truncation check replaces the evaluator's completeness score only when the two differ widely, avoiding corrections for small differences. The 40\% weight of completeness in the overall score reflects the priority given to missing content: truncation is a more serious problem than minor issues of fluency or clarity.
 
 \begin{table}[h!]
 \centering
@@ -201,8 +209,9 @@ Completeness weight & Stage~5 & 40\% \\
 \end{table}
 
 \subsection{Prompts}
+\label{secS:prompts}
 
-Every LLM call has a \emph{system prompt}, which defines the model's role and fixed rules, and a \emph{user prompt}, which provides the text of each entry and any extra context. Table~\ref{tabS:prompts} lists all the prompts of the pipeline.
+Every LLM call has a \emph{system prompt}, which defines the model's role and fixed rules, and a \emph{user prompt}, which provides the text of each entry and any extra context. Table~\ref{tabS:prompts} lists all pipeline prompts.
 
 \begin{table}[h!]
 \centering
@@ -214,7 +223,7 @@ Every LLM call has a \emph{system prompt}, which defines the model's role and fi
 \toprule
 \textbf{Prompt} & \textbf{System layer} & \textbf{User layer} & \textbf{Output} & \textbf{Variants} \\
 \midrule
-Translation system (St.~3)      & Role + 10 fidelity/style rules            & Source text + direction                     & Plain text       & 3 (WT, F, EP) \\
+Translation system (St.~3)      & Role + 8 shared rules + 1--2 per corpus   & Source text + direction                     & Plain text       & 3 (WT, F, EP) \\
 Language retry user (St.~3)     & (same as translation)                     & Error notice + source text                  & Plain text       & 1 per direction \\
 \midrule
 Critique system + user (St.~4a) & Role + JSON schema requirement            & Orig.\ + candidates                         & JSON             & 1 (shared) \\
@@ -228,9 +237,9 @@ Metadata system + user (St.~6)  & Role + format instruction                 & 4-
 \renewcommand{\arraystretch}{1}
 \end{table}
 
-\paragraph{Translation.} The translation system prompt gives the model a professional role (``You are a professional translator specialized in editorial and technical translation'') and sets ten rules. They cover semantic fidelity (no invention, omission, or addition), natural output, a neutral professional Spanish register not tied to any national variety, preservation of technical terms and proper nouns, respect for the original tone and paragraph structure, and a ban on markdown formatting that is not in the original.
+\paragraph{Translation.} The translation system prompt gives the model a professional role (``You are a professional translator specialized in editorial and technical translation'') and sets eight rules shared by the three corpora. They cover semantic fidelity (no invention, omission, or addition), natural output, a neutral professional Spanish register not tied to any national variety, preservation of technical terms and proper nouns, respect for the original tone and paragraph structure, and a ban on markdown formatting that is not in the original.
 
-There are three variants of this system prompt, one per corpus, which keep the same role and core rules and adapt them to the structure of each corpus. The WikiText variant adds rules to remove the \texttt{=} signs of section headers and the \texttt{<unk>} tokens of the dataset. The FEVER variant adds a sports terminology rule: use the established Spanish term when one exists (e.g., \emph{tiro libre} for \emph{free throw}, \emph{ponchar} for \emph{strikeout}), and keep the English term only when none exists. The Europarl variant replaces the WikiText cleaning rules with an instruction to keep all XML structural tags (\texttt{<CHAPTER>}, \texttt{<SPEAKER>}, \texttt{<P>}) intact and untranslated.
+This system prompt has three variants, one per corpus, that keep the same core rules while adapting the professional role and extra rules to each corpus. The WikiText variant adds rules to remove the \texttt{=} signs of section headers and the \texttt{<unk>} tokens of the dataset. The FEVER variant adds a sports terminology rule: use the established Spanish term when one exists (e.g., \emph{tiro libre} for \emph{free throw}, \emph{ponchar} for \emph{strikeout}), and keep the English term only when none exists. The Europarl variant adds an instruction to keep all XML structural tags (\texttt{<CHAPTER>}, \texttt{<SPEAKER>}, \texttt{<P>}) intact and untranslated.
 
 The user prompt is a short wrapper that provides the text and states the translation direction. When language validation finds output in the wrong language, the retry user prompt reports the error (e.g., ``Your previous response was in English. You MUST translate the following text to Spanish'') and repeats the original text.
 
@@ -238,7 +247,7 @@ The system prompts for translation, review, and evaluation are written in Spanis
 
 \paragraph{Review.} The critique system prompt asks the reviewer to analyze each candidate, list its strengths and weaknesses, and give it a score from 0 to 100. It must return a JSON object that also names the base candidate and the improvements to apply. The critique user prompt supplies the original text and the candidates in clearly marked sections. The merge system prompt then asks the reviewer to write the final translation from the original text, the candidates, and the critique. Its rules repeat the fidelity and completeness rules of the translation prompt, and its output is plain text. The critique runs once per entry, and its choice of base candidate applies to the whole entry. The merge runs once per segment for entries that were split, at the same boundaries as the chunks.
 
-\paragraph{Evaluation.} The evaluation system prompt asks for strict scoring (a perfect score must be extremely rare) and contains the scoring guide of the article. It also sets completeness rules: if the translation is much shorter than the original (character ratio below 0.85), it is probably truncated, and a truncated translation cannot receive more than 70 for completeness. The user prompt gives the character counts of both texts and their ratio, and adds a warning when the ratio is below 0.85. The output is a JSON object with the four dimension scores, a list of errors, and an overall score.
+\paragraph{Evaluation.} The evaluation system prompt asks for strict scoring (a perfect score must be extremely rare) and contains the scoring guide of the article (Table~\mainref{tab:scoring-guide}). It also sets completeness rules: if the translation is much shorter than the original (character ratio below 0.85), it is probably truncated, and a truncated translation cannot receive more than 70 for completeness. The user prompt gives the character counts of both texts and their ratio, and adds a warning when the ratio is below 0.85. The output is a JSON object with the four dimension scores, a list of errors, and an overall score.
 
 \paragraph{Metadata.} The metadata system prompt combines a minimal role with a strict format requirement. It has two variants, one in Spanish for the translation and one in English for the source, so that the model works in the language of the text it analyzes. The user prompt is a fixed template with one line per field (title, keywords, topic, and summary), format limits for each field, and the text in a separate, clearly marked block. The pipeline parses the answer with regular expressions. Each corpus has its own topic list (Table~\ref{tabS:metadata-taxonomy}), and all three lists end with an open option (``or other appropriate'').
 
@@ -251,11 +260,34 @@ The system prompts for translation, review, and evaluation are written in Spanis
 \toprule
 \textbf{Corpus} & \textbf{Categories} \\
 \midrule
-WikiText-103 & video game, novel, biography, science, history, technology, politics, medicine, sports, entertainment \\
+WikiText\nobreakdash-103 & video game, novel, biography, science, history, technology, politics, medicine, sports, entertainment \\
 FEVER & sports, music, film, history, politics, science, geography, biography, technology, religion, military, transport \\
 Europarl & politics, legislation, economy, environment, human rights, agriculture, defense, trade, health, technology \\
 \bottomrule
 \end{tabularx}
+\end{table}
+
+\subsection{Processing time}
+\label{secS:time}
+
+Table~\ref{tabS:time} gives the processing time of each dataset. The local Qwen model was the slowest of the three translators and set the pace, processing entries one after another. For comparison, the corpus's 11.56~million source words would take a professional translator more than six years at an optimistic 5,000 words per day, and more than fifteen years at the 2,000 words per day typical of a translator working without software support. We do not claim that the pipeline matches professional translation, only that a corpus of this size cannot be built by hand in a similar time.
+
+\begin{table}[h!]
+\centering
+\caption{Processing time per dataset. An \emph{entry} is one unit of the corpus: a WikiText article, a FEVER passage, or a Europarl debate transcript. Hours are the time from the first to the last entry of each production run; the WikiText and Europarl runs overlapped, so the total is a sum of run times and is longer than the elapsed time.}
+\label{tabS:time}
+\footnotesize
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrr}
+\toprule
+\textbf{Dataset} & \textbf{Entries} & \textbf{Hours} & \textbf{Entries per hour} \\
+\midrule
+WikiText & 1,000 & 120.8 & 8.3 \\
+FEVER & 9,998 & 266.3 & 37.5 \\
+Europarl & 1,005 & 227.6 & 4.4 \\
+\midrule
+Total & 12,003 & 614.7 & --- \\
+\bottomrule
+\end{tabular*}
 \end{table}
 
 \end{document}

@@ -2,7 +2,7 @@
 
 The supplementary material of the paper, as submitted to the journal. Section S1 holds the
 per-dataset measures that the paper summarizes in its text; Section S2 holds the configuration
-of the production run (implementation and hardware, sampling categories, parameters, and prompts).
+of the production run (implementation and hardware, sampling categories, parameters, prompts, and processing time).
 
 | Item | Content |
 |---|---|
@@ -15,6 +15,7 @@ of the production run (implementation and hardware, sampling categories, paramet
 | Table S6 | Pipeline parameters |
 | Table S7 | Prompt inventory: structure and corpus-specific variants |
 | Table S8 | Topic categories offered to the metadata model, per corpus |
+| Table S9 | Processing time per dataset |
 
 `supplementary.pdf` is the file uploaded with the paper. `supplementary.tex` is its source;
 it compiles on its own with `pdflatex supplementary.tex` and reads its figure from
