@@ -52,10 +52,10 @@ sola entrada.
 Durante la revisión anónima, este repositorio se comparte como una copia
 anonimizada, que no se puede clonar con git. Descárguelo como ZIP con los
 comandos de abajo o con el botón **Download** en
-<https://anonymous.4open.science/r/SpanishDBText-1513/>.
+<https://anonymous.4open.science/r/SpanishDBText-F0EB/>.
 
 ```bash
-curl -L -o SpanishDBText.zip https://anonymous.4open.science/api/repo/SpanishDBText-1513/zip
+curl -L -o SpanishDBText.zip https://anonymous.4open.science/api/repo/SpanishDBText-F0EB/zip
 unzip SpanishDBText.zip -d SpanishDBText   # Windows: Expand-Archive SpanishDBText.zip SpanishDBText
 cd SpanishDBText
 

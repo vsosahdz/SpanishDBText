@@ -49,10 +49,10 @@ the reviewer's merge and the evaluator's scores for a single entry.
 During the anonymized review this repository is shared as an anonymized copy,
 which cannot be cloned with git. Download it as a ZIP with the commands below, or
 with the **Download** button at
-<https://anonymous.4open.science/r/SpanishDBText-1513/>.
+<https://anonymous.4open.science/r/SpanishDBText-F0EB/>.
 
 ```bash
-curl -L -o SpanishDBText.zip https://anonymous.4open.science/api/repo/SpanishDBText-1513/zip
+curl -L -o SpanishDBText.zip https://anonymous.4open.science/api/repo/SpanishDBText-F0EB/zip
 unzip SpanishDBText.zip -d SpanishDBText   # Windows: Expand-Archive SpanishDBText.zip SpanishDBText
 cd SpanishDBText
 

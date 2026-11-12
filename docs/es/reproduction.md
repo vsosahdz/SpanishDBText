@@ -23,10 +23,10 @@ Se requiere Python 3.11 o superior: el código usa la sintaxis de tipos `X | Non
 
 Durante la revisión anónima, el repositorio es una copia anonimizada que no
 se puede clonar con git; descárguelo como ZIP (o use el botón **Download** en
-<https://anonymous.4open.science/r/SpanishDBText-1513/>).
+<https://anonymous.4open.science/r/SpanishDBText-F0EB/>).
 
 ```bash
-curl -L -o SpanishDBText.zip https://anonymous.4open.science/api/repo/SpanishDBText-1513/zip
+curl -L -o SpanishDBText.zip https://anonymous.4open.science/api/repo/SpanishDBText-F0EB/zip
 unzip SpanishDBText.zip -d SpanishDBText   # Windows: Expand-Archive SpanishDBText.zip SpanishDBText
 cd SpanishDBText
 
