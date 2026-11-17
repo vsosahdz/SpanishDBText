@@ -20,13 +20,8 @@ before attempting 4.
 
 Python 3.11 or newer is required: the code uses `X | None` type syntax.
 
-During the anonymized review the repository is an anonymized copy that cannot
-be cloned with git; download it as a ZIP (or use the **Download** button at
-<https://anonymous.4open.science/r/SpanishDBText-F0EB/>).
-
 ```bash
-curl -L -o SpanishDBText.zip https://anonymous.4open.science/api/repo/SpanishDBText-F0EB/zip
-unzip SpanishDBText.zip -d SpanishDBText   # Windows: Expand-Archive SpanishDBText.zip SpanishDBText
+git clone https://github.com/vsosahdz/SpanishDBText.git
 cd SpanishDBText
 
 python3 -m venv venv

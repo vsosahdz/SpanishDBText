@@ -8,7 +8,28 @@ message: >-
   LICENSE-DATA.md.
 type: dataset
 authors:
-  - name: Anonymous (withheld for review)
+  - given-names: Mario Augusto
+    family-names: Ramírez-Morales
+    affiliation: >-
+      Tecnológico de Monterrey, School of Engineering and Sciences, Atizapán de
+      Zaragoza, Estado de México, Mexico; Centro de Innovación y Desarrollo
+      Tecnológico en Cómputo, Instituto Politécnico Nacional, Mexico City, Mexico
+  - given-names: Esteban
+    family-names: Castillo
+    affiliation: >-
+      Tecnológico de Monterrey, School of Engineering and Sciences, Santa Fe,
+      Mexico City, Mexico
+  - given-names: David Camilo
+    family-names: Corrales
+    affiliation: >-
+      TBI, Université de Toulouse, CNRS, INRAE, INSA, Toulouse, France
+  - given-names: Victor Adrian
+    family-names: Sosa-Hernández
+    email: vsosa@tec.mx
+    affiliation: >-
+      Tecnológico de Monterrey, School of Engineering and Sciences, Atizapán de
+      Zaragoza, Estado de México, Mexico
+repository-code: 'https://github.com/vsosahdz/SpanishDBText'
 abstract: >-
   A bilingual English–Spanish parallel corpus of 12,003 aligned entries and
   23.5 million words, built from WikiText-103, FEVER and Europarl with a

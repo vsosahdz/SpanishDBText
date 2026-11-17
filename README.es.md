@@ -49,14 +49,8 @@ sola entrada.
 
 ## Inicio rápido
 
-Durante la revisión anónima, este repositorio se comparte como una copia
-anonimizada, que no se puede clonar con git. Descárguelo como ZIP con los
-comandos de abajo o con el botón **Download** en
-<https://anonymous.4open.science/r/SpanishDBText-F0EB/>.
-
 ```bash
-curl -L -o SpanishDBText.zip https://anonymous.4open.science/api/repo/SpanishDBText-F0EB/zip
-unzip SpanishDBText.zip -d SpanishDBText   # Windows: Expand-Archive SpanishDBText.zip SpanishDBText
+git clone https://github.com/vsosahdz/SpanishDBText.git
 cd SpanishDBText
 
 python3 -m venv venv
@@ -316,4 +310,5 @@ origen.
 
 ## Contacto
 
-Omitido para la revisión anónima.
+Victor Adrian Sosa-Hernández — <vsosa@tec.mx>
+School of Engineering and Sciences, Tecnológico de Monterrey, Monterrey, México

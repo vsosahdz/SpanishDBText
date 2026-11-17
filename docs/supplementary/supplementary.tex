@@ -1,4 +1,4 @@
-% supplementary.tex -- Supplementary material of the article (anonymized for review).
+% supplementary.tex -- Online Resource 1 of the article (Language Resources and Evaluation).
 % Compiles on its own: pdflatex supplementary.tex (reads graphics/zipf_distribution.png).
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -14,25 +14,31 @@
 \usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
 \DeclareRobustCommand{\mainref}[1]{\ref*{M-#1}}
 % Labels of the article, copied from main.aux so that this file compiles on its own.
-\newlabel{M-sec:implementation}{{3.6}{13}{}{}{}}
-\newlabel{M-sec:parameters}{{3.6.2}{14}{}{}{}}
-\newlabel{M-tab:frequency-stats}{{10}{23}{}{}{}}
-\newlabel{M-tab:scoring-guide}{{1}{10}{}{}{}}
+\newlabel{M-sec:implementation}{{3.6}{11}{}{}{}}
+\newlabel{M-sec:parameters}{{3.6.2}{12}{}{}{}}
+\newlabel{M-tab:frequency-stats}{{11}{18}{}{}{}}
+\newlabel{M-tab:scoring-guide}{{2}{9}{}{}{}}
 
 \renewcommand{\thetable}{S\arabic{table}}
 \renewcommand{\thefigure}{S\arabic{figure}}
 \renewcommand{\thesection}{S\arabic{section}}
 \makeatletter\setlength{\@fptop}{0pt}\makeatother
 
-\title{Supplementary material for\\[0.3em]
-\large Building a Bilingual English--Spanish Parallel Corpus Using Multi-Model LLM Translation with Consensus Review}
-\author{}
+\title{Online Resource 1\\[0.3em]
+\large Building a Bilingual English--Spanish Parallel Corpus Using Multi-Model LLM Translation with Consensus Review\\[0.3em]
+\normalsize\textit{Language Resources and Evaluation}}
+\author{Mario Augusto Ram\'irez-Morales\textsuperscript{1,2}, Esteban Castillo\textsuperscript{3}, David Camilo Corrales\textsuperscript{4}, and V\'ictor Adri\'an Sosa Hern\'andez\textsuperscript{1,*}\\[0.6em]
+\small \textsuperscript{1}School of Engineering and Sciences, Tecnologico de Monterrey, Atizap\'an de Zaragoza, Estado de M\'exico, Mexico\\
+\small \textsuperscript{2}Centro de Innovaci\'on y Desarrollo Tecnol\'ogico en C\'omputo, Instituto Polit\'ecnico Nacional, Mexico City, Mexico\\
+\small \textsuperscript{3}School of Engineering and Sciences, Tecnologico de Monterrey, Santa Fe, Mexico City, Mexico\\
+\small \textsuperscript{4}TBI, Universit\'e de Toulouse, CNRS, INRAE, INSA, Toulouse, France\\[0.4em]
+\small \textsuperscript{*}Corresponding author: \href{mailto:vsosa@tec.mx}{vsosa@tec.mx}}
 \date{}
 
 \begin{document}
 \maketitle
 
-This document has two parts. Section~\ref{secS:measures} presents the per-dataset measures summarized in the text, and Section~\ref{secS:config} describes the production run configuration: implementation and hardware, the topic categories used for sampling, the parameters, the prompts, and the processing time per dataset. The corpus, the code, and the notebooks are available at \url{https://anonymous.4open.science/r/SpanishDBText-F0EB/} (anonymized copy for review).
+This document has two parts. Section~\ref{secS:measures} presents the per-dataset measures summarized in the text, and Section~\ref{secS:config} describes the production run configuration: implementation and hardware, the topic categories used for sampling, the parameters, the prompts, and the processing time per dataset. The corpus, the code, and the notebooks are available at \url{https://github.com/vsosahdz/SpanishDBText}.
 
 \section{Corpus measures}
 \label{secS:measures}
